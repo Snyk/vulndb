@@ -1,0 +1,15 @@
+// Code derived from: https://github.com/mishoo/UglifyJS2.git
+// Reference: https://github.com/mishoo/UglifyJS2/commit/905b6011784ca60d41919ac1a499962b7c1d4b02
+diff --git a/lib/compress.js b/lib/compress.js
+index 54873f0..4c4cf97 100644
+--- a/lib/compress.js
++++ b/lib/compress.js
+@@ -2183,7 +2183,7 @@ merge(Compressor.prototype, {
+             }
+             break;
+         }
+-        if (compressor.option("comparisons")) {
++        if (compressor.option("comparisons") && self.is_boolean()) {
+             if (!(compressor.parent() instanceof AST_Binary)
+                 || compressor.parent() instanceof AST_Assign) {
+                 var negated = make_node(AST_UnaryPrefix, self, {

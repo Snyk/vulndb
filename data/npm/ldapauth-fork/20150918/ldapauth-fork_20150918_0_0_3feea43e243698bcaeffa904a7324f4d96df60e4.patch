@@ -1,0 +1,33 @@
+// code derived from https://github.com/vesse/node-ldapauth-fork
+// reference: https://github.com/vesse/node-ldapauth-fork/commit/3feea43e243698bcaeffa904a7324f4d96df60e4.patch
+diff --git a/lib/ldapauth.js b/lib/ldapauth.js
+index 5bfafe9..103d619 100644
+--- a/lib/ldapauth.js
++++ b/lib/ldapauth.js
+@@ -219,6 +219,17 @@ LdapAuth.prototype._search = function (searchBase, options, callback) {
+   });
+ };
+
++// https://tools.ietf.org/search/rfc4515#section-3
++var sanitizeInput = function (username) {
++  return username
++    .replace(/\*/g, '\\2a')
++    .replace(/\(/g, '\\28')
++    .replace(/\)/g, '\\29')
++    .replace(/\\/g, '\\5c')
++    .replace(/\0/g, '\\00')
++    .replace(/\//g, '\\2f');
++};
++
+ /**
+  * Find the user record for the given username.
+  *
+@@ -233,7 +244,7 @@ LdapAuth.prototype._findUser = function (username, callback) {
+     return callback("empty username");
+   }
+
+-  var searchFilter = self.opts.searchFilter.replace(/{{username}}/g, username);
++  var searchFilter = self.opts.searchFilter.replace(/{{username}}/g, sanitizeInput(username));
+   var opts = {filter: searchFilter, scope: self.opts.searchScope};
+   if (self.opts.searchAttributes) {
+     opts.attributes = self.opts.searchAttributes;

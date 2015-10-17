@@ -1,0 +1,17 @@
+// code derived from https://github.com/hapijs/hapi.git
+// reference: https://github.com/patrickkettner/hapi/commit/94c6f0f223c3c2c915ba80adec58b153f435b2d1
+diff --git a/lib/response/payload.js b/lib/response/payload.js
+index d49d86c..4ac2033 100755
+--- a/lib/response/payload.js
++++ b/lib/response/payload.js
+@@ -53,7 +53,7 @@ internals.Payload.prototype.size = function () {
+ internals.Payload.prototype.jsonp = function (variable) {
+
+     this._sizeOffset += variable.length + 3;
+-    this._prefix = variable + '(';
++    this._prefix = '/**/' + variable + '(';
+     this._data = Buffer.isBuffer(this._data) ? this._data : this._data.replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029');
+     this._suffix = ');';
+ };
+diff --git a/test/response.js b/test/response.js
+index 7b31105..3cab93c 100755

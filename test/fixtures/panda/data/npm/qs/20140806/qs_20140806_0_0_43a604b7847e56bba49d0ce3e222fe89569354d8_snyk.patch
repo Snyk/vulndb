@@ -1,0 +1,14 @@
+diff --git a/index.js b/index.js
+index 426017b..311ce62 100644
+--- a/index.js
++++ b/index.js
+@@ -160,7 +160,9 @@ function compact(obj) {
+
+     for (var i in obj) {
+       if (hasOwnProperty.call(obj, i)) {
+-        ret.push(obj[i]);
++        // We need to compact the nesting array too
++        // See https://github.com/visionmedia/node-querystring/issues/104
++        ret.push(compact(obj[i]));
+       }
+     }

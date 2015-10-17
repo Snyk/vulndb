@@ -1,0 +1,58 @@
+{
+  "name": "@snyk/advisories",
+  "version": "0.0.1",
+  "description": "Panda - Snyk's Vulnerabilities DB",
+  "main": "./cli/shrink.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "jscs cli/*.js lib/*.js -v",
+    "test": "npm run lint && tape test/*.test.js --cov | tap-spec"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snyk/advisories.git"
+  },
+  "author": "Snyk Ltd.",
+  "contributors": [
+    {
+      "name": "Danny Grander",
+      "email": "danny@snyk.io"
+    }
+  ],
+  "keywords": [
+    "snyk",
+    "security",
+    "vulnerability",
+    "advisory",
+    "db"
+  ],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/Snyk/advisories/issues"
+  },
+  "homepage": "https://github.com/Snyk/advisories",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "debug": "^2.2.0",
+    "download-file": "^0.1.5",
+    "fs-extra": "^0.26.2",
+    "lodash": "^3.10.1",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "request": "^2.65.0",
+    "semver": "^5.0.3",
+    "snyk-config": "^1.0.0"
+  },
+  "devDependencies": {
+    "jscs": "^2.0.0",
+    "is-my-json-valid": "^2.12.3",
+    "tap-spec": "^2.2.2",
+    "tape": "^4.0.0",
+    "tmp": "0.0.28"
+  }
+}

@@ -1,0 +1,20 @@
+// Code derived from https://github.com/sequelize/sequelize
+diff --git a/lib/dialects/abstract/query-generator.js b/lib/dialects/abstract/query-generator.js
+index 480239f..4dfd830 100644
+--- a/lib/dialects/abstract/query-generator.js
++++ b/lib/dialects/abstract/query-generator.js
+@@ -1232,6 +1232,14 @@ module.exports = (function() {
+ 
+         if (Array.isArray(options.order)) {
+           options.order.forEach(function(t) {
++            if (Array.isArray(t)) {
++              var order = _.last(t);
++
++              if (!_.contains(['ASC', 'DESC'], order.toUpperCase())) {
++                throw new Error(util.format('Order must be \'ASC\' or \'DESC\', \'%s\' given', order));
++              }
++            }
++
+             if (subQuery && (Array.isArray(t) && !(t[0] instanceof Model) && !(t[0].model instanceof Model))) {
+               subQueryOrder.push(this.quote(t, model));
+             }

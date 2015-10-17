@@ -1,0 +1,36 @@
+// Code derived from: https://github.com/mishoo/UglifyJS2.git
+// Reference: https://github.com/mishoo/UglifyJS2/commit/63d35f8.patch
+diff --git a/lib/compress.js b/lib/compress.js
+index 54873f0..4c4cf97 100644
+--- a/lib/compress.js
++++ b/lib/compress.js
+@@ -2183,7 +2183,7 @@ merge(Compressor.prototype, {
+             }
+             break;
+         }
+-        if (compressor.option("comparisons")) {
++        if (compressor.option("comparisons") && self.is_boolean()) {
+             if (!(compressor.parent() instanceof AST_Binary)
+                 || compressor.parent() instanceof AST_Assign) {
+                 var negated = make_node(AST_UnaryPrefix, self, {
+diff --git a/lib/parse.js b/lib/parse.js
+index 1ab0358..4c548a2 100644
+--- a/lib/parse.js
++++ b/lib/parse.js
+@@ -59,7 +59,6 @@ var OPERATOR_CHARS = makePredicate(characters("+-*&%=<>!?|~^"));
+
+ var RE_HEX_NUMBER = /^0x[0-9a-f]+$/i;
+ var RE_OCT_NUMBER = /^0[0-7]+$/;
+-var RE_DEC_NUMBER = /^\d*\.?\d*(?:e[+-]?\d*(?:\d\.?|\.?\d)\d*)?$/i;
+
+ var OPERATORS = makePredicate([
+     "in",
+@@ -182,7 +181,7 @@ function parse_js_number(num) {
+         return parseInt(num.substr(2), 16);
+     } else if (RE_OCT_NUMBER.test(num)) {
+         return parseInt(num.substr(1), 8);
+-    } else if (RE_DEC_NUMBER.test(num)) {
++    } else {
+         return parseFloat(num);
+     }
+ };

@@ -1,0 +1,36 @@
+// Code derived from: https://github.com/leizongmin/tomato
+diff --git a/lib/api.js b/lib/api.js
+index ea0c86f..b56578e 100644
+--- a/lib/api.js
++++ b/lib/api.js
+@@ -69,17 +69,20 @@ var configureInit = function () {
+    * 顺序 headers > GET > POST > Cookie
+    */
+   app.use('/api', function (req, res, next) {
+-    var access_key = req.headers['access-key'] ||
+-                     (req.query && req.query.access_key) ||
+-                     (req.body && req.body.access_key) ||
+-                     (req.cookies && req.cookies.access_key);
+-    if (access_key && config.master.api.access_key.indexOf(access_key) !== -1) {
+-      logger.info({event: 'verify-success', access_key: access_key, url: req.url});
+-      req.access_key = access_key;
+-      next();
++    var access_key = req.headers['access-key'] || (req.query && req.query.access_key) ||
++                     (req.body && req.body.access_key) || (req.cookies && req.cookies.access_key);
++    if (Array.isArray(config.master.api.access_key)) {
++      if (access_key && config.master.api.access_key.indexOf(access_key) !== -1) {
++        logger.info({event: 'verify-success', access_key: access_key, url: req.url});
++        req.access_key = access_key;
++        next();
++      } else {
++        logger.warn({event: 'verify-fail', access_key: access_key, url: req.url});
++        res.json({error: 'Permission denied.', access_key: access_key});
++      }
+     } else {
+-      logger.warn({event: 'verify-fail', access_key: access_key, url: req.url});
+-      res.json({error: 'Permission denied.', access_key: access_key});
++      logger.warn({event: 'verify-fail', message: 'Config error: master.api.access_key must be an Array!'});
++      res.json({error: 'Config error: master.api.access_key must be an Array!'});
+     }
+   });
+

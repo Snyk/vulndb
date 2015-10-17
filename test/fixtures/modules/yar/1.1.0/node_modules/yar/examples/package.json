@@ -1,0 +1,12 @@
+{
+  "name": "yar-session-example",
+  "version": "0.0.0",
+  "description": "Yar example showing basic session support",
+  "main": "index.js",
+  "author": "Van Nguyen <thegoleffect@gmail.com>",
+  "license": "BSD",
+  "dependencies": {
+    "yar": "0.3.x",
+    "hapi": "1.8.x"
+  }
+}

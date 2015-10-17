@@ -1,0 +1,83 @@
+@reference: https://github.com/nealpoole/ep_imageconvert/commit/04bfc27f0d7aa0bfe1c515c9254a874165d2725c
+diff --git a/controllers/imageConvert.js b/controllers/imageConvert.js
+index bd70a45..403a9ac 100644
+--- a/controllers/imageConvert.js
++++ b/controllers/imageConvert.js
+@@ -20,14 +20,10 @@ var fs = require('fs');
+ var child_process = require('child_process');
+ var plugins = require('ep_etherpad-lite/static/js/pluginfw/plugins');
+ 
+-function prepareExecArgs(args) {
+-  if (!args.length) return "";
+-  return "'" + args.join("' '") + "'"
+-}
+-
+ function getPages(filename, cb) {
+-  child_process.exec(
+-    prepareExecArgs([path.normalize(path.join(__dirname, "..", "getPages.sh")), filename]),
++  child_process.execFile(
++    path.normalize(path.join(__dirname, "..", "getPages.sh")),
++    [filename],
+     function (err, stdout, stderr) {
+       if (err) return cb(err);
+       return cb(null, {pages:parseInt(stdout)});
+@@ -36,8 +32,9 @@ function getPages(filename, cb) {
+ }
+ 
+ function getSize(filename, page, cb) {
+-  child_process.exec(
+-    prepareExecArgs([path.normalize(path.join(__dirname, "..", "getSize.sh")), filename, page+1]),
++  child_process.execFile(
++    path.normalize(path.join(__dirname, "..", "getSize.sh")),
++    [filename, page+1],
+     function (err, stdout, stderr) {
+       if (err) return cb(err);
+       var lines = stdout.split("\n");
+@@ -52,30 +49,32 @@ function convertImage(inFileName, page, outFileName, offset, size, pixelOffset,
+     if (!err) return cb(null);
+ 
+     var cmd;
++    var args;
+ 
+     if (inFileName.split(".").pop().toLowerCase() == 'pdf') {
+       var dpi = {x: pixelSize.w * 72.0 / size.w,
+                  y: pixelSize.h * 72.0 / size.h};
+ 
+-      cmd = [path.normalize(path.join(__dirname, "..", "convertImage.sh")),
+-             inFileName,
+-             outFileName,
+-             page + 1,
+-             dpi.x, dpi.y,
+-             pixelOffset.x, pixelOffset.y,
+-             pixelSize.w, pixelSize.h];
++      cmd = path.normalize(path.join(__dirname, "..", "convertImage.sh"));
++      args = [inFileName,
++              outFileName,
++              page + 1,
++              dpi.x, dpi.y,
++              pixelOffset.x, pixelOffset.y,
++              pixelSize.w, pixelSize.h];
+     } else {
+-      cmd = ["convert",
+-             "-crop",
+-             "" + size.w + "x" + size.h + "+" + offset.x + "+" + offset.y,
+-             "-scale",
+-             "" + pixelSize.w + "x" + pixelSize.w,
+-             inFileName + "["+page+"]",
+-             outFileName];
++      cmd = "convert",
++      args = ["-crop",
++              "" + size.w + "x" + size.h + "+" + offset.x + "+" + offset.y,
++              "-scale",
++              "" + pixelSize.w + "x" + pixelSize.w,
++              inFileName + "["+page+"]",
++              outFileName];
+     }
+ 
+     child_process.exec(
+-      prepareExecArgs(cmd),
++      cmd,
++      args,
+       function (err, stdout, stderr) {
+           return cb(err);
+       }

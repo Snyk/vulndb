@@ -1,0 +1,2660 @@
+{
+	"npm": {
+		"ansi2html": [
+			{
+				"title": "Regular Expression Denial of Service",
+				"credit": [
+					"Adam Baldwin"
+				],
+				"description": "## Overview\nansi2html is vulnerable to regular expression denial of service (ReDoS) when certain types of user input is passed in.\n\n\"The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time.\" [1]\n\n## References\n- https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS\n\n",
+				"semver": {
+					"vulnerable": "*",
+					"unaffected": "<0.0.0"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-400"
+					],
+					"CVE": [],
+					"NSP": 51
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/51"
+				],
+				"patches": [],
+				"moduleName": "ansi2html",
+				"creationTime": "2015-11-06T02:09:36.185Z",
+				"modificationTime": "2015-11-06T02:09:36.185Z",
+				"publicationTime": "2015-10-25T01:35:01.611Z",
+				"id": "npm:ansi2html:20151025"
+			}
+		],
+		"backbone": [
+			{
+				"title": "Cross Site Scripting vulnerability in backbone",
+				"credit": [],
+				"description": "## Overview\n\nPotential XSS Exploit With User-Supplied Data in Model#escape\n\nIn applications that use the escape function, a specially-crafted payload\ncould execute arbitrary JavaScript in the context of the current domain\n(\"XSS\").\n\nThis vulnerability has not been assigned CVE identifier.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n",
+				"semver": {
+					"vulnerable": "<0.5.0",
+					"unaffected": ">=0.5.0"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [],
+					"NSP": ""
+				},
+				"info": [
+					"http://backbonejs.org/#changelog"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://backbone_20110701_0_0_0cdc525961d3fa98e810ffae6bcc8e3838e36d93.patch"
+						],
+						"version": "<0.5.0 >=0.3.3",
+						"modificationTime": "2015-11-06T02:09:36.180Z",
+						"comments": [
+							"https://github.com/jashkenas/backbone/commit/0cdc525961d3fa98e810ffae6bcc8e3838e36d93.patch"
+						],
+						"id": "patch:npm:backbone:20110701:0"
+					}
+				],
+				"moduleName": "backbone",
+				"creationTime": "2015-11-06T02:09:36.180Z",
+				"publicationTime": "2015-11-06T02:09:36.180Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:backbone:20110701"
+			}
+		],
+		"bassmaster": [
+			{
+				"title": "Arbitrary JavaScript Execution in Bassmaster",
+				"credit": [
+					"Jarda Kotěšovec"
+				],
+				"description": "## Overview:\nA vulnerability exists in bassmaster <= 1.5.1 that allows for an attacker to provide arbitrary JavaScript that is then executed server side via eval.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\nUpdate to bassmaster version 1.5.2 or greater.\n\n## References:\n- https://www.npmjs.org/package/bassmaster\n- https://github.com/hapijs/bassmaster/commit/b751602d8cb7194ee62a61e085069679525138c4\n",
+				"semver": {
+					"vulnerable": "<=1.5.1",
+					"unaffected": ">=1.5.2"
+				},
+				"CVSSv3": "",
+				"severity": "high",
+				"identifiers": {
+					"CWE": [
+						"CWE-94"
+					],
+					"CVE": [
+						"CVE-2014-7205"
+					],
+					"NSP": 1
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/1"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://bassmaster_20140927_0_0_b751602d8cb7194ee62a61e085069679525138c4.patch"
+						],
+						"version": "<=1.5.1 >=0.4.0 || <=0.3.0 >=0.0.1",
+						"modificationTime": "2014-09-27T05:44:48.000Z",
+						"comments": [
+							"https://github.com/hapijs/bassmaster/commit/b751602d8cb7194ee62a61e085069679525138c4.patch"
+						],
+						"id": "patch:npm:bassmaster:20140927:0"
+					}
+				],
+				"moduleName": "bassmaster",
+				"creationTime": "2014-09-27T05:44:48.000Z",
+				"publicationTime": "2014-09-27T05:44:48.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:bassmaster:20140927"
+			}
+		],
+		"bleach": [
+			{
+				"title": "Regular Expression Denial of Service",
+				"credit": [
+					"Adam Baldwin"
+				],
+				"creationTime": "2015-11-06T02:09:36.187Z",
+				"modificationTime": "2015-11-06T02:09:36.187Z",
+				"publicationTime": "2015-10-24T20:46:42.522Z",
+				"description": "## Overview\nbleach 3.0 and earlier is vulnerable to regular expression denial of service (ReDoS) when certain types of input is passed into the sanitize function.\n\n\"The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time.\" [1]\n\n## References\n- https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS\n",
+				"semver": {
+					"vulnerable": "*",
+					"unaffected": "<0.0.0"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-400"
+					],
+					"CVE": [
+						"CVE-2014-8881"
+					],
+					"NSP": 47
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/47"
+				],
+				"patches": [],
+				"moduleName": "bleach",
+				"id": "npm:bleach:20151024"
+			}
+		],
+		"codem-transcode": [
+			{
+				"title": "codem-transcode potential command injection in ffprobe functionality",
+				"credit": [
+					"Neal Poole"
+				],
+				"description": "## Overview:\n\nWhen the ffprobe functionality is enabled on the server, HTTP POST requests can be made to /probe. These requests are passed to the ffprobe binary on the server. Through this HTTP endpoint it is possible to send a malformed source file name to ffprobe that results in arbitrary command execution.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n### Mitigating Factors:\nThe ffprobe functionality is not enabled by default. In addition, exploitation opportunities are limited in a standard configuration because the server binds to the local interface by default.\n\n## Recommendations:\nAn updated and patched version of the module (version 0.5.0) is available via npm. Users who have enabled the ffprobe functionality are especially encouraged to upgrade.\n",
+				"semver": {
+					"vulnerable": "<0.5.0",
+					"unaffected": ">=0.5.0"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [
+						"CVE-2013-7377"
+					],
+					"NSP": 2
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/2"
+				],
+				"patches": [],
+				"moduleName": "codem-transcode",
+				"creationTime": "2013-07-07T06:33:48.000Z",
+				"publicationTime": "2013-07-07T06:33:48.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:codem-transcode:20130707"
+			}
+		],
+		"connect": [
+			{
+				"title": "methodOverride Middleware Reflected Cross-Site Scripting",
+				"credit": [
+					"Sergio Arcos"
+				],
+				"description": "## Overview\n\nConnect is a stack of middleware that is executed in order in each request.\n\nThe \"methodOverride\" middleware allows the http post to override the method of the request with the value of the ```_method``` post key or with the header \"x-http-method-override\".\n\nBecause the user post input was not checked, req.method could contain any kind of value. Because the req.method did not match any common method VERB, connect answered with a 404 page containing the \"Cannot [method] [url]\" content. The method was not properly encoded for output in the browser.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Example\n\n```\n~ curl \"localhost:3000\" -d \"_method=<script src=http://nodesecurity.io/xss.js></script>\"\nCannot <SCRIPT SRC=HTTP://NODESECURITY.IO/XSS.JS></SCRIPT> /\n```\n\n## Mitigation factors\n\nUpdate to the newest version of Connect or disable methodOverride. It is not possible to avoid the vulnerability if you have enabled this middleware in the top of your stack.\n\n## History\n\n(2013-06-27) [Bug reported](https://github.com/senchalabs/connect/issues/831)\n(2013-06-27) [First fix: escape req.method output](https://github.com/senchalabs/connect/commit/277e5aad6a95d00f55571a9a0e11f2fa190d8135)\n(2013-06-27) [Second fix: whitelist](https://github.com/senchalabs/connect/commit/126187c4e12162e231b87350740045e5bb06e93a)\n",
+				"semver": {
+					"vulnerable": "<=2.8.0",
+					"unaffected": ">=2.8.1"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [
+						"CVE-2013-7370"
+					],
+					"NSP": 3
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/3"
+				],
+				"patches": [],
+				"moduleName": "connect",
+				"creationTime": "2013-06-30T22:08:59.000Z",
+				"publicationTime": "2013-06-30T22:08:59.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:connect:20130701"
+			}
+		],
+		"crumb": [
+			{
+				"title": "Crumb CORS Token Disclosure",
+				"credit": [
+					"Marcus Stong"
+				],
+				"description": "## Overview:\nWhen CORS is enabled on a hapi route handler, it is possible to set a crumb token for a different domain. An attacker would need to have an application consumer visit a site they control, request a route supporting CORS, and then retrieve the token. With this token, they could possibly make requests to non CORS routes as this user.\n\nA configuration and scenario where this would occur is unlikely, as most configurations will set CORS globally (where crumb is not used), or not at all.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\nUpdate to a version 3.0.0 or greater.\n\n## References:\n- https://github.com/spumko/crumb/commit/5e6d4f5c81677fe9e362837ffd4a02394303db3c\n",
+				"semver": {
+					"vulnerable": "<3.0.0",
+					"unaffected": ">=3.0.0"
+				},
+				"CVSSv2": "5.8 (MEDIUM) (AV:N/AC:M/Au:N/C:P/I:P/A:N)",
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-284"
+					],
+					"CVE": [
+						"CVE-2014-7193"
+					],
+					"NSP": 4
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/4"
+				],
+				"patches": [],
+				"moduleName": "crumb",
+				"creationTime": "2014-08-01T06:40:57.000Z",
+				"publicationTime": "2014-08-01T06:40:57.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:crumb:20140801"
+			}
+		],
+		"datatables": [
+			{
+				"title": "datatables Cross-Site Scripting",
+				"credit": [
+					"Onur Yilmaz"
+				],
+				"description": "## Overview:\nCross-site scripting (XSS) vulnerability in the DataTables plugin 1.10.8 and earlier for jQuery allows remote attackers to inject arbitrary web script or HTML via the scripts parameter to media/unit_testing/templates/6776.php.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\nUpdate to a version greater than 1.10.8.\n\n## References:\n- http://www.securityfocus.com/archive/1/archive/1/536437/100/0/threaded\n- https://www.netsparker.com/cve-2015-6384-xss-vulnerability-identified-in-datatables/\n- https://github.com/DataTables/DataTables/issues/602\n- https://github.com/DataTables/DataTablesSrc/commit/ccf86dc5982bd8e16d\n",
+				"semver": {
+					"vulnerable": "<=1.10.8",
+					"unaffected": ">1.10.8"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-80"
+					],
+					"CVE": [
+						"CVE-2015-6584"
+					],
+					"NSP": 5
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/5"
+				],
+				"patches": [],
+				"moduleName": "datatables",
+				"creationTime": "2015-09-18T09:29:10.000Z",
+				"publicationTime": "2015-09-18T09:29:10.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:datatables:20150918"
+			}
+		],
+		"dns-sync": [
+			{
+				"title": "dns-sync Command Injection",
+				"credit": [
+					"Steve Kemp"
+				],
+				"description": "## Overview:\n\nThe dns-sync library for node.js allows resolving hostnames in a synchronous fashion\n\nAll versions of dns-sync prior to the release 0.1.1 were vulnerable to arbitrary command execution via maliciously formed hostnames.\n\nFor example:\n\n    var dnsSync = require('dns-sync');\n    console.log(dnsSync.resolve('$(id > /tmp/foo)'));\n\nThis is caused by the hostname being passed through a shell as part of a command execution.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\n\nUpdated to version 0.1.1 or greater\n\n## References:\n\n- [Github Issue](https://github.com/skoranga/node-dns-sync/issues/1)\n- [Commit addressing issue](https://github.com/skoranga/node-dns-sync/commit/d9abaae384b198db1095735ad9c1c73d7b890a0d)\n",
+				"semver": {
+					"vulnerable": "<0.1.1",
+					"unaffected": ">=0.1.1"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [],
+					"NSP": 6
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/6"
+				],
+				"patches": [],
+				"moduleName": "dns-sync",
+				"creationTime": "2014-11-11T17:33:48.000Z",
+				"publicationTime": "2014-11-11T17:33:48.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:dns-sync:20141111"
+			}
+		],
+		"dojo": [
+			{
+				"title": "XSS in dojo",
+				"credit": [],
+				"description": "Cross-site scripting (XSS) vulnerability in dijit.Editor in Dojo before 1.1 allows remote attackers to inject arbitrary web script or HTML via XML entities in a TEXTAREA element.\t\n",
+				"semver": {
+					"vulnerable": "<1.1",
+					"unaffected": ">=1.1"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-79"
+					],
+					"CVE": [
+						"CVE-2008-6681"
+					],
+					"NSP": ""
+				},
+				"info": [
+					"http://www.cvedetails.com/cve/CVE-2008-6681/"
+				],
+				"patches": [],
+				"moduleName": "dojo",
+				"creationTime": "2015-11-06T02:09:36.180Z",
+				"publicationTime": "2015-11-06T02:09:36.180Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:dojo:20090409"
+			},
+			{
+				"title": "XSS in dojo",
+				"credit": [],
+				"description": "The default configuration of the build process in Dojo 0.4.x before 0.4.4, 1.0.x before 1.0.3, 1.1.x before 1.1.2, 1.2.x before 1.2.4, 1.3.x before 1.3.3, and 1.4.x before 1.4.2 has the copyTests=true and mini=false options, which makes it easier for remote attackers to have an unspecified impact via a request to a (1) test or (2) demo component.",
+				"semver": {
+					"vulnerable": ">=0.4 <0.4.4 || >=1.0 <1.0.3 || >=1.1 <1.1.2 || >=1.2 <1.2.4 || >=1.3 <1.3.3 || >=1.4 <1.4.2",
+					"unaffected": "<0.4 >=0.4.4 || <1.0 >=1.0.3 || <1.1 >=1.1.2 || <1.2 >=1.2.4 || <1.3 >=1.3.3 || <1.4 >=1.4.2"
+				},
+				"CVSSv2": "10.0 (HIGH) (AV:N/AC:L/Au:N/C:C/I:C/A:C)",
+				"CVSSv3": "",
+				"severity": "high",
+				"identifiers": {
+					"CWE": [
+						"CWE-16"
+					],
+					"CVE": [
+						"CVE-2010-2276",
+						"CVE-2010-2272"
+					],
+					"ALTERNATIVE": [
+						"npm:dojo:20100614-1",
+						"npm:dojo:20100614-2",
+						"npm:dojo:20100614-3",
+						"npm:dojo:20100614-4",
+						"npm:dojo:20100614-5"
+					],
+					"NSP": ""
+				},
+				"info": [
+					"http://dojotoolkit.org/blog/dojo-security-advisory",
+					"http://www.cvedetails.com/cve/CVE-2010-2276/",
+					"http://www.cvedetails.com/cve/CVE-2010-2272/"
+				],
+				"patches": [],
+				"moduleName": "dojo",
+				"creationTime": "2015-11-06T02:09:36.180Z",
+				"publicationTime": "2015-11-06T02:09:36.180Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:dojo:20100614",
+				"alternativeIds": [
+					"npm:dojo:20100614-1",
+					"npm:dojo:20100614-2",
+					"npm:dojo:20100614-3",
+					"npm:dojo:20100614-4",
+					"npm:dojo:20100614-5"
+				]
+			},
+			{
+				"title": "XSS vulnerability in dojo",
+				"credit": [],
+				"description": "Cross-site scripting (XSS) vulnerability in dijit/tests/_testCommon.js in Dojo Toolkit SDK before 1.4.2 allows remote attackers to inject arbitrary web script or HTML via the theme parameter, as demonstrated by an attack against dijit/tests/form/test_Button.html",
+				"semver": {
+					"vulnerable": "<1.4.2",
+					"unaffected": ">=1.4.2"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-79"
+					],
+					"CVE": [
+						"CVE-2010-2275"
+					],
+					"NSP": ""
+				},
+				"info": [
+					"http://www.cvedetails.com/cve/CVE-2010-2275/"
+				],
+				"patches": [],
+				"moduleName": "dojo",
+				"creationTime": "2015-11-06T02:09:36.180Z",
+				"publicationTime": "2015-11-06T02:09:36.180Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:dojo:20100614-6"
+			}
+		],
+		"ember": [
+			{
+				"title": "Bound attributes don't get escaped properly",
+				"credit": [],
+				"description": " ",
+				"semver": {
+					"vulnerable": "< 0.9.7",
+					"unaffected": ">= 0.9.7"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-79"
+					],
+					"CVE": [],
+					"NSP": ""
+				},
+				"info": [
+					"https://github.com/emberjs/ember.js/issues/699"
+				],
+				"patches": [],
+				"moduleName": "ember",
+				"creationTime": "2015-11-06T02:09:36.180Z",
+				"publicationTime": "2015-11-06T02:09:36.180Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:ember:20120418"
+			},
+			{
+				"title": "Potential XSS Exploit When Binding `tagName` to User-Supplied Data",
+				"credit": [
+					"Mario Heiderich"
+				],
+				"description": "In general, Ember.js escapes or strips any user-supplied content before inserting it in strings that will be sent to innerHTML. However, the `tagName` property of an `Ember.View` was inserted into such a string without being sanitized. This means that if an application assigns a view's `tagName` to user-supplied data, a specially-crafted payload could execute arbitrary JavaScript in the context of the current domain (XSS).",
+				"semver": {
+					"vulnerable": ">= 1.0.0-rc.1 <1.0.0-rc.1.1 || >= 1.0.0-rc.2 <1.0.0-rc.2.1 || >= 1.0.0-rc.3 <1.0.0-rc.3.1 || >= 1.0.0-rc.4 <1.0.0-rc.4.1 || >= 1.0.0-rc.5 <1.0.0-rc.5.1 || >= 1.0.0-rc.6 <1.0.0-rc.6.1",
+					"unaffected": "< 1.0.0-rc.1 >=1.0.0-rc.1.1 || < 1.0.0-rc.2 >=1.0.0-rc.2.1 || < 1.0.0-rc.3 >=1.0.0-rc.3.1 || < 1.0.0-rc.4 >=1.0.0-rc.4.1 || < 1.0.0-rc.5 >=1.0.0-rc.5.1 || < 1.0.0-rc.6 >=1.0.0-rc.6.1"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-79"
+					],
+					"CVE": [
+						"CVE-2013-4170"
+					],
+					"ALTERNATIVE": [
+						"npm:ember:20130105-1",
+						"npm:ember:20130105-2",
+						"npm:ember:20130105-3",
+						"npm:ember:20130105-4",
+						"npm:ember:20130105-5"
+					],
+					"NSP": ""
+				},
+				"info": [
+					"https://groups.google.com/forum/#!topic/ember-security/dokLVwwxAdM"
+				],
+				"patches": [],
+				"moduleName": "ember",
+				"creationTime": "2015-11-06T02:09:36.180Z",
+				"publicationTime": "2015-11-06T02:09:36.180Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:ember:20130105",
+				"alternativeIds": [
+					"npm:ember:20130105-1",
+					"npm:ember:20130105-2",
+					"npm:ember:20130105-3",
+					"npm:ember:20130105-4",
+					"npm:ember:20130105-5"
+				]
+			},
+			{
+				"title": "Potential XSS Exploit With User-Supplied Data When Binding Primitive Values",
+				"credit": [
+					"Robert Jackson"
+				],
+				"description": "## Overview\nPotential XSS Exploit With User-Supplied Data When Using {{group}} Helper\n\nThis vulnerability has been assigned the CVE identifier CVE-2014-0014.\n\nIn general, Ember.js escapes or strips any user-supplied content before\ninserting it in strings that will be sent to innerHTML.  However, we have\nidentified a vulnerability that could lead to unescaped content being inserted\ninto the innerHTML string without being sanitized.\n\nWhen using the `{{group}}` helper, user supplied content in the template was not\nbeing sanitized. Though the vulnerability exists in Ember.js proper, it is only\nexposed via the use of an experimental plugin.\n\nIn applications that use the `{{group}}` helper, a specially-crafted payload\ncould execute arbitrary JavaScript in the context of the current domain\n(\"XSS\").\n\n## Impact\n\nThis vulnerability only affects applications that use the `{{group}}` helper\nto display user-provided content.\n\n",
+				"semver": {
+					"vulnerable": ">=1.4.0 <1.4.0-beta2 || >=1.3.0 <1.3.1 || >=1.2.0 <1.2.1 || >=1.1.0 <1.1.3 || >=1.0.0 <1.0.1",
+					"unaffected": "<1.4.0 >=1.4.0-beta2 || <1.3.0 >=1.3.1 || <1.2.0 >=1.2.1 || <1.1.0 >=1.1.3 || <1.0.0 >=1.0.1"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [
+						"CVE-2014-0013",
+						"CVE-2014-0014"
+					],
+					"ALTERNATIVE": [
+						"npm:ember:20140114-1",
+						"npm:ember:20140114-2",
+						"npm:ember:20140114-3",
+						"npm:ember:20140114-4"
+					],
+					"NSP": ""
+				},
+				"info": [
+					"https://groups.google.com/forum/#!topic/ember-security/2kpXXCxISS4",
+					"https://groups.google.com/forum/#!topic/ember-security/PSE4RzTi6l4"
+				],
+				"patches": [],
+				"moduleName": "ember",
+				"creationTime": "2015-11-06T02:09:36.180Z",
+				"publicationTime": "2015-11-06T02:09:36.180Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:ember:20140114",
+				"alternativeIds": [
+					"npm:ember:20140114-1",
+					"npm:ember:20140114-2",
+					"npm:ember:20140114-3",
+					"npm:ember:20140114-4"
+				]
+			},
+			{
+				"title": "XSS Vulnerability with helper in Non-block Form",
+				"credit": [
+					"Hyder Ali"
+				],
+				"description": "## Overview\nPotential XSS Exploit With User-Supplied Data When Binding Primitive Values\n\nThis vulnerability has been assigned the CVE identifier CVE-2014-0013.\n\nIn general, Ember.js escapes or strips any user-supplied content before\ninserting it in strings that will be sent to innerHTML.  However, we have\nidentified a vulnerability that could lead to unescaped content being inserted\ninto the innerHTML string without being sanitized.\n\nWhen a primitive value is used as the Handlebars context, that value is not\nproperly escaped.  An example of this would be using the `{{each}}` helper to\niterate over an array of user-supplied strings and using `{{this}}` inside the\nblock to display each string.\n\nIn applications that contain templates whose context is a primitive value and\nuse the `{{this}}` keyword to display that value, a specially-crafted payload\ncould execute arbitrary JavaScript in the context of the current domain\n(\"XSS\").\n\n## Impact\n\nThis vulnerability affects applications that contain templates whose context is\nset to a user-supplied primitive value (such as a string or number) and also\ncontain the `{{this}}` special Handlebars variable to display the value.\n\n",
+				"semver": {
+					"vulnerable": "1.2.0 || 1.2.1 || 1.3.0 || 1.3.1",
+					"unaffected": "<1.2.0 >1.2.0 || <1.2.1 >1.2.1 || <1.3.0 >1.3.0 || <1.3.1 >1.3.1"
+				},
+				"CVSSv3": "",
+				"severity": "low",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [],
+					"ALTERNATIVE": [
+						"npm:ember:20140214-1"
+					],
+					"NSP": ""
+				},
+				"info": [
+					"https://groups.google.com/forum/#!topic/ember-security/1h6FRgr8lXQ"
+				],
+				"patches": [],
+				"moduleName": "ember",
+				"creationTime": "2015-11-06T02:09:36.180Z",
+				"publicationTime": "2015-11-06T02:09:36.180Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:ember:20140214",
+				"alternativeIds": [
+					"npm:ember:20140214-1"
+				]
+			}
+		],
+		"ep_imageconvert": [
+			{
+				"title": "ep_imageconvert unauthenticated remote command injection",
+				"credit": [
+					"Neal Poole"
+				],
+				"description": "## Overview:\n\nep_imageconvert is a plugin for [Etherpad Lite](https://github.com/ether/etherpad-lite). ep_imageconvert <= 0.0.2 is vulnerable to remote command injection.\n\nAuthentication is not required for remote exploitation.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\n\nUpdate to version 0.0.3 or greater.\n\n## References:\n- https://github.com/redhog/ep_imageconvert/pull/5\n",
+				"semver": {
+					"vulnerable": "<=0.0.2",
+					"unaffected": ">=0.0.3"
+				},
+				"CVSSv3": "",
+				"severity": "high",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [
+						"CVE-2013-3364",
+						"CVE-2013-7380"
+					],
+					"NSP": 7
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/7"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://ep_imageconvert_20130506_0_0_04bfc27f0d7aa0bfe1c515c9254a874165d2725c.patch"
+						],
+						"version": "<=0.0.2",
+						"modificationTime": "2013-05-06T06:33:48.000Z",
+						"comments": [
+							"https://github.com/nealpoole/ep_imageconvert/commit/04bfc27f0d7aa0bfe1c515c9254a874165d2725c.patch"
+						],
+						"id": "patch:npm:ep_imageconvert:20130506:0"
+					}
+				],
+				"moduleName": "ep_imageconvert",
+				"creationTime": "2013-05-06T06:33:48.000Z",
+				"publicationTime": "2013-05-06T06:33:48.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:ep_imageconvert:20130506"
+			}
+		],
+		"express": [
+			{
+				"title": "express No Charset in Content-Type Header",
+				"credit": [
+					"Paweł Hałdrzyński"
+				],
+				"description": "## Overview:\nVulnerable versions of express do not specify a charset field in the content-type header while displaying 400 level response messages. The lack of enforcing user's browser to set correct charset, could be leveraged by an attacker to perform a cross-site scripting attack, using non-standard encodings, like UTF-7.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\nUpdate express to a patched version.\n",
+				"semver": {
+					"vulnerable": "<3.11 || >= 4 <4.5",
+					"unaffected": ">=3.11 <4 || >=4.5"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-79"
+					],
+					"CVE": [
+						"CVE-2014-6393"
+					],
+					"ALTERNATIVE": [
+						"npm:express:20140912-1"
+					],
+					"NSP": 8
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/8"
+				],
+				"patches": [],
+				"moduleName": "express",
+				"creationTime": "2014-09-12T04:46:45.000Z",
+				"publicationTime": "2014-09-12T04:46:45.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:express:20140912",
+				"alternativeIds": [
+					"npm:express:20140912-1"
+				]
+			},
+			{
+				"title": "root path disclosure vulnerability in express.static, res.sendfile, and res.sendFile",
+				"credit": [],
+				"description": "## Overview:\n\nroot path disclosure vulnerability in express.static, res.sendfile, and res.sendFile\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\n\n  * Update to version 1.8.1 or greater.\n\n## References:\n- http://expressjs.com/ja/advanced/security-updates.html\n- https://github.com/expressjs/serve-static/commit/30fe8b1596e8879923610c0421598669c39aecc2\n- https://github.com/expressjs/serve-static/blob/master/HISTORY.md#181--2015-01-20\n",
+				"semver": {
+					"vulnerable": "<4.11.1",
+					"unaffected": ">=4.11.1"
+				},
+				"CVSSv3": "",
+				"severity": "low",
+				"identifiers": {
+					"CWE": [
+						"CWE-211"
+					],
+					"CVE": [],
+					"NSP": ""
+				},
+				"info": [
+					"https://github.com/expressjs/serve-static/blob/856c5e0f796a8988525c356018594bfb8c51a4fa/HISTORY.md#181--2015-01-20",
+					"http://expressjs.com/advanced/security-updates.html"
+				],
+				"patches": [],
+				"moduleName": "express",
+				"creationTime": "2015-01-20T04:46:45.000Z",
+				"publicationTime": "2015-01-20T04:46:45.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:express:20150120"
+			}
+		],
+		"fancy-server": [
+			{
+				"title": "fancy-server Directory Traversal",
+				"credit": [
+					"Adam Baldwin"
+				],
+				"description": "## Overview:\n\nVersions less than 0.1.4 of the static file server module fancy-server are vulnerable to directory traversal. An attacker can provide input such as `../` to read files outside of the served directory.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\n\nUpgrade to version 0.1.4 or greater.\n\n## References:\n- http://en.wikipedia.org/wiki/Directory_traversal_attack\n",
+				"semver": {
+					"vulnerable": "<0.1.4",
+					"unaffected": ">=0.1.4"
+				},
+				"CVSSv3": "",
+				"severity": "high",
+				"identifiers": {
+					"CWE": [
+						"CWE-23"
+					],
+					"CVE": [],
+					"NSP": 9
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/9"
+				],
+				"patches": [],
+				"moduleName": "fancy-server",
+				"creationTime": "2014-11-14T18:00:48.000Z",
+				"publicationTime": "2014-11-14T18:00:48.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:fancy-server:20141114"
+			}
+		],
+		"geddy": [
+			{
+				"title": "Geddy Directory Traversal",
+				"credit": [
+					"Vikram Chaitanya"
+				],
+				"description": "## Overview:\n\nGeddy static file serving allows directory traversal with a URI encoded path.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n### Example\n```\nhttp://localhost:4000/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd\n\ngeddy is serving the output as it doesn't match the routes and it's a static file\n```\n\n## Recommendations:\n\nUpdate to version >= 13.0.8\n\n## References:\n- https://github.com/geddy/geddy/issues/697\n- https://github.com/geddy/geddy/pull/699\n",
+				"semver": {
+					"vulnerable": "<13.0.8",
+					"unaffected": ">=13.0.8"
+				},
+				"CVSSv2": "5.0 (MEDIUM) (AV:N/AC:L/Au:N/C:P/I:N/A:N)",
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [
+						"CVE-2015-5688"
+					],
+					"NSP": 10
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/10"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://geddy_20150727_0_0_3f1bacd7cfda6556f35563f3e79c60c62aa9d286.patch"
+						],
+						"version": "<13.0.8 >=0.12.1",
+						"modificationTime": "2015-07-27T12:33:48.000Z",
+						"comments": [
+							"https://github.com/geddy/geddy/commit/3f1bacd7cfda6556f35563f3e79c60c62aa9d286.patch"
+						],
+						"id": "patch:npm:geddy:20150727:0"
+					}
+				],
+				"moduleName": "geddy",
+				"creationTime": "2015-07-27T12:33:48.000Z",
+				"publicationTime": "2015-07-27T12:33:48.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:geddy:20150727"
+			}
+		],
+		"gm": [
+			{
+				"title": "Command Injection in gm.compare function",
+				"credit": [
+					"Brendan Scarvell of Console"
+				],
+				"creationTime": "2015-11-06T02:09:36.184Z",
+				"modificationTime": "2015-11-06T02:09:36.184Z",
+				"publicationTime": "2015-10-26T20:12:18.990Z",
+				"description": "## Overview\n[gm](https://www.npmjs.com/package/gm) module is the GraphicsMagick and ImageMagick wrapper for Node.js.\nThe `compare()` function allows comparing of two images, taking as an input argument the path to both images. The function, in versions prior to 1.21.1, fails to sanitize the input correctly, making it vulnerable to a command injection attack [1].\n\n## Recommendation\nUpdate `gm` to version 1.21.1 or greater. \nIf a direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/documentation/#wizard) to patch this vulnerability.\n\n\n## References\n - https://www.owasp.org/index.php/Command_Injection\n - https://github.com/aheckmann/gm/commit/5f5c77490aa84ed313405c88905eb4566135be31\n",
+				"semver": {
+					"vulnerable": "<=1.20.0",
+					"unaffected": ">=1.21.1"
+				},
+				"CVSSv3": "",
+				"severity": "high",
+				"identifiers": {
+					"CWE": [
+						"CWE-78"
+					],
+					"CVE": [
+						"CVE-2015-7982"
+					],
+					"NSP": 54
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/54"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://gm_20151026_0_0_5f5c77490aa84ed313405c88905eb4566135be31_snyk.patch"
+						],
+						"version": "<=1.20.0 >=1.17.0",
+						"modificationTime": "2015-10-26T20:12:18.990Z",
+						"comments": [],
+						"id": "patch:npm:gm:20151026:0"
+					},
+					{
+						"urls": [
+							"file://gm_20151026_1_0_5f5c77490aa84ed313405c88905eb4566135be31_snyk_c1.patch"
+						],
+						"version": "<1.17.0 >=1.16.0",
+						"modificationTime": "2015-10-26T20:12:18.990Z",
+						"comments": [],
+						"id": "patch:npm:gm:20151026:1"
+					},
+					{
+						"urls": [
+							"file://gm_20151026_2_0_5f5c77490aa84ed313405c88905eb4566135be31_snyk_c2.patch"
+						],
+						"version": "<1.16.0 >=1.15.0",
+						"modificationTime": "2015-10-26T20:12:18.990Z",
+						"comments": [],
+						"id": "patch:npm:gm:20151026:2"
+					}
+				],
+				"moduleName": "gm",
+				"id": "npm:gm:20151026"
+			}
+		],
+		"handlebars": [
+			{
+				"title": "handlebars XSS",
+				"credit": [],
+				"description": "Previously, only < and > were escaped. This meant that any Handlebars template that used user input in an HTML attribute value was wide open to a trivial XSS exploit. Note that unquoted attribute values are still open to attack, but this set of characters at least brings Handlebars in line with other Mustache implementations and other template languages.",
+				"semver": {
+					"vulnerable": "<=1.0.0-beta.3",
+					"unaffected": ">1.0.0-beta.3"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-79"
+					],
+					"CVE": [],
+					"NSP": ""
+				},
+				"info": [
+					"https://github.com/wycats/handlebars.js/pull/68"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://handlebars_20110425_0_0_b291a1ad8c9a33f834d126450635f0b6ca546a0c.patch"
+						],
+						"version": "<=1.0.0-beta.3",
+						"modificationTime": "2015-11-06T02:09:36.180Z",
+						"comments": [
+							"https://github.com/rgrove/handlebars.js/commit/b291a1ad8c9a33f834d126450635f0b6ca546a0c.patch"
+						],
+						"id": "patch:npm:handlebars:20110425:0"
+					}
+				],
+				"moduleName": "handlebars",
+				"creationTime": "2015-11-06T02:09:36.180Z",
+				"publicationTime": "2015-11-06T02:09:36.180Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:handlebars:20110425"
+			}
+		],
+		"hapi": [
+			{
+				"title": "hapi File descriptor leak can cause DoS vulnerability",
+				"credit": [
+					"Jo Liss"
+				],
+				"description": "## Overview:\n\nVersions 2.0.x and 2.1.x have a file descriptor leak that when triggered repeatedly will cause the server to run out of file descriptors and the node process to die. The effort required to take down a server depends on the process file descriptor limit. No other side effects or exploits have been identified.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n### Impact\n\nThis vulnerability allows an attacker to take down a hapi-based server running versions 2.0.x and 2.1.x.\n\nThis does NOT affect hapi 1.x deployments.\n\n## Recommendations:\n\n- Please upgrade to version 2.2.x or above as soon as possible.\n\n## References:\n\nhttps://github.com/spumko/hapi/issues/1427\n",
+				"semver": {
+					"vulnerable": "2.0.x || 2.1.x",
+					"unaffected": ">= 2.2.x"
+				},
+				"CVSSv3": "",
+				"severity": "low",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [
+						"CVE-2014-3742"
+					],
+					"NSP": 11
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/11",
+					"https://github.com/spumko/hapi/issues/1427"
+				],
+				"patches": [],
+				"moduleName": "hapi",
+				"creationTime": "2014-07-08T06:33:48.000Z",
+				"publicationTime": "2014-07-08T06:33:48.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:hapi:20140708"
+			},
+			{
+				"title": "hapi.js rosetta-flash jsonp vulnerability",
+				"credit": [
+					"Michele Spagnuolo"
+				],
+				"description": "## Overview:\n\nThis description taken from the pull request provided by Patrick Kettner.\n\n[Background from the vulnerabilty finder](http://miki.it/blog/2014/7/8/abusing-jsonp-with-rosetta-flash/)\n\ntl:dr - someone created a alphanum only swf converter, which means that they can in theory use it as a callback at a JSONP endpoint, and as a result, send data across domains.\n\nPrepending callbacks with an empty inline comment breaks the flash parser, and prevents the issue. This is a fairly common solution currently being implemented by Google, Facebook, and Github.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\n- Update to the latest version of hapi.js\n\n## References:\n[PR #1766 - prepend jsonp callbacks with a comment to prevent the rosetta-flash vulnerability](https://github.com/spumko/hapi/pull/1766)\n\nThanks to [Patrick Kettner](https://github.com/patrickkettner) for submitting a pull request to address this in hapi.\n",
+				"semver": {
+					"vulnerable": "< 6.1.0",
+					"unaffected": ">= 6.1.0"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [
+						"CVE-2014-4671"
+					],
+					"NSP": 12
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/12"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://hapi_20140708-1_0_0_94c6f0f223c3c2c915ba80adec58b153f435b2d1.patch"
+						],
+						"version": "< 6.1.0 >=2.3.0",
+						"modificationTime": "2014-07-08T06:33:48.000Z",
+						"comments": [
+							"https://github.com/patrickkettner/hapi/commit/94c6f0f223c3c2c915ba80adec58b153f435b2d1.patch"
+						],
+						"id": "patch:npm:hapi:20140708-1:0"
+					}
+				],
+				"moduleName": "hapi",
+				"creationTime": "2014-07-08T06:33:48.000Z",
+				"publicationTime": "2014-07-08T06:33:48.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:hapi:20140708-1"
+			},
+			{
+				"title": "Incorrect handling of CORS preflight request headers",
+				"credit": [
+					"Eran Hammer"
+				],
+				"creationTime": "2015-11-06T02:09:36.187Z",
+				"modificationTime": "2015-11-06T02:09:36.187Z",
+				"publicationTime": "2015-10-20T18:29:09.702Z",
+				"description": "## Overview\nHapi v11.0.0 and below has an incorrect implementation of the CORS protocol, and allowed for configurations that at best returned inconsistent headers and at worst allowed cross-origin activities that were expected to be forbidden. [1]\n\n'If the connection has CORS enabled but one route has it off, and the route is not GET, the OPTIONS prefetch request will return the default CORS headers and then the actual request will go through and return no CORS headers. This defeats the purpose of turning CORS on the route.' [2]\n\n## Recommendation\nUpdate to a version 11.0.0 or greater.\n\n## References\n- [1] https://github.com/hapijs/hapi/issues/2850\n- [2] https://github.com/hapijs/hapi/issues/2840\n",
+				"semver": {
+					"vulnerable": "<11.0.0",
+					"unaffected": ">=11.0.0"
+				},
+				"CVSSv3": "",
+				"severity": "low",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [],
+					"NSP": 45
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/45"
+				],
+				"patches": [],
+				"moduleName": "hapi",
+				"id": "npm:hapi:20151020"
+			}
+		],
+		"hubot-scripts": [
+			{
+				"title": "Hubot Scripts Potential command injection in email.coffee",
+				"credit": [
+					"Neal Poole"
+				],
+				"description": "## Overview:\nUntrusted input passed in to the hubot-scripts/package/src/scripts/email.coffee module can allow for command injection. This may be unexpected behavior for the caller.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n### Mitigating Factors\nThe email script is not enabled by default, it has to be manually added to hubot's list of loaded scripts.\n\n## Recommendations:\nA new version containing a fix has yet to be pushed to NPM. Use the version located at https://github.com/github/hubot-scripts/ until version 2.4.4 comes out.\n",
+				"semver": {
+					"vulnerable": "<= 2.4.3",
+					"unaffected": "> 2.4.3"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [
+						"CVE-2013-7378"
+					],
+					"NSP": 13
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/13"
+				],
+				"patches": [],
+				"moduleName": "hubot-scripts",
+				"creationTime": "2013-05-15T19:14:38.000Z",
+				"publicationTime": "2013-05-15T19:14:38.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:hubot-scripts:20130515"
+			}
+		],
+		"inert": [
+			{
+				"title": "inert Hidden Directories always served",
+				"credit": [
+					"Gil Pedersen"
+				],
+				"description": "## Overview:\n\nThe inert directory handler always allows files in hidden directories to be served, even when `showHidden` is false.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\n\nUpdate to version >= 1.1.1.\n\n## References:\n- https://github.com/hapijs/inert/pull/15\n- https://github.com/hapijs/inert/commit/e8f99f94da4cb08e8032eda984761c3f111e3e82\n",
+				"semver": {
+					"vulnerable": "<1.1.1",
+					"unaffected": ">=1.1.1"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [],
+					"NSP": 14
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/14"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://inert_20141215_0_0_e8f99f94da4cb08e8032eda984761c3f111e3e82_snyk.patch"
+						],
+						"version": "<1.1.1",
+						"modificationTime": "2014-12-15T17:13:48.000Z",
+						"comments": [],
+						"id": "patch:npm:inert:20141215:0"
+					}
+				],
+				"moduleName": "inert",
+				"creationTime": "2014-12-15T17:13:48.000Z",
+				"publicationTime": "2014-12-15T17:13:48.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:inert:20141215"
+			}
+		],
+		"jquery-ujs": [
+			{
+				"title": "CSRF Vulnerability in jquery-ujs",
+				"credit": [
+					"Ben Toews of GitHub"
+				],
+				"description": "## Overview:\n\nThis description pulled from the rubyonrails-security post.\n\nReported to NodeSecurity Project by Reed Loden.\n\nCSRF Vulnerability in jquery-ujs and jquery-rails\n\nThere is an vulnerability in jquery-ujs and jquery-rails that can be used to\nbypass CSP protections and allows attackers to send CSRF tokens to attacker domains.\n\nIn the scenario where an attacker might be able to control the href attribute of an anchor tag or\nthe action attribute of a form tag that will trigger a POST action, the attacker can set the\nhref or action to \" https://attacker.com\" (note the leading space) that will be passed to JQuery,\nwho will see this as a same origin request, and send the user's CSRF token to the attacker domain.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\n\nUpgrade to the latest version\n\n## References:\n\n- hackerone.com: https://hackerone.com/reports/49935\n- npm: https://www.npmjs.com/package/jquery-ujs\n- rubyonrails-security: https://groups.google.com/forum/#!msg/rubyonrails-security/XIZPbobuwaY/fqnzzpuOlA4J\n- github: https://github.com/rails/jquery-ujs\n",
+				"semver": {
+					"vulnerable": "<= 1.0.3",
+					"unaffected": ">= 1.0.4"
+				},
+				"CVSSv2": "5.0 (MEDIUM) (AV:N/AC:L/Au:N/C:P/I:N/A:N)",
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [
+						"CVE-2015-1840"
+					],
+					"NSP": 15
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/15"
+				],
+				"patches": [],
+				"moduleName": "jquery-ujs",
+				"creationTime": "2015-06-24T06:00:00.000Z",
+				"publicationTime": "2015-06-24T06:00:00.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:jquery-ujs:20150624"
+			}
+		],
+		"js-yaml": [
+			{
+				"title": "JS-YAML Deserialization Code Execution",
+				"credit": [
+					"Neal Poole"
+				],
+				"description": "## Overview:\nThe JS-YAML module for Node.js contained a code execution vulnerability prior to version 2.0.5. The maintainers of JS-YAML have patched this vulnerability and, beginning in version 2.1.0, have provided a safeLoad method for parsing YAML. Developers that use this module should make sure they have upgraded and should strongly consider porting their code to use the new safeLoad method.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n### Details\nThe module allowed code execution due to a custom data-type that it defined and parsed called !!js/function. The way it would parse the data was to create a new Function object in JavaScript based on the input, which is equivalent to calling eval on the input:\n\n```\nfunction resolveJavascriptFunction(object /*, explicit*/) {\n  /*jslint evil:true*/\n  var func;\n\n  try {\n    func = new Function('return ' + object);\n    return func();\n  } catch (error) {\n    return NIL;\n  }\n}\n```\nThat meant the code snippet below, when run, would execute code instead of simply defining a function:\n\n```\nvar yaml = require('js-yaml');\n\nx = \"test: !!js/function > \\n  \\\nfunction f() { \\n    \\\nconsole.log(1); \\n  \\\n}();\"\n\nyaml.load(x);\n```\n\n## Recommendations:\nDevelopers using the JS-YAML module should make sure that they are working with an up-to-date version and should strongly consider porting their code to use safeLoad in place of load, especially when accepting YAML derived from user input.\n\n## References:\n[Code Execution via YAML in JS-YAML Node.js Module](https://nealpoole.com/blog/2013/06/code-execution-via-yaml-in-js-yaml-nodejs-module/)\n",
+				"semver": {
+					"vulnerable": "<  2.0.5",
+					"unaffected": ">= 2.0.5"
+				},
+				"CVSSv2": "6.8 (MEDIUM) (AV:N/AC:M/Au:N/C:P/I:P/A:P)",
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-20"
+					],
+					"CVE": [
+						"CVE-2013-4660"
+					],
+					"NSP": 16
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/16"
+				],
+				"patches": [],
+				"moduleName": "js-yaml",
+				"creationTime": "2013-06-23T19:23:50.000Z",
+				"publicationTime": "2013-06-23T19:23:50.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:js-yaml:20130623"
+			}
+		],
+		"jsonwebtoken": [
+			{
+				"title": "jsonwebtoken Verification Bypass",
+				"credit": [
+					"Tim McLean"
+				],
+				"description": "## Overview:\n\nIt is possible for an attacker to bypass verification when \"a token digitally signed with an asymetric key (RS/ES family) of algorithms but instead the attacker send a token digitally signed with a symmetric algorithm (HS* family)\" [1]\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\nUpdate to a version 4.2.2 or greater\n\n## References:\n- [1] https://github.com/auth0/node-jsonwebtoken/commit/1bb584bc382295eeb7ee8c4452a673a77a68b687\n- https://www.timmclean.net/2015/02/25/jwt-alg-none.html\n- https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/\n",
+				"semver": {
+					"vulnerable": "<4.2.2",
+					"unaffected": ">=4.2.2"
+				},
+				"CVSSv3": "",
+				"severity": "high",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [],
+					"NSP": 17
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/17",
+					"https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://jsonwebtoken_20150331_0_0_1bb584bc382295eeb7ee8c4452a673a77a68b687_snyk.patch"
+						],
+						"version": "=4.0.0 || =4.1.0 || =4.2.1",
+						"modificationTime": "2015-03-31T16:00:00.000Z",
+						"comments": [],
+						"id": "patch:npm:jsonwebtoken:20150331:0"
+					}
+				],
+				"moduleName": "jsonwebtoken",
+				"creationTime": "2015-03-31T16:00:00.000Z",
+				"publicationTime": "2015-03-31T16:00:00.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:jsonwebtoken:20150331"
+			}
+		],
+		"ldapauth": [
+			{
+				"title": "ldapauth LDAP Injection",
+				"credit": [
+					"David Black",
+					"Jerome Touffe-Blin"
+				],
+				"description": "## Overview:\nldapauth versions <= 2.2.4 are vulnerable to ldap injection through the username parameter.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\nConsider updating to use [ldapauth-fork](https://www.npmjs.com/package/ldapauth-fork) 2.3.3 or greater as ldapauth has not yet been patched.\n\n## References:\n- http://www.openwall.com/lists/oss-security/2015/09/18/4\n",
+				"semver": {
+					"vulnerable": "<=2.2.4",
+					"unaffected": ">2.2.5"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-90"
+					],
+					"CVE": [],
+					"NSP": 19
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/19"
+				],
+				"patches": [],
+				"moduleName": "ldapauth",
+				"creationTime": "2015-09-18T09:30:10.000Z",
+				"publicationTime": "2015-09-18T09:30:10.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:ldapauth:20150918"
+			}
+		],
+		"ldapauth-fork": [
+			{
+				"title": "ldapauth-fork LDAP Injection",
+				"credit": [
+					"Jerome Touffe-Blin"
+				],
+				"description": "## Overview:\nldapauth-fork versions < 2.3.3 are vulnerable to ldap injection through the username parameter.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\nUpdated to ldapauth-fork 2.3.3 or greater.\n\n## References:\n- https://github.com/vesse/node-ldapauth-fork/issues/21\n- https://github.com/vesse/node-ldapauth-fork/commit/3feea43e243698bcaeffa904a7324f4d96df60e4\n",
+				"semver": {
+					"vulnerable": "< 2.3.3",
+					"unaffected": ">= 2.3.3"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [
+						"CVE-2015-7294"
+					],
+					"NSP": 18
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/18"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://ldapauth-fork_20150918_0_0_3feea43e243698bcaeffa904a7324f4d96df60e4.patch"
+						],
+						"version": "<2.3.3 >=2.3.0",
+						"modificationTime": "2015-09-18T09:29:10.000Z",
+						"comments": [
+							"https://github.com/vesse/node-ldapauth-fork/commit/3feea43e243698bcaeffa904a7324f4d96df60e4.patch"
+						],
+						"id": "patch:npm:ldapauth-fork:20150918:0"
+					}
+				],
+				"moduleName": "ldapauth-fork",
+				"creationTime": "2015-09-18T09:29:10.000Z",
+				"publicationTime": "2015-09-18T09:29:10.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:ldapauth-fork:20150918"
+			}
+		],
+		"libnotify": [
+			{
+				"title": "Potential command injection in libnotify.notify",
+				"credit": [
+					"Adam Baldwin"
+				],
+				"description": "## Overview:\nUntrusted input passed in the call to libnotify.notify could result in execution of shell commands. Callers may be unaware of this.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n### Example\n```\nvar libnotify = require('libnotify')\nlibnotify.notify('UNTRUSTED INPUT', { title: \\\"\\\" }, function () {\n    console.log(arguments);\n})\n```\n\nSpecial thanks to Neal Poole for submitting the pull request to fix this issue.\n",
+				"semver": {
+					"vulnerable": "<= 1.0.3",
+					"unaffected": ">= 1.0.4"
+				},
+				"CVSSv3": "",
+				"severity": "high",
+				"identifiers": {
+					"CWE": [
+						"CWE-77"
+					],
+					"CVE": [
+						"CVE-2013-7381"
+					],
+					"NSP": 20
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/20"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://libnotify_20130515_0_0_8e2e7306088624503ba5eec592b502c4f97d8846.patch"
+						],
+						"version": "<= 1.0.3",
+						"modificationTime": "2013-05-15T19:30:05.000Z",
+						"comments": [
+							"https://github.com/mytrile/node-libnotify/commit/8e2e7306088624503ba5eec592b502c4f97d8846.patch"
+						],
+						"id": "patch:npm:libnotify:20130515:0"
+					}
+				],
+				"moduleName": "libnotify",
+				"creationTime": "2013-05-15T19:30:05.000Z",
+				"publicationTime": "2013-05-15T19:30:05.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:libnotify:20130515"
+			}
+		],
+		"libyaml": [
+			{
+				"title": "libyaml - heap-based buffer overflow when parsing YAML tags",
+				"credit": [
+					"N/A"
+				],
+				"description": "## Overview:\n\nLibYAML, the library that libyaml provides bindings for is vulnerable to a heap-based buffer overflow when parsing YAML tags.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\n\n- Update to version 0.2.3 that includes a version of LibYAML that contains a fix for this issue.\n\n## References:\n- [CVE-2013-6393](http://cve.mitre.org/cgi-bin/cvename.cgi?name=2013-6393)\n- https://bitbucket.org/xi/libyaml/pull-request/1/fix-cve-2013-6393/diff\n",
+				"semver": {
+					"vulnerable": "<0.2.3",
+					"unaffected": ">=0.2.3"
+				},
+				"CVSSv3": "",
+				"severity": "high",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [
+						"CVE-2013-6393"
+					],
+					"NSP": 21
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/21"
+				],
+				"patches": [],
+				"moduleName": "libyaml",
+				"creationTime": "2014-02-04T07:31:34.000Z",
+				"publicationTime": "2014-02-04T07:31:34.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:libyaml:20140204"
+			}
+		],
+		"mapbox.js": [
+			{
+				"title": "Content Injection via TileJSON attribute",
+				"credit": [
+					"John Firebaugh"
+				],
+				"creationTime": "2015-11-06T02:09:36.186Z",
+				"modificationTime": "2015-11-06T02:09:36.186Z",
+				"publicationTime": "2015-10-24T21:00:40.189Z",
+				"description": "## Overview\nMapbox.js is vulnerable to script content injection when `L.mapbox.map` or `L.mapbox.tileLayer` is used to load untrusted TileJSON content from a non-Mapbox URL.\n\nSuch usage is uncommon. The following usage scenarios are not vulnerable: [1]\n- only trusted TileJSON content is loaded\n- TileJSON content comes only from mapbox.com URLs\n- a Mapbox map ID is supplied, rather than a TileJSON URL\n\n## References\n- https://nodesecurity.io/advisories/49\n- https://github.com/mapbox/mapbox.js/commit/538d229ab6767bb4c3f3969c417f9884189c1512\n",
+				"semver": {
+					"vulnerable": "<1.6.5 || < 2.1.7 > 2.0.0",
+					"unaffected": ">=1.6.5 <2.0.0 || >= 2.1.7"
+				},
+				"CVSSv3": "",
+				"severity": "low",
+				"identifiers": {
+					"CWE": [
+						"CWE-74"
+					],
+					"CVE": [],
+					"NSP": 49
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/49"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://mapbox.js_20151024_0_0_538d229ab6767bb4c3f3969c417f9884189c1512.patch"
+						],
+						"version": "=2.1.6",
+						"modificationTime": "2015-11-24T20:39:59.852Z",
+						"comments": [
+							"https://github.com/mapbox/mapbox.js/commit/538d229ab6767bb4c3f3969c417f9884189c1512.patch"
+						],
+						"id": "patch:npm:mapbox.js:20151024:0"
+					}
+				],
+				"moduleName": "mapbox.js",
+				"id": "npm:mapbox.js:20151024"
+			}
+		],
+		"marked": [
+			{
+				"title": "Marked multiple content injection vulnerabilities",
+				"credit": [
+					"Adam Baldwin"
+				],
+				"description": "## Overview:\nMarked comes with an option to sanitize user output to help protect against content injection attacks.\n\nsanitize: true\n\nEven if this option is set, marked is vulnerable to content injection in multiple locations if untrusted user input is allowed to be provided into marked and that output is passed to the browser.\n\nInjection is possible in two locations\n- gfm codeblocks (language)\n- javascript url's\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\n- Upgrade to version 0.3.1 or later\n",
+				"semver": {
+					"vulnerable": "<=0.3.0",
+					"unaffected": ">=0.3.1"
+				},
+				"CVSSv3": "",
+				"severity": "low",
+				"identifiers": {
+					"CWE": [
+						"CWE-74"
+					],
+					"CVE": [
+						"CVE-2014-1850",
+						"CVE-2014-3743"
+					],
+					"NSP": 22
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/22"
+				],
+				"patches": [],
+				"moduleName": "marked",
+				"creationTime": "2014-01-30T22:33:12.000Z",
+				"publicationTime": "2014-01-30T22:33:12.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:marked:20140131"
+			},
+			{
+				"title": "marked regular expression denial of service",
+				"credit": [
+					"Barış Soner Uşaklı"
+				],
+				"description": "## Overview:\n\nMarked 0.3.3 and earlier is vulnerable to regular expression denial of service (ReDoS) when certain types of input are passed in to be parsed.\n\n\"The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time.\" [1]\n\nMarked's catastrophic backtracking issue for the `em` inline rule has now been patched in 0.3.4.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\n\nUpdate to marked v0.3.4 or later.\n\n## References:\n- [1] https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS\n- https://github.com/chjj/marked/issues/497\n",
+				"semver": {
+					"vulnerable": "<=0.3.3",
+					"unaffected": ">=0.3.4"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-185",
+						"CWE-730"
+					],
+					"CVE": [],
+					"NSP": 23
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/23"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://marked_20140131-1_0_0_a37bd643f05bf95ff18cafa2b06e7d741d2e2157.patch"
+						],
+						"version": "<=0.3.3 >=0.2.8",
+						"modificationTime": "2014-01-30T22:33:12.000Z",
+						"comments": [
+							"https://github.com/chjj/marked/commit/a37bd643f05bf95ff18cafa2b06e7d741d2e2157.patch"
+						],
+						"id": "patch:npm:marked:20140131-1:0"
+					}
+				],
+				"moduleName": "marked",
+				"creationTime": "2014-01-30T22:33:12.000Z",
+				"publicationTime": "2014-01-30T22:33:12.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:marked:20140131-1"
+			},
+			{
+				"title": "marked VBScript Content Injection",
+				"credit": [
+					"Xiao Long"
+				],
+				"description": "## Overview:\n\nMarked 0.3.2 and earlier is vulnerable to content injection even when `sanitize: true` is enabled.\n\n`[xss link](vbscript:alert(1&#41;)`\n\nwill get a link\n\n`<a href=\"vbscript:alert(1)\">xss link</a>`\n\nthis script does not work in IE 11 edge mode, but works in IE 10 compatibility view.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\n\nUpdate to version 0.3.3 or greater.\n\n## References:\n- https://github.com/chjj/marked/issues/492\n",
+				"semver": {
+					"vulnerable": "<=0.3.2",
+					"unaffected": ">=0.3.3"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-74"
+					],
+					"CVE": [
+						"CVE-2015-1370"
+					],
+					"NSP": 24
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/24"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://marked_20140131-2_0_0_3c191144939107c45a7fa11ab6cb88be6694a1ba.patch"
+						],
+						"version": "<=0.3.2 >=0.3.1",
+						"modificationTime": "2014-01-30T22:33:12.000Z",
+						"comments": [
+							"https://github.com/chjj/marked/commit/3c191144939107c45a7fa11ab6cb88be6694a1ba.patch"
+						],
+						"id": "patch:npm:marked:20140131-2:0"
+					}
+				],
+				"moduleName": "marked",
+				"creationTime": "2014-01-30T22:33:12.000Z",
+				"publicationTime": "2014-01-30T22:33:12.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:marked:20140131-2"
+			}
+		],
+		"millisecond": [
+			{
+				"title": "Regular Expression Denial of Service",
+				"credit": [
+					"Luigi Pinca"
+				],
+				"creationTime": "2015-11-25T12:00:05.158Z",
+				"modificationTime": "2015-11-25T12:00:05.158Z",
+				"publicationTime": "2015-11-20T18:52:47.394Z",
+				"description": "[Regular expression Denial of Service (ReDoS)](https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS) vulnerability exists in `milliseconds` module, affecting version 0.1.1 and below.\n\n`milliseconds`, the milliseconds conversion utility is used to convert times to milliseconds.\nThe regular expression used by the function to parse the time is vulnerable to denial of service attack, where extremely long strings that are passed to `milliseconds()` can take long time to process and as a result block the event loop for that period.\n\n\n\"The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time.\" [1](https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS)\n\n## Recommendation\nUpdate to version 0.1.2.\n\n## References\n- https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS\n- https://github.com/unshiftio/millisecond/pull/4\n",
+				"semver": {
+					"vulnerable": "<0.1.2",
+					"unaffected": ">=0.1.2"
+				},
+				"CVSSv3": "",
+				"severity": "low",
+				"identifiers": {
+					"CWE": [
+						"CWE-400"
+					],
+					"CVE": [
+						"CVE-2015-8315"
+					],
+					"NSP": 59
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/59"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://millisecond_20151120_0_0_d3e03f8cd2089806b522e867505e14444fbac838.patch"
+						],
+						"version": "=0.1.1",
+						"modificationTime": "2015-11-24T20:39:59.852Z",
+						"comments": [],
+						"id": "patch:npm:millisecond:20151120:0"
+					}
+				],
+				"moduleName": "millisecond",
+				"id": "npm:millisecond:20151120"
+			}
+		],
+		"ms": [
+			{
+				"title": "Regular Expression Denial of Service",
+				"credit": [
+					"Adam Baldwin"
+				],
+				"creationTime": "2015-11-06T02:09:36.187Z",
+				"modificationTime": "2015-11-06T02:09:36.187Z",
+				"publicationTime": "2015-10-24T20:39:59.852Z",
+				"description": "## Overview\n\n[Regular expression Denial of Service (ReDoS)](https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS) vulnerability exists in `ms` module, affecting version 0.7.0 and below.\n\n`ms` is a milliseconds conversion utility, used to convert a time period string (i.e. `\"2 days\"`, `\"1h\"`) into milliseconds integer.\nThe regular expression used by the function to parse the time is vulnerable to a denial of service attack, where extremely long strings passed to `ms()` can take a long time to process, subsequently blocking the event loop for that extended period.\n\n\"The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time.\" [1](https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS)\n\n## Recommendation\nUpdate `ms` to version 0.7.1. \n\nIf direct dependency update is not possible, use [snyk wizard](https://snyk.io/documentation/#wizard) to patch agains this vulnerability.\n\n## References\n- https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS\n",
+				"semver": {
+					"vulnerable": "<=0.7.0",
+					"unaffected": ">0.7.0"
+				},
+				"CVSSv3": "",
+				"severity": "low",
+				"identifiers": {
+					"CWE": [
+						"CWE-400"
+					],
+					"CVE": [],
+					"NSP": 46
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/46"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://ms_20151024_0_0_48701f029417faf65e6f5e0b61a3cebe5436b07b.patch"
+						],
+						"version": "=0.7.0",
+						"modificationTime": "2015-10-24T20:39:59.852Z",
+						"comments": [],
+						"id": "patch:npm:ms:20151024:0"
+					},
+					{
+						"urls": [
+							"file://ms_20151024_1_0_48701f029417faf65e6f5e0b61a3cebe5436b07b_snyk.patch"
+						],
+						"version": "<0.7.0 >=0.6.0",
+						"modificationTime": "2015-10-24T20:39:59.852Z",
+						"comments": [],
+						"id": "patch:npm:ms:20151024:1"
+					},
+					{
+						"urls": [
+							"file://ms_20151024_2_0_48701f029417faf65e6f5e0b61a3cebe5436b07b_snyk2.patch"
+						],
+						"version": "<0.6.0 >0.3.0",
+						"modificationTime": "2015-10-24T20:39:59.852Z",
+						"comments": [],
+						"id": "patch:npm:ms:20151024:2"
+					},
+					{
+						"urls": [
+							"file://ms_20151024_3_0_48701f029417faf65e6f5e0b61a3cebe5436b07b_snyk3.patch"
+						],
+						"version": "=0.3.0",
+						"modificationTime": "2015-10-24T20:39:59.852Z",
+						"comments": [],
+						"id": "patch:npm:ms:20151024:3"
+					},
+					{
+						"urls": [
+							"file://ms_20151024_4_0_48701f029417faf65e6f5e0b61a3cebe5436b07b_snyk4.patch"
+						],
+						"version": "=0.2.0",
+						"modificationTime": "2015-10-24T20:39:59.852Z",
+						"comments": [],
+						"id": "patch:npm:ms:20151024:4"
+					},
+					{
+						"urls": [
+							"file://ms_20151024_5_0_48701f029417faf65e6f5e0b61a3cebe5436b07b_snyk5.patch"
+						],
+						"version": "=0.1.0",
+						"modificationTime": "2015-10-24T20:39:59.852Z",
+						"comments": [],
+						"id": "patch:npm:ms:20151024:5"
+					}
+				],
+				"moduleName": "ms",
+				"id": "npm:ms:20151024"
+			}
+		],
+		"mustache": [
+			{
+				"title": "XSS in mustache",
+				"credit": [],
+				"description": "## Overview\n\nAn escaping problem within to_html function can lead to a XSS vulnerability.\n\n## Example\n\n```\ndocument.write(Mustache.to_html('<input value=\"{{val}}\" />', {val:'maybe\" onclick=\"alert(\\'xss\\');\" nothing=\"'}));\n```\n\n",
+				"semver": {
+					"vulnerable": "< 0.3.1",
+					"unaffected": ">= 0.3.1"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-79"
+					],
+					"CVE": [],
+					"NSP": ""
+				},
+				"info": [
+					"https://github.com/janl/mustache.js/issues/112"
+				],
+				"patches": [],
+				"moduleName": "mustache",
+				"creationTime": "2015-11-06T02:09:36.180Z",
+				"publicationTime": "2015-11-06T02:09:36.180Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:mustache:20110814"
+			}
+		],
+		"nhouston": [
+			{
+				"title": "nhouston Directory Traversal",
+				"credit": [
+					"Riku Keski-Keturi"
+				],
+				"description": "## Overview:\n\nAll versions of the static file server module nhouston are vulnerable to directory traversal. An attacker can provide input such as `../` to read files outside of the served directory.\n\n## Recommendations:\n\nIt is recommended that a different module be used, as we have been unable to reacher the maintainer of this module. We will continue to reach out to them, and if an update becomes available that fixes the issue, we will update this advisory accordingly.\n\n## References:\n- http://en.wikipedia.org/wiki/Directory_traversal_attack\n",
+				"semver": {
+					"vulnerable": "*",
+					"unaffected": "<0.0.0"
+				},
+				"CVSSv3": "",
+				"severity": "high",
+				"identifiers": {
+					"CWE": [
+						"CWE-23"
+					],
+					"CVE": [],
+					"NSP": 25
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/25"
+				],
+				"patches": [],
+				"moduleName": "nhouston",
+				"creationTime": "2014-11-13T23:30:48.000Z",
+				"publicationTime": "2014-11-13T23:30:48.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:nhouston:20141114"
+			}
+		],
+		"paypal-ipn": [
+			{
+				"title": "paypal-ipn validation bypass",
+				"credit": [
+					"Martin Angelov"
+				],
+				"description": "## Overview:\n\npaypal-ipn uses the `test_ipn` parameter (which is set by the PayPal IPN simulator) to determine if it should use the production PayPal site or the sandbox.\n\n\"With a bit of time, an attacker could craft a request using the simulator that would fool any application which does not explicitly check for test_ipn in production.\" [1]\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\n- Upgrade to version 3.0.0 or greater.\n\n## References:\n- [1] https://github.com/andzdroid/paypal-ipn/issues/11\n",
+				"semver": {
+					"vulnerable": "<3.0.0",
+					"unaffected": ">=3.0.0"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [],
+					"NSP": 26
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/26"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://paypal-ipn_20141203_0_0_b137ff60888917093dd53654f232a1f8700bdc0a_snyk.patch"
+						],
+						"version": "<3.0.0 >=2.1.0",
+						"modificationTime": "2014-12-03T03:00:00.000Z",
+						"comments": [],
+						"id": "patch:npm:paypal-ipn:20141203:0"
+					}
+				],
+				"moduleName": "paypal-ipn",
+				"creationTime": "2014-12-03T03:00:00.000Z",
+				"publicationTime": "2014-12-03T03:00:00.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:paypal-ipn:20141203"
+			}
+		],
+		"printer": [
+			{
+				"title": "printer potential command injection on untrusted input",
+				"credit": [
+					"Adam Baldwin"
+				],
+				"description": "## Overview:\nprinter does not sanitize command arguments properly in the ```printDirect()``` function. If untrusted client input is passed in, command injection is possible.\n\nSpecial thanks to [Wes Cruver](https://github.com/chieffancypants) for providing a pull request!\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\n- Update to version > 0.0.1 which is available on github at https://github.com/tojocky/node-printer\n\n## References:\n- https://github.com/tojocky/node-printer\n- https://github.com/tojocky/node-printer/commit/e001e38738c17219a1d9dd8c31f7d82b9c0013c7\n",
+				"semver": {
+					"vulnerable": "<= 0.0.1",
+					"unaffected": "> 0.0.1"
+				},
+				"CVSSv3": "",
+				"severity": "high",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [
+						"CVE-2014-3741"
+					],
+					"NSP": 27
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/27"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://printer_20140306_0_0_e001e38738c17219a1d9dd8c31f7d82b9c0013c7.patch"
+						],
+						"version": "<= 0.0.1",
+						"modificationTime": "2014-03-06T07:33:48.000Z",
+						"comments": [
+							"https://github.com/tojocky/node-printer/commit/e001e38738c17219a1d9dd8c31f7d82b9c0013c7.patch"
+						],
+						"id": "patch:npm:printer:20140306:0"
+					}
+				],
+				"moduleName": "printer",
+				"creationTime": "2014-03-06T07:33:48.000Z",
+				"publicationTime": "2014-03-06T07:33:48.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:printer:20140306"
+			}
+		],
+		"qs": [
+			{
+				"title": "qs Denial-of-Service Memory Exhaustion",
+				"credit": [
+					"Dustin Shiver"
+				],
+				"description": "## Overview:\nThe qs module has the ability to create sparse arrays during parsing. By specifying a high index it is possible to create a large array that will eventually take up all the allocated memory of the running process, resulting in a crash.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\nUpdate qs to version 1.0.0 or greater\n\n## References:\n- https://github.com/visionmedia/node-querystring/issues/104\n\n",
+				"semver": {
+					"vulnerable": "<1.0.0",
+					"unaffected": ">= 1.x"
+				},
+				"CVSSv2": "5.0 (MEDIUM) (AV:N/AC:L/Au:N/C:N/I:N/A:P)",
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-400"
+					],
+					"CVE": [
+						"CVE-2014-7191"
+					],
+					"NSP": 29
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/29"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://qs_20140806_0_0_43a604b7847e56bba49d0ce3e222fe89569354d8_snyk.patch"
+						],
+						"version": "<1.0.0 >=0.6.5",
+						"modificationTime": "2014-08-06T06:10:22.000Z",
+						"comments": [],
+						"id": "patch:npm:qs:20140806:0"
+					},
+					{
+						"urls": [
+							"file://qs_20140806_0_1_x_snyk_2.patch"
+						],
+						"version": "=0.5.6",
+						"modificationTime": "2014-08-06T06:10:22.000Z",
+						"comments": [],
+						"id": "patch:npm:qs:20140806:1"
+					}
+				],
+				"moduleName": "qs",
+				"creationTime": "2014-08-06T06:10:22.000Z",
+				"publicationTime": "2014-08-06T06:10:22.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:qs:20140806"
+			},
+			{
+				"title": "qs Denial-of-Service Extended Event Loop Blocking",
+				"credit": [
+					"Tom Steele"
+				],
+				"description": "## Overview:\nThe qs module does not have an option or default for specifying object depth and when parsing a string representing a deeply nested object will block the event loop for long periods of time. An attacker could leverage this to cause a temporary denial-of-service condition, for example, in a web application, other requests would not be processed while this blocking is occurring.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\nUpdate qs to version 1.0.0 or greater\n",
+				"semver": {
+					"vulnerable": "<1.0.0",
+					"unaffected": ">= 1.x"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-400"
+					],
+					"CVE": [],
+					"NSP": 28
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/28"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://qs_20140806-1_0_0_snyk.patch"
+						],
+						"version": "<1.0.0 >=0.6.5",
+						"modificationTime": "2014-11-20T06:10:22.000Z",
+						"comments": [],
+						"id": "patch:npm:qs:20140806-1:0"
+					},
+					{
+						"urls": [
+							"file://qs_20140806-1_0_1_snyk.patch"
+						],
+						"version": "=0.5.6",
+						"modificationTime": "2014-11-20T06:10:22.000Z",
+						"comments": [],
+						"id": "patch:npm:qs:20140806-1:1"
+					}
+				],
+				"moduleName": "qs",
+				"creationTime": "2014-08-06T06:10:23.000Z",
+				"publicationTime": "2014-08-06T06:10:23.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:qs:20140806-1"
+			}
+		],
+		"remarkable": [
+			{
+				"title": "remarkable Content Injection",
+				"credit": [
+					"Adam Baldwin"
+				],
+				"description": "## Overview:\n\nCertain input when passed into remarkable will bypass the bad prototcol check that disallows the javascript: scheme allowing for javascript: url's to be injected into the rendered content.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n### Example\n\n```\n[link](<javascript:alert(1)>)\n```\nThis will be turned into `<a href=\"javascript:alert(1)\">link</a>`\n\nwhere as\n\n```\n[link](javascript:alert(1))\n```\n\nWould be rendered as `[link](javascript:alert(1))` because it's an invalid scheme.\n\n## Recommendations:\n\nUpgrade to version 1.4.1 or greater\n\n## References:\n- https://github.com/jonschlinkert/remarkable/issues/97\n",
+				"semver": {
+					"vulnerable": "<1.4.1",
+					"unaffected": ">=1.4.1"
+				},
+				"CVSSv3": "",
+				"severity": "low",
+				"identifiers": {
+					"CWE": [
+						"CWE-74"
+					],
+					"CVE": [],
+					"NSP": 30
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/30"
+				],
+				"patches": [],
+				"moduleName": "remarkable",
+				"creationTime": "2014-11-13T10:33:48.000Z",
+				"publicationTime": "2014-11-13T10:33:48.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:remarkable:20141113"
+			}
+		],
+		"sanitize-html": [
+			{
+				"title": "Sanitization not applied recursively",
+				"credit": [],
+				"description": "## Overview\n\nSince the sanitize-html module trusts 'text' coming from htmlparser2, and outputs it without further escaping (because htmlparser2 does not decode entities in text before delivering it), this results in an XSS attack vector if sanitize-html ignores the img tag (according to user-configured filter rules) but passes the text intact, as it must do to keep any text in documents.\n",
+				"semver": {
+					"vulnerable": "< 1.4.3",
+					"unaffected": ">= 1.4.3"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [],
+					"NSP": ""
+				},
+				"info": [
+					"https://github.com/punkave/sanitize-html/issues/29"
+				],
+				"patches": [],
+				"moduleName": "sanitize-html",
+				"creationTime": "2015-11-06T02:09:36.180Z",
+				"publicationTime": "2015-11-06T02:09:36.180Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:sanitize-html:20141024"
+			}
+		],
+		"secure-compare": [
+			{
+				"title": "Insecure Comparison",
+				"credit": [
+					"Joshua Dague"
+				],
+				"creationTime": "2015-11-06T02:09:36.186Z",
+				"modificationTime": "2015-11-06T02:09:36.186Z",
+				"publicationTime": "2015-10-24T21:00:53.201Z",
+				"description": "## Overview\n[secure-compare](https://www.npmjs.com/package/secure-compare) is a node implementation of constant-time comparison algorithm to prevent timing attacks for Node.js.\nThe `compare` function made sure that the length of the two arguments is the same, and then mistakenly compared the first argument to itself, meaning that the function would return true for any two arguments of the same length.\n\n## Recommendation\nUpdate to version 3.0.1 or greater. When direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/documentation/#wizard) to patch agains this vulnerability.\n\n\n## References\n- https://github.com/vdemedes/secure-compare/pull/1\n",
+				"semver": {
+					"vulnerable": "<=3.0.0",
+					"unaffected": ">3.0.0"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [],
+					"NSP": 50
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/50"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://secure-compare_20151024_0_0_b768f45003dad04743c91747e35df1b0a4c4c897.patch"
+						],
+						"version": "=3.0.0",
+						"modificationTime": "2015-10-24T21:00:53.201Z",
+						"comments": [
+							"https://github.com/vdemedes/secure-compare/commit/b768f45003dad04743c91747e35df1b0a4c4c897.patch"
+						],
+						"id": "patch:npm:secure-compare:20151024:0"
+					}
+				],
+				"moduleName": "secure-compare",
+				"id": "npm:secure-compare:20151024"
+			}
+		],
+		"semver": [
+			{
+				"title": "semver Regular Expression Denial of Service",
+				"credit": [
+					"Adam Baldwin"
+				],
+				"description": "## Overview:\n\nsemver is vulnerable to regular expression denial of service ([ReDoS](https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS)) when extremely long version strings are parsed.\n\n\"The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time.\" [1]\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\nUpdate to a version 4.3.2 or greater. Package version can no longer be more than 256 characters long. This prevents a situation in which parsing the version number can use exponentially more time and memory to parse, leading to a potential denial of service.\n\n## References:\n- https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS\n- https://github.com/npm/npm/releases/tag/v2.7.5\n",
+				"semver": {
+					"vulnerable": "<4.3.2",
+					"unaffected": ">=4.3.2"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-400"
+					],
+					"CVE": [],
+					"NSP": 31
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/31"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://semver_20150403_0_0_c80180d8341a8ada0236815c29a2be59864afd70.patch"
+						],
+						"version": "<4.3.2 >= 2.0.2",
+						"modificationTime": "2015-04-03T16:00:00.000Z",
+						"comments": [
+							"https://github.com/npm/node-semver/commit/c80180d8341a8ada0236815c29a2be59864afd70.patch"
+						],
+						"id": "patch:npm:semver:20150403:0"
+					}
+				],
+				"moduleName": "semver",
+				"creationTime": "2015-04-03T16:00:00.000Z",
+				"publicationTime": "2015-04-03T16:00:00.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:semver:20150403"
+			}
+		],
+		"send": [
+			{
+				"title": "send Directory Traversal",
+				"credit": [
+					"Ilya Kantor"
+				],
+				"description": "## Overview:\nWhen relying on the root option to restrict file access it may be possible for an application consumer to escape out of the restricted directory and access files in a similarly named directory. For example, `static(_dirname + '/public')` would allow access to `_dirname + '/public-restricted'`.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\nUpgrade to a version greater than or equal to 0.8.4.\n\n## References:\n- https://github.com/visionmedia/send/pull/59\n- https://github.com/visionmedia/send/commit/9c6ca9b2c0b880afd3ff91ce0d211213c5fa5f9a\n",
+				"semver": {
+					"vulnerable": "< 0.8.4",
+					"unaffected": ">= 0.8.4"
+				},
+				"CVSSv3": "",
+				"severity": "high",
+				"identifiers": {
+					"CWE": [
+						"CWE-23"
+					],
+					"CVE": [
+						"CVE-2014-6394"
+					],
+					"NSP": 32
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/32"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://send_20140912_0_0_9c6ca9b2c0b880afd3ff91ce0d211213c5fa_snyk.patch"
+						],
+						"version": "< 0.8.4 >=0.7.3",
+						"modificationTime": "2014-09-12T05:06:33.000Z",
+						"comments": [],
+						"id": "patch:npm:send:20140912:0"
+					}
+				],
+				"moduleName": "send",
+				"creationTime": "2014-09-12T05:06:33.000Z",
+				"publicationTime": "2014-09-12T05:06:33.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:send:20140912"
+			},
+			{
+				"title": "Root Path Disclosure",
+				"credit": [
+					"Dinis Cruz"
+				],
+				"creationTime": "2015-11-06T02:09:36.183Z",
+				"modificationTime": "2015-11-06T02:09:36.183Z",
+				"publicationTime": "2015-11-03T07:12:20.676Z",
+				"description": "## Overview\n[Send](https://www.npmjs.com/package/send) is a library for streaming files from the file system as an http response. It supports partial responses (Ranges), conditional-GET negotiation, high test coverage, and granular events which may be leveraged to take appropriate actions in your application or framework.\n\nA root path disclosure vulnerability exists in `send` version prior to Versions prior to 0.11.1.\n\n## Recommendation\nUpdate `send` to version 0.11.1. or greater. \n\nIf direct dependency update is not possible, use [snyk wizard](https://snyk.io/documentation/#wizard) to patch agains this vulnerability.\n\n## References\n- https://github.com/pillarjs/send/pull/70\n- https://github.com/pillarjs/send/commit/98a5b89982b38e79db684177cf94730ce7fc7aed\n- https://github.com/expressjs/serve-static/blob/master/HISTORY.md#181--2015-01-20\n- http://expressjs.com/advanced/security-updates.html\n",
+				"semver": {
+					"vulnerable": "<0.11.1",
+					"unaffected": ">=0.11.1"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [],
+					"NSP": 56
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/56"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://send_20151103_0_1_98a5b89982b38e79db684177cf94730ce7fc7aed.patch"
+						],
+						"version": "<0.11.1 >=0.9.0",
+						"modificationTime": "2015-11-03T07:12:20.676Z",
+						"comments": [
+							"https://github.com/pillarjs/send/commit/98a5b89982b38e79db684177cf94730ce7fc7aed",
+							"https://github.com/dxa4481/send/commit/6adc607a908fb95892e39ca366222d8e2951a4a4"
+						],
+						"id": "patch:npm:send:20151103:0"
+					}
+				],
+				"moduleName": "send",
+				"id": "npm:send:20151103"
+			}
+		],
+		"sequelize": [
+			{
+				"title": "sequelize SQL Injection in Order",
+				"credit": [
+					"Levan Basharuli"
+				],
+				"description": "## Overview:\n\nSQL Injection is possible in an application using the npm module sequelize if untrusted user input is passed into the order parameter.\n\n\nExample:\n```\nTest.findAndCountAll({\nwhere: { id :1 },\norder : [['id', 'UNTRUSTED USER INPUT']]\n})\n```\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\n\nUpdate to version 2.0.0-rc8 or greater.\n\n## References:\n- https://github.com/sequelize/sequelize/issues/2906\n",
+				"semver": {
+					"vulnerable": "<=2.0.0-rc7",
+					"unaffected": ">=2.0.0-rc8"
+				},
+				"CVSSv2": "7.5 (HIGH) (AV:N/AC:L/Au:N/C:P/I:P/A:P)",
+				"CVSSv3": "",
+				"severity": "high",
+				"identifiers": {
+					"CWE": [
+						"CWE-89"
+					],
+					"CVE": [
+						"CVE-2015-1369"
+					],
+					"NSP": 33
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/33",
+					"https://github.com/sequelize/sequelize/issues/2906"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://sequelize_20150118_0_0_f6ff86f7af6e2d15906ad1511b234d19adcccb07_snyk.patch"
+						],
+						"version": "=2.0.0-rc7",
+						"modificationTime": "2015-01-18T20:00:00.000Z",
+						"comments": [],
+						"id": "patch:npm:sequelize:20150118:0"
+					}
+				],
+				"moduleName": "sequelize",
+				"creationTime": "2015-01-18T20:00:00.000Z",
+				"publicationTime": "2015-01-18T20:00:00.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:sequelize:20150118"
+			}
+		],
+		"serve-index": [
+			{
+				"title": "File and directory names are not escaped and can lead to XSS attacks",
+				"credit": [
+					"Ivan Kozik"
+				],
+				"description": "## Overview:\n\nWhen using serve-index middleware version < 1.6.3 file and directory names are not escaped in HTML output. If remote users can influence file or directory names, this can trigger a persistent XSS attack.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\n\n  * Update to version 1.6.3 or greater\n\n## References:\n- https://github.com/expressjs/serve-index/issues/28\n- https://www.owasp.org/index.php/Cross-site_Scripting_%28XSS%29\n",
+				"semver": {
+					"vulnerable": "<1.6.3",
+					"unaffected": ">=1.6.3"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-80"
+					],
+					"CVE": [],
+					"NSP": 34
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/34"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://serve-index_20150314_0_0_0d135e710d717d7d9a3a3994f611214fb42e2191_snyk.patch"
+						],
+						"version": "<1.6.3 >1.5.1",
+						"modificationTime": "2015-03-13T23:24:28.000Z",
+						"comments": [],
+						"id": "patch:npm:serve-index:20150314:0"
+					}
+				],
+				"moduleName": "serve-index",
+				"creationTime": "2015-03-13T23:24:28.000Z",
+				"publicationTime": "2015-03-13T23:24:28.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:serve-index:20150314"
+			}
+		],
+		"serve-static": [
+			{
+				"title": "serve-static Open Redirect",
+				"credit": [
+					"Pierre-Élie Fauché"
+				],
+				"description": "## Overview:\n\nWhen using serve-static middleware version < 1.7.2 and it's configured to mount at the root it creates an open redirect on the site.\n\nFor example:\nIf a user visits `http://example.com//www.google.com/%2e%2e` they will be redirected to `//www.google.com/%2e%2e`, which some browsers interpret as `http://www.google.com/%2e%2e`.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\n\n  * Update to version 1.7.2 or greater (or 1.6.5 if sticking to the 1.6.x line).\n  * Disable redirects if not using the feature with 'redirect: false' option and cannot upgrade.\n\n## References:\n- https://github.com/expressjs/serve-static/issues/26\n- https://www.owasp.org/index.php/Open_redirect\n",
+				"semver": {
+					"vulnerable": "<1.6.5 || >=1.7.0 <1.7.2",
+					"unaffected": "~1.6.5 || >=1.7.2"
+				},
+				"CVSSv3": "",
+				"severity": "low",
+				"identifiers": {
+					"CWE": [
+						"CWE-601"
+					],
+					"CVE": [
+						"CVE-2015-1164"
+					],
+					"NSP": 35
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/35"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://serve-static_20150113_0_0_0399e399935bab99530d6926094b4451438c2d50_snyk.patch"
+						],
+						"version": ">=1.7.0 <1.7.2",
+						"modificationTime": "2015-01-13T12:50:48.000Z",
+						"comments": [],
+						"id": "patch:npm:serve-static:20150113:0"
+					}
+				],
+				"moduleName": "serve-static",
+				"creationTime": "2015-01-13T12:50:48.000Z",
+				"publicationTime": "2015-01-13T12:50:48.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:serve-static:20150113"
+			},
+			{
+				"title": "root path disclosure vulnerability in express.static",
+				"credit": [],
+				"description": "## Overview:\n\nroot path disclosure vulnerability in express.static, res.sendfile, and res.sendFile\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\n\n  * Update to version 1.8.1 or greater.\n\n## References:\n- http://expressjs.com/ja/advanced/security-updates.html\n- https://github.com/expressjs/serve-static/commit/30fe8b1596e8879923610c0421598669c39aecc2\n- https://github.com/expressjs/serve-static/blob/master/HISTORY.md#181--2015-01-20\n",
+				"semver": {
+					"vulnerable": "<1.8.1",
+					"unaffected": ">=1.8.1"
+				},
+				"CVSSv3": "",
+				"severity": "low",
+				"identifiers": {
+					"CWE": [
+						"CWE-211"
+					],
+					"CVE": [],
+					"NSP": ""
+				},
+				"info": [
+					"https://github.com/expressjs/serve-static/blob/856c5e0f796a8988525c356018594bfb8c51a4fa/HISTORY.md#181--2015-01-20",
+					"http://expressjs.com/advanced/security-updates.html"
+				],
+				"patches": [],
+				"moduleName": "serve-static",
+				"creationTime": "2015-01-20T04:46:45.000Z",
+				"publicationTime": "2015-01-20T04:46:45.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:serve-static:20150120"
+			}
+		],
+		"snyk-litmus-test": [
+			{
+				"title": "Sample vulnerability",
+				"credit": [
+					"Snyk"
+				],
+				"description": "Description",
+				"semver": {
+					"vulnerable": "< 0.0.1",
+					"unaffected": ">= 0.0.2"
+				},
+				"CVSSv3": "",
+				"severity": "low",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [],
+					"NSP": ""
+				},
+				"info": [],
+				"patches": [],
+				"moduleName": "snyk-litmus-test",
+				"creationTime": "2015-11-06T02:09:36.180Z",
+				"publicationTime": "2015-11-06T02:09:36.180Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:snyk-litmus-test:20150101"
+			}
+		],
+		"st": [
+			{
+				"title": "st directory traversal",
+				"credit": [
+					"Isaac Schlueter"
+				],
+				"description": "## Overview:\nVersions prior to 0.2.5 did not properly prevent folder traversal. Literal dots in a path were resolved out, but url encoded dots were not. Thus, a request like ``` /%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd ``` would leak sensitive data from the server.\n\nAs of version 0.2.5, any ```'/../'``` in the request path, urlencoded or not, will be replaced with ```'/'```. If your application depends on url traversal, then you are encouraged to please refactor so that you do not depend on having ```..``` in url paths, as this tends to expose data that you may be surprised to be exposing.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\n- Upgrade to version 0.2.5 or greater.\n\n## References:\n- https://github.com/isaacs/st#security-status\n",
+				"semver": {
+					"vulnerable": "<0.2.5",
+					"unaffected": ">=0.2.5"
+				},
+				"CVSSv3": "",
+				"severity": "high",
+				"identifiers": {
+					"CWE": [
+						"CWE-22"
+					],
+					"CVE": [
+						"CVE-2014-3744"
+					],
+					"NSP": 36
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/36"
+				],
+				"patches": [],
+				"moduleName": "st",
+				"creationTime": "2014-02-06T07:33:48.000Z",
+				"publicationTime": "2014-02-06T07:33:48.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:st:20140206"
+			}
+		],
+		"syntax-error": [
+			{
+				"title": "syntax-error potential for script injection",
+				"credit": [
+					"Cal Leeming"
+				],
+				"description": "## Overview:\n\nThe below overview of the issue is quoted from https://github.com/substack/node-browserify/blob/master/changelog.markdown#421\n\nMake sure your installation of browserify is using syntax-error@1.1.1 or later. there was a security vulnerability where a malicious file could execute code when browserified.\n\nThe vulnerability involves breaking out of Function(), which was used to check syntax for more informative errors. In node 0.10, Function() seems to be implemented in terms of eval(), so malicious code can execute even if the function returned by Function() was never called. node 0.11 does not appear to be vulnerable.\n\nThanks to Cal Leeming [cal@iops.io] for discovering and disclosing this bug!\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\nUpdate to version 1.1.1 or greater. If this is being used in conjunction with browserify, update browserify to 4.2.1 or greater.\n\n## References:\n[Browserify 4.2.1 Update](https://github.com/substack/node-browserify/blob/master/changelog.markdown#421)\n",
+				"semver": {
+					"vulnerable": "< 1.1.1",
+					"unaffected": ">= 1.1.1"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-94"
+					],
+					"CVE": [],
+					"NSP": 37
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/37"
+				],
+				"patches": [],
+				"moduleName": "syntax-error",
+				"creationTime": "2014-07-15T06:33:48.000Z",
+				"publicationTime": "2014-07-15T06:33:48.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:syntax-error:20140715"
+			}
+		],
+		"tar": [
+			{
+				"title": "Symlink Arbitrary File Overwrite",
+				"credit": [
+					"Tim Cuthbertson"
+				],
+				"creationTime": "2015-11-06T02:09:36.182Z",
+				"modificationTime": "2015-11-06T02:09:36.182Z",
+				"publicationTime": "2015-11-03T07:15:12.900Z",
+				"description": "## Overview\nThe [`tar`](https://www.npmjs.com/package/tar) module does not properly normalize symbolic links pointing to targets outside the extraction root. As a result, packages may hold symbolic links to parent and sibling directories and overwrite those files when the package is extracted.\n\n## Recommendation\nUpdate to version 2.0.0 or greater. \nIf a direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/documentation/#wizard) to patch this vulnerability.\n\n## References\n- https://github.com/npm/node-tar/commit/5e6356e0ca256cba659ff24d0befbfe753a04cb6\n- https://github.com/npm/npm/releases/tag/v2.7.5\n",
+				"semver": {
+					"vulnerable": "<2.0.0",
+					"unaffected": ">=2.0.0"
+				},
+				"CVSSv3": "",
+				"severity": "high",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [],
+					"NSP": 57
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/57"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://tar_20151103_0_0_a5337a6cd58a2d800fc03b3781a25751cf459f28_snyk.patch"
+						],
+						"version": "<2.0.0 >=0.1.13",
+						"modificationTime": "2015-11-17T09:29:10.000Z",
+						"comments": [
+							"https://github.com/npm/node-tar/commit/a5337a6cd58a2d800fc03b3781a25751cf459f28.patch"
+						],
+						"id": "patch:npm:tar:20151103:0"
+					},
+					{
+						"urls": [
+							"file://tar_20151103_0_1_a5337a6cd58a2d800fc03b3781a25751cf459f28_snyk.patch"
+						],
+						"version": "<0.1.13 >0.0.1",
+						"modificationTime": "2015-11-17T09:29:10.000Z",
+						"comments": [
+							"https://github.com/npm/node-tar/commit/a5337a6cd58a2d800fc03b3781a25751cf459f28.patch"
+						],
+						"id": "patch:npm:tar:20151103:1"
+					}
+				],
+				"moduleName": "tar",
+				"id": "npm:tar:20151103"
+			}
+		],
+		"tomato": [
+			{
+				"title": "Tomato API Admin Auth Weakness",
+				"credit": [
+					"Adam Baldwin"
+				],
+				"description": "## Overview:\nTomato is a Node.js web framework.\n\nThe tomato API has an admin service that is enabled by setting up an access_key in the config options. This access_key is intended to protect the API admin from unauthorized access.\n\nThe key is checked by checking to see if the access_key provided in the request is within the configured access_key string, not equal to. So a single character that's within the access key is sufficient to bypass this control.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n### Example:\nThis is the snippet of code that does the comparison to authorize requests.\n\n```\nif (access_key && config.master.api.access_key.indexOf(access_key) !== -1) {\n```\n\nFor an access_key that is set to anything that includes the letter 'a' the following request would be authorized.\n\n```\n$ curl -X POST \"http://localhost:8081/api/exec\" -H \"Content-Type: application/json\" -d @test -H \"access-key: a\"\n{\n \"cmd\": \"ls\",\n \"path\": \".\",\n \"stdout\": \"app.js\\nconfig.js\\nlog\\nnode_modules\\nserver.js\\n\",\n \"stderr\": \"\"\n}\n```\n\n### Mitigating factors:\n\nThe admin interface is disabled by default. The module author confirmed that the access_key should really be an array of access_keys, however based on variable name and documentation it was not clear that it should be an array. The vulnerability exists only if a string access_key is set.\n\nModule version 0.0.6 has been updated to ensure an array of keys is provided as well as documentation updates.\n",
+				"semver": {
+					"vulnerable": "<= 0.0.5",
+					"unaffected": ">= 0.0.6"
+				},
+				"CVSSv2": "6.8 (MEDIUM) (AV:N/AC:M/Au:N/C:P/I:P/A:P)",
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-305"
+					],
+					"CVE": [
+						"CVE-2013-7379"
+					],
+					"NSP": 38
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/38"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://tomato_20130307_0_0_9e427d524e04a905312a3294c85e939ed7d57b8c.patch"
+						],
+						"version": "<= 0.0.5 >=0.0.2",
+						"modificationTime": "2013-03-07T19:52:30.000Z",
+						"comments": [
+							"https://github.com/leizongmin/tomato/commit/9e427d524e04a905312a3294c85e939ed7d57b8c.patch"
+						],
+						"id": "patch:npm:tomato:20130307:0"
+					}
+				],
+				"moduleName": "tomato",
+				"creationTime": "2013-03-07T19:52:30.000Z",
+				"publicationTime": "2013-03-07T19:52:30.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:tomato:20130307"
+			}
+		],
+		"uglify-js": [
+			{
+				"title": "uglify-js incorrectly handles non-boolean comparisons during minification",
+				"credit": [
+					"Tom MacWright"
+				],
+				"description": "## Overview:\n[Tom MacWright](https://github.com/mishoo/UglifyJS2/issues/751) discovered that UglifyJS versions 2.4.23 and earlier are affected by a vulnerability which allows a specially crafted Javascript file to have altered functionality after minification. This bug was [demonstrated](https://zyan.scripts.mit.edu/blog/backdooring-js/) by [Yan](https://twitter.com/bcrypt) to allow potentially malicious code to be hidden within secure code, activated by minification.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n\n### Details:\n\nIn Boolean algebra, DeMorgan's laws describe the relationships between conjunctions ( && ), disjunctions ( || ) and negations ( ! ).\nIn Javascript form, they state that:\n !(a && b) === (!a) || (!b)\n !(a || b) === (!a) && (!b)\n\nThe law does not hold true when one of the values is not a boolean however.\n\nVulnerable versions of UglifyJS do not account for this restriction, and erroneously apply the laws to a statement if it can be reduced in length by it.\n\nConsider this authentication function:\n\n```\nfunction isTokenValid(user) {\n    var timeLeft =\n        !!config && // config object exists\n        !!user.token && // user object has a token\n        !user.token.invalidated && // token is not explicitly invalidated\n        !config.uninitialized && // config is initialized\n        !config.ignoreTimestamps && // don't ignore timestamps\n        getTimeLeft(user.token.expiry); // > 0 if expiration is in the future\n\n    // The token must not be expired\n    return timeLeft > 0;\n}\n\nfunction getTimeLeft(expiry) {\n  return expiry - getSystemTime();\n}\n```\nWhen minified with a vulnerable version of UglifyJS, it will produce the following insecure output, where a token will never expire:\n\n( Formatted for readability )\n\n```\nfunction isTokenValid(user) {\n    var timeLeft = !(                       // negation\n        !config                             // config object does not exist\n        || !user.token                      // user object does not have a token\n        || user.token.invalidated           // token is explicitly invalidated\n        || config.uninitialized             // config isn't initialized\n        || config.ignoreTimestamps          // ignore timestamps\n        || !getTimeLeft(user.token.expiry)  // > 0 if expiration is in the future\n    );\n    return timeLeft > 0\n}\n\nfunction getTimeLeft(expiry) {\n    return expiry - getSystemTime()\n}\n```\n\n## Recommendations:\n\nUpgrade UglifyJS to version >= 2.4.24.\n\n## References:\n- https://zyan.scripts.mit.edu/blog/backdooring-js/\n- https://github.com/mishoo/UglifyJS2/issues/751\n",
+				"semver": {
+					"vulnerable": "<= 2.4.23",
+					"unaffected": ">= 2.4.24"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-95"
+					],
+					"CVE": [],
+					"NSP": 39
+				},
+				"info": [
+					"https://github.com/mishoo/UglifyJS2/issues/751",
+					"https://github.com/tmcw/mdast-uglify-bug"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://uglify-js_20150824_0_0_905b6011784ca60d41919ac1a499962b7c1d4b02_snyk.patch"
+						],
+						"version": "<= 2.4.23 >2.0.0",
+						"modificationTime": "2015-08-24T09:29:10.000Z",
+						"comments": [],
+						"id": "patch:npm:uglify-js:20150824:0"
+					}
+				],
+				"moduleName": "uglify-js",
+				"creationTime": "2015-08-24T09:29:10.000Z",
+				"publicationTime": "2015-08-24T09:29:10.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:uglify-js:20150824"
+			},
+			{
+				"title": "Regular Expression Denial of Service",
+				"credit": [
+					"Adam Baldwin"
+				],
+				"creationTime": "2015-11-06T02:09:36.186Z",
+				"modificationTime": "2015-11-06T02:09:36.186Z",
+				"publicationTime": "2015-10-24T21:01:32.155Z",
+				"description": "## Overview\n`parse()` function in [`uglify-js`](https://www.npmjs.com/package/uglify-js) module is vulnerable to regular expression denial of service (ReDoS) attacks when long inputs of certain patters are processed.\n\n\"The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time.\" [1](https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS)\n\n\n## Recommendation\nUpdate to version 2.6.0 or greater. \nIf a direct dependency update is not possible, use `snyk wizard` to patch this vulnerability.\n\n## References\n- https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS\n",
+				"semver": {
+					"vulnerable": "<2.6.0",
+					"unaffected": ">=2.6.0"
+				},
+				"CVSSv3": "",
+				"severity": "low",
+				"identifiers": {
+					"CWE": [
+						"CWE-400"
+					],
+					"CVE": [],
+					"NSP": 48
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/48"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://uglify-js_20151024_0_0_63d35f8_snyk_inc.patch"
+						],
+						"version": "<= 2.4.23 >=2.2.0",
+						"modificationTime": "2015-11-16T09:29:10.000Z",
+						"comments": [
+							"https://github.com/mishoo/UglifyJS2/commit/63d35f8.patch"
+						],
+						"id": "patch:npm:uglify-js:20151024:0"
+					},
+					{
+						"urls": [
+							"file://uglify-js_20151024_0_0_63d35f8_snyk.patch"
+						],
+						"version": "<2.6.0 >2.4.23",
+						"modificationTime": "2015-11-16T09:29:10.000Z",
+						"comments": [
+							"https://github.com/mishoo/UglifyJS2/commit/63d35f8.patch"
+						],
+						"id": "patch:npm:uglify-js:20151024:1"
+					}
+				],
+				"moduleName": "uglify-js",
+				"id": "npm:uglify-js:20151024"
+			}
+		],
+		"ungit": [
+			{
+				"title": "ungit command injection",
+				"credit": [
+					"CodingTwinky"
+				],
+				"description": "## Overview:\nDue to the use of `child_process.exec` when executing git commands, ungit allows for commands to be injection from user input fields that end up in an executed git command.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\n\nUpdate to the version >=0.9.0\n\n## References:\n- https://github.com/FredrikNoren/ungit/issues/486\n",
+				"semver": {
+					"vulnerable": "<=0.8.4",
+					"unaffected": ">=0.9.0"
+				},
+				"CVSSv3": "",
+				"severity": "high",
+				"identifiers": {
+					"CWE": [],
+					"CVE": [
+						"CVE-2015-4130"
+					],
+					"NSP": 40
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/40"
+				],
+				"patches": [],
+				"moduleName": "ungit",
+				"creationTime": "2015-01-22T07:33:48.000Z",
+				"publicationTime": "2015-01-22T07:33:48.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:ungit:20150122"
+			}
+		],
+		"validator": [
+			{
+				"title": "validator isURL Regular Expression Denial of Service",
+				"credit": [
+					"Karl Düüna"
+				],
+				"description": "## Overview:\n\nThe validator module, versions < 3.22.1 are vulnerable to Regular Expression Denial of Service ([ReDoS](http://en.wikipedia.org/wiki/ReDoS)).\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\n\nUpdate to version 3.22.1 or greater.\n\n## References:\n- [Analysis of Node.js platform web application security (pdf)](http://lab.cs.ttu.ee/dl93)\n- https://github.com/chriso/validator.js/issues/152#issuecomment-48107184\n- http://en.wikipedia.org/wiki/ReDoS\n",
+				"semver": {
+					"vulnerable": "<3.22.1",
+					"unaffected": ">=3.22.1"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-400"
+					],
+					"CVE": [
+						"CVE-2014-8882"
+					],
+					"NSP": 42
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/42"
+				],
+				"patches": [],
+				"moduleName": "validator",
+				"creationTime": "2014-11-12T08:45:48.000Z",
+				"publicationTime": "2014-11-12T08:45:48.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:validator:20130705"
+			},
+			{
+				"title": "Validator XSS Filter Bypass via Encoded URL",
+				"credit": [
+					"taku0"
+				],
+				"description": "## Overview:\nThe validator module for Node.js contains functionality meant to filter potential XSS attacks (a filter called xss). A method of\nbypassing the filter via an encoded URL has been publicly disclosed. In general, because the function’s filtering is blacklist-based it is likely that other bypasses will be discovered in the future. Developers are encouraged not to use the xss filter function in this package.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n### Details:\nThe xss() function removes the word \"javascript\" when contained inside an attribute. However, it does not properly handle cases where\ncharacters have been hex-encoded. As a result, it is possible to build an input that bypasses the filter but which the browser will accept as valid JavaScript.\n\nFor example, browsers interpret <a href=\"jav&#x61;script:...\">abc</a> as <a href=\"javascript:...\">abc</a>.\n\n## Recommendations:\nUpgrade to the latest version of this library. However, it should be noted that the fix for this vulnerability was to remove the xss filter functionality. Seek another library to provide proper output encoding.\n\n## References:\n- https://github.com/chriso/validator.js/issues/181\n- Related advisory\n",
+				"semver": {
+					"vulnerable": "<2.0.0",
+					"unaffected": ">=2.0.0"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-79"
+					],
+					"CVE": [],
+					"NSP": 43
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/43"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://validator_20130705-1_0_0_2d5d6999541add350fb396ef02dc42ca3215049e_snyk.patch"
+						],
+						"version": "<2.0.0 >=1.5.1",
+						"modificationTime": "2014-10-27T06:33:48.000Z",
+						"comments": [],
+						"id": "patch:npm:validator:20130705-1:0"
+					}
+				],
+				"moduleName": "validator",
+				"creationTime": "2014-10-27T06:33:48.000Z",
+				"publicationTime": "2014-10-27T06:33:48.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:validator:20130705-1"
+			},
+			{
+				"title": "Multiple XSS Filter Bypasses",
+				"credit": [
+					"Neal Poole",
+					"Krzysztof Kotowicz"
+				],
+				"description": "## Overview:\nThe validator module for Node.js contains functionality meant to filter potential XSS attacks (a filter called xss). Several ways to bypass the filter were discovered. In general, because the function’s filtering is blacklist-based it is likely that other bypasses will be discovered in the future. Developers are encouraged not to use the xss filter function in this package.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n### Details:\nVarious inputs that could bypass the filter were discovered:\n\nImproper parsing of nested tags:\n\n```\n<s <onmouseover=\"alert(1)\"> <;s onmouseover=\"alert(1)\">This is a test</s>\n```\n\nIncomplete filtering of javascript: URIs:\n\n```\n<a href=\"javascriptJ a V a S c R iPt::alert(1)\" \"<s>\">test</a>\n```\n\nUI Redressing:\n\n```\n<div style=\"z-index: 9999999; background-color: green; width: 100%; height: 100%\">\n<h1>You have won</h1>Please click the link and enter your login details:\n<a href=\"http://example.com/\">http://good.com</a>\n</div>\n```\n\nBypass via Nested Forbidden Strings:\n\n```\n<scrRedirecRedirect 302t 302ipt type=\"text/javascript\">prompt(1);</scrRedirecRedirect 302t 302ipt>\n```\n\nAdditional bypasses were discovered by Krzysztof Kotowicz in 2012 when auditing CodeIgniter's XSS filtering function, which this code was based off of.\n\n## Recommendations:\nIf you are a developer currently using the xss filter function from the validator package, you should consider replacing it with the escape filter function from the same package. This function replaces all instances of angle brackets (<, >), ampersands, and quotation marks, so no HTML tags will be processed.\n\n## References:\n\n- [XSS Filter Bypass in validator Node.js Module](https://nealpoole.com/blog/2013/07/xss-filter-bypass-in-validator-nodejs-module/)\n- [CodeIgniter <= 2.1.1 xss_clean() Cross Site Scripting filter bypass](http://blog.kotowicz.net/2012/07/codeigniter-210-xssclean-cross-site.html)\n",
+				"semver": {
+					"vulnerable": "< 1.1.1",
+					"unaffected": ">= 1.1.1"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-79"
+					],
+					"CVE": [],
+					"NSP": 41
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/41"
+				],
+				"patches": [],
+				"disabled": true,
+				"moduleName": "validator",
+				"creationTime": "2013-07-05T09:29:10.000Z",
+				"publicationTime": "2013-07-05T09:29:10.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:validator:20130705-2"
+			}
+		],
+		"yar": [
+			{
+				"title": "Yar Denial-of-Service",
+				"credit": [
+					"Reid Burke"
+				],
+				"description": "## Overview:\nYar uses an encrypted cookie for session support, during the hapi request/reply flow if this cookie value is invalid (changed by the end-user), a request object variable is not set. In versions prior 2.2.0, the presence of this variable was not validated prior to use, resulting in an unhandled ReferenceError, which in most cases will crash the process.\n\n_Original description taken from the [Node Security Project](https://nodesecurity.io/)_\n\n## Recommendations:\nUpdate to a version 2.2.0 or greater.\n\n## References:\n- https://github.com/spumko/yar/issues/34\n",
+				"semver": {
+					"vulnerable": "<2.2.0",
+					"unaffected": ">=2.2.0"
+				},
+				"CVSSv3": "",
+				"severity": "medium",
+				"identifiers": {
+					"CWE": [
+						"CWE-400"
+					],
+					"CVE": [
+						"CVE-2014-4179"
+					],
+					"NSP": 44
+				},
+				"info": [
+					"https://nodesecurity.io/advisories/44"
+				],
+				"patches": [
+					{
+						"urls": [
+							"file://yar_20140616_0_0_66b981a47655bef2fed84f90b86fc5b43edaea8e.patch"
+						],
+						"version": "<2.2.0 >=0.3.0",
+						"modificationTime": "2014-06-16T09:29:10.000Z",
+						"comments": [
+							"https://github.com/hapijs/yar/commit/66b981a47655bef2fed84f90b86fc5b43edaea8e.patch"
+						],
+						"id": "patch:npm:yar:20140616:0"
+					}
+				],
+				"moduleName": "yar",
+				"creationTime": "2014-06-16T09:29:10.000Z",
+				"publicationTime": "2014-06-16T09:29:10.000Z",
+				"modificationTime": "2015-11-06T02:09:36.180Z",
+				"id": "npm:yar:20140616"
+			}
+		]
+	}
+}

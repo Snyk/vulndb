@@ -1,0 +1,36 @@
+// code derived from https://github.com/chjj/marked
+diff --git a/lib/marked.js b/lib/marked.js
+index 4777136..d201000 100644
+--- a/lib/marked.js
++++ b/lib/marked.js
+@@ -848,7 +848,9 @@ Renderer.prototype.del = function(text) {
+ Renderer.prototype.link = function(href, title, text) {
+   if (this.options.sanitize) {
+     try {
+-      var prot = decodeURIComponent(href).replace(/[^\w:]/g, '').toLowerCase();
++      var prot = decodeURIComponent(unescape(href))
++        .replace(/[^\w:]/g, '')
++        .toLowerCase();
+     } catch (e) {
+       return '';
+     }
+@@ -1066,6 +1068,19 @@ function escape(html, encode) {
+     .replace(/'/g, '&#39;');
+ }
+ 
++function unescape(html) {
++  return html.replace(/&([#\w]+);/g, function(_, n) {
++    n = n.toLowerCase();
++    if (n === 'colon') return ':';
++    if (n.charAt(0) === '#') {
++      return n.charAt(1) === 'x'
++        ? String.fromCharCode(parseInt(n.substring(2), 16))
++        : String.fromCharCode(+n.substring(1));
++    }
++    return '';
++  });
++}
++
+ function replace(regex, opt) {
+   regex = regex.source;
+   opt = opt || '';

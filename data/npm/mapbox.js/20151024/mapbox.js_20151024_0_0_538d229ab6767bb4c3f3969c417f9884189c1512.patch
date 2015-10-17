@@ -1,0 +1,48 @@
+// code derived from: https://github.com/mapbox/mapbox.js
+diff --git a/src/map.js b/src/map.js
+index 93e7de6..c5e6098 100644
+--- a/src/map.js
++++ b/src/map.js
+@@ -27,7 +27,8 @@ var LMap = L.Map.extend({
+         legendControl: {},
+         gridControl: {},
+         infoControl: false,
+-        shareControl: false
++        shareControl: false,
++        sanitizer: require('sanitize-caja')
+     },
+
+     _tilejson: {},
+@@ -143,7 +144,7 @@ var LMap = L.Map.extend({
+         }
+
+         if (this.infoControl && json.attribution) {
+-            this.infoControl.addInfo(json.attribution);
++            this.infoControl.addInfo(this.options.sanitizer(json.attribution));
+             this._updateMapFeedbackLink();
+         }
+
+diff --git a/src/tile_layer.js b/src/tile_layer.js
+index 1cb1e42..3417318 100644
+--- a/src/tile_layer.js
++++ b/src/tile_layer.js
+@@ -6,6 +6,10 @@ var formatPattern = /\.((?:png|jpg)\d*)(?=$|\?)/;
+ var TileLayer = L.TileLayer.extend({
+     includes: [require('./load_tilejson')],
+
++    options: {
++        sanitizer: require('sanitize-caja')
++    },
++
+     // http://mapbox.com/developers/api/#image_quality
+     formats: [
+         'png', 'jpg',
+@@ -46,7 +50,7 @@ var TileLayer = L.TileLayer.extend({
+
+         L.extend(this.options, {
+             tiles: json.tiles,
+-            attribution: json.attribution,
++            attribution: this.options.sanitizer(json.attribution),
+             minZoom: json.minzoom || 0,
+             maxZoom: json.maxzoom || 18,
+             tms: json.scheme === 'tms',

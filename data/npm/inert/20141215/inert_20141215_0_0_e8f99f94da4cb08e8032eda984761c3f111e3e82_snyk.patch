@@ -1,0 +1,14 @@
+// code derived from https://github.com/hapijs/inert
+diff --git a/lib/directory.js b/lib/directory.js
+index 8880676..e15c78c 100755
+--- a/lib/directory.js
++++ b/lib/directory.js
+@@ -229,7 +229,7 @@ internals.generateListing = function (path, resource, selection, hasTrailingSlas
+
+ internals.isFileHidden = function (path) {
+
+-    return /^\./.test(Path.basename(path));
++    return /(^|[\\\/])\.([^\\\/]|[\\\/]?$)/.test(path);           // Starts with a '.' or contains '/.' or '\.', and not followed by a '/' or '\' or end
+ };
+
+ 

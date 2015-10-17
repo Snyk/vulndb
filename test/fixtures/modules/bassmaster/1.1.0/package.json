@@ -1,0 +1,16 @@
+{
+  "name": "1.1.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bassmaster": "^1.1.0",
+    "hapi": "^11.1.2"
+  }
+}

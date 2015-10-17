@@ -1,0 +1,12 @@
+url: https://www.mapbox.com
+api: https://www.mapbox.com/core
+tileApi: https://api.tiles.mapbox.com
+source: docs
+permalink: /:categories/:title
+baseurl: /mapbox.js
+highlighter: pygments
+mapboxjs: v2.1.5
+defaultid: 'examples.map-i86nkdio'
+rdiscount:
+  extensions: [smart]
+exclude: [dist]

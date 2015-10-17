@@ -1,0 +1,14 @@
+// code derived from https://github.com/chjj/marked
+diff --git a/lib/marked.js b/lib/marked.js
+index 2a53e79..d6d003e 100644
+--- a/lib/marked.js
++++ b/lib/marked.js
+@@ -761,7 +761,7 @@ Renderer.prototype.code = function(code, lang, escaped, options) {
+     + options.langPrefix
+     + escape(lang, true)
+     + '">'
+-    + (escaped ? code : escape(code))
++    + (escaped ? code : escape(code, true))
+     + '\n</code></pre>\n';
+ };
+ 

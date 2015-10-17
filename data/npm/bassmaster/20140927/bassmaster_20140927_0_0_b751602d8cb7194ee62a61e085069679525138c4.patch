@@ -1,0 +1,25 @@
+// code derived from: https://github.com/hapijs/bassmaster
+// reference: https://github.com/hapijs/bassmaster/commit/b751602d8cb7194ee62a61e085069679525138c4
+diff --git a/lib/batch.js b/lib/batch.js
+index fe98963..e0cbabf 100644
+--- a/lib/batch.js
++++ b/lib/batch.js
+@@ -146,16 +146,10 @@ internals.batch = function (batchRequest, resultsData, pos, parts, callback) {
+             var ref = resultsData.resultsMap[parts[i].index];
+ 
+             if (ref) {
+-                var value = null;
+-
+-                try {
+-                    eval('value = ref.' + parts[i].value + ';');
+-                }
+-                catch (e) {
+-                    error = new Error(e.message);
+-                }
++                var value = ref[parts[i].value]||null;
+ 
+                 if (value) {
++
+                     if (value.match && value.match(/^[\w:]+$/)) {
+                         path += value;
+                     }

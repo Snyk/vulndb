@@ -1,0 +1,15 @@
+// code derived from: https://github.com/jashkenas/backbone
+// reference: https://github.com/jashkenas/backbone/commit/0cdc525961d3fa98e810ffae6bcc8e3838e36d93
+diff --git a/backbone.js b/backbone.js
+index 98ba0dd..47e85ae 100644
+--- a/backbone.js
++++ b/backbone.js
+@@ -1079,7 +1079,7 @@
+ 
+   // Helper function to escape a string for HTML rendering.
+   var escapeHTML = function(string) {
+-    return string.replace(/&(?!\w+;)/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
++    return string.replace(/&(?!\w+;|#\d+;|#x[\da-f]+;)/gi, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+   };
+ 
+ }).call(this);

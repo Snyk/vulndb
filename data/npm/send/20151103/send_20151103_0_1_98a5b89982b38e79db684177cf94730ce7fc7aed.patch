@@ -1,0 +1,27 @@
+// Code derived from https://github.com/pillarjs/send
+diff --git a/index.js b/index.js
+index 64b6d64..f63081d 100644
+--- a/index.js
++++ b/index.js
+@@ -415,16 +415,16 @@ SendStream.prototype.pipe = function(res){
+
+   var parts
+   if (root !== null) {
+-    // join / normalize from optional root dir
+-    path = normalize(join(root, path))
+-    root = normalize(root + sep)
+-
+     // malicious path
+-    if ((path + sep).substr(0, root.length) !== root) {
++    if (upPathRegexp.test(normalize('.' + sep + path))) {
+       debug('malicious path "%s"', path)
+       return this.error(403)
+     }
+
++    // join / normalize from optional root dir
++    path = normalize(join(root, path))
++    root = normalize(root + sep)
++
+     // explode path parts
+     parts = path.substr(root.length).split(sep)
+   } else {

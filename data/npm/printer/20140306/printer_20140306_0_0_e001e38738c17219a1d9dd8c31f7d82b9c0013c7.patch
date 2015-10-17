@@ -1,0 +1,15 @@
+// code derived from http://github.com/tojocky/node-printer
+// reference: https://github.com/tojocky/node-printer/commit/e001e38738c17219a1d9dd8c31f7d82b9c0013c7.patch
+diff --git a/lib/printer.js b/lib/printer.js
+index a184034..6cb06da 100644
+--- a/lib/printer.js
++++ b/lib/printer.js
+@@ -93,7 +93,7 @@ function printDirect(parameters){
+     }else if (!printer_helper.printDirect){// should be POSIX
+         var temp_file_name = path.join(os.tmpDir(),"printing");
+         fs.writeFileSync(temp_file_name, data);
+-        child_process.exec('lpr -P'+printer+' -oraw -r'+' '+temp_file_name, function(err, stdout, stderr){
++        child_process.execFile('lpr', ['-P' + printer, '-oraw', '-r', temp_file_name], function(err, stdout, stderr){
+             if (err !== null) {
+                 error('ERROR: ' + err);
+                 return;

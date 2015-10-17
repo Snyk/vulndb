@@ -1,0 +1,23 @@
+@reference: https://github.com/rgrove/handlebars.js/commit/b291a1ad8c9a33f834d126450635f0b6ca546a0c
+diff --git a/lib/handlebars/utils.js b/lib/handlebars/utils.js
+index 981bb1f..1584986 100644
+--- a/lib/handlebars/utils.js
++++ b/lib/handlebars/utils.js
+@@ -16,11 +16,14 @@ Handlebars.SafeString.prototype.toString = function() {
+ (function() {
+   var escape = {
+     "<": "&lt;",
+-    ">": "&gt;"
++    ">": "&gt;",
++    '"': "&quot;",
++    "'": "&#x27;",
++    "/": "&#x2F;"
+   };
+ 
+-  var badChars = /&(?!\w+;)|[<>]/g;
+-  var possible = /[&<>]/
++  var badChars = /&(?!\w+;)|[<>"'\/]/g;
++  var possible = /[&<>"'\/]/;
+ 
+   var escapeChar = function(chr) {
+     return escape[chr] || "&amp;"

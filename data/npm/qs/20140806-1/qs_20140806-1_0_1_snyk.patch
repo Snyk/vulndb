@@ -1,0 +1,51 @@
+// code derived from https://github.com/hapijs/qs
+diff --git a/index.js b/index.js
+index 2c76fb1..5c8cd83 100644
+--- a/index.js
++++ b/index.js
+@@ -1,3 +1,6 @@
++const patchInternals = {
++    depth: 10
++};
+ 
+ /**
+  * Object#toString() ref for stringify().
+@@ -19,10 +22,10 @@ function promote(parent, key) {
+   return t;
+ }
+ 
+-function parse(parts, parent, key, val) {
++function parse(parts, parent, key, val, depth) {
+   var part = parts.shift();
+   // end
+-  if (!part) {
++  if (!part || depth == 0) {
+     if (Array.isArray(parent[key])) {
+       parent[key].push(val);
+     } else if ('object' == typeof parent[key]) {
+@@ -47,11 +50,14 @@ function parse(parts, parent, key, val) {
+     } else if (~part.indexOf(']')) {
+       part = part.substr(0, part.length - 1);
+       if (!isint.test(part) && Array.isArray(obj)) obj = promote(parent, key);
+-      parse(parts, obj, part, val);
++      if (depth) {
++        depth--;
++      }
++      parse(parts, obj, part, val, depth);
+       // key
+     } else {
+       if (!isint.test(part) && Array.isArray(obj)) obj = promote(parent, key);
+-      parse(parts, obj, part, val);
++      parse(parts, obj, part, val, depth);
+     }
+   }
+ }
+@@ -65,7 +71,7 @@ function merge(parent, key, val){
+     var parts = key.split('[')
+       , len = parts.length
+       , last = len - 1;
+-    parse(parts, parent, 'base', val);
++    parse(parts, parent, 'base', val, patchInternals.depth);
+     // optimize
+   } else {
+     if (!isint.test(key) && Array.isArray(parent.base)) {

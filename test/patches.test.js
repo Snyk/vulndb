@@ -49,7 +49,7 @@ function testVulnPatch(vulnDataFile, vuln, p, t) {
   }
 
   var fixtureModulePath = path.join('.', 'test',
-    'fixtures', 'modules', vuln.moduleName);
+    'fixtures', 'packages', vuln.moduleName);
 
 
   if (!fs.existsSync(fixtureModulePath)) {

@@ -34,6 +34,6 @@ Except for the assignment and licenses set forth in this Agreement, this Agreeme
 ## Miscellaneous
 English law governs this Agreement, excluding any applicable conflict of laws rules or principles, and the parties agree to the exclusive jurisdiction of the courts in England, UK. This Agreement does not create a partnership, agency relationship, or joint venture between the parties. We may assign this Agreement without notice or restriction. If any provision of this Agreement is unenforcable, that provision will be modified to render it enforceable to the extent possible to effect the parties' intention and the remaining provisions will not be affected. The parties may amend this Agreement only in a written amendment signed by both parties. This Agreement comprises the parties' entire agreement relating to the subject matter of this Agreement. 
 
-**Agreed and accepted on my behalf and on behalf of my organization by (.....)**
+**Agreed and accepted on my behalf and on behalf of my organization**
 
 Our contributor agreement is based on the [mongoDB contributor agreement] (https://www.mongodb.com/legal/contributor-agreement).

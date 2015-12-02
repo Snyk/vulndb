@@ -12,7 +12,7 @@ SAFE_BRANCH_NAME=`sanitize-branch ${TRAVIS_BRANCH}`
 PATCHES_URL_S3_PREFIX="https://s3.amazonaws.com/${ARTIFACTS_S3_BUCKET}/${ARTIFACTS_S3_UPLOAD_DIR}/${SAFE_BRANCH_NAME}/patches/"
 mkdir -p ${SNYK_TEMP_S3_DIR}/${SAFE_BRANCH_NAME}/patches
 
-DEBUG=snyk:* ./cli/shrink.js ./data/ ./${SNYK_TEMP_S3_DIR}/${SAFE_BRANCH_NAME}/snapshot.json --pdir ./${SNYK_TEMP_S3_DIR}/${SAFE_BRANCH_NAME}/patches --prefix ${PATCHES_URL_S3_PREFIX}
+DEBUG=snyk:* ./cli/shrink.js ./data/ ./${SNYK_TEMP_S3_DIR}/${SAFE_BRANCH_NAME}/${SNAPSHOT_FILENAME} --pdir ./${SNYK_TEMP_S3_DIR}/${SAFE_BRANCH_NAME}/patches --prefix ${PATCHES_URL_S3_PREFIX}
 
 ###############################################################
 # commit to snapshots branch

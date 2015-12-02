@@ -48,5 +48,5 @@ deploy:
   skip_cleanup: true
   acl: ${ARTIFACTS_S3_ACL}
   on:
-    repo: Snyk/advisories-internal
+    repo: ${TRAVIS_REPO_SLUG}
     branch: ${TRAVIS_BRANCH}

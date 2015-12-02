@@ -48,5 +48,4 @@ $ diff -Naur ./0.6.2/node_modules/ms/index.js ./0.7.0/node_modules/ms/index.js
 ```
 
 ## Contributor Agreement
-A patch will only be considered for merging into the upstream codebase after you have signed our contributor agreement, assigning us the rights to the contributed code and granting you a license to use it in return. Our agreement (based on [MongoDB's agreement](https://www.mongodb.com/legal/contributor-agreement)) will be posted here soon, in the meantime we'll send it to you via email when needed.
-
+A patch will only be considered for merging into the upstream codebase after you have signed our [contributor agreement] (https://github.com/Snyk/vulndb-internal/blob/develop/Contributor%20Agreement.md), assigning us the rights to the contributed code and granting you a license to use it in return. 

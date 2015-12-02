@@ -2,7 +2,6 @@
 
 Snyk Vulnerability Database
 ===========================
-[![Build Status](https://travis-ci.com/Snyk/advisories-internal.svg?token=ecXZUyxqMpsYRwvJtgpm&branch=develop)](https://travis-ci.com/Snyk/advisories-internal)
 
 This is the vulnerability database used by [Snyk](https://github.com/Snyk/snyk), a tool that helps you find and fix known vulnerabilities in your Node.js dependencies, both ad hoc and as part of your CI (Build) system.
 

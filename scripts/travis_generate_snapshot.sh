@@ -21,7 +21,7 @@ git config --global user.name "Travis-CI"
 git config --global user.email "noreply@travis-ci.org"
 git config --global push.default simple
 
-git clone --depth=50 --branch=${SNYK_SNAPSHOTS_BRANCH} git@github.com:${TRAVIS_REPO_SLUG}.git ${SNYK_TEMP_GIT_SNAPSHOTS_DIR}
+git clone --depth=50 --branch=${SNYK_SNAPSHOTS_BRANCH} https://${CI_USER_TOKEN}@github.com/${TRAVIS_REPO_SLUG} ${SNYK_TEMP_GIT_SNAPSHOTS_DIR}
 
 cp -rf ${SNYK_TEMP_S3_DIR}/* ${SNYK_TEMP_GIT_SNAPSHOTS_DIR}/
 cd ${SNYK_TEMP_GIT_SNAPSHOTS_DIR}

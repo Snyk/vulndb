@@ -39,8 +39,7 @@ branches:
 deploy:
   provider: s3
   access_key_id: ${AWS_ACCESS_KEY}
-  secret_access_key:
-    secure: Uzrli6N6+71NE73UJGwfOm37hegDkQ0LOD3gf3Cw53RTIxK2NmTajjKdtue/6n+JJaeNIrRjBeljPq7BIJnllIrJ48hZesmSe/YgCxPJgZlPzgQbkAR6I7VqGOZw5Pkn0MttEZmMBoMp4bdbe2JvJEjwolIu2YUjb4uRBstYu9eyNI9O5wNrvxlfnmm/MQv+ri1biujwsr1hzI+VfpK+3Gng+8XxCsmKBQAS/9xWq1/aT6rMJqnPNH/k0rAWwrZ0YjYcrYY/5qTsBulyISXQucKYOCqbEwElSCyyj3orDr4uctu6lBCwT22HV7OZGnBjNHQ44w3VaGBfWNNHkspc4YuGstZmQnyJpAowP1DFnh+KpusSiVf1HKaIIJvCprGLyNT4vvU6Eed91gJPLHCgo1mKSpNbaJVWqgf9f4VrBWkECi50CNXglJkhHWd0AN1y0INeckz6pdB5qA7BRXsUc/kMOfodXC+/Bk0zJ1WNnK+Cr+Y44dR5EVdBzchepOBZUU+CSQ4TomQnY8qG9ij4QWVzbjGoHrjLnwcQ2isMpiIqBOJvif0U2l5KUhTDVDjyR1k5xqdwBhg+Im4Bjeccl9oj3icptswTxbte2XPqI8t52JN4DQy632RALUHkz5F2ykLBV3bIl62GoCnSVS59oowCDaqqJKYgaCeNuJmAnfE=
+  secret_access_key: ${AWS_SECRET_ACCESS_KEY}
   region: ${ARTIFACTS_S3_REGION}
   bucket: ${ARTIFACTS_S3_BUCKET}
   local-dir: ${SNYK_TEMP_S3_DIR}

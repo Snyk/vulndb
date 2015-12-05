@@ -21,7 +21,15 @@ git config --global user.name "Travis-CI"
 git config --global user.email "noreply@travis-ci.org"
 git config --global push.default simple
 
-git clone --depth=50 --branch=${SNYK_SNAPSHOTS_BRANCH} https://${CI_USER_TOKEN}@github.com/${TRAVIS_REPO_SLUG} ${SNYK_TEMP_GIT_SNAPSHOTS_DIR}
+if [ "$TRAVIS_REPO_SLUG" == "$PUBLIC_REPO" ]; then
+  echo "Decrypting deploy key..."
+  openssl aes-256-cbc -K $encrypted_2dc3c05eaa30_key -iv $encrypted_2dc3c05eaa30_iv -in misc/deploy-key.enc -out ~/.ssh/id_rsa -d
+  chmod 600 ~/.ssh/id_rsa
+else 
+   echo "Travis should use deploy key only from the PUBLIC_REPO ($PUBLIC_REPO)"
+fi	
+ 
+git clone --depth=50 --branch=${SNYK_SNAPSHOTS_BRANCH} git@github.com:${TRAVIS_REPO_SLUG}.git ${SNYK_TEMP_GIT_SNAPSHOTS_DIR}
 
 cp -rf ${SNYK_TEMP_S3_DIR}/* ${SNYK_TEMP_GIT_SNAPSHOTS_DIR}/
 cd ${SNYK_TEMP_GIT_SNAPSHOTS_DIR}

@@ -1,10 +1,12 @@
-## Overview:
+## Overview
 
 Certain input when passed into remarkable will bypass the bad prototcol check that disallows the javascript: scheme allowing for javascript: url's to be injected into the rendered content.
 
-_Original description taken from the [Node Security Project](https://nodesecurity.io/)_
+_Source: [Node Security Project](https://nodesecurity.io/advisories/30)_
 
-### Example
+## Details
+
+**Example:**
 
 ```
 [link](<javascript:alert(1)>)
@@ -19,9 +21,10 @@ where as
 
 Would be rendered as `[link](javascript:alert(1))` because it's an invalid scheme.
 
-## Recommendations:
+## Remediation
 
 Upgrade to version 1.4.1 or greater
 
-## References:
+## References
+- https://nodesecurity.io/advisories/30
 - https://github.com/jonschlinkert/remarkable/issues/97

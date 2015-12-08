@@ -12,7 +12,8 @@ The regular expression used by the function to parse the time is vulnerable to a
 ## Remediation
 Upgrade `ms` to version 0.7.1. 
 
-If direct dependency update is not possible, use [snyk wizard](https://snyk.io/documentation/#wizard) to patch this vulnerability.
+If direct dependency upgrade is not possible, use [snyk wizard](https://snyk.io/documentation/#wizard) to patch this vulnerability.
 
 ## References
+- https://nodesecurity.io/advisories/46
 - https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS

@@ -1,4 +1,4 @@
-## Overview:
+## Overview
 Marked comes with an option to sanitize user output to help protect against content injection attacks.
 
 sanitize: true
@@ -9,7 +9,10 @@ Injection is possible in two locations
 - gfm codeblocks (language)
 - javascript url's
 
-_Original description taken from the [Node Security Project](https://nodesecurity.io/)_
+_Source: [Node Security Project](https://nodesecurity.io/advisories/22)_
 
-## Recommendations:
-- Upgrade to version 0.3.1 or later
+## Remediation
+Upgrade to version 0.3.1 or later
+
+## References
+- https://nodesecurity.io/advisories/22

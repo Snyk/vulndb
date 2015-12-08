@@ -1,10 +1,10 @@
-## Overview:
+## Overview
 [Tom MacWright](https://github.com/mishoo/UglifyJS2/issues/751) discovered that UglifyJS versions 2.4.23 and earlier are affected by a vulnerability which allows a specially crafted Javascript file to have altered functionality after minification. This bug was [demonstrated](https://zyan.scripts.mit.edu/blog/backdooring-js/) by [Yan](https://twitter.com/bcrypt) to allow potentially malicious code to be hidden within secure code, activated by minification.
 
-_Original description taken from the [Node Security Project](https://nodesecurity.io/)_
+_Source: [Node Security Project](https://nodesecurity.io/advisories/39)_
 
 
-### Details:
+### Details
 
 In Boolean algebra, DeMorgan's laws describe the relationships between conjunctions ( && ), disjunctions ( || ) and negations ( ! ).
 In Javascript form, they state that:
@@ -57,10 +57,12 @@ function getTimeLeft(expiry) {
 }
 ```
 
-## Recommendations:
+## Remediation
 
 Upgrade UglifyJS to version >= 2.4.24.
 
-## References:
+## References
+- https://nodesecurity.io/advisories/39
+- https://github.com/tmcw/mdast-uglify-bug
 - https://zyan.scripts.mit.edu/blog/backdooring-js/
 - https://github.com/mishoo/UglifyJS2/issues/751

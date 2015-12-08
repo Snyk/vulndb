@@ -1,9 +1,9 @@
-## Overview:
+## Overview
 The validator module for Node.js contains functionality meant to filter potential XSS attacks (a filter called xss). Several ways to bypass the filter were discovered. In general, because the function’s filtering is blacklist-based it is likely that other bypasses will be discovered in the future. Developers are encouraged not to use the xss filter function in this package.
 
-_Original description taken from the [Node Security Project](https://nodesecurity.io/)_
+_Source: [Node Security Project](https://nodesecurity.io/advisories/41)_
 
-### Details:
+### Details
 Various inputs that could bypass the filter were discovered:
 
 Improper parsing of nested tags:
@@ -35,10 +35,10 @@ Bypass via Nested Forbidden Strings:
 
 Additional bypasses were discovered by Krzysztof Kotowicz in 2012 when auditing CodeIgniter's XSS filtering function, which this code was based off of.
 
-## Recommendations:
+## Remediation
 If you are a developer currently using the xss filter function from the validator package, you should consider replacing it with the escape filter function from the same package. This function replaces all instances of angle brackets (<, >), ampersands, and quotation marks, so no HTML tags will be processed.
 
-## References:
-
+## References
+- https://nodesecurity.io/advisories/41
 - [XSS Filter Bypass in validator Node.js Module](https://nealpoole.com/blog/2013/07/xss-filter-bypass-in-validator-nodejs-module/)
 - [CodeIgniter <= 2.1.1 xss_clean() Cross Site Scripting filter bypass](http://blog.kotowicz.net/2012/07/codeigniter-210-xssclean-cross-site.html)

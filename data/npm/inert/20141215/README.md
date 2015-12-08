@@ -1,13 +1,14 @@
-## Overview:
+## Overview
 
 The inert directory handler always allows files in hidden directories to be served, even when `showHidden` is false.
 
-_Original description taken from the [Node Security Project](https://nodesecurity.io/)_
+_Source: [Node Security Project](https://nodesecurity.io/advisories/14)_
 
-## Recommendations:
+## Remediation
 
-Update to version >= 1.1.1.
+Ugrade to version >= 1.1.1.
 
-## References:
+## References
+- https://nodesecurity.io/advisories/14
 - https://github.com/hapijs/inert/pull/15
 - https://github.com/hapijs/inert/commit/e8f99f94da4cb08e8032eda984761c3f111e3e82

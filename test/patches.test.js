@@ -7,6 +7,7 @@ var exec = require('child_process');
 var util = require('util');
 
 function testVuln(vulnDataFile, t) {
+  console.log(vulnDataFile)
   var vuln = JSON.parse(fs.readFileSync(vulnDataFile));
   var id = path.parse(vulnDataFile).dir.split('/').slice(2).join(':');
   if (vuln.patches.length) {
@@ -94,7 +95,6 @@ function applyPatch(modulePath, patchPath) {
 
   return patch;
 }
-
 
 test('Test patches', function (t) {
   var vulnDataFiles = walkFiles('./data', 'data.json');

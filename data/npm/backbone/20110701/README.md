@@ -8,4 +8,5 @@ could execute arbitrary JavaScript in the context of the current domain
 
 This vulnerability has not been assigned CVE identifier.
 
-_Original description taken from the [Node Security Project](https://nodesecurity.io/)_
+## References
+- http://backbonejs.org/#changelog

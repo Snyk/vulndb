@@ -9,3 +9,4 @@ If a direct dependency update is not possible, use [`snyk wizard`](https://snyk.
 ## References
 - https://nodesecurity.io/advisories/60
 - https://www.npmjs.com/package/keystone
+- https://github.com/keystonejs/keystone/issues/1085

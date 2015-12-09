@@ -7,7 +7,7 @@ test('Fetching data dir', function (t) {
   t.plan(1);
 
   panda.fetch('./data/').then(function (snykDb) {
-    t.assert(snykDb.allIds().length > 84, 'more than 84 vulns found')
+    t.assert(snykDb.allIds().length > 82, 'more than 82 vulns found')
   }).catch(function (error) {
     t.fail(error);
   });

@@ -18,5 +18,3 @@
        return entityMap[s];
      });
    }
-diff --git a/test/_files/escaped.js b/test/_files/escaped.js
-index cd77c1f..e600959 100644

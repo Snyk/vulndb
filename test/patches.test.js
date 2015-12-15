@@ -73,7 +73,7 @@ function testVulnPatch(vulnDataFile, vuln, p, t) {
       path.join(fixtureModulePath, fv, 'node_modules', vuln.moduleName),
       patchPath);
 
-    if (patch.status == 0) {
+    if (patch.status == 0 && !patch.stdout.toString()) {
       t.pass(vuln.moduleName + '@' + fv);
     } else {
       var msg = util.format('Exited with %s while applying %s to %s@%s:\nout:%s\nerr:%s',
@@ -87,7 +87,7 @@ function testVulnPatch(vulnDataFile, vuln, p, t) {
 
 function applyPatch(modulePath, patchPath) {
   var patch = exec.spawnSync('patch',
-    ['-up1', '--verbose', '--dry-run', '-i', path.resolve(patchPath)],
+    ['-up1', '--silent', '--dry-run', '-i', path.resolve(patchPath)],
     {
       cwd: modulePath,
       env: process.env,

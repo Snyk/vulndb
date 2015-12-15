@@ -4,10 +4,21 @@ var tmp = require('tmp');
 var panda = require('../lib/panda-db');
 
 test('Fetching data dir', function (t) {
-  t.plan(1);
+  t.plan(2);
+
+  var tmpSnapshot = tmp.fileSync();
+  var options = {
+    srcDataDir: './data',
+    resolveReadme: true,
+  }
 
   panda.fetch('./data/').then(function (snykDb) {
     t.assert(snykDb.allIds().length > 82, 'more than 82 vulns found')
+    snykDb.writeSnapshotFile(tmpSnapshot.name, options).then(
+      function (results) {
+        t.pass('generated snapshot')
+      }).catch(e => t.fail(e));
+
   }).catch(function (error) {
     t.fail(error);
   });

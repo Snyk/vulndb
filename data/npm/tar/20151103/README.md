@@ -7,5 +7,5 @@ If a direct dependency update is not possible, use [`snyk wizard`](https://snyk.
 
 ## References
 - https://nodesecurity.io/advisories/57
-- https://github.com/npm/node-tar/commit/5e6356e0ca256cba659ff24d0befbfe753a04cb6
+- https://github.com/npm/node-tar/commit/a5337a6cd58a2d800fc03b3781a25751cf459f28
 - https://github.com/npm/npm/releases/tag/v2.7.5

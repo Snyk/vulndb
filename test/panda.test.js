@@ -87,8 +87,8 @@ test('Fetching fixture data dir resolved', function (t) {
 
 test('Fetching url', function (t) {
   t.plan(1);
-  var url = 'https://s3.amazonaws.com/snyk-rules-pre-repository/' +
-    'snapshots/develop/snapshot.json';
+  var url = 'https://raw.githubusercontent.com/Snyk/vulndb/snapshots/' +
+    'master/snapshot.json';
 
   panda.fetch(url).then(function (snykDb) {
     t.assert(snykDb.allIds().length > 68, 'vulns found')

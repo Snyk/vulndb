@@ -20,5 +20,3 @@ index 81050f9..d34646b 100644
  
  function escapeChar(chr) {
    return escape[chr];
-diff --git a/spec/utils.js b/spec/utils.js
-index 81732c5..7248ac4 100644

@@ -1,0 +1,25 @@
+// Code derived from https://github.com/websockets/ws
+diff --git a/lib/Sender.js b/lib/Sender.js
+index 2f8f7c4..d34061e 100644
+--- a/lib/Sender.js
++++ b/lib/Sender.js
+@@ -109,6 +109,18 @@
+   }
+   else if (!Buffer.isBuffer(data)) {
+-    data = (data && typeof data.buffer !== 'undefined') ? getArrayBuffer(data.buffer) : new Buffer(data);
++    if (data && (typeof data.byteLength !== 'undefined' || typeof data.buffer !== 'undefined')) {
++      data = getArrayBuffer(data);
++    } else {
++      //
++      // If people want to send a number, this would allocate the number in
++      // bytes as memory size instead of storing the number as buffer value. So
++      // we need to transform it to string in order to prevent possible
++      // vulnerabilities / memory attacks.
++      //
++      if (typeof data === 'number') data = data.toString();
++
++      data = new Buffer(data);
++    }
+   }
+   var dataLength = data.length
+     , dataOffset = maskData ? 6 : 2

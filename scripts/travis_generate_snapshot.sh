@@ -50,7 +50,7 @@ fi
 
 cd ${SNYK_TEMP_GIT_SNAPSHOTS_DIR}
 git add --all
-COMMIT_MESSAGE="panda snapshot `date "+%Y-%m-%d %H:%M:%S"` from `git log -n 1 --format='commit %h %s'`"
+COMMIT_MESSAGE="snyk vulndb snapshot `date "+%Y-%m-%d %H:%M:%S"`"
 git commit -m "${COMMIT_MESSAGE}"
 git push
 cd ..

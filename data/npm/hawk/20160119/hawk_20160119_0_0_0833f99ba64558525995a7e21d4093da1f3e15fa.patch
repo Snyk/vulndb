@@ -1,0 +1,95 @@
+// Code derived from https://github.com/hueniverse/hawk
+// Reference: https://github.com/hueniverse/hawk/commit/0833f99ba64558525995a7e21d4093da1f3e15fa
+diff --git a/lib/server.js b/lib/server.js
+index e42c884..0486805 100755
+--- a/lib/server.js
++++ b/lib/server.js
+@@ -310,6 +310,11 @@ exports.header = function (credentials, artifacts, options) {
+  * 'hostHeaderName', 'localtimeOffsetMsec', 'host', 'port'
+  */
+ 
++
++//                       1     2             3           4
++internals.bewitRegex = /^(\/.*)([\?&])bewit\=([^&$]*)(?:&(.+))?$/;
++
++
+ exports.authenticateBewit = function (req, credentialsFunc, options, callback) {
+ 
+     callback = Hoek.nextTick(callback);
+@@ -327,8 +332,11 @@ exports.authenticateBewit = function (req, credentialsFunc, options, callback) {
+ 
+     // Extract bewit
+ 
+-    //                                 1     2             3           4
+-    const resource = request.url.match(/^(\/.*)([\?&])bewit\=([^&$]*)(?:&(.+))?$/);
++    if (request.url.length > Utils.limits.maxMatchLength) {
++        return callback(Boom.badRequest('Resource path exceeds max length'));
++    }
++
++    const resource = request.url.match(internals.bewitRegex);
+     if (!resource) {
+         return callback(Utils.unauthorized());
+     }
+diff --git a/lib/utils.js b/lib/utils.js
+index 29c8a22..ecb64d3 100755
+--- a/lib/utils.js
++++ b/lib/utils.js
+@@ -17,6 +17,11 @@ exports.version = function () {
+ };
+ 
+ 
++exports.limits = {
++    maxMatchLength: 4096            // Limit the length of uris and headers to avoid a DoS attack on string matching
++};
++
++
+ // Extract host and port from request
+ 
+ //                                            $1                            $2
+@@ -31,6 +36,10 @@ exports.parseHost = function (req, hostHeaderName) {
+         return null;
+     }
+ 
++    if (hostHeader.length > exports.limits.maxMatchLength) {
++        return null;
++    }
++
+     const hostParts = hostHeader.match(internals.hostHeaderRegex);
+     if (!hostParts) {
+         return null;
+@@ -100,6 +109,10 @@ exports.nowSecs = function (localtimeOffsetMsec) {
+ };
+ 
+ 
++internals.authHeaderRegex = /^(\w+)(?:\s+(.*))?$/;                                      // Header: scheme[ something]
++internals.attributeRegex = /^[ \w\!#\$%&'\(\)\*\+,\-\.\/\:;<\=>\?@\[\]\^`\{\|\}~]+$/;   // !#$%&'()*+,-./:;<=>?@[]^_`{|}~ and space, a-z, A-Z, 0-9
++
++
+ // Parse Hawk HTTP Authorization header
+ 
+ exports.parseAuthorizationHeader = function (header, keys) {
+@@ -110,7 +123,11 @@ exports.parseAuthorizationHeader = function (header, keys) {
+         return Boom.unauthorized(null, 'Hawk');
+     }
+ 
+-    const headerParts = header.match(/^(\w+)(?:\s+(.*))?$/);       // Header: scheme[ something]
++    if (header.length > exports.limits.maxMatchLength) {
++        return Boom.badRequest('Header length too long');
++    }
++
++    const headerParts = header.match(internals.authHeaderRegex);
+     if (!headerParts) {
+         return Boom.badRequest('Invalid header syntax');
+     }
+@@ -136,9 +153,9 @@ exports.parseAuthorizationHeader = function (header, keys) {
+             return;
+         }
+ 
+-        // Allowed attribute value characters: !#$%&'()*+,-./:;<=>?@[]^_`{|}~ and space, a-z, A-Z, 0-9
++        // Allowed attribute value characters
+ 
+-        if ($2.match(/^[ \w\!#\$%&'\(\)\*\+,\-\.\/\:;<\=>\?@\[\]\^`\{\|\}~]+$/) === null) {
++        if ($2.match(internals.attributeRegex) === null) {
+             errorMessage = 'Bad attribute value: ' + $1;
+             return;
+         }

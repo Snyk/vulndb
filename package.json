@@ -8,7 +8,9 @@
   },
   "scripts": {
     "lint": "jscs cli/*.js lib/*.js -v",
-    "test": "npm run lint && tape test/*.test.js --cov | tap-spec"
+    "test": "snyk test && npm run lint && tape test/*.test.js --cov | tap-spec",
+    "snyk-protect": "snyk protect",
+    "postinstall": "npm run snyk-protect"
   },
   "engines": {
     "node": ">=0.10"
@@ -46,7 +48,8 @@
     "mkdirp": "^0.5.1",
     "request": "^2.65.0",
     "semver": "^5.0.3",
-    "snyk-config": "^1.0.0"
+    "snyk-config": "^1.0.0",
+    "snyk": "^1.8.4"
   },
   "devDependencies": {
     "jscs": "^2.0.0",
@@ -54,5 +57,6 @@
     "tap-spec": "^2.2.2",
     "tape": "^4.0.0",
     "tmp": "0.0.28"
-  }
+  },
+  "snyk": true
 }

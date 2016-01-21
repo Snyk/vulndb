@@ -1,0 +1,12 @@
+// Code derived from https://github.com/mafintosh/is-my-json-valid/
+// Reference: https://github.com/mafintosh/is-my-json-valid/commit/eca4beb21e61877d76fdf6bea771f72f39544d9b
+diff --git a/formats.js b/formats.js
+index 3038dae..9cb8380 100644
+--- a/formats.js
++++ b/formats.js
+@@ -11,4 +11,4 @@
+ exports['alphanumeric'] = /^[a-zA-Z0-9]+$/,
+ exports['style'] = /\s*(.+?):\s*([^;]+);?/g,
+ exports['phone'] = /^\+(?:[0-9] ?){6,14}[0-9]$/,
+-exports['utc-millisec'] = /^[0-9]+(\.?[0-9]+)?$/
++exports['utc-millisec'] = /^[0-9]{1,15}\.?[0-9]{0,15}$/

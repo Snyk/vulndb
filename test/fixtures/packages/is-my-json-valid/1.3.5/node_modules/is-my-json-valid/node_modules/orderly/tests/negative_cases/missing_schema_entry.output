@@ -1,0 +1,4 @@
+Schema is invalid: expected a schema element (i.e. "string foo;")
+                                        NOTHING br0k3n;  
+                     (right here) ------^
+

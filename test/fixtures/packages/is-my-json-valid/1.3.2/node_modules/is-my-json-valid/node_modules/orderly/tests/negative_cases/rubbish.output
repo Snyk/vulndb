@@ -1,0 +1,4 @@
+Schema is invalid: unexpected rubbish at end of input
+          emen, this is rubbish: string; rubbish; 
+                     (right here) ------^
+

@@ -1,0 +1,6 @@
+object {
+  string {3,12} mystring;
+  number {0,42} myint;
+  number {1.1,42.1} mynum;
+  array [any]* {0,500} myarray;
+}*;

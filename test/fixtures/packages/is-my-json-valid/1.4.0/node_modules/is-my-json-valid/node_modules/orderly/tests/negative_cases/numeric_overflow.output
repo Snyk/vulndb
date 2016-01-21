@@ -1,0 +1,4 @@
+Schema is invalid: numeric parse error.  thems some funny lookin' digits.
+                             integer {0, 77777777777777777777777777777
+                     (right here) ------^
+

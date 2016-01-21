@@ -1,0 +1,4 @@
+Schema is invalid: must have at least two members in a union!
+                                union {}; 
+                     (right here) ------^
+

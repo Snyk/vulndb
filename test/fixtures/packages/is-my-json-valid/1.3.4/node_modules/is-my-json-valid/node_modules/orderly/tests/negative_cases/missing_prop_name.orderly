@@ -1,0 +1,7 @@
+object {
+  object {
+    string first;
+    string last;
+  } name;
+  integer [0,200];
+} person;

@@ -1,0 +1,4 @@
+Schema is invalid: greater than '>' expected
+                             string <bar ; 
+                     (right here) ------^
+

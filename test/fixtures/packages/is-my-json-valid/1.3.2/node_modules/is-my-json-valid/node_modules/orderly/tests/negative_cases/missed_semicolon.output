@@ -1,0 +1,4 @@
+Schema is invalid: expected a right curly brace '}'
+          hey! missing a semicolon!     string last;   } name;   integ
+                     (right here) ------^
+

@@ -1,0 +1,3 @@
+object {
+  string foo?;
+};

@@ -1,0 +1,4 @@
+Schema is invalid: unterminated string
+                                  string "foo; 
+                     (right here) ------^
+

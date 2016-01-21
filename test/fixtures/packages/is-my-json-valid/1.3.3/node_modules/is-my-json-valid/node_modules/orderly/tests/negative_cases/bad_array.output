@@ -1,0 +1,4 @@
+Schema is invalid: invalid json
+          ;   array { integer; } numbers = [ 1,2,3;    integer foo;   
+                     (right here) ------^
+

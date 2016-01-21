@@ -1,0 +1,4 @@
+Schema is invalid: integer overflow!  woah.  big number!
+                             integer {0, 77777777777777777777777777777
+                     (right here) ------^
+

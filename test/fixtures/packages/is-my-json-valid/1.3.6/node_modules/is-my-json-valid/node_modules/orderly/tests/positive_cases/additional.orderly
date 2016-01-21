@@ -1,0 +1,10 @@
+object {
+  object {
+    string name;
+    string title;
+  }* employee;
+  array {
+    integer;
+    string;
+  }* myOpenTupleTypedArray;
+};

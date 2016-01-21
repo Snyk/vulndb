@@ -1,0 +1,5 @@
+object {
+  string bar;
+  array { integer; } numbers = [ 1,2,3; 
+  integer foo;  
+} myobj;

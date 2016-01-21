@@ -1,0 +1,7 @@
+object {
+  object {
+    string first  # hey! missing a semicolon!
+    string last;
+  } name;
+  integer age [0,200];
+} person;

@@ -1,0 +1,12 @@
+object {
+  string mood = "happy";
+  integer mood = 47;
+  number mood = 42.01;
+  array [string]* listOfStuff = ["a","b","c","d"];
+  object {
+    string name;
+  }* obj = {"name":"lloyd"};
+  boolean stayOrGo = true;
+  boolean goOrStay = false;
+  null likeAir = null;
+}*;

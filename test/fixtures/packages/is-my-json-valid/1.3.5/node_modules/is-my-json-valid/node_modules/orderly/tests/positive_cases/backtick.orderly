@@ -1,0 +1,5 @@
+string `{
+  "title": "Service Name",
+  "description": "The name of the service",
+  "ui_hints": "Use the blink tag"
+}`;

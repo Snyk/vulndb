@@ -1,0 +1,6 @@
+object {
+  integer foo?;
+  integer bar?;
+  integer baz <foo>?;
+  integer bing <foo,bar,baz>?;
+};

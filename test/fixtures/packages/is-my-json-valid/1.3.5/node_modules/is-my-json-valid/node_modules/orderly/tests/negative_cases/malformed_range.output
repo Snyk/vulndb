@@ -1,0 +1,4 @@
+Schema is invalid: range malformed
+                             number {0.0} bogusRangeBuddy; 
+                     (right here) ------^
+

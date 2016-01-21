@@ -1,0 +1,4 @@
+Schema is invalid: property name expected
+          ring last;   } name;   integer [0,200]; } person; 
+                     (right here) ------^
+

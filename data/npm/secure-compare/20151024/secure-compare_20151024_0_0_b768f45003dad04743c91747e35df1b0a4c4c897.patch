@@ -1,12 +1,9 @@
-From dd1ff1ac0122de7e0af4f00c61ed73261062394a Mon Sep 17 00:00:00 2001
-From: Josh Dague <daguej@email.uc.edu>
-Date: Mon, 30 Mar 2015 14:36:10 -0700
-Subject: [PATCH] Fix major oopsie
+// code derived from https://github.com/vdemedes/secure-compare
 
-`compare` was actually comparing `a` with `a`, meaning the check passes for *any* two strings of the same length.
----
- index.js | 4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
+// https://github.com/vdemedes/secure-compare#license
+/*
+secure-compare is released under the MIT license.
+*/
 
 diff --git a/index.js b/index.js
 index 1cfd91b..1ffa759 100755

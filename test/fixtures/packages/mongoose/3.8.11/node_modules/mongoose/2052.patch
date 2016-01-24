@@ -1,0 +1,25 @@
+From 8bda62b7bde54e356206e3bc9dd232e82ebc8868 Mon Sep 17 00:00:00 2001
+From: Antoine Pairet <antoinepairet@users.noreply.github.com>
+Date: Tue, 29 Apr 2014 17:15:23 +0200
+Subject: [PATCH] add 'domain' to reserved keywords
+
+Actually fixes issue 1338
+---
+ lib/schema.js | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/lib/schema.js b/lib/schema.js
+index d3dd3ca..5e965b1 100644
+--- a/lib/schema.js
++++ b/lib/schema.js
+@@ -246,6 +246,7 @@ reserved.options =
+ reserved.modelName =
+ reserved.collection =
+ reserved.toObject =
++reserved.domain =
+ reserved.emit =    // EventEmitter
+ reserved._events = // EventEmitter
+ reserved._pres = reserved._posts = 1 // hooks.js
+-- 
+1.9.3
+

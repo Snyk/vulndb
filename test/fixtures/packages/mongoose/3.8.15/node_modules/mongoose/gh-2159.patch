@@ -1,0 +1,36 @@
+diff --git a/lib/schema/documentarray.js b/lib/schema/documentarray.js
+index 3b02887..c88531e 100644
+--- a/lib/schema/documentarray.js
++++ b/lib/schema/documentarray.js
+@@ -123,6 +123,11 @@ DocumentArray.prototype.cast = function (value, doc, init, prev) {
+ 
+   if (!(value instanceof MongooseDocumentArray)) {
+     value = new MongooseDocumentArray(value, this.path, doc);
++    if (prev && prev._handlers) {
++      for (var key in prev._handlers) {
++        doc.removeListener(key, prev._handlers[key]);
++      }
++    }
+   }
+ 
+   i = value.length;
+diff --git a/lib/types/documentarray.js b/lib/types/documentarray.js
+index af6cec7..742f62e 100644
+--- a/lib/types/documentarray.js
++++ b/lib/types/documentarray.js
+@@ -38,8 +38,13 @@ function MongooseDocumentArray (values, path, doc) {
+   if (doc) {
+     arr._parent = doc;
+     arr._schema = doc.schema.path(path);
+-    doc.on('save', arr.notify('save'));
+-    doc.on('isNew', arr.notify('isNew'));
++    arr._handlers = {
++      isNew: arr.notify('isNew'),
++      save: arr.notify('save')
++    }
++    console.log(arr.notify('save').toString() === arr.notify('save').toString());
++    doc.on('save', arr._handlers.save);
++    doc.on('isNew', arr._handlers.isNew);
+   }
+ 
+   return arr;

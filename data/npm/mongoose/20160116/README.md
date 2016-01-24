@@ -1,17 +1,22 @@
 ## Overview
 A potential memory disclosure vulnerability exists in mongoose.
-When documents with fields of type `Buffer` is created, assignment of an integer value to that field will result in creation of a buffer the length of which is the provided integer. This buffer will contain uninitialized memory, 
-as a result a malicious user can create arbitrarily large buffers that are not zero-ed out, which can lead to saving sensitive information like code or user data in MongoDB.
+A `Buffer` field in a MongoDB document can be used to expose sensitive
+information such as code, runtime memory and user data into MongoDB.
 
 ### Details
-With buffers in node when you allocate it with a number instead of a string it will allocate the amount of bytes.
+Initializing a `Buffer` field in a document with integer `N` creates a `Buffer`
+of length `N` with non zero-ed out memory.
 **Example:**
 ```
-var x = new Buffer(100);
+var x = new Buffer(100); // uninitialized Buffer of length 100
 // vs
-var x = new Buffer('100');
+var x = new Buffer('100'); // initialized Buffer with value of '100'
 ```
-This would allocate 100 bytes of memory in the first example and just 3 bytes with 100 as value in the second example. 
+Initializing a MongoDB document field in such manner will dump uninitialized
+memory into MongoDB.
+The patch wraps `Buffer` field initialization in mongoose by converting a
+`number` value `N` to array `[N]`, initializing the `Buffer` with `N` in its
+binary form.
 
 #### Proof of concept
 ```javascript

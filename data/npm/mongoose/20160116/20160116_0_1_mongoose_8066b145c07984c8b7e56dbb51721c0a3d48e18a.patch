@@ -1,0 +1,14 @@
+diff --git a/lib/schema/buffer.js b/lib/schema/buffer.js
+index d26cc33..b64234f 100644
+--- a/lib/schema/buffer.js
++++ b/lib/schema/buffer.js
+@@ -123,6 +123,9 @@
+
+   var type = typeof value;
+   if ('string' == type || 'number' == type || Array.isArray(value)) {
++    if (type === 'number') {
++      value = [value];
++    }
+     var ret = new MongooseBuffer(value, [this.path, doc]);
+     return ret;
+   }

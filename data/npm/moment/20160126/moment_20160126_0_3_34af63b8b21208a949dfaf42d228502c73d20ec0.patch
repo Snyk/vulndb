@@ -36,6 +36,6 @@ index a79feea..d465cee 100644
          // ASP.NET json date format regex
          aspNetJsonRegex = /^\/?Date\((\-?\d+)/i,
 -        aspNetTimeSpanJsonRegex = /(\-)?(?:(\d*)\.)?(\d+)\:(\d+)\:(\d+)\.?(\d{3})?/,
-+        aspNetTimeSpanJsonRegex = /^(\-)?(?:(\d*)[. ])?(\d+)\:(\d+)(?:\:(\d+)\.?(\d{3})?\d*)?$/;
++        aspNetTimeSpanJsonRegex = /^(\-)?(?:(\d*)[. ])?(\d+)\:(\d+)(?:\:(\d+)\.?(\d{3})?\d*)?$/,
 
          // format tokens

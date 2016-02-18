@@ -32,4 +32,3 @@ Upgrade `libxmljs` to version 0.17.0 or greater.
 ## References
 - https://github.com/polotek/libxmljs/pull/375
 - https://github.com/polotek/libxmljs/commit/9acfcaf7d736ec64656bce04259e3b526ecc4b5d
-- https://blog.srcclr.com/libxmljs-v0.16.1-disclosure/

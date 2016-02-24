@@ -1,2 +1,0 @@
-require('./leaflet');
-require('./mapbox');

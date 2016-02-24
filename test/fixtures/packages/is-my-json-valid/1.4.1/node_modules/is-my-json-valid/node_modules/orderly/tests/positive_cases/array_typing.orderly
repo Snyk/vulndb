@@ -1,9 +1,0 @@
-object {
-  array [integer] simpleTypedArrayOfIntegers;
-  array {
-    integer;
-  } tupleTypedArrayOfOneInteger;
-  array {
-    integer;
-  }* tupleTypedArrayOfOneIntegerFollowedByAnything;
-};

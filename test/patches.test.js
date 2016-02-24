@@ -1,13 +1,13 @@
 var test = require('tape');
 var fs = require('fs');
-var path = require('path')
+var path = require('path');
 var semver = require('semver');
 var walkFiles = require('../lib/utils').walkFiles;
 var exec = require('child_process');
 var util = require('util');
 
 function testVuln(vulnDataFile, t) {
-  console.log(vulnDataFile)
+  console.log(vulnDataFile);
   var vuln = JSON.parse(fs.readFileSync(vulnDataFile));
   var id = path.parse(vulnDataFile).dir.split('/').slice(2).join(':');
   if (vuln.patches.length) {
@@ -31,15 +31,15 @@ function testVulnPatch(vulnDataFile, vuln, p, t) {
 
   var patchPath = p.urls[0];
 
-  if (patchPath.indexOf('file://') == 0) {
+  if (patchPath.indexOf('file://') === 0) {
     patchPath = path.join(path.parse(vulnDataFile).dir,
           patchPath.replace('file://',''));
 
     t.ok(fs.existsSync(patchPath),
           'patch file ' + p.urls[0] + ' exists');
 
-  } else if ((p.urls[0].indexOf('http://') == 0) ||
-              (p.urls[0].indexOf('https://') == 0)) {
+  } else if ((p.urls[0].indexOf('http://') === 0) ||
+              (p.urls[0].indexOf('https://') === 0)) {
 
     // TODO: download it
     console.log('WARNING: skipping %s', p.urls[0]);
@@ -49,8 +49,8 @@ function testVulnPatch(vulnDataFile, vuln, p, t) {
     t.fail('patch URI is wrong ' + p.urls[0]);
   }
 
-  var fixtureModulePath = path.join('.', 'test',
-    'fixtures', 'packages', vuln.moduleName);
+  var fixtureModulePath = path.join('.', 'test', 'fixtures', 'external',
+    'packages', vuln.moduleName);
 
 
   if (!fs.existsSync(fixtureModulePath)) {
@@ -73,7 +73,7 @@ function testVulnPatch(vulnDataFile, vuln, p, t) {
       path.join(fixtureModulePath, fv, 'node_modules', vuln.moduleName),
       patchPath);
 
-    if (patch.status == 0 && !patch.stdout.toString()) {
+    if (patch.status === 0 && !patch.stdout.toString()) {
       t.pass(vuln.moduleName + '@' + fv);
     } else {
       var msg = util.format('Exited with %s while applying %s to %s@%s:\nout:%s\nerr:%s',

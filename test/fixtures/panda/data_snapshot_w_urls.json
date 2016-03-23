@@ -110,7 +110,7 @@
 				"creationTime": "2015-11-06T02:09:36.186Z",
 				"modificationTime": "2015-11-06T02:09:36.186Z",
 				"publicationTime": "2015-10-24T21:00:53.201Z",
-				"description": "## Overview\n[secure-compare](https://www.npmjs.com/package/secure-compare) is a node implementation of constant-time comparison algorithm to prevent timing attacks for Node.js.\nThe `compare` function made sure that the length of the two arguments is the same, and then mistakenly compared the first argument to itself, meaning that the function would return true for any two arguments of the same length.\n\n## Recommendation\nUpdate to version 3.0.1 or greater. When direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/documentation/#wizard) to patch agains this vulnerability.\n\n\n## References\n- https://github.com/vdemedes/secure-compare/pull/1\n",
+				"description": "## Overview\n[secure-compare](https://www.npmjs.com/package/secure-compare) is a node implementation of constant-time comparison algorithm to prevent timing attacks for Node.js.\nThe `compare` function made sure that the length of the two arguments is the same, and then mistakenly compared the first argument to itself, meaning that the function would return true for any two arguments of the same length.\n\n## Recommendation\nUpdate to version 3.0.1 or greater. When direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/docs/using-snyk#wizard) to patch agains this vulnerability.\n\n\n## References\n- https://github.com/vdemedes/secure-compare/pull/1\n",
 				"semver": {
 					"vulnerable": "<=3.0.0",
 					"unaffected": ">3.0.0"
@@ -151,7 +151,7 @@
 				"creationTime": "2015-11-06T02:09:36.182Z",
 				"modificationTime": "2015-11-06T02:09:36.182Z",
 				"publicationTime": "2015-11-03T07:15:12.900Z",
-				"description": "## Overview\nThe [`tar`](https://www.npmjs.com/package/tar) module does not properly normalize symbolic links pointing to targets outside the extraction root. As a result, packages may hold symbolic links to parent and sibling directories and overwrite those files when the package is extracted.\n\n## Recommendation\nUpdate to version 2.0.0 or greater. \nIf a direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/documentation/#wizard) to patch this vulnerability.\n\n## References\n- https://github.com/npm/node-tar/commit/5e6356e0ca256cba659ff24d0befbfe753a04cb6\n- https://github.com/npm/npm/releases/tag/v2.7.5\n",
+				"description": "## Overview\nThe [`tar`](https://www.npmjs.com/package/tar) module does not properly normalize symbolic links pointing to targets outside the extraction root. As a result, packages may hold symbolic links to parent and sibling directories and overwrite those files when the package is extracted.\n\n## Recommendation\nUpdate to version 2.0.0 or greater. \nIf a direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/docs/using-snyk#wizard) to patch this vulnerability.\n\n## References\n- https://github.com/npm/node-tar/commit/5e6356e0ca256cba659ff24d0befbfe753a04cb6\n- https://github.com/npm/npm/releases/tag/v2.7.5\n",
 				"semver": {
 					"vulnerable": "<2.0.0",
 					"unaffected": ">=2.0.0"

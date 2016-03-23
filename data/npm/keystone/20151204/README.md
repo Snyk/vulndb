@@ -4,7 +4,7 @@ Invalid email addresses can be mistakenly matched during sign-in. This affects t
 ## Recommendations
 Upgrade to version 0.3.16 or greater. 
 
-If a direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/documentation/#wizard) to patch this vulnerability.
+If a direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/docs/using-snyk#wizard) to patch this vulnerability.
 
 ## References
 - https://nodesecurity.io/advisories/60

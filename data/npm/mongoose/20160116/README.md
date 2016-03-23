@@ -46,7 +46,7 @@ sample.save(function () {
 ## Remediation
 Upgrade `mongoose` to version >= 3.8.39 or >= 4.3.6.
 
-If a direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/documentation/#wizard) to patch this vulnerability.
+If a direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/docs/using-snyk#wizard) to patch this vulnerability.
 
 ## References
 - https://github.com/Automattic/mongoose/issues/3764

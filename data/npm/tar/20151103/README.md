@@ -3,7 +3,7 @@ The [`tar`](https://www.npmjs.com/package/tar) module prior to version 2.0.0 doe
 
 ## Remediation
 Upgrade to version 2.0.0 or greater. 
-If a direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/documentation/#wizard) to patch this vulnerability.
+If a direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/docs/using-snyk#wizard) to patch this vulnerability.
 
 ## References
 - https://nodesecurity.io/advisories/57

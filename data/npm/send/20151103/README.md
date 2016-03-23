@@ -6,7 +6,7 @@ A root path disclosure vulnerability exists in `send` versions prior to 0.11.1.
 ## Remediation
 Upgrade `send` to version 0.11.1. or greater. 
 
-If a direct dependency update is not possible, use [snyk wizard](https://snyk.io/documentation/#wizard) to patch this vulnerability.
+If a direct dependency update is not possible, use [snyk wizard](https://snyk.io/docs/using-snyk#wizard) to patch this vulnerability.
 
 ## References
 - https://nodesecurity.io/advisories/56

@@ -3,7 +3,7 @@ The [`tar`](https://www.npmjs.com/package/tar) module does not properly normaliz
 
 ## Recommendation
 Update to version 2.0.0 or greater. 
-If a direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/documentation/#wizard) to patch this vulnerability.
+If a direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/docs/using-snyk#wizard) to patch this vulnerability.
 
 ## References
 - https://github.com/npm/node-tar/commit/5e6356e0ca256cba659ff24d0befbfe753a04cb6

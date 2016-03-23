@@ -4,7 +4,7 @@
 ## Remediation
 Upgrade to version 3.0.1 or greater. 
 
-When direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/documentation/#wizard) to patch against this vulnerability.
+When direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/docs/using-snyk#wizard) to patch against this vulnerability.
 
 
 ## References

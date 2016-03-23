@@ -4,7 +4,7 @@ A REST API `/i18n/:locale/:phrase` endpoint was accessible in production environ
 ## Remediation
 Upgrade `i18n-node-angular` to version 1.4.0 or greater.
 
-If a direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/documentation/#wizard) to patch this vulnerability.
+If a direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/docs/using-snyk#wizard) to patch this vulnerability.
 
 ## References
 - https://github.com/oliversalzburg/i18n-node-angular/commit/877720d2d9bb90dc8233706e81ffa03f99fc9dc8

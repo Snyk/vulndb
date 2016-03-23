@@ -3,7 +3,7 @@
 The `compare` function made sure that the length of the two arguments is the same, and then mistakenly compared the first argument to itself, meaning that the function would return true for any two arguments of the same length.
 
 ## Recommendation
-Update to version 3.0.1 or greater. When direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/documentation/#wizard) to patch agains this vulnerability.
+Update to version 3.0.1 or greater. When direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/docs/using-snyk#wizard) to patch agains this vulnerability.
 
 
 ## References

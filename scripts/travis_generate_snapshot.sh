@@ -1,6 +1,11 @@
 #!/bin/bash
 echo "Travis generate snapshot build script"
 
+if [ "$TRAVIS_PULL_REQUEST" == "true" ]; then
+  echo "Pull request do nothing..."
+  exit 0
+fi
+
 function sanitize-branch {
   local  __resultvar=$1
   __resultvar=${__resultvar/\//-/}
@@ -54,3 +59,29 @@ COMMIT_MESSAGE="snyk vulndb snapshot `date "+%Y-%m-%d %H:%M:%S"`"
 git commit -m "${COMMIT_MESSAGE}"
 git push
 cd ..
+
+
+if [ "$TRAVIS_REPO_SLUG" == "$PUBLIC_REPO" ]; then
+  echo Purging prod
+  curl -H "Content-Type: application/json" -H "Authorization:token ${SNYK_PROD_AUTH_TOKEN}" -X PUT ${SNYK_PROD_PURGE_URL}
+  if [ "$TRIGGER_PROD_NOTIFICATIONS" == "true" ]; then
+    echo Trigerring notifications on prod
+    # curl -H "Content-Type: application/json" -H "Authorization:token ${SNYK_PROD_AUTH_TOKEN}" -vX POST ${SNYK_PROD_NOTIFICATION_URL} -d '{"dryRun": false, "store": true}'
+    curl -H "Content-Type: application/json" -H "Authorization:token ${SNYK_PROD_AUTH_TOKEN}" -X POST ${SNYK_PROD_NOTIFICATION_URL} -d '{"emailAddress": "${SNYK_DEV_TEST_EMAIL}", "dryRun": true, "store": false}'
+  else 
+    echo Trigger notifications disabled on prod
+  fi
+
+else 
+  echo Purging dev
+  curl -H "Content-Type: application/json" -H "Authorization:token ${SNYK_DEV_AUTH_TOKEN}" -X PUT ${SNYK_DEV_PURGE_URL}
+  if [ "$TRIGGER_DEV_NOTIFICATIONS" == "true" ]; then
+    echo Trigerring notifications on dev
+    curl -H "Content-Type: application/json" -H "Authorization:token ${SNYK_DEV_AUTH_TOKEN}" -X POST ${SNYK_DEV_NOTIFICATION_URL} -d '{"emailAddress": "${SNYK_DEV_TEST_EMAIL}", "dryRun": true, "store": false}'
+  else 
+    echo Trigger notifications disabled on dev
+  fi
+fi	
+
+
+

@@ -16,3 +16,5 @@ Update to version 1.1.1 or greater. If this is being used in conjunction with br
 ## References
 - https://nodesecurity.io/advisories/37
 - [Browserify 4.2.1 Update](https://github.com/substack/node-browserify/blob/master/changelog.markdown#421)
+- https://github.com/substack/node-syntax-error/commit/9aa4e66eb90ec595d2dba55e6f9c2dd9a668b309
+- https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-7192

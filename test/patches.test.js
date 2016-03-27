@@ -5,15 +5,16 @@ var semver = require('semver');
 var walkFiles = require('../lib/utils').walkFiles;
 var exec = require('child_process');
 var util = require('util');
+var os = require('os');
 
-function testVuln(vulnDataFile, t) {
+function testVuln(vulnDataFile, patchBinVersions, t) {
   console.log(vulnDataFile);
   var vuln = JSON.parse(fs.readFileSync(vulnDataFile));
   var id = path.parse(vulnDataFile).dir.split('/').slice(2).join(':');
   if (vuln.patches.length) {
     t.test(vulnDataFile + ' ' + id + ' patches', function (t) {
       vuln.patches.forEach(function (p) {
-        testVulnPatch(vulnDataFile, vuln, p, t);
+        testVulnPatch(vulnDataFile, vuln, p, patchBinVersions, t);
       });
       t.end();
     });
@@ -27,7 +28,7 @@ function getDirectories(srcpath) {
   });
 }
 
-function testVulnPatch(vulnDataFile, vuln, p, t) {
+function testVulnPatch(vulnDataFile, vuln, p, patchBinVersions, t) {
 
   var patchPath = p.urls[0];
 
@@ -68,25 +69,27 @@ function testVulnPatch(vulnDataFile, vuln, p, t) {
     ' fixture versions for ' + vuln.moduleName);
 
   versionsInRange.forEach(function (fv) {
+    patchBinVersions.forEach(function (patchBin) {
+      var patch = applyPatchInternal(patchBin,
+        path.join(fixtureModulePath, fv, 'node_modules', vuln.moduleName),
+        patchPath, patchBinVersions);
 
-    var patch = applyPatch(
-      path.join(fixtureModulePath, fv, 'node_modules', vuln.moduleName),
-      patchPath);
-
-    if (patch.status === 0 && !patch.stdout.toString()) {
-      t.pass(vuln.moduleName + '@' + fv);
-    } else {
-      var msg = util.format('Exited with %s while applying %s to %s@%s:\nout:%s\nerr:%s',
-        patch.status, patchPath, vuln.moduleName, fv, patch.stdout, patch.stderr);
-      t.fail(msg);
-    }
+      if (patch.status === 0 && !patch.stdout.toString()) {
+        t.pass(vuln.moduleName + '@' + fv + ' with ' +
+          ('/' + patchBin).split('/').slice(-3).join('/'));
+      } else {
+        var msg = util.format('Exited with %s while applying %s to %s@%s:\nout:%s\nerr:%s',
+          patch.status, patchPath, vuln.moduleName, fv, patch.stdout, patch.stderr);
+        t.fail(msg);
+      }
+    });
 
   });
 
 }
 
-function applyPatch(modulePath, patchPath) {
-  var patch = exec.spawnSync('patch',
+function applyPatchInternal(bin, modulePath, patchPath) {
+  var patch = exec.spawnSync(bin,
     ['-up1', '--silent', '--dry-run', '-i', path.resolve(patchPath)],
     {
       cwd: modulePath,
@@ -96,7 +99,16 @@ function applyPatch(modulePath, patchPath) {
   return patch;
 }
 
+
 test('Test patches', function (t) {
   var vulnDataFiles = walkFiles('./data', 'data.json');
-  vulnDataFiles.forEach(vulnDataFile => testVuln(vulnDataFile, t));
+  var patchBinVersions = walkFiles('./test/bin/' + os.type(), 'patch').map(
+    function (v) {
+      return path.resolve(v);
+    });
+  if (patchBinVersions.length === 0) {
+    patchBinVersions = ['patch'];
+  }
+  vulnDataFiles.forEach(vulnDataFile =>
+    testVuln(vulnDataFile, patchBinVersions, t));
 });

@@ -50,5 +50,3 @@ index d49d86c..4ac2033 100755
      this._data = Buffer.isBuffer(this._data) ? this._data : this._data.replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029');
      this._suffix = ');';
  };
-diff --git a/test/response.js b/test/response.js
-index 7b31105..3cab93c 100755

@@ -62,14 +62,14 @@ cd ..
 
 
 if [ "$TRAVIS_REPO_SLUG" == "$PUBLIC_REPO" ]; then
-  echo Purging prod
-  curl -H "Content-Type: application/json" -H "Authorization:token ${SNYK_PROD_AUTH_TOKEN}" -X PUT ${SNYK_PROD_PURGE_URL}
-  if [ "$TRIGGER_PROD_NOTIFICATIONS" == "true" ]; then
+  if ([ "$TRAVIS_BRANCH" == "master" ] && [ "$TRIGGER_PROD_NOTIFICATIONS" == "true" ]); then
+    echo Purging prod
+    curl -H "Content-Type: application/json" -H "Authorization:token ${SNYK_PROD_AUTH_TOKEN}" -X PUT ${SNYK_PROD_PURGE_URL}
     echo Trigerring notifications on prod
-    # curl -H "Content-Type: application/json" -H "Authorization:token ${SNYK_PROD_AUTH_TOKEN}" -vX POST ${SNYK_PROD_NOTIFICATION_URL} -d '{"dryRun": false, "store": true}'
+    # curl -H "Content-Type: application/json" -H "Authorization:token ${SNYK_PROD_AUTH_TOKEN}" -X POST ${SNYK_PROD_NOTIFICATION_URL} -d '{"dryRun": false, "store": true}'
     curl -H "Content-Type: application/json" -H "Authorization:token ${SNYK_PROD_AUTH_TOKEN}" -X POST ${SNYK_PROD_NOTIFICATION_URL} -d '{"emailAddress": "${SNYK_DEV_TEST_EMAIL}", "dryRun": true, "store": false}'
   else 
-    echo Trigger notifications disabled on prod
+    echo Trigger notifications disabled on prod; or not master branch
   fi
 
 else 

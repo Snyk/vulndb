@@ -1,6 +1,6 @@
 {
-  "name": "@snyk/advisories",
-  "version": "0.0.1",
+  "name": "@snyk/vulndb",
+  "version": "0.9.0",
   "description": "Panda - Snyk's Vulnerabilities DB",
   "main": "./cli/shrink.js",
   "directories": {

@@ -44,6 +44,8 @@ test('validate all /data/ vulns', function (t) {
 
           t.assert(p.id, 'valid patch id ' + p.id);
 
+          t.assert(p.id.indexOf(id) > 0, 'patch id contains vulnId');
+
           t.assert(patchIds.indexOf(p.id) < 0, 'unique patch id ' + p.id);
           patchIds.push(p.id);
 

@@ -106,9 +106,8 @@ test('Test patches', function (t) {
     function (v) {
       return path.resolve(v);
     });
-  if (patchBinVersions.length === 0) {
-    patchBinVersions = ['patch'];
-  }
+  // also run the native patch (available in PATH)
+  patchBinVersions.push('patch');
   vulnDataFiles.forEach(vulnDataFile =>
     testVuln(vulnDataFile, patchBinVersions, t));
 });

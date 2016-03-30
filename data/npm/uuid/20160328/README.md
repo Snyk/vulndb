@@ -1,8 +1,8 @@
 ## Overview
-A bug in `node-uuid` prior to 1.4.4 caused it to use the cryptographically insecure `Math.random` which can produce predictable values and should not be used in security-sensitive context.
+node-uuid prior to 1.4.4 contained a bug that caused it to consistently fall back to using `Math.random` instead of a more cryptographically sound source of entropy, the native `crypto` module.
 
-## Remediation
-Upgrade to version 1.4.4 or greater.
+## Recommendation
+Upgrade to version 1.4.4 or greater
 
 ## References
 - https://github.com/broofa/node-uuid/issues/108

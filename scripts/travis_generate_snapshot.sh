@@ -69,7 +69,7 @@ if [ "$TRAVIS_REPO_SLUG" == "$PUBLIC_REPO" ]; then
     # curl -H "Content-Type: application/json" -H "Authorization:token ${SNYK_PROD_AUTH_TOKEN}" -X POST ${SNYK_PROD_NOTIFICATION_URL} -d '{"dryRun": false, "store": true}'
     curl -H "Content-Type: application/json" -H "Authorization:token ${SNYK_PROD_AUTH_TOKEN}" -X POST ${SNYK_PROD_NOTIFICATION_URL} -d '{"emailAddress": "${SNYK_DEV_TEST_EMAIL}", "dryRun": true, "store": false}'
   else 
-    echo Trigger notifications disabled on prod; or not master branch
+    echo Trigger notifications disabled on prod, or not a master branch
   fi
 
 else 

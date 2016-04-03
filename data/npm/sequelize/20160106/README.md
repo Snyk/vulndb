@@ -2,7 +2,7 @@
 `sequelize` versions prior to 3.17.0 are vulnerable to SQL Injection attack if untrusted user input is passed into the order or limit parameters.
 
 ## Example
-```
+```javascript
 models.User.findAll({
   limit: '1; DELETE FROM "Users" WHERE 1=1; --',
 }).then(function (users) {

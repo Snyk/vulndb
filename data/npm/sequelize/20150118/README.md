@@ -1,24 +1,7 @@
 ## Overview
-
-SQL Injection is possible in an application using the npm module sequelize if untrusted user input is passed into the order parameter.
-
-_Source: [Node Security Project](https://nodesecurity.io/advisories/33)_
-
-## Details
-
-**Example:**
-
-```
-Test.findAndCountAll({
-where: { id :1 },
-order : [['id', 'UNTRUSTED USER INPUT']]
-})
-```
-
-
+`sequelize` versions prior to 2.0.0-rc7 are vulnerable to SQL Injection attack if untrusted user input is passed into the order parameter.
 
 ## Remediation
-
 Update to version 2.0.0-rc8 or greater.
 
 ## References

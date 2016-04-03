@@ -1,5 +1,5 @@
 ## Overview
-`sequelize` versions prior to 1.7.0-alpha3 are vulnerable to SQL Injection attack if untrusted user input is passed into the order parameter.
+`sequelize` versions prior to 1.7.0-alpha3 are vulnerable to SQL Injection attacks if untrusted user input is passed into the `order` parameter.
 
 ## Remediation
 Update to version 1.7.0-alpha3 or greater.

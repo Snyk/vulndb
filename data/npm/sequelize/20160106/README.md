@@ -1,5 +1,5 @@
 ## Overview
-`sequelize` versions prior to 3.17.0 are vulnerable to SQL Injection attack if untrusted user input is passed into the order or limit parameters.
+`sequelize` versions prior to 3.17.0 are vulnerable to SQL Injection attacks if untrusted user input is passed into the `order` or `limit` parameters.
 
 ## Example
 ```javascript

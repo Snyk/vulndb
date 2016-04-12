@@ -1,6 +1,6 @@
 ## Overview
 A potential memory disclosure vulnerability exists in sequelize versions prior to 3.17.2.
-A field of type `DataTypes.BLOB` can be used to expose sensitive information such as code, runtime memory and user data into MongoDB.
+A field of type `DataTypes.BLOB` can be used to expose sensitive information such as code, runtime memory and user data into the database.
 
 ### Details
 `sequelize` uses the `Buffer` type to represent `DataTypes.BLOB`. 
@@ -39,7 +39,7 @@ Task.create({
 ```
 
 ## Remediation
-Upgrade `mongoose` to version >= 3.17.3
+Upgrade `sequelize` to version >= 3.17.3
 
 ## References
 - https://github.com/sequelize/sequelize/blob/master/changelog.md#3172

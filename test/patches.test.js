@@ -71,7 +71,7 @@ function testVulnPatch(vulnDataFile, vuln, p, patchBinVersions, t) {
   versionsInRange.forEach(function (fv) {
     patchBinVersions.forEach(function (patchBin) {
       var patch = applyPatchInternal(patchBin,
-        path.join(fixtureModulePath, fv, 'node_modules', vuln.moduleName),
+        path.join(fixtureModulePath, fv),
         patchPath, patchBinVersions);
 
       if (patch.status === 0 && !patch.stdout.toString()) {

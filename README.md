@@ -5,6 +5,8 @@ Snyk Vulnerability Database
 
 This is the vulnerability database used by [Snyk](https://github.com/Snyk/snyk), a tool that helps you find and fix known vulnerabilities in your Node.js dependencies, both ad hoc and as part of your CI (Build) system.
 
+You can browsed the issues more easily on the [Snyk website](https://snyk.io/vuln/) at [https://snyk.io/vuln/](https://snyk.io/vuln/).
+
 *Note:* Snyk is currently in beta. [Email us your feedback](mailto:support@snyk.io).
 
 ## Structure

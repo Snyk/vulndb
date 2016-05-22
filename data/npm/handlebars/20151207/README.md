@@ -5,16 +5,15 @@ When using attributes without quotes in a handlebars template, an attacker can m
 
 **Example:**
 
-Assume handlebars was used to display user comments, using the following template: 
-`<a href={{email}}>{{name}}</a><pre>{{comment}}</pre>`
+Assume handlebars was used to display user comments and avatar, using the following template: 
+`<img src={{avatarUrl}}><pre>{{comment}}</pre>`
 
-If an attacker spoofed their email address and provided the following value: 
-`jane@evil.org onload=alert(document.cookie)`
+If an attacker spoofed their avatar URL and provided the following value: 
+`http://evil.org/avatar.png onload=alert(document.cookie)`
 
-The resulting HTML would be: 
-`<a href=wizard@evil.org onload=alert(document.cookie)>Evil Wizard</a><pre>Busted!</pre>`
+The resulting HTML would be the following, triggering the script once the image loads:
+`<img src=http://evil.org/avatar.png onload=alert(document.cookie)><pre>Gotcha!</pre>`
 
 ## References
 - https://nodesecurity.io/advisories/61
 - https://github.com/wycats/handlebars.js/commit/83b8e846a3569bd366cf0b6bdc1e4604d1a2077e
-- https://blog.srcclr.com/handlebars_vulnerability_research_findings/

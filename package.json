@@ -1,6 +1,6 @@
 {
   "name": "@snyk/vulndb",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Panda - Snyk's Vulnerabilities DB",
   "main": "./cli/shrink.js",
   "directories": {
@@ -10,7 +10,8 @@
     "lint": "jscs cli/*.js lib/*.js -v",
     "test": "snyk test && npm run lint && tape test/*.test.js --cov | tap-spec",
     "snyk-protect": "snyk protect",
-    "postinstall": "npm run snyk-protect"
+    "postinstall": "true",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": ">=0.10"
@@ -49,7 +50,7 @@
     "request": "latest",
     "semver": "latest",
     "snyk-config": "^1.0.0",
-    "snyk": "^1.8.4"
+    "snyk": "^1.16.0"
   },
   "devDependencies": {
     "jscs": "^2.0.0",

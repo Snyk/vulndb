@@ -7,8 +7,6 @@ This is the vulnerability database used by [Snyk](https://github.com/Snyk/snyk),
 
 You can browsed the issues more easily on the [Snyk website](https://snyk.io/vuln/) at [https://snyk.io/vuln/](https://snyk.io/vuln/).
 
-*Note:* Snyk is currently in beta. [Email us your feedback](mailto:support@snyk.io).
-
 ## Structure
 Under the `data/npm` folder you will find a list of folders that match the names of vulnerable [npm](https://npmjs.com) packages, then a `YYYYMMDD` folder containing the data files.
 For example, the latest Denial of Service vulnerability in the `ms` package will have the following path `npm/ms/20151024/`.

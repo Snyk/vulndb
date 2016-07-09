@@ -1,7 +1,7 @@
 ## Overview
 The [`ws`](https://www.npmjs.com/package/ws) package does not limit the size of an incoming payload before it is processed by default. As a result, a very large payload (over 256MB in size) can lead to a failed allocation and crash the node process - enabling a [Denial of Service](https://en.wikipedia.org/wiki/Denial-of-service_attack) attack.
 
-While 256MB may seem excessive, note that the attack is likely to be sent from another server, not an end-user computer, using data-center connection speeds. In those speeds, a payload of this size can be 
+While 256MB may seem excessive, note that the attack is likely to be sent from another server, not an end-user computer, using data-center connection speeds. In those speeds, a payload of this size can be transmitted in seconds.
 
 ## Remediation
 Update to version 1.1.1 or greater, which sets a default `maxPayload` of 100MB.

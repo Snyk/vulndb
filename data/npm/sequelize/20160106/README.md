@@ -11,7 +11,7 @@ models.User.findAll({
 ```
 
 ## Remediation
-Update to version 3.17.0 or greater.
+Upgrade to version 3.17.0 or greater.
 
 ## References
 - https://github.com/sequelize/sequelize/pull/5167

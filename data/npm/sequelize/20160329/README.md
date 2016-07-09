@@ -2,7 +2,7 @@
 `sequelize` versions prior to 3.20.0 improperly escape arrays of strings bound to named parameters.
 
 ## Remediation
-Update to version 3.20.0 or greater.
+Upgrade to version 3.20.0 or greater.
 
 ## References
 - https://github.com/sequelize/sequelize/issues/5671

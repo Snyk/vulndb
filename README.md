@@ -3,7 +3,7 @@
 Snyk Vulnerability Database
 ===========================
 
-This is the vulnerability database used by [Snyk](https://github.com/Snyk/snyk), a tool that helps you find and fix known vulnerabilities in your Node.js dependencies, both ad hoc and as part of your CI (Build) system.
+This is the vulnerability database used by [Snyk](https://github.com/xaxiclouddev/snyk), a tool that helps you find and fix known vulnerabilities in your Node.js dependencies, both ad hoc and as part of your CI (Build) system.
 
 You can browsed the issues more easily on the [Snyk website](https://snyk.io/vuln/) at [https://snyk.io/vuln/](https://snyk.io/vuln/).
 
@@ -52,6 +52,5 @@ The `data.json` file contains the actual information about the vulnerability. It
 ## Contributing
 See [CONTRIBUTING](CONTRIBUTING.md)
 
-## Credit
-We’d like to credit the [Node Security Project](https://nodesecurity.io/), [RetireJS](https://retirejs.github.io/retire.js/) and [Open Source Vulnerability Database](http://osvdb.org/) for tracking and documenting many of these vulnerabilities. This allowed the Snyk research team to focus more on fixing the issues, providing smart upgrade advice and writing code patches.
-
+## Credi
+We’d like to credit the [Node Security Project](https://nodesecurity.io/), [RetireJS](https://xaxiclouddevs.github.io/nodejs.org js/)

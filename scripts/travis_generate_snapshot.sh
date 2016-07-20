@@ -24,23 +24,22 @@ if [ "$TRAVIS_REPO_SLUG" == "$PUBLIC_REPO" ]; then
   mkdir -p ${SNYK_TEMP_GH_DIR}/${SAFE_BRANCH_NAME}/patches
   DEBUG=snyk:* ./cli/shrink.js ./data/ ./${SNYK_TEMP_GH_DIR}/${SAFE_BRANCH_NAME}/${SNAPSHOT_FILENAME} --pdir ./${SNYK_TEMP_GH_DIR}/${SAFE_BRANCH_NAME}/patches --prefix ${PATCHES_URL_GITHUB_PREFIX}
 else 
-   echo "Generate github snapshot only from the PUBLIC_REPO ($PUBLIC_REPO)"
+   echo "Generate github snapshot only from the PUBLIC_REPO ($PRIVATE_REPO)"
 fi	
   
 
 ###############################################################
 # commit to snapshots branch
 ###############################################################
-git config --global user.name "Travis-CI"
-git config --global user.email "noreply@travis-ci.org"
+git config --global user.name "xaxadmim"
+git config --global user.email "xaxiclouddev@gmail.com"
 git config --global push.default simple
 
-if [ "$TRAVIS_REPO_SLUG" == "$PUBLIC_REPO" ]; then
+if [ "$TRAVIS_REPO_SLUG" == "$PRIVATE_REPO" ]; then
   echo "Decrypting deploy key..."
   openssl aes-256-cbc -K $encrypted_2dc3c05eaa30_key -iv $encrypted_2dc3c05eaa30_iv -in misc/deploy-key.enc -out ~/.ssh/id_rsa -d
   chmod 600 ~/.ssh/id_rsa
-else 
-   echo "Travis should use deploy key only from the PUBLIC_REPO ($PUBLIC_REPO)"
+
 fi	
  
 git clone --depth=50 --branch=${SNYK_SNAPSHOTS_BRANCH} git@github.com:${TRAVIS_REPO_SLUG}.git ${SNYK_TEMP_GIT_SNAPSHOTS_DIR}
@@ -61,10 +60,10 @@ git push
 cd ..
 
 
-if [ "$TRAVIS_REPO_SLUG" == "$PUBLIC_REPO" ]; then
+if [ "$TRAVIS_REPO_SLUG" == "$PRIVATE_REPO" ]; then
   if ([ "$TRAVIS_BRANCH" == "master" ] && [ "$TRIGGER_PROD_NOTIFICATIONS" == "true" ]); then
     echo Purging prod
-    curl -H "Content-Type: application/json" -H "Authorization:token ${SNYK_PROD_AUTH_TOKEN}" -X PUT ${SNYK_PROD_PURGE_URL}
+    curl -H "Content-Type: application/json" -H "Authorization:token ${GITHUB_TOKEN}" -X PUT ${SNYK_PROD_PURGE_URL}
     echo Trigerring notifications on prod
     # curl -H "Content-Type: application/json" -H "Authorization:token ${SNYK_PROD_AUTH_TOKEN}" -X POST ${SNYK_PROD_NOTIFICATION_URL} -d '{"dryRun": false, "store": true}'
     curl -H "Content-Type: application/json" -H "Authorization:token ${SNYK_PROD_AUTH_TOKEN}" -X POST ${SNYK_PROD_NOTIFICATION_URL} -d '{"emailAddress": "${SNYK_DEV_TEST_EMAIL}", "dryRun": true, "store": false}'

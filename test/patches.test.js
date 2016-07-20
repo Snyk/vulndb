@@ -6,6 +6,7 @@ var walkFiles = require('../lib/utils').walkFiles;
 var exec = require('child_process');
 var util = require('util');
 var os = require('os');
+var args = require('minimist')(process.argv.slice(2));
 
 function testVuln(vulnDataFile, patchBinVersions, t) {
   console.log(vulnDataFile);
@@ -101,7 +102,10 @@ function applyPatchInternal(bin, modulePath, patchPath) {
 
 
 test('Test patches', function (t) {
-  var vulnDataFiles = walkFiles('./data', 'data.json');
+  // can test a single package, for example:
+  // `tape test/patches.test.js --name=sequelize | tap-spec`
+  var testPath = 'name' in args ? '/npm/' + args.name : '';
+  var vulnDataFiles = walkFiles('./data' + testPath, 'data.json');
   var patchBinVersions = walkFiles('./test/bin/' + os.type(), 'patch').map(
     function (v) {
       return path.resolve(v);

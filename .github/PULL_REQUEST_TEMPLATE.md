@@ -1,39 +1,29 @@
 - [ ] ready for merge
 - [ ] copy review by @
+  - [ ] title
+  - [ ] description
+  - [ ] semver validity
+  - [ ] creation/publication/modificatoin dates
 - [ ] code/patch review by @
+  - [ ] patch validity
+  - [ ] semver validity
+  - [ ] license
+  - [ ] tests/fixtures
 
 #### What's this PR do?
 
-#### What vulnerabilities were added?
-type?
-root cause?
-other instances?
+##### What is the affected modules
 
-#### What patches where added?
-Covered range:
+##### What vulnerabilities were added
 
-#### How the vulnerability was discovered?
+##### Severity / CVSS
 
-#### How the severity was determined?
-CVSS score:
+##### NPM Stats
 
-#### Where should the reviewer start?
-Review:
-- [ ] title
-- [ ] description
-- [ ] validity of version ranges for both the vuln and the patches
-- [ ] creation/publication/modificatoin dates
+##### Affected Users/Projects 
 
-#### Any background context you want to provide?
+##### What patches where added
 
-#### What are the relevant tickets?
-
-#### Screenshots
-
-#### Release Notes?
-
-#### Questions
+#### What are the relevant tickets
 
 #### References
-
-

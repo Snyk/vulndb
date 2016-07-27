@@ -47,10 +47,10 @@
     "lodash": "^3.10.1",
     "minimist": "latest",
     "mkdirp": "latest",
-    "request": "latest",
+    "request": "^2.74.0",
     "semver": "latest",
-    "snyk-config": "^1.0.0",
-    "snyk": "^1.16.0"
+    "snyk": "^1.16.0",
+    "snyk-config": "^1.0.0"
   },
   "devDependencies": {
     "jscs": "^2.0.0",

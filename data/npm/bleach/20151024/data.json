@@ -9,7 +9,7 @@
 	"description": "file://README.md",
 	"semver": {
 		"vulnerable": "*",
-		"unaffected": "<0.0.0"
+		"unaffected": "< 0.0.0"
 	},
 	"CVSSv3": "",
 	"severity": "medium",

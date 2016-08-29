@@ -11,5 +11,5 @@ You can read more about timing attacks in Node.js on the Snyk blog: https://snyk
 Upgrade to `1.0.4` or greater.
 
 ## References
-https://github.com/tj/node-cookie-signature/blob/master/History.md#104--2014-06-25
-https://github.com/tj/node-cookie-signature/commit/39791081692e9e14aa62855369e1c7f80fbfd50e
+- https://github.com/tj/node-cookie-signature/blob/master/History.md#104--2014-06-25
+- https://github.com/tj/node-cookie-signature/commit/39791081692e9e14aa62855369e1c7f80fbfd50e

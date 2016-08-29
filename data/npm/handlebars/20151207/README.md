@@ -15,5 +15,4 @@ The resulting HTML would be the following, triggering the script once the image 
 `<img src=http://evil.org/avatar.png onload=alert(document.cookie)><pre>Gotcha!</pre>`
 
 ## References
-- https://nodesecurity.io/advisories/61
 - https://github.com/wycats/handlebars.js/commit/83b8e846a3569bd366cf0b6bdc1e4604d1a2077e

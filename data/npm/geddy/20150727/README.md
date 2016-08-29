@@ -18,6 +18,5 @@ geddy is serving the output as it doesn't match the routes and it's a static fil
 Update to version >= 13.0.8
 
 ## References
-- https://nodesecurity.io/advisories/10
 - https://github.com/geddy/geddy/issues/697
 - https://github.com/geddy/geddy/pull/699

@@ -18,6 +18,5 @@ This is caused by the hostname being passed through a shell as part of a command
 Upgrade dns-sync to version 0.1.1 or greater.
 
 ## References
-- https://nodesecurity.io/advisories/6
 - [Github Issue](https://github.com/skoranga/node-dns-sync/issues/1)
 - [Commit addressing issue](https://github.com/skoranga/node-dns-sync/commit/d9abaae384b198db1095735ad9c1c73d7b890a0d)

@@ -5,6 +5,6 @@ The semver module uses regular expressions when parsing a version string. For a 
 Update to a version 4.3.2 or greater. From the issue description [2]: "Package version can no longer be more than 256 characters long. This prevents a situation in which parsing the version number can use exponentially more time and memory to parse, leading to a potential denial of service."
 
 ## References
-- https://nodesecurity.io/advisories/31
+
 - [1] https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS
 - [2] https://github.com/npm/npm/releases/tag/v2.7.5

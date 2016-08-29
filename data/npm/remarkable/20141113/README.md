@@ -26,5 +26,5 @@ Would be rendered as `[link](javascript:alert(1))` because it's an invalid schem
 Upgrade to version 1.4.1 or greater
 
 ## References
-- https://nodesecurity.io/advisories/30
+
 - https://github.com/jonschlinkert/remarkable/issues/97

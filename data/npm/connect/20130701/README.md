@@ -27,5 +27,3 @@ Update to the newest version of Connect or disable methodOverride. It is not pos
 - (2013-06-27) [First fix: escape req.method output](https://github.com/senchalabs/connect/commit/277e5aad6a95d00f55571a9a0e11f2fa190d8135)
 - (2013-06-27) [Second fix: whitelist](https://github.com/senchalabs/connect/commit/126187c4e12162e231b87350740045e5bb06e93a)
 
-## References
-- https://nodesecurity.io/advisories/3

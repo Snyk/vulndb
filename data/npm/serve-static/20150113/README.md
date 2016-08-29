@@ -16,6 +16,6 @@ If a user visits `http://example.com//www.google.com/%2e%2e` they will be redire
   * Disable redirects if not using the feature with 'redirect: false' option and cannot upgrade.
 
 ## References
-- https://nodesecurity.io/advisories/35
+
 - https://github.com/expressjs/serve-static/issues/26
 - https://www.owasp.org/index.php/Open_redirect

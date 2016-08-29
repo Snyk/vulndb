@@ -7,4 +7,4 @@ Upgrade to version 5.1.2 or greater.
 ## References
 - https://github.com/dwyl/hapi-auth-jwt2/issues/111
 - https://github.com/dwyl/hapi-auth-jwt2/pull/112
-- https://nodesecurity.io/advisories/81
+

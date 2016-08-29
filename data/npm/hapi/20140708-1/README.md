@@ -15,5 +15,5 @@ _Source: [Node Security Project](https://nodesecurity.io/advisories/12)_
 Upgrade to the latest version of hapi.js
 
 ## References
-- https://nodesecurity.io/advisories/12
+
 - [PR #1766 - prepend jsonp callbacks with a comment to prevent the rosetta-flash vulnerability](https://github.com/spumko/hapi/pull/1766)

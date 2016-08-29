@@ -8,4 +8,4 @@ If a direct dependency update is not possible, use [`snyk wizard`](https://snyk.
 
 ## References
 - https://github.com/oliversalzburg/i18n-node-angular/commit/877720d2d9bb90dc8233706e81ffa03f99fc9dc8
-- https://nodesecurity.io/advisories/80
+

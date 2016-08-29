@@ -7,7 +7,6 @@ _Source: [Node Security Project](https://nodesecurity.io/advisories/5)_
 Upgrade DataTables to a version greater than 1.10.8.
 
 ## References
-- https://nodesecurity.io/advisories/5
 - http://www.securityfocus.com/archive/1/archive/1/536437/100/0/threaded
 - https://www.netsparker.com/cve-2015-6384-xss-vulnerability-identified-in-datatables/
 - https://github.com/DataTables/DataTables/issues/602

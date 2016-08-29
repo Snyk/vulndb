@@ -6,5 +6,3 @@ _Source: [Node Security Project](https://nodesecurity.io/advisories/8)_
 ## Recommendations
 Update express to a patched version.
 
-## References
-- https://nodesecurity.io/advisories/8

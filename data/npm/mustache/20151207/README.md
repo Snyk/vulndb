@@ -12,5 +12,5 @@ The resulting HTML would be:
 `<a href=wizard@evil.org onload=alert(document.cookie)>Evil Wizard</a><pre>Busted!</pre>`
 
 ## References
-- https://nodesecurity.io/advisories/62
+
 - https://github.com/janl/mustache.js/commit/378bcca8a5cfe4058f294a3dbb78e8755e8e0da5

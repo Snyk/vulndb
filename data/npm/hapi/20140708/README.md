@@ -16,5 +16,4 @@ This does NOT affect hapi 1.x deployments.
 Please upgrade to version 2.2.x or above as soon as possible.
 
 ## References
-- https://nodesecurity.io/advisories/11
 - https://github.com/spumko/hapi/issues/1427

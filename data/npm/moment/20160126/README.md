@@ -6,5 +6,5 @@ The `duration` function in the [`moment`](https://www.npmjs.com/package/moment) 
 
 ## References
 - [1] https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS
-- https://nodesecurity.io/advisories/55
+
 - https://github.com/moment/moment/issues/2936

@@ -9,5 +9,4 @@ _Source: [Node Security Project](https://nodesecurity.io/advisories/9)_
 Upgrade to version 0.1.4 or greater.
 
 ## References
-- https://nodesecurity.io/advisories/9
 - http://en.wikipedia.org/wiki/Directory_traversal_attack

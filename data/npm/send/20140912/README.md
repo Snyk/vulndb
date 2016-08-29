@@ -7,6 +7,6 @@ _Source: [Node Security Project](https://nodesecurity.io/advisories/32)_
 Upgrade to a version greater than or equal to 0.8.4.
 
 ## References
-- https://nodesecurity.io/advisories/32
+
 - https://github.com/visionmedia/send/pull/59
 - https://github.com/visionmedia/send/commit/9c6ca9b2c0b880afd3ff91ce0d211213c5fa5f9a

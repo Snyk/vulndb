@@ -9,5 +9,5 @@ _Source: [Node Security Project](https://nodesecurity.io/advisories/21)_
 Update to version 0.2.3 that includes a version of LibYAML that contains a fix for this issue.
 
 ## References
-- https://nodesecurity.io/advisories/21
+
 - https://bitbucket.org/xi/libyaml/pull-request/1/fix-cve-2013-6393/diff

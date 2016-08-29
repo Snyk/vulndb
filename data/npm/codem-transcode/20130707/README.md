@@ -12,5 +12,3 @@ The ffprobe functionality is not enabled by default. In addition, exploitation o
 ## Remediation
 An updated and patched version of the module (version 0.5.0) is [available via npm] (https://www.npmjs.com/package/codem-transcode). Users who have enabled the ffprobe functionality are especially encouraged to upgrade.
 
-## References
-- https://nodesecurity.io/advisories/2

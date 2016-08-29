@@ -13,6 +13,6 @@ The regular expression used by the function to parse the time is vulnerable to d
 Upgrade to version 0.1.2.
 
 ## References
-- https://nodesecurity.io/advisories/59
+
 - [1] https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS
 - https://github.com/unshiftio/millisecond/pull/4

@@ -7,6 +7,6 @@ Upgrade to version 0.3.16 or greater.
 If a direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/docs/using-snyk#wizard) to patch this vulnerability.
 
 ## References
-- https://nodesecurity.io/advisories/60
+
 - https://www.npmjs.com/package/keystone
 - https://github.com/keystonejs/keystone/issues/1085

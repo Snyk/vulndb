@@ -8,6 +8,5 @@ Upgrade `gm` to version 1.21.1 or greater.
 If a direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/docs/using-snyk#wizard) to patch this vulnerability.
 
 ## References
-- https://nodesecurity.io/advisories/54
 - https://www.owasp.org/index.php/Command_Injection
 - https://github.com/aheckmann/gm/commit/5f5c77490aa84ed313405c88905eb4566135be31

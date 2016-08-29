@@ -14,5 +14,5 @@ For example, browsers interpret <a href="jav&#x61;script:...">abc</a> as <a href
 Upgrade to the latest version of this library. However, it should be noted that the fix for this vulnerability was to remove the xss filter functionality. Seek another library to provide proper output encoding.
 
 ## References
-- https://nodesecurity.io/advisories/43
+
 - https://github.com/chriso/validator.js/issues/181

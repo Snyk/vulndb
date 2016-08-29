@@ -8,6 +8,6 @@ If the connection has CORS enabled but one route has it off, and the route is no
 Upgrade to a version 11.0.0 or greater.
 
 ## References
-- https://nodesecurity.io/advisories/45
+
 - https://github.com/hapijs/hapi/issues/2850
 - https://github.com/hapijs/hapi/issues/2840

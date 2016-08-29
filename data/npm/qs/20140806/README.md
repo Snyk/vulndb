@@ -5,6 +5,6 @@ During parsing, the qs module may create a sparse area (an array where not eleme
 Upgrade qs to version 1.0.0 or greater. In these versions, qs introduced a low limit on the index value, preventing such an attack
 
 ## References
-- https://nodesecurity.io/advisories/29
+
 - https://github.com/visionmedia/node-querystring/issues/104
 

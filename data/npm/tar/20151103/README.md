@@ -6,6 +6,6 @@ Upgrade to version 2.0.0 or greater.
 If a direct dependency update is not possible, use [`snyk wizard`](https://snyk.io/docs/using-snyk#wizard) to patch this vulnerability.
 
 ## References
-- https://nodesecurity.io/advisories/57
+
 - https://github.com/npm/node-tar/commit/a5337a6cd58a2d800fc03b3781a25751cf459f28
 - https://github.com/npm/npm/releases/tag/v2.7.5

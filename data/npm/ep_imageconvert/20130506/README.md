@@ -11,5 +11,4 @@ _Source: [Node Security Project](https://nodesecurity.io/advisories/7)_
 Update to version 0.0.3 or greater.
 
 ## References
-- https://nodesecurity.io/advisories/7
 - https://github.com/redhog/ep_imageconvert/pull/5

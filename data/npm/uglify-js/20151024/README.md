@@ -9,5 +9,5 @@ Upgrade to version 2.6.0 or greater.
 If a direct dependency update is not possible, use `snyk wizard` to patch this vulnerability.
 
 ## References
-- https://nodesecurity.io/advisories/48
+
 - https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS

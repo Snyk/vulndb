@@ -7,5 +7,5 @@ _Source: [Node Security Project](https://nodesecurity.io/advisories/44)_
 Update to a version 2.2.0 or greater.
 
 ## References
-- https://nodesecurity.io/advisories/44
+
 - https://github.com/spumko/yar/issues/34

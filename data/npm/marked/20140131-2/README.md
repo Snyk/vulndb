@@ -17,5 +17,5 @@ _Source: [Node Security Project](https://nodesecurity.io/advisories/24)_
 Upgrade to version 0.3.3 or greater.
 
 ## References
-- https://nodesecurity.io/advisories/24
+
 - https://github.com/chjj/marked/issues/492

@@ -36,4 +36,4 @@ The admin interface is disabled by default. The module author confirmed that the
 Module version 0.0.6 has been updated to ensure an array of keys is provided as well as documentation updates.
 
 ## References
-- https://nodesecurity.io/advisories/38
+

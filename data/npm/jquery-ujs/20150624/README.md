@@ -15,7 +15,7 @@ who will see this as a same origin request, and send the user's CSRF token to th
 Upgrade to the latest version.
 
 ## References
-- https://nodesecurity.io/advisories/15
+
 - hackerone.com: https://hackerone.com/reports/49935
 - npm: https://www.npmjs.com/package/jquery-ujs
 - rubyonrails-security: https://groups.google.com/forum/#!msg/rubyonrails-security/XIZPbobuwaY/fqnzzpuOlA4J

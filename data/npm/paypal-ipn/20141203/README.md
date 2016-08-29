@@ -10,5 +10,5 @@ _Source: [Node Security Project](https://nodesecurity.io/advisories/26)_
 Upgrade to version 3.0.0 or greater.
 
 ## References
-- https://nodesecurity.io/advisories/26
+
 - [1] https://github.com/andzdroid/paypal-ipn/issues/11

@@ -8,5 +8,5 @@ _Source: [Node Security Project](https://nodesecurity.io/advisories/40)_
 Update to the version >=0.9.0
 
 ## References
-- https://nodesecurity.io/advisories/40
+
 - https://github.com/FredrikNoren/ungit/issues/486

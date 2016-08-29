@@ -9,5 +9,4 @@ _Source: [Node Security Project](https://nodesecurity.io/advisories/4)_
 Update crumb to version 3.0.0 or greater.
 
 ## References
-- https://nodesecurity.io/advisories/4
 - https://github.com/spumko/crumb/commit/5e6d4f5c81677fe9e362837ffd4a02394303db3c

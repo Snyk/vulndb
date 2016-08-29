@@ -14,6 +14,6 @@ libnotify.notify('UNTRUSTED INPUT', { title: \"\" }, function () {
 })
 ```
 ## References
-- https://nodesecurity.io/advisories/20
+
 
 Special thanks to Neal Poole for submitting the pull request to fix this issue.

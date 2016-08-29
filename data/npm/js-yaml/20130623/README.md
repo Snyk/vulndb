@@ -36,5 +36,5 @@ yaml.load(x);
 Developers using the JS-YAML module should make sure that they are working with an up-to-date version and should strongly consider porting their code to use safeLoad in place of load, especially when accepting YAML derived from user input.
 
 ## References
-- https://nodesecurity.io/advisories/16
+
 - [Code Execution via YAML in JS-YAML Node.js Module](https://nealpoole.com/blog/2013/06/code-execution-via-yaml-in-js-yaml-nodejs-module/)

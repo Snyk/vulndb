@@ -15,4 +15,4 @@ _Source: [Node Security Project](https://nodesecurity.io/advisories/22)_
 Upgrade to version 0.3.1 or later
 
 ## References
-- https://nodesecurity.io/advisories/22
+

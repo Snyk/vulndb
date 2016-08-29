@@ -62,7 +62,7 @@ function getTimeLeft(expiry) {
 Upgrade UglifyJS to version >= 2.4.24.
 
 ## References
-- https://nodesecurity.io/advisories/39
+
 - https://github.com/tmcw/mdast-uglify-bug
 - https://zyan.scripts.mit.edu/blog/backdooring-js/
 - https://github.com/mishoo/UglifyJS2/issues/751

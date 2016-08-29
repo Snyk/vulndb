@@ -8,5 +8,5 @@ When direct dependency update is not possible, use [`snyk wizard`](https://snyk.
 
 
 ## References
-- https://nodesecurity.io/advisories/50
+
 - https://github.com/vdemedes/secure-compare/pull/1

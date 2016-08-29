@@ -15,6 +15,6 @@ Marked's catastrophic backtracking issue for the `em` inline rule has now been p
 Ugrade to marked v0.3.4 or later.
 
 ## References
-- https://nodesecurity.io/advisories/23
+
 - [1] https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS
 - https://github.com/chjj/marked/issues/497

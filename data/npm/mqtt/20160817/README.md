@@ -1,5 +1,5 @@
 ## Overview
-['mqtt'](https://www.npmjs.com/package/mqtt) is a library implementing the MQTT protocol. Versions `1.0.0` and earlier allow a remote attacker to cause Denial of Service (DoS) by sending a specifically crafted packet, crashing the application.
+['mqtt'](https://www.npmjs.com/package/mqtt) is a library implementing the MQTT protocol. Versions earlier than `1.0.0` allow a remote attacker to cause Denial of Service (DoS) by sending a specifically crafted packet, crashing the application.
 
 ## Remediation
 Upgrade `mqtt` to version 1.0.0 or later

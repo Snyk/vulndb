@@ -6,7 +6,7 @@ In addition, there is the `none` algorithm to be concerned about.  In versions p
 Source: _Node Security Project_
 
 ## Remediation
-Update to `jws` version `2.0.0` or later.
+Upgrade `jws` to version `3.0.0` or later.
 
 ## References
 https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/

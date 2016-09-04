@@ -1,51 +1,43 @@
 sudo: false
-
 language: node_js
-
 cache:
   directories:
   - node_modules
-
 notifications:
   email: false
-
+  slack:
+    secure: GXxySCqYjPKvuRQVyxnVQjtQa+4vfNuAQiEHFDdMOfpc4zo0KnPS4GmoKiXGTl+aJqvpKg3Qmjy0gRqwXHZ5U3JyEJF5TuTWIYZEn8/G2qb3XklRyZQBrP0F15qfYG1XZXSRkiq87cx2GcoijD/wDbJ6V7LLodr0l1c/G/bC3VDlDe2R2WlrvcfPFg/Qw+fq7q6+kQb3xlB8wBSQiH/TxTuDUML3muTL0FUza1OtYuGxGybQMUq/JSNSTJ5tOOhXrWfNr5OE4BbZK5+6WR5/gkG3EZQ/g1+wY0cgTnNZByJ7TRtCktOR2RKk4xZmAcNWt1lzZScdpXyRoKidi/X8T+zhbk5Kdltz9YOc4IeYDbf3a9liQtMxP+XEfjqaJV4w2UxUYgYh/MPoI9ne3Sc0WdzBoz/zQSVGO5v2N5polJHHnWjRQopgHESNlGg+93W1+BHkn3kDsQfSN1aZHmwundvX9lwnOTQ3lTMEJi2mX3Uh22DhMZXdvgbVAtfesW15W+qXt0IgfQRhX/BTmjjwkiQNNGVJUoFYOoq0TYLSA1Ny0P85+D5uFqGsqeh1fYnU0EfJzfQCp1jyP6mmxBE0nNmbJTqTPUf9MCCsF/EAJ+VSpLSZMbpL8hHxp7ZyH5XoLcIR+57IUDyjCWpTEey0PWJQHPbJ41P6qYzQ+HoX+BY=
 node_js:
-- "4"
-
+- '4'
 before_install:
 - |
-    echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
-    npm i -g npm@^2.0.0
-
+  echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
+  npm i -g npm@^2.0.0
 before_script:
 - |
-    gem update --system
-    gem --version
-    npm prune
-
+  gem update --system
+  gem --version
+  npm prune
 script:
-  - npm test
-  - ./scripts/travis_generate_snapshot.sh
-
+- npm test
+- "./scripts/travis_generate_snapshot.sh"
 before_deploy:
-  - gem install mime-types -v 2.6.2
-
+- gem install mime-types -v 2.6.2
 branches:
   except:
   - snapshots
-  - /.*-snapshots$/
+  - "/.*-snapshots$/"
   - gh-pages
-
 deploy:
   provider: s3
-  access_key_id: ${AWS_ACCESS_KEY}
-  secret_access_key: ${AWS_SECRET_ACCESS_KEY}
-  region: ${ARTIFACTS_S3_REGION}
-  bucket: ${ARTIFACTS_S3_BUCKET}
-  local-dir: ${SNYK_TEMP_S3_DIR}
-  upload-dir: ${ARTIFACTS_S3_UPLOAD_DIR}
+  access_key_id: "${AWS_ACCESS_KEY}"
+  secret_access_key: "${AWS_SECRET_ACCESS_KEY}"
+  region: "${ARTIFACTS_S3_REGION}"
+  bucket: "${ARTIFACTS_S3_BUCKET}"
+  local-dir: "${SNYK_TEMP_S3_DIR}"
+  upload-dir: "${ARTIFACTS_S3_UPLOAD_DIR}"
   skip_cleanup: true
-  acl: ${ARTIFACTS_S3_ACL}
+  acl: "${ARTIFACTS_S3_ACL}"
   on:
-    repo: ${TRAVIS_REPO_SLUG}
-    branch: ${TRAVIS_BRANCH}
+    repo: "${TRAVIS_REPO_SLUG}"
+    branch: "${TRAVIS_BRANCH}"

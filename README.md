@@ -51,7 +51,3 @@ The `data.json` file contains the actual information about the vulnerability. It
 
 ## Contributing
 See [CONTRIBUTING](CONTRIBUTING.md)
-
-## Credit
-We’d like to credit the [Node Security Project](https://nodesecurity.io/), [RetireJS](https://retirejs.github.io/retire.js/) and [Open Source Vulnerability Database](http://osvdb.org/) for tracking and documenting many of these vulnerabilities. This allowed the Snyk research team to focus more on fixing the issues, providing smart upgrade advice and writing code patches.
-

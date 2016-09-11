@@ -1,7 +1,10 @@
 ## Overview
 `express-restify-mongoose` is a module to easily create a flexible REST interface for mongoose models.
 
-If you have a user model that you want to protect:
+It supports marking certain fields as private, to keep from exposing them to users, but fails to remove those fields from certain output scenarios, resulting in potential private data exposure.
+
+For instance, if you have the following User model:
+
 ```
 const User = mongoose.model('User', new mongoose.Schema({
     name: String,
@@ -9,22 +12,21 @@ const User = mongoose.model('User', new mongoose.Schema({
 }));
 ```
 
-You would normally do something such as:
+To keep from exposing the password, you'll likely to want to call it out as a private field like so:
+
 ```
 restify.serve(router, User, {
-    private: ['password'], // Set the password part of User as private, so outside people can't read it
+    private: ['password'],
 })
 ```
 
-This would hide the password field from people that send your application a `GET /User` and `GET /User/some-user-id` request. 
+This will indeed result in the password field not showing when you request an item, for instance via `GET /User` or `GET /User/some-id`.
 
-But a malicious user could go to your application and send a request for `GET /User?distinct=password` and get all the passwords for all the users in the database, despite the field being set to private. This could also be used for other private data if the malicious user knew what was set as private for specific routes. 
-
-Source: Node Security Project
+However, when querying on that field, using `GET /User?distinct=password`, ALL passwords for ALL the users in the DB would be shown.
 
 ## Remediation
-Update to at least version 3.1.0 or 2.5.0
+Update to version `3.1.0` or newer on the `3.x` branch, or to version `2.5.0` or newer on the `2.x` branch.
 
 ## References
 - https://github.com/florianholzapfel/express-restify-mongoose/issues/252
-
+- https://github.com/florianholzapfel/express-restify-mongoose/pull/253

@@ -1,20 +1,13 @@
 ## Overview
-Swagger is a standardized library for documenting API endpoints and their parameters.  Swagger uses a JSON document to organize API endpoint parameter data.
+Swagger UI is a dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate  documentation from a Swagger-compliant API.
 
-Swagger-ui contains a cross site scripting (XSS) vulnerability in the key names for the following object path in the JSON document:
-```
- .definitions.<USER_DEFINED>.properties.<INJECTABLE_KEY_NAME>
-```
-Supplying a key name with script tags causes arbitrary code execution.  In addition it is possible to load the arbitrary JSON files remotely via the `URL` query-string parameter.
+A key part of this generation is the use of a JSON schema, which can be read locally or by providing a `url` parameter to the Swagger server (e.g. `http://swagger-server/swagger-ui/index.html?url=<schema-url>`).
 
-This advisory is being disclosed before a public patched release is available because of a public Github issue documenting the vulnerability.
-
-Source: _Node Security Project_
+The schema supports property fields, which are in turn included in the generated HTML without any HTML encoding, allowing an attacker to perform XSS by adding malicious scripts to their values.
 
 ## Remediation
-Our primary recommendation is to host swagger documentation on a separate domain distinct from the application domain.  Also, we recommend implementing a content security policy (CSP) that restricts the domains from which JSON files can be requested in order to avoid loading malicious JSON docs via the `URL` query string parameter.
+Upgrade to version `2.2.1` or newer.
 
 ## References
 - https://github.com/swagger-api/swagger-ui/issues/1865
-- https://en.wikipedia.org/wiki/Content_Security_Policy
-
+- https://github.com/swagger-api/swagger-ui/releases/tag/v2.2.1

@@ -1,14 +1,13 @@
 ## Overview
+The `codem-transcode` package supports a feature (off by default) to interact with a local `ffprobe`. When enabled, POST requests to `/probe` trigger the execution of the local `ffprobe` binary, with the provided parameters.
 
-When the ffprobe functionality is enabled on the server, HTTP POST requests can be made to /probe. These requests are passed to the ffprobe binary on the server. Through this HTTP endpoint it is possible to send a malformed source file name to ffprobe that results in arbitrary command execution.
+This execution is done using `exec`, allowing piped requests, and therefore enabling remote command execution. Newer versions use `execFile` instead, preventing such injection (though still giving attackers to whatever functionality `ffprobe` supports, and any weaknesses in it).
 
-_Source: [Node Security Project](https://nodesecurity.io/advisories/2)_
-
-## Details
-
-**Mitigating Factors:**
-The ffprobe functionality is not enabled by default. In addition, exploitation opportunities are limited in a standard configuration because the server binds to the local interface by default.
+Note that, by default, the package only listens for such requests from the local network interface, greatly reducing the likelihood of exploitation.
 
 ## Remediation
-An updated and patched version of the module (version 0.5.0) is [available via npm] (https://www.npmjs.com/package/codem-transcode). Users who have enabled the ffprobe functionality are especially encouraged to upgrade.
+Either turn off the `ffprobe` functionality or upgrade to (at least) version `0.5.0`, which address this issue by using `execFile` instead of `exec`.
 
+## References
+- https://github.com/madebyhiro/codem-transcode/commit/477aac9da7aab5d3f661ef4c0bf4accae5dff292
+- https://dzone.com/articles/understanding-execfile-spawn-exec-and-fork-in-node

@@ -1,7 +1,9 @@
 ## Overview
-A vulnerability exists in bassmaster <= 1.5.1 that allows for an attacker to provide arbitrary JavaScript that is then executed server side via eval.
+Old versions of `bassmaster`, a Hapi server plugin used to process batches of requests, use the `eval` method as part of its processing and validation of user input.
 
-_Source: [Node Security Project](https://nodesecurity.io/advisories/1)_
+An attacker can therefore provide arbitrary javascript in this input, which will be executed by this `eval` function without limitation.
+
+This is a very severe remote JavaScript code execution, and depending on the node process permissions can turn into [Arbitrary Remote Code Execution](https://en.wikipedia.org/wiki/Arbitrary_code_execution) on the operating system level as well.
 
 ## Remediation
 Update to bassmaster version 1.5.2 or greater.

@@ -1,11 +1,8 @@
 ## Overview
 bleach 3.0 and earlier is vulnerable to [Regular expression Denial of Service (ReDoS)](https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS) when certain types of input are passed into the sanitize function.
 
-_Source: [Node Security Project] (https://nodesecurity.io/advisories/47)_
-
-## Details
-The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time. [1]
+`bleach` performs html sanitization, which has definite value from a security perspective. However, it does not control the length of the html it processes, and uses regular expressions to parse it. As a result, it is susceptible to a [Regular expression Denial of Service (ReDoS)](https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS) vulnerabilities, rendering an application unavailable if a long or complex input is passed in.
 
 ## References
+- https://github.com/ecto/bleach/blob/master/lib/bleach.js#L29
 - https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS
-

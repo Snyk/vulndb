@@ -1,11 +1,10 @@
-## Overview:
-The qs module has the ability to create sparse arrays during parsing. By specifying a high index it is possible to create a large array that will eventually take up all the allocated memory of the running process, resulting in a crash.
+## Overview
+During parsing, the qs module may create a sparse area (an array where not elements are filled), and grow that array to the necessary size based on the indices used on it. An attacker can specify a high index value in a query string, thus making the server allocate a respectively big array. Truly large values can cause the server to run out of memory and cause it to crash - thus enabling a Denial-of-Service attack.
 
-_Original description taken from the [Node Security Project](https://nodesecurity.io/)_
+## Remediation
+Upgrade qs to version 1.0.0 or greater. In these versions, qs introduced a low limit on the index value, preventing such an attack
 
-## Recommendations:
-Update qs to version 1.0.0 or greater
+## References
 
-## References:
 - https://github.com/visionmedia/node-querystring/issues/104
 

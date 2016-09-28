@@ -2,7 +2,7 @@
 	"npm": {
 		"qs": [
 			{
-				"title": "qs Denial-of-Service Memory Exhaustion",
+				"title": "Denial of Service (Memory Exhaustion)",
 				"credit": [
 					"Dustin Shiver"
 				],
@@ -21,11 +21,11 @@
 					"CVE": [
 						"CVE-2014-7191"
 					],
-					"NSP": 29
+					"NSP": 29,
+					"ALTERNATIVE": [
+						"SNYK-JS-QS-10019"
+					]
 				},
-				"info": [
-					"https://nodesecurity.io/advisories/29"
-				],
 				"patches": [
 					{
 						"urls": [
@@ -38,7 +38,7 @@
 					},
 					{
 						"urls": [
-							"file://qs_20140806_0_1_x_snyk_2.patch"
+							"file://qs_20140806_0_1_snyk_npm.patch"
 						],
 						"version": "=0.5.6",
 						"modificationTime": "2014-08-06T06:10:22.000Z",
@@ -50,10 +50,16 @@
 				"creationTime": "2014-08-06T06:10:22.000Z",
 				"publicationTime": "2014-08-06T06:10:22.000Z",
 				"modificationTime": "2015-11-06T02:09:36.180Z",
-				"id": "npm:qs:20140806"
+				"disclosureTime": "2014-08-06T06:10:22.000Z",
+				"language": "js",
+				"packageManager": "npm",
+				"id": "npm:qs:20140806",
+				"alternativeIds": [
+					"SNYK-JS-QS-10019"
+				]
 			},
 			{
-				"title": "qs Denial-of-Service Extended Event Loop Blocking",
+				"title": "Denial of Service (Event Loop Blocking)",
 				"credit": [
 					"Tom Steele"
 				],
@@ -69,11 +75,11 @@
 						"CWE-400"
 					],
 					"CVE": [],
-					"NSP": 28
+					"NSP": 28,
+					"ALTERNATIVE": [
+						"SNYK-JS-QS-10020"
+					]
 				},
-				"info": [
-					"https://nodesecurity.io/advisories/28"
-				],
 				"patches": [
 					{
 						"urls": [
@@ -98,7 +104,13 @@
 				"creationTime": "2014-08-06T06:10:23.000Z",
 				"publicationTime": "2014-08-06T06:10:23.000Z",
 				"modificationTime": "2015-11-06T02:09:36.180Z",
-				"id": "npm:qs:20140806-1"
+				"disclosureTime": "2014-08-06T06:10:23.000Z",
+				"language": "js",
+				"packageManager": "npm",
+				"id": "npm:qs:20140806-1",
+				"alternativeIds": [
+					"SNYK-JS-QS-10020"
+				]
 			}
 		],
 		"secure-compare": [
@@ -109,7 +121,7 @@
 				],
 				"creationTime": "2015-11-06T02:09:36.186Z",
 				"modificationTime": "2015-11-06T02:09:36.186Z",
-				"publicationTime": "2015-10-24T21:00:53.201Z",
+				"publicationTime": "2015-11-06T02:09:36.186Z",
 				"description": "file://README.md",
 				"semver": {
 					"vulnerable": "<=3.0.0",
@@ -120,11 +132,11 @@
 				"identifiers": {
 					"CWE": [],
 					"CVE": [],
-					"NSP": 50
+					"NSP": 50,
+					"ALTERNATIVE": [
+						"SNYK-JS-SECURECOMPARE-10060"
+					]
 				},
-				"info": [
-					"https://nodesecurity.io/advisories/50"
-				],
 				"patches": [
 					{
 						"urls": [
@@ -139,7 +151,13 @@
 					}
 				],
 				"moduleName": "secure-compare",
-				"id": "npm:secure-compare:20151024"
+				"disclosureTime": "2015-10-24T21:00:53.201Z",
+				"language": "js",
+				"packageManager": "npm",
+				"id": "npm:secure-compare:20151024",
+				"alternativeIds": [
+					"SNYK-JS-SECURECOMPARE-10060"
+				]
 			}
 		],
 		"tar": [
@@ -150,7 +168,7 @@
 				],
 				"creationTime": "2015-11-06T02:09:36.182Z",
 				"modificationTime": "2015-11-06T02:09:36.182Z",
-				"publicationTime": "2015-11-03T07:15:12.900Z",
+				"publicationTime": "2015-11-06T02:09:36.182Z",
 				"description": "file://README.md",
 				"semver": {
 					"vulnerable": "<2.0.0",
@@ -161,11 +179,11 @@
 				"identifiers": {
 					"CWE": [],
 					"CVE": [],
-					"NSP": 57
+					"NSP": 57,
+					"ALTERNATIVE": [
+						"SNYK-JS-TAR-10055"
+					]
 				},
-				"info": [
-					"https://nodesecurity.io/advisories/57"
-				],
 				"patches": [
 					{
 						"urls": [
@@ -191,12 +209,18 @@
 					}
 				],
 				"moduleName": "tar",
-				"id": "npm:tar:20151103"
+				"disclosureTime": "2015-11-03T07:15:12.900Z",
+				"language": "js",
+				"packageManager": "npm",
+				"id": "npm:tar:20151103",
+				"alternativeIds": [
+					"SNYK-JS-TAR-10055"
+				]
 			}
 		],
 		"uglify-js": [
 			{
-				"title": "uglify-js incorrectly handles non-boolean comparisons during minification",
+				"title": "Improper minification of non-boolean comparisons",
 				"credit": [
 					"Tom MacWright"
 				],
@@ -212,12 +236,11 @@
 						"CWE-95"
 					],
 					"CVE": [],
-					"NSP": 39
+					"NSP": 39,
+					"ALTERNATIVE": [
+						"SNYK-JS-UGLIFYJS-10041"
+					]
 				},
-				"info": [
-					"https://github.com/mishoo/UglifyJS2/issues/751",
-					"https://github.com/tmcw/mdast-uglify-bug"
-				],
 				"patches": [
 					{
 						"urls": [
@@ -233,7 +256,13 @@
 				"creationTime": "2015-08-24T09:29:10.000Z",
 				"publicationTime": "2015-08-24T09:29:10.000Z",
 				"modificationTime": "2015-11-06T02:09:36.180Z",
-				"id": "npm:uglify-js:20150824"
+				"disclosureTime": "2015-08-24T09:29:10.000Z",
+				"language": "js",
+				"packageManager": "npm",
+				"id": "npm:uglify-js:20150824",
+				"alternativeIds": [
+					"SNYK-JS-UGLIFYJS-10041"
+				]
 			},
 			{
 				"title": "Regular Expression Denial of Service",
@@ -242,7 +271,7 @@
 				],
 				"creationTime": "2015-11-06T02:09:36.186Z",
 				"modificationTime": "2015-11-06T02:09:36.186Z",
-				"publicationTime": "2015-10-24T21:01:32.155Z",
+				"publicationTime": "2015-11-06T02:09:36.186Z",
 				"description": "file://README.md",
 				"semver": {
 					"vulnerable": "<2.6.0",
@@ -255,11 +284,11 @@
 						"CWE-400"
 					],
 					"CVE": [],
-					"NSP": 48
+					"NSP": 48,
+					"ALTERNATIVE": [
+						"SNYK-JS-UGLIFYJS-10059"
+					]
 				},
-				"info": [
-					"https://nodesecurity.io/advisories/48"
-				],
 				"patches": [
 					{
 						"urls": [
@@ -285,7 +314,13 @@
 					}
 				],
 				"moduleName": "uglify-js",
-				"id": "npm:uglify-js:20151024"
+				"disclosureTime": "2015-10-24T21:01:32.155Z",
+				"language": "js",
+				"packageManager": "npm",
+				"id": "npm:uglify-js:20151024",
+				"alternativeIds": [
+					"SNYK-JS-UGLIFYJS-10059"
+				]
 			}
 		]
 	}

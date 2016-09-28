@@ -26,7 +26,7 @@ var options = {
   resolveReadme: true,
   dstPatchesDir: args.pdir,
   patchUrlPrefix: args.prefix,
-}
+};
 
 panda.fetch(inputDir).then(function (snykDb) {
   snykDb.writeSnapshotFile(jsonFile, options).then(function (results) {
@@ -35,9 +35,9 @@ panda.fetch(inputDir).then(function (snykDb) {
       results.filename, results.vulnerabiltyCount, results.readmeCount,
       results.patchCount, results.patchFilesCount);
   }).catch(function (error) {
-    debug(error)
-    console.error(error)
-    process.exit(1)
+    debug(error);
+    console.error(error);
+    process.exit(1);
   });
 
 }).catch(function (error) {

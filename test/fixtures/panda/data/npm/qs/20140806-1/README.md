@@ -1,7 +1,8 @@
-## Overview:
-The qs module does not have an option or default for specifying object depth and when parsing a string representing a deeply nested object will block the event loop for long periods of time. An attacker could leverage this to cause a temporary denial-of-service condition, for example, in a web application, other requests would not be processed while this blocking is occurring.
+## Overview
+When parsing a string representing a deeply nested object, qs will block the event loop for long periods of time. Such a delay may hold up the server's resources, keeping it from processing other requests in the meantime, thus enabling a Denial-of-Service attack. 
 
-_Original description taken from the [Node Security Project](https://nodesecurity.io/)_
+## Remediation
+Update qs to version 1.0.0 or greater. In these versions, qs enforces a max object depth (along with other limits), limiting the event loop length and thus preventing such an attack.
 
-## Recommendations:
-Update qs to version 1.0.0 or greater
+## References
+https://nodesecurity.io/advisories/28

@@ -2,7 +2,7 @@ var test = require('tape');
 var fs = require('fs');
 var semver = require('semver');
 var walkFiles = require('../lib/utils').walkFiles;
-var path = require('path')
+var path = require('path');
 
 
 test('validate all /data/ vulns', function (t) {
@@ -15,17 +15,6 @@ test('validate all /data/ vulns', function (t) {
     var vuln = JSON.parse(fs.readFileSync(vulnDataFile));
 
     var id = path.parse(vulnDataFile).dir.split('/').slice(2).join(':');
-
-    var vids = [id]
-    if (vuln.alternativeIds) {
-      vids = vids.concat(vuln.alternativeIds);
-    }
-
-    vids.forEach(function (vid) {
-      t.assert(vulnIds.indexOf(vid) === -1, 'non unique id ' + vid);
-    });
-
-    vulnIds = vulnIds.concat(vids);
 
     // vulnerable semver range
     t.assert(vuln.semver && vuln.semver.vulnerable &&
@@ -41,13 +30,6 @@ test('validate all /data/ vulns', function (t) {
     if (vuln.patches.length) {
       t.test(vulnDataFile + ' ' + id + ' patches', function (t) {
         vuln.patches.forEach(function (p) {
-
-          t.assert(p.id, 'valid patch id ' + p.id);
-
-          t.assert(p.id.indexOf(id) > 0, 'patch id contains vulnId');
-
-          t.assert(patchIds.indexOf(p.id) < 0, 'unique patch id ' + p.id);
-          patchIds.push(p.id);
 
           t.equal(p.urls.length, 1, 'has only 1 url');
 

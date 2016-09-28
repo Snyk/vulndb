@@ -9,7 +9,7 @@ var schema = require('./fixtures/schema/vulnerability-data-schema.json');
 
 var options = {
   formats: {
-    'snyk-vuln-id': /^(npm):[0-9a-z-\._]+:(\d){8}(-\d+)?$/,
+    'snyk-vuln-id': /^(((npm):[0-9a-z-\._]+:(\d){8}(-\d)?)|(SNYK-(JS|RUBY)-[A-Z0-9]+-\d+))?$/,
     'package-manager': /^(npm|RubyGems)$/,
     'language': /^(js|ruby)$/,
   },

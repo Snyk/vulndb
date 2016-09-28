@@ -1,11 +1,9 @@
 ## Overview
-FuelUX is a library for extending Twitter Bootstrap with additional lightweight JavaScript controls.
+[`FuelUX`](https://www.npmjs.com/package/fuelux) is a library for extending Twitter Bootstrap with additional lightweight JavaScript controls.
+Affected versions of this package are vulnerable to Cross-site Scripting (XSS) attacks by sending a script in a new pillbox, allowing attackers to execute malicious code.
 
-There exists a cross site scripting (XSS) vulnerability in the Pillbox feature of FuelUX.  By supplying a script as a value for a new pillbox, it is possible to cause arbitrary script execution.  
-
-This advisory is being released before a public patched version is available because the issue was reported publicly on Github.
-Source: _Node Security Project_
+## Remediation
+Upgrade `FuelUX` to version 3.15.7 or higher. 
 
 ## References
 - https://github.com/ExactTarget/fuelux/issues/1841
-

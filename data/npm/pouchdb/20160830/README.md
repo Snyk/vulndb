@@ -12,3 +12,4 @@ Upgrade `pouchDB` to version 6.0.5 or later.
 ## References
 - https://github.com/pouchdb/pouchdb/issues/5612
 - https://github.com/pouchdb/pouchdb/compare/6.0.3...6.0.5
+- https://medium.com/@micaksica/from-pouchdb-to-rce-a-node-js-injection-vector-ffd1d1dd2807

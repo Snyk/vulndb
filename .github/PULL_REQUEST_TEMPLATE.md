@@ -4,27 +4,27 @@
   - [ ] title
   - [ ] description
   - [ ] semver validity
-  - [ ] creation/publication/modificatoin dates
+  - [ ] creation/publication/modification dates
 - [ ] code/patch review by @
   - [ ] patch validity
   - [ ] semver validity
   - [ ] license
   - [ ] tests/fixtures
 
-#### What's this PR do?
+#### What does this PR do?
 
-##### What is the affected modules
+##### What are the affected modules?
 
-##### What vulnerabilities were added
+##### What vulnerabilities were added?
 
-##### Severity / CVSS
+##### Severity/CVSS
 
-##### NPM Stats
+##### RubyGems/npm stats
 
-##### Affected Users/Projects 
+##### Affected users/projects 
 
-##### What patches where added
+##### What patches were added?
 
-#### What are the relevant tickets
+#### What are the relevant tickets?
 
 #### References

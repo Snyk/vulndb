@@ -12,7 +12,7 @@ function testVuln(vulnDataFile, patchBinVersions, t) {
   console.log(vulnDataFile);
   var vuln = JSON.parse(fs.readFileSync(vulnDataFile));
   var id = path.parse(vulnDataFile).dir.split('/').slice(2).join(':');
-  if (vuln.patches.length) {
+  if (vuln.patches && vuln.patches.length) {
     t.test(vulnDataFile + ' ' + id + ' patches', function (t) {
       vuln.patches.forEach(function (p) {
         testVulnPatch(vulnDataFile, vuln, p, patchBinVersions, t);

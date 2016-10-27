@@ -36,6 +36,13 @@ function processVulnDatas(inputDir) {
           }
         }
       }
+    } else if (jsonVuln.packageManager === 'rubygems') {
+      if (jsonVuln.id) {
+        var rid = parseInt(jsonVuln.id.split('-')[3]);
+        if (rid > idsMap.npm) {
+          idsMap.ruby = rid + 1;
+        }
+      }
     }
   }
 
@@ -51,6 +58,12 @@ function processVulnDatas(inputDir) {
         jsonVuln.id = generatedNpmId;
         changeMade = true;
         debug('npm ID generated', generatedNpmId);
+      } else if (jsonVuln.packageManager === 'rubygems') {
+        var generatedRubyId = 'SNYK-RUBY-' + jsonVuln.moduleName.toUpperCase().replace(/-/g,'').replace(/_/g,'').replace(/\./g,'') + '-' + idsMap.ruby;
+        jsonVuln.id = generatedRubyId;
+        idsMap.ruby += 1;
+        changeMade = true;
+        debug('ruby ID generated', generatedRubyId);
       }
     }
 
@@ -77,9 +90,10 @@ function processVulnDatas(inputDir) {
         jsonVuln.identifiers.ALTERNATIVE = jsonVuln.identifiers.ALTERNATIVE.concat([altId]);
         changeMade = true;
       }
-    }
-
+    } 
+    
     if (changeMade) {
+      console.log('wrote' + jsonVuln.id)
       fs.writeFileSync(vulnFile, JSON.stringify(jsonVuln, null, '\t'));
     }
   }

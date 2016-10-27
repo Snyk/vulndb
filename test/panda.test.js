@@ -16,7 +16,7 @@ test('Fetching data dir', function (t) {
     t.assert(snykDb.allIds().length > 82, 'more than 82 vulns found');
     snykDb.writeSnapshotFile(tmpSnapshot.name, options).then(
       function (results) {
-        t.pass('generated snapshot')
+        t.pass('generated snapshot');
       }).catch(e => t.fail(e));
 
   }).catch(function (error) {
@@ -43,7 +43,11 @@ test('Fetching fixture data dir', function (t) {
       t.equals(results.patchCount, 10);
       t.equals(results.patchFilesCount, 0);
 
-    }).catch(t.fail);
+    }).catch(e => 
+      {
+        console.log(e);
+        t.fail(e);
+      });
 
   }).catch(e => {
       console.log(e);

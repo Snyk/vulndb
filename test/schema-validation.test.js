@@ -5,17 +5,19 @@ var panda = require('../lib/panda-db');
 var walkFiles = require('../lib/utils').walkFiles;
 
 var validator = require('is-my-json-valid');
-var schema = require('./fixtures/schema/vulnerability-data-schema.json');
+var npmSchema = require('./fixtures/schema/vulnerability-data-schema-npm.json');
+var rubygemsSchema = require('./fixtures/schema/vulnerability-data-schema-rubygems.json');
 
 var options = {
   formats: {
     'snyk-vuln-id': /^(((npm):[0-9a-z-\._]+:(\d){8}(-\d)?)|(SNYK-(JS|RUBY)-[A-Z0-9]+-\d+))?$/,
-    'package-manager': /^(npm|RubyGems)$/,
+    'package-manager': /^(npm|rubygems)$/,
     'language': /^(js|ruby)$/,
   },
 };
 
-var validate = validator(schema, options);
+var rubygemsValidate = validator(rubygemsSchema, options);
+var npmValidate = validator(npmSchema, options);
 
 
 test('better schema validation', function (t) {
@@ -25,30 +27,22 @@ test('better schema validation', function (t) {
 
   vulnDataFiles.forEach(function (vulnDataFile) {
     var jsonVuln = JSON.parse(fs.readFileSync(vulnDataFile));
+    var result;
+    var errors;
 
-    t.assert(validate(jsonVuln), vulnDataFile + ' ' +
-      JSON.stringify(validate.errors));
+    if (jsonVuln.packageManager === 'npm') {
+      result = npmValidate(jsonVuln);
+      errors = npmValidate.errors;
+    } else {
+      result = rubygemsValidate(jsonVuln);
+      errors = rubygemsValidate.errors;
+    }
+
+    if (result) {
+      t.pass(jsonVuln.id);
+    } else {
+      t.fail(jsonVuln.id + ' ' + JSON.stringify(errors));
+    }
   });
 
-});
-
-test('schema validation after shrink', function (t) {
-  panda.fetch('./data').then(function (snykDb) {
-
-    var vulns = snykDb.all();
-
-    t.plan(vulns.length * 2);
-
-    vulns.forEach(function (vuln) {
-      t.assert(vuln.id.split(':')[1] === vuln.moduleName,
-        vuln.moduleName + ' matches ' + vuln.id + ' id part');
-
-      if (validate(vuln)) {
-        t.pass(vuln.id);
-      } else {
-        t.fail(vuln.id + ' ' + JSON.stringify(validate.errors));
-      }
-    });
-
-  });
 });

@@ -12,9 +12,7 @@ test('validate all /data/ vulns', function (t) {
   vulnDataFiles.forEach(function (vulnDataFile) {
     var vuln = JSON.parse(fs.readFileSync(vulnDataFile));
 
-    var id = path.parse(vulnDataFile).dir.split('/').slice(2).join(':');
-
-    var vids = [id];
+    var vids = [vuln.id];
     if (vuln.alternativeIds) {
       vids = vids.concat(vuln.alternativeIds);
     }
@@ -30,38 +28,39 @@ test('validate all /data/ vulns', function (t) {
 
     // make sure we have an id
     t.assert(vuln.id, 'id exists');
-    t.equals(vuln.moduleName, vuln.id.split(':')[1],
+    if (vuln.packageManager === 'npm') {
+      t.equals(vuln.moduleName, vuln.id.split(':')[1],
       'moduleName matches the name in the id');
-    t.assert(vuln.identifiers.ALTERNATIVE.length > 0);
-    vuln.identifiers.ALTERNATIVE.forEach(function (iId) {
-      if (iId.indexOf(':') > -1) {
-        t.equals(vuln.moduleName, iId.split(':')[1],
-          'moduleName matches the name in the alternative id');
-      } else {
-        var xid = iId.split('-');
-        t.equals(
-          vuln.language, xid[1].toLowerCase(),
-          'language matches the lang in alt. id');
-        t.equals(
-          vuln.moduleName.toUpperCase().replace(/-/g,'').replace(/_/g,'').replace(/\./g,''),
-          xid[2],
-          'moduleName matches the name in alt. id');
-        t.assert(vulnIds.indexOf(xid[3]) === -1, 'non unique id ' + xid[3]);
-        vulnIds = vulnIds.concat([xid[3]]);
-      }
-    });
-
-    // validate patches
-    if (vuln.patches.length) {
-      t.test(vulnDataFile + ' ' + id + ' patches', function (t) {
-        vuln.patches.forEach(function (p) {
-          t.assert(p.id, 'valid patch id ' + p.id);
-          t.assert(p.id.indexOf(id) > 0, 'patch id contains vulnId');
-          t.assert(patchIds.indexOf(p.id) < 0, 'unique patch id ' + p.id);
-          patchIds.push(p.id);
-        });
-        t.end();
+      t.assert(vuln.identifiers.ALTERNATIVE.length > 0);
+      vuln.identifiers.ALTERNATIVE.forEach(function (iId) {
+        if (iId.indexOf(':') > -1) {
+          t.equals(vuln.moduleName, iId.split(':')[1],
+            'moduleName matches the name in the alternative id');
+        } else {
+          var xid = iId.split('-');
+          t.equals(
+            vuln.language, xid[1].toLowerCase(),
+            'language matches the lang in alt. id');
+          t.equals(
+            vuln.moduleName.toUpperCase().replace(/-/g,'').replace(/_/g,'').replace(/\./g,''),
+            xid[2],
+            'moduleName matches the name in alt. id');
+          t.assert(vulnIds.indexOf(xid[3]) === -1, 'non unique id ' + xid[3]);
+          vulnIds = vulnIds.concat([xid[3]]);
+        }
       });
+      // validate patches
+      if (vuln.patches.length) {
+        t.test(vulnDataFile + ' ' + vuln.id + ' patches', function (t) {
+          vuln.patches.forEach(function (p) {
+            t.assert(p.id, 'valid patch id ' + p.id);
+            t.assert(p.id.indexOf(vuln.id) > 0, 'patch id contains vulnId');
+            t.assert(patchIds.indexOf(p.id) < 0, 'unique patch id ' + p.id);
+            patchIds.push(p.id);
+          });
+          t.end();
+        });
+      }
     }
 
   });

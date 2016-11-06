@@ -1,9 +1,6 @@
-## Oerview
-karo Gem for Ruby contains a flaw in db.rb that is triggered when handling
-metacharacters. This may allow a remote attacker to execute arbitrary
-commands.
-
+## Overview
+[`karo`](https://rubygems.org/gems/karo) is an SSH toolbox to make running logs, sync, cache commands easier for a given rails app.
+Affected versions of this gem are vulnerable to an arbitrary command execution attack via the `db.rb` script that contains a flaw triggered when handling metacharacters.  
 
 ## References
 - http://rubysec.com/advisories/OSVDB-108573
-- http://osvdb.org/show/osvdb/108573

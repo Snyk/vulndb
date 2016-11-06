@@ -1,11 +1,13 @@
-## Oerview
-Dragonfly Gem for Ruby contains a flaw that is triggered during the parsing
-of a specially crafted request. This may allow a remote attacker to execute
-arbitrary code.
+## Overview
+[`fog-dragonfly`](https://rubygems.org/gems/fog-dragonfly) is an on-the-fly Rack-based image handling framework.
+This gem was renamed from `fog-dragonfly` to `dragonfly`.
 
-This gem has been renamed. Please use "dragonfly" from now on.
 
+Affected versions of this gem are vulnerable to Arbitrary Command Execution.
+
+Related to [SNYK-RUBY-DRAGONFLY-20065](https://snyk.io/vuln/SNYK-RUBY-DRAGONFLY-20065)
 
 ## References
-- http://rubysec.com/advisories/OSVDB-90647
-- http://www.osvdb.org/show/osvdb/90647
+- http://rubysec.com/advisories/CVE-2013-1756
+- https://github.com/markevans/dragonfly/commit/a8775aacf9e5c81cf11bec34b7afa7f27ddfe277
+- https://groups.google.com/forum/?fromgroups=#!topic/dragonfly-users/3c3WIU3VQTo

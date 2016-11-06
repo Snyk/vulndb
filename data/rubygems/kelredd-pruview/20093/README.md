@@ -1,6 +1,6 @@
-## Oerview
-kelredd-pruview Gem for Ruby contains a flaw in /lib/pruview/document.rb. The issue is triggered during the handling of a specially crafted file name that contains injected shell metacharacters. This may allow a context-dependent attacker to potentially execute arbitrary commands.
+## Overview
+[`kelredd-pruview`](https://rubygems.org/gems/kelredd-pruview) generates image previews (thumbnails) of various files.
+Affected versions of this gem are vulnerable to arbitrary command execution via the `/lib/pruview/document.rb` script. The issue is triggered during the handling of a specially crafted file name that contains injected shell metacharacters.
 
 ## References
-- http://rubysec.com/advisories/OSVDB-92228
-- http://osvdb.org/show/osvdb/92228
+- http://rubysec.com/advisories/CVE-2013-1947

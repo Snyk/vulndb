@@ -1,6 +1,6 @@
-## Oerview
-lynx Gem for Ruby contains a flaw in lib/lynx/pipe/run.rb that may allow a remote attacker to execute arbitrary commands.
+## Overview
+[`lynx`](https://rubygems.org/gems/lynx) is a command line wrapper for MySQL.
+Affected versions of this gem are vulnerable to arbitrary command executions due to a flaw in `lib/lynx/pipe/run.rb`.
 
 ## References
 - http://rubysec.com/advisories/OSVDB-108579
-- http://osvdb.org/show/osvdb/108579

@@ -1,10 +1,6 @@
-## Oerview
-paratrooper-pingdom Gem for Ruby contains a flaw in
-/lib/paratrooper-pingdom.rb. The issue is triggered when the script exposes
-API login credentials, allowing a local attacker to gain access to the API
-key, username, and password for the API login by monitoring the process tree.
-
+## Overview
+[`paratrooper-pingdom`](https://rubygems.org/gems/paratrooper-pingdom) sends deploy notifications to Pingdom service when deploying with Paratrooper.
+Affected versions of this gem contain a script `/lib/paratrooper-pingdom.rb` that exposes the API key, username, and password for the API login by monitoring the process tree.
 
 ## References
-- http://rubysec.com/advisories/OSVDB-101847
-- http://www.osvdb.org/show/osvdb/101847
+- http://rubysec.com/advisories/CVE-2014-1233

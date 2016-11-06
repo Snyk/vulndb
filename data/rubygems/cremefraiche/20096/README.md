@@ -1,9 +1,19 @@
-## Oerview
-Creme Fraiche Gem for Ruby contains a flaw that is due to the program failing to properly sanitize input in file names. With a specially crafted file name that contains shell metacharacters, a context-dependent attacker can execute arbitrary commands
+## Overview
+[`Creme Fraiche`] Converts email to PDF.
+Affected versions of this gem fail to properly sanitize input in file names.
+
+A malicious email attachment with a file name consisting of shell meta﻿characters could inject commands into the shell.
+
+If the attacker is allowed to specify a filename (via a web gui) commands could be injected that way as well.
+
+```shell
+cmd = "pdftk %s updateinfo %s output %s" %[pdf, infofile, tfile]
+@log.debug('pdftk-command is ' << cmd)
+pdftkresult = system( cmd)
+```
 
 ## Remediation
 Upgrade to version `>= 0.6.1` or greater.
 
 ## References
-- http://rubysec.com/advisories/OSVDB-93395
-- http://osvdb.org/show/osvdb/93395
+- http://rubysec.com/advisories/CVE-2013-2090

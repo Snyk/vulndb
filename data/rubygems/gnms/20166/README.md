@@ -1,6 +1,6 @@
-## Oerview
-gnms Gem for Ruby contains a flaw in /lib/cmd_parse.rb that is triggered when handling shell metacharacters passed via the 'ip' variable. This may allow a remote attacker to inject arbitrary commands.
+## Overview
+[`gnms`](https://rubygems.org/gems/gnms) is a graphical tool used to monitor state of network elements.
+Affected versions of this gem are vulnerable to arbitrary code executions via the `/lib/cmd_parse.rb` script. The flaw is triggered when handling shell metacharacters passed via the `ip` variable.
 
 ## References
 - http://rubysec.com/advisories/OSVDB-108594
-- http://osvdb.org/show/osvdb/108594

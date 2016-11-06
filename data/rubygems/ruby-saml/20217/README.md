@@ -1,4 +1,4 @@
-## Oerview
+## Overview
 
 [`ruby-saml`](https://rubygems.org/gems/ruby-saml) is a SAML toolkit for Ruby on Rails.
 

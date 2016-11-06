@@ -1,4 +1,4 @@
-## Oerview
+## Overview
 Loofah Gem for Ruby contains a flaw that allows a remote cross-site
 scripting (XSS) attack. This flaw exists because the
 Loofah::HTML::Document\#text function passes properly sanitized

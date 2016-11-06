@@ -1,9 +1,10 @@
-## Oerview
-fog-dragonfly Gem for Ruby contains a flaw that is due to the program
-failing to properly sanitize input passed via the imagemagickutils.rb script.
-This may allow a remote attacker to execute arbitrary commands.
+## Overview
+[`fog-dragonfly`](https://rubygems.org/gems/fog-dragonfly) is an on-the-fly Rack-based image handling framework.
+This gem was renamed from `fog-dragonfly` to `dragonfly`.
 
-This gem has been renamed. Please use "dragonfly" from now on.
+Affected versions of this gem are vulnerable to a remote attacker executing arbitrary commands, due to a failure to properly sanitize input passed via the `imagemagickutils.rb` script.
+
+Related to [SNYK-RUBY-DRAGONFLY-20109](https://snyk.io/vuln/SNYK-RUBY-DRAGONFLY-20109)
 
 
 ## Remediation
@@ -11,4 +12,5 @@ Upgrade to version `>= 0.8.4` or greater.
 
 ## References
 - http://rubysec.com/advisories/OSVDB-96798
-- http://osvdb.org/show/osvdb/96798
+- http://seclists.org/fulldisclosure/2013/Sep/18
+- http://www.vapid.dhs.org/advisories/fog-dragonfly-0.8.2-cmd-inj.html

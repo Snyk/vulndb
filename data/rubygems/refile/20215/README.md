@@ -1,9 +1,6 @@
-## Oerview
-refile Gem for Ruby contains a flaw that is triggered when input is not
-sanitized when handling the 'remote_image_url' field in a form, where
-'image' is the name of the attachment. This may allow a remote attacker
-to execute arbitrary shell commands.
-
+## Overview
+[`refile`](https://rubygems.org/gems/refile) is a file upload library.
+Affected versions of this gem do not sanitize input when handling the `remote_image_url` field in a form, where `image` is the name of the attachment. This may allow a remote attacker to execute arbitrary shell commands.
 
 ## Remediation
 Upgrade to version `>= 0.5.4` or greater.

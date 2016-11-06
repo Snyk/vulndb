@@ -1,14 +1,9 @@
-## Oerview
-Fat Free CRM Gem contains a javascript cross-site scripting (XSS)
-vulnerability. When a user is created/updated using a specifically
-crafted username, first name or last name, it is possible for
-arbitrary javascript to be executed on all Fat Free CRM pages.
-This code would be executed for all logged in users.
+## Overview
+[`fat_free_crm`](https://rubygems.org/gems/fat_free_crm) is an open source, Ruby on Rails customer relationship management platform.
+Affected versions of this gem are vulnerable to Cross-site Scripting (XSS) attacks.
 
-
-## Remediation
-Upgrade to version `>= 0.13.3` or greater.
+## Details
+`fat_free_crm` gem does not contains a Cross-site Scripting (XSS) vulnerability. When a user is created/updated using a specifically crafted username, first name or last name, it is possible for arbitrary javascript to be executed on all `fat_free_crm` pages. This code would be executed for all logged in users.
 
 ## References
-- http://rubysec.com/advisories/OSVDB-110420
-- http://osvdb.org/show/osvdb/110420
+- http://rubysec.com/advisories/CVE-2014-5441

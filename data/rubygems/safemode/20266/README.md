@@ -1,9 +1,6 @@
-## Oerview
-Safemode is initialised with an optional 'delegate' object.
-If the delegated object is a Rails controller, 'inspect' could
-be called which then exposes all informations about the App,
-including routes, secret tokens, caches and so on.
-
+## Overview
+[`Safemode`](https://rubygems.org/gems/safemode) is a library for safe evaluation of Ruby code based on RubyParser and Ruby2Ruby.
+This gem is initialized with an optional `delegate` object. If the delegated object is a Rails controller, `inspect` could be called which then exposes all informations about the App, including routes, secret tokens, caches and so on.
 
 ## Remediation
 Upgrade to version `>= 1.2.4` or greater.

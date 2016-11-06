@@ -1,8 +1,6 @@
-## Oerview
-Carefully crafted requests can expose information about strings and objects allocated during the request for unauthorised users.
-
-## Remediation
-Upgrade to version `>= 0.10.1` or greater.
+## Overview
+[rack-mini-profiler](https://rubygems.org/gems/rack-mini-profiler) is a profiling toolkit for Rack applications with Rails integration.
+Affected versions of this gem are vulnerable to information exposure via carefully crafted requests. Attackers and unauthorized users can get ahold of strings and objects allocated during the request.
 
 ## References
 - http://rubysec.com/advisories/CVE-2016-4442

@@ -1,4 +1,4 @@
-## Oerview
+## Overview
 
 [`omniauth-facebook`](https://rubygems.org/gems/omniauth-facebook) is a Facebook OAuth2 Strategy for OmniAuth.
 

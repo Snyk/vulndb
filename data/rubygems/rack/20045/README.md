@@ -1,4 +1,4 @@
-## Oerview
+## Overview
 [`rack`](https://rubygems.org/gems/rack) is a minimal, modular and adaptable interface for developing web applications in Ruby. 
 Affected versions of this Gem are vulnerable to Denial of Service (DoS) attacks.
 

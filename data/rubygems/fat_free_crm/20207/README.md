@@ -1,15 +1,10 @@
-## Oerview
-Fat Free CRM contains a flaw as HTTP requests to /admin/users do not require
-multiple steps, explicit confirmation, or a unique token when performing
-certain sensitive actions. By tricking a user into following a specially
-crafted link, a context-dependent attacker can perform a Cross-Site Request
-Forgery (CSRF / XSRF) attack causing the victim to creating administrative
+## Overview
+[`fat_free_crm`](https://rubygems.org/gems/fat_free_crm) is an open source, Ruby on Rails customer relationship management platform.
+Affected versions of this gem are vulnerable to Cross-Site Request Forgery (CSRF/XSRF).
+
+## Details
+`fat_free_crm` does not require multiple steps, explicit confirmation, or a unique token when performing HTTP requests to `/admin/users`. By tricking a user into following a specially crafted link, a context-dependent attacker can perform a Cross-Site Request Forgery (CSRF/XSRF) attack causing the victim to creating administrative
 users.
 
-
-## Remediation
-Upgrade to version `>= 0.13.6` or greater.
-
 ## References
-- http://rubysec.com/advisories/OSVDB-118465
-- http://osvdb.org/show/osvdb/118465
+- http://rubysec.com/advisories/CVE-2015-1585

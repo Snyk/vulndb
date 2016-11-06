@@ -1,9 +1,9 @@
-## Oerview
-gyazo Gem for Ruby contains a flaw in client.rb that is triggered when handling metacharacters. This may allow a remote attacker to execute arbitrary commands.
+## Overview
+[`gyazo`](https://rubygems.org/gems/gyazo) is an API wrapper for gyazo.com.
+Affected versions of this gem are vulnerable to arbitrary command execution via the `client.rb` script mishandling metacharacters.
 
 ## Remediation
 Upgrade to version `>= 2.0.0` or greater.
 
 ## References
-- http://rubysec.com/advisories/OSVDB-108563
-- http://osvdb.org/show/osvdb/108563
+- http://rubysec.com/advisories/CVE-2014-4994

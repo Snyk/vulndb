@@ -1,4 +1,4 @@
-## Oerview
+## Overview
 
 [`redis-namespace`](https://rubygems.org/gems/redis-namespace) adds a `Redis::Namespace` class which can be used to namespace calls to Redis.
 

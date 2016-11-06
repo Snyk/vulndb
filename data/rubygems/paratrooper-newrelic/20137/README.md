@@ -1,10 +1,6 @@
-## Oerview
-Paratrooper-newrelic Gem for Ruby contains a flaw in
-/lib/paratrooper-newrelic.rb. The issue is triggered when the script exposes
-the API key, allowing a local attacker to gain access to it by monitoring the
-process tree.
-
+## Overview
+[`Paratrooper-newrelic`](https://rubygems.org/gems/paratrooper-newrelic) sends deploy notifications to Newrelic service when deploying with Paratrooper.
+Affected versions of this gem contain a script `/lib/paratrooper-newrelic.rb` that exposes the API key, allowing a local attacker to gain access to it by monitoring the process tree.
 
 ## References
-- http://rubysec.com/advisories/OSVDB-101839
-- http://www.osvdb.org/show/osvdb/101839
+- http://rubysec.com/advisories/CVE-2014-1234/

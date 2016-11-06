@@ -1,4 +1,4 @@
-## Oerview
+## Overview
 Mapbox.js versions 1.x prior to 1.6.5 and 2.x prior to 2.1.7 are vulnerable
 to a cross-site-scripting attack in certain uncommon usage scenarios.
 

@@ -1,6 +1,7 @@
-## Oerview
-flash_tool Gem for Ruby contains a flaw that is triggered during the handling of downloaded files that contain shell characters. With a specially crafted file, a context-dependent attacker can execute arbitrary commands.
+## Overview
+[`flash_tool`](https://rubygems.org/gems/flash_tool) is a wrapper for swftool command line tool.
+
+Affected versions of this gem contain a flaw that is triggered during the handling of downloaded files that contain shell characters. With a specially crafted file, a context-dependent attacker can execute arbitrary commands.
 
 ## References
-- http://rubysec.com/advisories/OSVDB-90829
-- http://osvdb.org/show/osvdb/90829
+- http://rubysec.com/advisories/CVE-2013-2513

@@ -39,7 +39,7 @@ function processVulnDatas(inputDir) {
     } else if (jsonVuln.packageManager === 'rubygems') {
       if (jsonVuln.id) {
         var rid = parseInt(jsonVuln.id.split('-')[3]);
-        if (rid > idsMap.npm) {
+        if (rid > idsMap.ruby) {
           idsMap.ruby = rid + 1;
         }
       }
@@ -51,6 +51,29 @@ function processVulnDatas(inputDir) {
     let jsonVuln = JSON.parse(fs.readFileSync(vulnFile));
     var changeMade = false;
 
+    function packageToVulnID(packageName) {
+      return packageName.toUpperCase().replace(/-/g,'').replace(/_/g,'').replace(/\./g,'');
+    }
+
+    // Adding packageManager
+    var generatePackageManager = path.parse(vulnFile).dir.split('/').slice(2)[0];
+
+    if (!_.has(jsonVuln, 'packageManager')) {
+      jsonVuln.packageManager = generatePackageManager;
+      console.log(generatePackageManager);
+      debug ('packageManager added: ', generatePackageManager);
+    }
+
+    // Adding language
+    var packageManagerToLanguage = {npm: 'js', rubygems: 'ruby'};
+    var language = packageManagerToLanguage[generatePackageManager];
+
+    if (!_.has(jsonVuln, 'language')) {
+      jsonVuln.language = language;
+      debug ('language added: ', language);
+    }
+
+    // Adding ID
     if (!_.has(jsonVuln, 'id')) {
       debug('Found missing id for vuln ' + vulnFile);
       if (jsonVuln.packageManager === 'npm') {
@@ -59,7 +82,7 @@ function processVulnDatas(inputDir) {
         changeMade = true;
         debug('npm ID generated', generatedNpmId);
       } else if (jsonVuln.packageManager === 'rubygems') {
-        var generatedRubyId = 'SNYK-RUBY-' + jsonVuln.moduleName.toUpperCase().replace(/-/g,'').replace(/_/g,'').replace(/\./g,'') + '-' + idsMap.ruby;
+        var generatedRubyId = 'SNYK-RUBY-' + packageToVulnID(jsonVuln.moduleName) + '-' + idsMap.ruby;
         jsonVuln.id = generatedRubyId;
         idsMap.ruby += 1;
         changeMade = true;
@@ -84,16 +107,16 @@ function processVulnDatas(inputDir) {
         }
       }
       if (needAltId) {
-        var altId = 'SNYK-JS-' + jsonVuln.moduleName.toUpperCase().replace(/-/g,'').replace(/_/g,'').replace(/\./g,'') + '-' + idsMap.npm;
         idsMap.npm += 1;
+        var altId = 'SNYK-JS-' + packageToVulnID(jsonVuln.moduleName) + '-' + idsMap.npm;
         debug('snyk ID generated', altId);
         jsonVuln.identifiers.ALTERNATIVE = jsonVuln.identifiers.ALTERNATIVE.concat([altId]);
         changeMade = true;
       }
-    } 
-    
+    }
+
     if (changeMade) {
-      console.log('wrote' + jsonVuln.id)
+      console.log('wrote ' + jsonVuln.id)
       fs.writeFileSync(vulnFile, JSON.stringify(jsonVuln, null, '\t'));
     }
   }

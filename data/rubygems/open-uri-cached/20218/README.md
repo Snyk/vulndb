@@ -1,8 +1,6 @@
-## Oerview
-open-uri-cached Gem for Ruby contains a flaw that is due to the
-program creating temporary files in a predictable, unsafe manner when using
-YAML. This may allow a local attacker to gain elevated privileges.
-
+## Overview
+[`open-uri-cached`](https://rubygems.org/gems/open-uri-cached) is a rubygem that will cache downloaded data when using open-uri.
+Affected versions of this gem are vulnerable a local authentication bypass attack due to usage of YAML in a insecure way, and using a predictable directory name in `/tmp` for getting that data without verification. 
 
 ## References
 - http://rubysec.com/advisories/OSVDB-121701

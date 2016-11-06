@@ -7,10 +7,6 @@ There is a vulnerability in the internationalization component of Ruby on Rails.
 
 The root cause of this issue is a [vulnerability in the i18n gem](https://snyk.io/vuln/SNYK-RUBY-I18N-20124) which has been assigned the identifier CVE-2013-4492.
 
-## Remediation
-
-Upgrade to version `3.2.16` or greater.
-
 ## References
 
 - https://hakiri.io/technologies/rails/issues/4c55efe3784050

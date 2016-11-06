@@ -10,9 +10,6 @@ The impact is lessened on Ruby version 1.8.* because hashes are not ordered by d
 
 An attack of this sort cannot take place if there is only one value being interpolated into the command line.
 
-## Remediation
-Upgrade to version `>= 0.5.3` or greater.
-
 ## References
 
 - http://rubysec.com/advisories/CVE-2013-4457/

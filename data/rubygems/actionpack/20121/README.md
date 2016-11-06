@@ -8,9 +8,6 @@ The `number_to_currency` helper allows users to nicely format a numeric value. O
 of the parameters to the helper (unit) is not escaped correctly.  Applications
 which pass user controlled data as the unit parameter are vulnerable to an XSS attack.
 
-## Remediation
-Upgrade to version `3.2.16` or greater.
-
 ## References
 - http://rubysec.com/advisories/CVE-2013-6415
 - https://groups.google.com/forum/#!topic/ruby-security-ann/9WiRn2nhfq0

@@ -10,9 +10,6 @@ attributes will not be escaped correctly. As a result of this error,
 applications which pass user-controlled data to be included as html
 attributes will be vulnerable to an XSS attack.
 
-## Remediation
-Upgrade to version `4.0.2` or greater.
-
 ## References
 - http://rubysec.com/advisories/CVE-2013-6416
 - https://groups.google.com/forum/#!topic/ruby-security-ann/5ZI1-H5OoIM

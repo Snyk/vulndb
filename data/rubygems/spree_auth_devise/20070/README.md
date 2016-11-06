@@ -5,9 +5,6 @@ Affected versions of this gem are vulnerable to unauthorized privileges being ga
 
 This vulnerability is related to [spree_auth](https://snyk.io/vuln/SNYK-RUBY-SPREEAUTH-20072).
 
-## Remediation
-Upgrade to version `~> 1.1.6` or greater.
-
 ## References
 - http://rubysec.com/advisories/CVE-2013-2506
 - https://spreecommerce.com/blog/multiple-security-vulnerabilities-fixed

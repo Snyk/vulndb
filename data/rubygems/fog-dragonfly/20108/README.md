@@ -7,9 +7,6 @@ Affected versions of this gem are vulnerable to a remote attacker executing arbi
 Related to [SNYK-RUBY-DRAGONFLY-20109](https://snyk.io/vuln/SNYK-RUBY-DRAGONFLY-20109)
 
 
-## Remediation
-Upgrade to version `>= 0.8.4` or greater.
-
 ## References
 - http://rubysec.com/advisories/OSVDB-96798
 - http://seclists.org/fulldisclosure/2013/Sep/18

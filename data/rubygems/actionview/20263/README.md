@@ -40,9 +40,6 @@ def verify_template(name)
 end
 ```
 
-## Remediation
-Upgrade to version `3.2.22.2` or greater.
-
 ## References
 - http://rubysec.com/advisories/CVE-2016-2097
 - https://groups.google.com/forum/#!topic/rubyonrails-security/ddY6HgqB2z4

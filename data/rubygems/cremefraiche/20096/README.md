@@ -12,8 +12,5 @@ cmd = "pdftk %s updateinfo %s output %s" %[pdf, infofile, tfile]
 pdftkresult = system( cmd)
 ```
 
-## Remediation
-Upgrade to version `>= 0.6.1` or greater.
-
 ## References
 - http://rubysec.com/advisories/CVE-2013-2090

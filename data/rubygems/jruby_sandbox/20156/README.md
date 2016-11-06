@@ -26,9 +26,6 @@ sand.eval("s = Java::java.util.Scanner.new( " +
 sand.eval("print s")
 ```
 
-## Remediation
-Upgrade to version `>= 0.2.3` or greater.
-
 ## References
 - http://rubysec.com/advisories/OSVDB-106279
 - http://www.phenoelit.org/stuff/jruby-sandbox.txt

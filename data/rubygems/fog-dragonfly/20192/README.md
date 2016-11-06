@@ -6,9 +6,6 @@ Affected versions of this gem are vulnerable to a remote attacker gaining read/w
 
 Related to [SNYK-RUBY-DRAGONFLY-20193](https://snyk.io/vuln/SNYK-RUBY-DRAGONFLY-20193)
 
-## Remediation
-Upgrade to version `>= 0.8.4` or greater.
-
 ## References
 - http://rubysec.com/advisories/OSVDB-110439
 - http://osvdb.org/show/osvdb/110439

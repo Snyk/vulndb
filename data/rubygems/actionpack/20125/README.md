@@ -9,9 +9,6 @@ It is possible for a 3rd party or custom rack middleware to parse the parameters
 
 If this happens, the application will receive unsafe parameters and could be vulnerable to the earlier vulnerability.
 
-## Remediation
-Upgrade to version `3.2.16` or greater.
-
 ## References
 
 - http://rubysec.com/advisories/CVE-2013-6417/

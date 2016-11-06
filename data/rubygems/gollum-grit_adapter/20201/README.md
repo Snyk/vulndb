@@ -12,9 +12,6 @@ Note that the grep result must find the string `master` (or
 whatever is the default branch that gollum uses) in any of the wiki's
 documents for this to succeed.
 
-## Remediation
-Upgrade to version `>= 0.1.1` or greater.
-
 ## References
 - http://rubysec.com/advisories/CVE-2014-9489
 - https://github.com/gollum/gollum/issues/913

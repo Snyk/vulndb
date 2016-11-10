@@ -53,8 +53,10 @@
     "snyk-config": "^1.0.0"
   },
   "devDependencies": {
-    "jscs": "^2.0.0",
+    "@snyk/invert-semver-ranges": "^1.0.1",
+    "@snyk/ruby-semver": "^1.2.0",
     "is-my-json-valid": "^2.12.3",
+    "jscs": "^2.0.0",
     "tap-spec": "^2.2.2",
     "tape": "^4.0.0",
     "tmp": "0.0.28"

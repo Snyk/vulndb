@@ -1,20 +1,15 @@
 ## Overview
-Mapbox.js versions 1.x prior to 1.6.5 and 2.x prior to 2.1.7 are vulnerable
-to a cross-site-scripting attack in certain uncommon usage scenarios.
+[mapbox-rails](https://rubygems.org/gems/mapbox-rails) integrates [mapbox.js](https://www.npmjs.com/package/mapbox.js) with the Rails asset pipeline.
 
-If you use L.mapbox.map or L.mapbox.tileLayer to load untrusted TileJSON
-content from a non-Mapbox URL, it is possible for a malicious user with
-control over the TileJSON content to inject script content into the
-"attribution" value of the TileJSON which will be executed in the context of
-the page using Mapbox.js.
+[mapbox.js](https://snyk.io/vuln/npm:mapbox.js:20151024) is vulnerable to script content injection when `L.mapbox.map` or `L.mapbox.tileLayer` is used to load untrusted TileJSON content from a non-Mapbox URL.
 
-Such usage is uncommon. The following usage scenarios are not vulnerable:
-
-* only trusted TileJSON content is loaded
-* TileJSON content comes only from mapbox.com URLs
-* a Mapbox map ID is supplied, rather than a TileJSON URL
-
+## Details
+Such usage is uncommon. The following usage scenarios are **not vulnerable**: [1]
+- only trusted TileJSON content is loaded
+- TileJSON content comes only from mapbox.com URLs
+- a Mapbox map ID is supplied, rather than a TileJSON URL
 
 ## References
-- http://rubysec.com/advisories/OSVDB-129854
-- https://nodesecurity.io/advisories/49
+- [Rubysec](http://rubysec.com/advisories/OSVDB-129854/)
+- [Hackerone](https://hackerone.com/reports/54327)
+- [Github commit](https://github.com/mapbox/mapbox.js/commit/538d229ab6767bb4c3f3969c417f9884189c1512)

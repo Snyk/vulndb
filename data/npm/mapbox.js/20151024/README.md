@@ -8,5 +8,5 @@ Such usage is uncommon. The following usage scenarios are **not vulnerable**: [1
 - a Mapbox map ID is supplied, rather than a TileJSON URL
 
 ## References
-- [1] https://nodesecurity.io/advisories/49
-- https://github.com/mapbox/mapbox.js/commit/538d229ab6767bb4c3f3969c417f9884189c1512
+- [Hackerone](https://hackerone.com/reports/54327a)
+- [Github commit](https://github.com/mapbox/mapbox.js/commit/538d229ab6767bb4c3f3969c417f9884189c1512)

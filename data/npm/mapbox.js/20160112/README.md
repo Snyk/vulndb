@@ -7,6 +7,5 @@ Such usage is uncommon. The following usage scenarios are **not vulnerable**: [1
 - only trusted TileJSON content is loaded
 
 ## References
-- [1] https://nodesecurity.io/advisories/74
- 
-
+- [Hackerone](https://hackerone.com/reports/99245)
+- [Github Issue](https://github.com/mapbox/mapbox.js/pull/1102)

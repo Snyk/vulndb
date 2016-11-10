@@ -6,4 +6,5 @@ Affected versions of this Gem are vulnerable to Remote Code Execution.
 Rack contains a flaw that is due to an error in the `Rack::Session::Cookie` function allowing a remote attackers to guess the session cookie, gain privileges, and execute arbitrary code via a timing attack involving an HMAC comparison function that does not run in constant time.
 
 ## References
-- http://rubysec.com/advisories/CVE-2013-0263
+- https://bugzilla.redhat.com/show_bug.cgi?id=909071
+- https://github.com/rack/rack/commit/9a81b961457805f6d1a5c275d053068440421e11

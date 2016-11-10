@@ -1,21 +1,16 @@
 ## Overview
-Mapbox.js versions 1.x prior to 1.6.6 and 2.x prior to 2.2.4 are vulnerable
-to a cross-site-scripting attack in certain uncommon usage scenarios.
+[mapbox-rails](https://rubygems.org/gems/mapbox-rails) integrates [mapbox.js](https://www.npmjs.com/package/mapbox.js) with the Rails asset pipeline.
 
-If you use L.mapbox.map and L.mapbox.shareControl it is possible for a
-malicious user with control over the TileJSON content to inject script
-content into the name value of the TileJSON. After clicking on the share
-control, the malicious code will execute in the context of the page using
-Mapbox.js.
+[mapbox.js](https://snyk.io/vuln/npm:mapbox.js:20160112) is vulnerable to script content injection when `L.mapbox.map` and `L.mapbox.shareControl` is used to load untrusted TileJSON content from a non-Mapbox URL.
 
-Such usage is uncommon. L.mapbox.shareControl is not automatically added to
-Mapbox.js maps and must be explicitly added. The following usage scenarios
-are not vulnerable:
+## Details
+Such usage is uncommon. The following usage scenarios are **not vulnerable**: [1]
+- the map does not use a share control (L.mapbox.sharecontrol)
+- only trusted TileJSON content is loaded
 
-* the map does not use a share control (L.mapbox.sharecontrol)
-* only trusted TileJSON content is loaded
-
+Related vulnerability:
 
 ## References
-- http://rubysec.com/advisories/OSVDB-132871
-- https://nodesecurity.io/advisories/74
+- [Rubysec](http://rubysec.com/advisories/OSVDB-132871/)
+- [Hackerone](https://hackerone.com/reports/99245)
+- [Github Issue](https://github.com/mapbox/mapbox.js/pull/1102)

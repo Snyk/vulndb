@@ -1,8 +1,11 @@
 ## Overview
-Vulnerable versions of express do not specify a charset field in the content-type header while displaying 400 level response messages. The lack of enforcing the user's browser to set correct charset could be leveraged by an attacker to perform a cross-site scripting attack, using non-standard encodings like UTF-7.
+[`express`](https://www.npmjs.com/package/express) is a minimalist web framework.
 
-_Source: [Node Security Project](https://nodesecurity.io/advisories/8)_
+Vulnerable versions of this package do not enforce the user's browser to set a specific charset in the content-type header content-type header while displaying 400 level response messages. This could be used by remote attackers to perform a cross-site scripting attack, by using non-standard encodings like UTF-7.
 
 ## Recommendations
-Update express to a patched version.
+Update express to `3.11.0` or higher for the 3.x versions or `4.5.0` or higher for the 4.x versions.
 
+## References
+- [Github release 3.11.0](https://github.com/expressjs/express/releases/tag/3.11.0)
+- [Github release 4.5.0](https://github.com/expressjs/express/releases/tag/4.5.0)

@@ -1,7 +1,9 @@
 ## Overview
-[`ejs`](https://www.npmjs.com/package/ejs) is a popular JavaScript templates engine.
+[`ejs`](https://www.npmjs.com/package/ejs) is a popular JavaScript templating engine.
 Affected versions of the package are vulnerable to _Remote Code Execution_ by letting the attacker under certain conditions control the source folder from which the engine renders include files.
 You can read more about this vulnerability on the [Snyk blog](https://snyk.io/blog/fixing-ejs-rce-vuln).
+
+There's also a [Cross-site Scripting](https://snyk.io/vuln/npm:ejs:20161130) & [Denial of Service](https://snyk.io/vuln/npm:ejs:20161130-1) vulnerabilities caused by the same behaviour. 
 
 ## Details
 `ejs` provides a few different options for you to render a template, two being very similar: `ejs.render()` and `ejs.renderFile()`. The only difference being that `render` expects a string to be used for the template and `renderFile` expects a path to a template file.
@@ -41,3 +43,4 @@ Otherwise, Upgrade `ejs` to version `2.5.3` or higher.
 ## References
 - [Snyk Blog](https://snyk.io/blog/fixing-ejs-rce-vuln)
 - [Fix commit](https://github.com/mde/ejs/commit/3d447c5a335844b25faec04b1132dbc721f9c8f6)
+

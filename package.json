@@ -11,7 +11,8 @@
     "test": "snyk test && npm run lint && tape test/*.test.js --cov | tap-spec",
     "snyk-protect": "snyk protect",
     "postinstall": "true",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "windows-tests": "tap -R spec test/*.test.js --timeout=120"
   },
   "engines": {
     "node": ">=0.10"
@@ -53,13 +54,16 @@
     "snyk-config": "^1.0.0"
   },
   "devDependencies": {
-    "@snyk/invert-semver-ranges": "^1.0.1",
-    "@snyk/ruby-semver": "^1.2.0",
     "is-my-json-valid": "^2.12.3",
     "jscs": "^2.0.0",
+    "tap": "^5.7.1",
     "tap-spec": "^2.2.2",
     "tape": "^4.0.0",
     "tmp": "0.0.28"
+  },
+  "commentedOutDependencies": {
+    "@snyk/invert-semver-ranges": "^1.0.1",
+    "@snyk/ruby-semver": "^1.2.0"
   },
   "snyk": true
 }

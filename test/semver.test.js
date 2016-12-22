@@ -1,8 +1,9 @@
-var test = require('tape');
-var fs = require('fs');
-var semver = require('semver');
-var walkFiles = require('../lib/utils').walkFiles;
-var path = require('path');
+const test = require('tape');
+const fs = require('fs');
+const semver = require('semver');
+const walkFiles = require('../lib/utils').walkFiles;
+const path = require('path');
+const rubySemver = require('@snyk/ruby-semver');
 
 
 test('validate all /data/ vulns', function (t) {
@@ -55,6 +56,26 @@ test('validate all /data/ vulns', function (t) {
         });
 
       }
+    } else if (vuln.packageManager === 'rubygems') {
+      // vulnerable semver range exists and has at least one value
+      t.assert(vuln.semver.vulnerable.length > 0,
+              vulnDataFile + ' vulnerable range must have at least one value' )
+      // vulnerable semver range contains comma
+      vuln.semver.vulnerable.forEach(vulnerableRange => {
+        t.assert(rubySemver.validRange(vulnerableRange) !== null ,
+                vulnDataFile + ' vulnerable range: ' + vulnerableRange)
+              })
+      // only if unaffected exists, validate semver range contains coma
+      if (vuln.semver.unaffected !== undefined){
+        vuln.semver.unaffected.forEach(unaffectedRange => {
+          t.assert(rubySemver.validRange(unaffectedRange),
+                  vulnDataFile + ' unaffected range: ' + unaffectedRange)
+                })
+      }
+    } else {
+      t.fail('Unhandled Package Manager Name: ' + vuln.packageManager)
     }
+
+
   });
 });

@@ -4,7 +4,7 @@ const fs = require('fs');
 const rubySemver = require('@snyk/ruby-semver');
 const invert = require('@snyk/invert-semver-ranges')(rubySemver);
 
-const rubygemsPath = `${__dirname}/../data/rubygems`
+const rubygemsPath = `${__dirname}/../data/rubygems`;
 fs.readdirSync(rubygemsPath)
 .map(gemDirName => `${rubygemsPath}/${gemDirName}`)
 .forEach(gemDirPath => {

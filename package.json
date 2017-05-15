@@ -51,7 +51,7 @@
     "mkdirp": "latest",
     "request": "^2.74.0",
     "semver": "latest",
-    "snyk": "^1.16.0",
+    "snyk": "^1.30.0",
     "snyk-config": "^1.0.0"
   },
   "devDependencies": {

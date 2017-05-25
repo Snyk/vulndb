@@ -9,5 +9,5 @@ Upgrade `passport-azure-ad` to version 1.4.6 or version 2.0.1 or higher, excludi
 
 ## References
 - [Microsoft Support](https://support.microsoft.com/en-us/kb/3187742)
-- [Github Security Notice]( https://github.com/AzureAD/passport-azure-ad/blob/master/SECURITY-NOTICE.MD)
+- [GitHub Security Notice]( https://github.com/AzureAD/passport-azure-ad/blob/master/SECURITY-NOTICE.MD)
 - [CVE](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-7191)

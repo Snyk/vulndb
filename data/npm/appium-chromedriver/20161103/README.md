@@ -7,6 +7,6 @@ Upgrade `appium-chromedriver` to version 2.9.4 or higher.
 
 
 ## References
-- [Github PR](https://github.com/appium/appium-chromedriver/pull/51)
+- [GitHub PR](https://github.com/appium/appium-chromedriver/pull/51)
 
-- [Github Commit]( https://github.com/appium/appium-chromedriver/pull/51/commits/c7e384afcddf009636b8e5bb23b1f06150eda293)
+- [GitHub Commit]( https://github.com/appium/appium-chromedriver/pull/51/commits/c7e384afcddf009636b8e5bb23b1f06150eda293)

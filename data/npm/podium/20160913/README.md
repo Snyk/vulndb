@@ -7,6 +7,6 @@ When calling the `setImmediate()` multiple times, the callbacks are queued for e
 Upgrade `podium` to version 1.2.5 or higher.
 
 ## References
-- [Github Issue](https://github.com/hapijs/hapi/issues/3347)
-- [Github PR](https://github.com/hapijs/podium/pull/17)
-- [Github Commit](https://github.com/hapijs/podium/pull/17/commits/47f9ea3f9ab5a5664528722f570eeed11a446c90)
+- [GitHub Issue](https://github.com/hapijs/hapi/issues/3347)
+- [GitHub PR](https://github.com/hapijs/podium/pull/17)
+- [GitHub Commit](https://github.com/hapijs/podium/pull/17/commits/47f9ea3f9ab5a5664528722f570eeed11a446c90)

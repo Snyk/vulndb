@@ -7,4 +7,4 @@ Upgrade `jquery-ui` to version 1.10.0 or higher.
 
 ## References
 - [JQuery UI Ticket](https://bugs.jqueryui.com/ticket/8861)
-- [Github Commit](https://github.com/jquery/jquery-ui/commit/f2854408cce7e4b7fc6bf8676761904af9c96bde)
+- [GitHub Commit](https://github.com/jquery/jquery-ui/commit/f2854408cce7e4b7fc6bf8676761904af9c96bde)

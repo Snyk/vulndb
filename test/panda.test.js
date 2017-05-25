@@ -43,7 +43,7 @@ test('Fetching fixture data dir', function (t) {
       t.equals(results.patchCount, 10);
       t.equals(results.patchFilesCount, 0);
 
-    }).catch(e => 
+    }).catch(e =>
       {
         console.log(e);
         t.fail(e);
@@ -95,17 +95,6 @@ test('Fetching fixture data dir resolved', function (t) {
   tmpDir.removeCallback();
 });
 
-test('Fetching url', function (t) {
-  t.plan(1);
-  var url = 'https://raw.githubusercontent.com/Snyk/vulndb/snapshots/' +
-    'master/snapshot.json';
-
-  panda.fetch(url).then(function (snykDb) {
-    t.assert(snykDb.allIds().length > 68, 'vulns found');
-  }).catch(function (error) {
-    t.fail(error);
-  });
-});
 
 test('Fetching snapshot file', function (t) {
   t.plan(1);

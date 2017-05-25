@@ -6,5 +6,5 @@ Affected versions of this package do not validate that the remote server has a t
 Upgrade `mysql` to version 2.3.0 or higher.
 
 ## References
-- [Github Issue](https://github.com/mysqljs/mysql/issues/816)
-- [Github Commit]( https://github.com/mysqljs/mysql/commit/f03bf567ba64008c09a773858338c01842ed76db)
+- [GitHub Issue](https://github.com/mysqljs/mysql/issues/816)
+- [GitHub Commit]( https://github.com/mysqljs/mysql/commit/f03bf567ba64008c09a773858338c01842ed76db)

@@ -7,4 +7,4 @@ Affected versions of the package are vulnerable to Man in the Middle (MitM) atta
 Update to version `1.1.5` or greater.
 
 ## References
-- [Github Commit](https://github.com/davidmarkclements/install-nw/commit/5c64eff1ed116fceeba55a51867554f0fe4f6556)
+- [GitHub Commit](https://github.com/davidmarkclements/install-nw/commit/5c64eff1ed116fceeba55a51867554f0fe4f6556)

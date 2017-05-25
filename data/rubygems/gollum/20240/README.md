@@ -5,4 +5,4 @@ Affected versions of this gem are vulnerable to arbitrary file access via its up
 
 ## References
 - [Rubysec](http://rubysec.com/advisories/CVE-2015-7314)
-- [Github commit]( https://github.com/gollum/gollum/commit/ce68a88293ce3b18c261312392ad33a88bb69ea1)
+- [GitHub commit]( https://github.com/gollum/gollum/commit/ce68a88293ce3b18c261312392ad33a88bb69ea1)

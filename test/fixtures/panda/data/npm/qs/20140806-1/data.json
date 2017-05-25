@@ -1,0 +1,51 @@
+{
+	"title": "Denial of Service (Event Loop Blocking)",
+	"credit": [
+		"Tom Steele"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<1.0.0",
+		"unaffected": ">= 1.x"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [],
+		"NSP": 28,
+		"ALTERNATIVE": [
+			"SNYK-JS-QS-10020"
+		]
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://qs_20140806-1_0_0_snyk.patch"
+			],
+			"version": "<1.0.0 >=0.6.5",
+			"modificationTime": "2014-11-20T06:10:22.000Z",
+			"comments": [],
+			"id": "patch:npm:qs:20140806-1:0"
+		},
+		{
+			"urls": [
+				"file://qs_20140806-1_0_1_snyk.patch"
+			],
+			"version": "=0.5.6",
+			"modificationTime": "2014-11-20T06:10:22.000Z",
+			"comments": [],
+			"id": "patch:npm:qs:20140806-1:1"
+		}
+	],
+	"moduleName": "qs",
+	"creationTime": "2014-08-06T06:10:23.000Z",
+	"publicationTime": "2014-08-06T06:10:23.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2014-08-06T06:10:23.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:qs:20140806-1"
+}

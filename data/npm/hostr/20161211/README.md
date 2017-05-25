@@ -8,5 +8,5 @@ Many thanks to [Liang Gong](https://github.com/JacksonGL) for disclosing this vu
 Upgrade `hostr` to version 2.3.6 or higher.
 
 ## References
-- [Github Issue](https://github.com/henrytseng/hostr/issues/8)
-- [Github Commit](https://github.com/henrytseng/hostr/commit/789a00047459fd80b6f0a9701a1378a47fb73ba8)
+- [GitHub Issue](https://github.com/henrytseng/hostr/issues/8)
+- [GitHub Commit](https://github.com/henrytseng/hostr/commit/789a00047459fd80b6f0a9701a1378a47fb73ba8)

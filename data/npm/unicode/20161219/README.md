@@ -4,3 +4,6 @@ Affected versions of the package are vulnerable to Man in the Middle (MitM) atta
 
 ## Remediation
 There is no fix version for `unicode`.
+
+## References
+- [GitHub PR](https://github.com/eversport/node-unicodetable/pull/7)

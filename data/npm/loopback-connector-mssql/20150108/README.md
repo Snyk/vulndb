@@ -6,6 +6,6 @@ Affected versions of the package are vulnerable to SQL injection attacks. User-s
 Upgrade `loopback-connector-mssql` to version 1.3.0 or higher.
 
 ## References
-- [Github Issue](https://github.com/strongloop/loopback/issues/983)
-- [Github PR](https://github.com/strongloop/loopback-connector-mssql/pull/18)
-- [Github Commit](https://github.com/strongloop/loopback-connector-mssql/commit/1440f3d29ba0628bf6d7e508670fb0ab1c52cb7c)
+- [GitHub Issue](https://github.com/strongloop/loopback/issues/983)
+- [GitHub PR](https://github.com/strongloop/loopback-connector-mssql/pull/18)
+- [GitHub Commit](https://github.com/strongloop/loopback-connector-mssql/commit/1440f3d29ba0628bf6d7e508670fb0ab1c52cb7c)

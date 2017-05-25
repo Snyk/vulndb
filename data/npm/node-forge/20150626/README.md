@@ -20,6 +20,6 @@ The issue is that the more bytes match in the two arrays, the more comparisons a
 Upgrade `node-forge` to version 0.6.33 or higher.
 
 ## References
-- [Github Commit](https://github.com/digitalbazaar/forge/commit/17c6aaf2fa3bb0fc8756c561c541dd8e8127e1dd)
+- [GitHub Commit](https://github.com/digitalbazaar/forge/commit/17c6aaf2fa3bb0fc8756c561c541dd8e8127e1dd)
 - [NCCGroup Blog](https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2011/february/double-hmac-verification/)
 - [Nate Lawson's Blog](https://rdist.root.org/2010/07/19/exploiting-remote-timing-attacks/)

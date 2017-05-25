@@ -7,4 +7,4 @@ Affected versions of the package are vulnerable to Man in the Middle (MitM) atta
 Update to version greater than `0.6.3`
 
 ## References
-- [Github Commit](https://github.com/Strider-CD/strider-sauce/commit/5ff6d6593f89aee505b4e86958ab6f8898baa9eb)
+- [GitHub Commit](https://github.com/Strider-CD/strider-sauce/commit/5ff6d6593f89aee505b4e86958ab6f8898baa9eb)

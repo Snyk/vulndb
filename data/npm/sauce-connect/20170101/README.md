@@ -7,4 +7,4 @@ Affected versions of the package are vulnerable to Man in the Middle (MitM) atta
 There is no fix version for `sauce-connect`.
 
 ## References
-- [Github Repo](https://github.com/ddopson/node-sauce-connect)
+- [GitHub Repo](https://github.com/ddopson/node-sauce-connect)

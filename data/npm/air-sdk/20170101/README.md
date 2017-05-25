@@ -7,5 +7,5 @@ Affected versions of the package are vulnerable to Man in the Middle (MitM) atta
 There is no fix version for `air-sdk`.
 
 ## References
-- [Github Repo](https://github.com/dayvson/air-sdk)
+- [GitHub Repo](https://github.com/dayvson/air-sdk)
 - [Vulnerable Code](https://github.com/dayvson/air-sdk/blob/5a8066059ad6fc00b6a0693901146530c7143898/package.json#L28)

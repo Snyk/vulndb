@@ -7,4 +7,4 @@ Affected versions of the package are vulnerable to Man in the Middle (MitM) atta
 Update to a version higher than `0.0.3` 
 
 ## References
-- [Github Commit](https://github.com/samatt/Herbivore/commit/0a041defc3463e99948e5d2064aef54b2128c5a3)
+- [GitHub Commit](https://github.com/samatt/Herbivore/commit/0a041defc3463e99948e5d2064aef54b2128c5a3)

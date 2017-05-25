@@ -6,6 +6,6 @@ Affected versions of the package are vulnerable to SQL injection attacks. User-s
 Upgrade `loopback-connector-mysql` to version 1.5.0 or higher.
 
 ## References
-- [Github Issue](https://github.com/strongloop/loopback/issues/983)
-- [Github PR](https://github.com/strongloop/loopback-connector-mysql/pull/67)
-- [Github Commit](https://github.com/strongloop/loopback-connector-mysql/commit/8f1b5a3de23ef1b5ada5f40547b7a2f278d6ece6)
+- [GitHub Issue](https://github.com/strongloop/loopback/issues/983)
+- [GitHub PR](https://github.com/strongloop/loopback-connector-mysql/pull/67)
+- [GitHub Commit](https://github.com/strongloop/loopback-connector-mysql/commit/8f1b5a3de23ef1b5ada5f40547b7a2f278d6ece6)

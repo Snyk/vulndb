@@ -6,4 +6,4 @@ Affected versions of the package are vulnerable to Man in the Middle (MitM) atta
 Upgrade to version `1.1.0` or later
 
 ## References
-- [Github Commit](https://github.com/hakatashi/kindlegen/commit/9a67ba62890ab78597f4c3af36b97e19ea410fa4)
+- [GitHub Commit](https://github.com/hakatashi/kindlegen/commit/9a67ba62890ab78597f4c3af36b97e19ea410fa4)

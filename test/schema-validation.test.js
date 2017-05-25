@@ -1,41 +1,45 @@
-var fs = require('fs');
-var test = require('tape');
-var panda = require('../lib/panda-db');
+const fs = require('fs');
+const test = require('tape');
+const panda = require('../lib/panda-db');
+const walkFiles = require('../lib/utils').walkFiles;
+const validator = require('is-my-json-valid');
+const npmSchema = require('./fixtures/schema/vulnerability-data-schema-npm.json');
+const rubygemsSchema = require('./fixtures/schema/vulnerability-data-schema-rubygems.json');
+const mavenSchema = require('./fixtures/schema/vulnerability-data-schema-maven.json');
 
-var walkFiles = require('../lib/utils').walkFiles;
-
-var validator = require('is-my-json-valid');
-var npmSchema = require('./fixtures/schema/vulnerability-data-schema-npm.json');
-var rubygemsSchema = require('./fixtures/schema/vulnerability-data-schema-rubygems.json');
-
-var options = {
+const options = {
   formats: {
-    'snyk-vuln-id': /^(((npm):[0-9a-z-\._]+:(\d){8}(-\d)?)|(SNYK-(JS|RUBY)-[A-Z0-9]+-\d+))?$/,
-    'package-manager': /^(npm|rubygems)$/,
-    'language': /^(js|ruby)$/,
+    'snyk-vuln-id': /^(((npm):[0-9a-z-\._]+:(\d){8}(-\d)?)|(SNYK-(JS|RUBY|JAVA)-[A-Z0-9]+-\d+))?$/,
+    'package-manager': /^(npm|rubygems|maven)$/,
+    'language': /^(js|ruby|java)$/,
   },
 };
 
-var rubygemsValidate = validator(rubygemsSchema, options);
-var npmValidate = validator(npmSchema, options);
-
+const npmValidate = validator(npmSchema, options);
+const rubygemsValidate = validator(rubygemsSchema, options);
+const mavenValidate = validator(mavenSchema, options);
 
 test('better schema validation', function (t) {
-  var vulnDataFiles = walkFiles('./data', 'data.json');
+  const vulnDataFiles = walkFiles('./data', 'data.json');
 
   t.plan(vulnDataFiles.length);
 
   vulnDataFiles.forEach(function (vulnDataFile) {
-    var jsonVuln = JSON.parse(fs.readFileSync(vulnDataFile));
-    var result;
-    var errors;
+    const jsonVuln = JSON.parse(fs.readFileSync(vulnDataFile));
+    let result;
+    let errors;
 
     if (jsonVuln.packageManager === 'npm') {
       result = npmValidate(jsonVuln);
       errors = npmValidate.errors;
-    } else {
+    } else if (jsonVuln.packageManager === 'rubygems') {
       result = rubygemsValidate(jsonVuln);
       errors = rubygemsValidate.errors;
+    } else if (jsonVuln.packageManager === 'maven') {
+      result = mavenValidate(jsonVuln);
+      errors = mavenValidate.errors;
+    } else {
+      t.fail('No such package manager: ' + jsonVuln.packageManager);
     }
 
     if (result) {
@@ -44,5 +48,4 @@ test('better schema validation', function (t) {
       t.fail(jsonVuln.id + ' ' + JSON.stringify(errors));
     }
   });
-
 });

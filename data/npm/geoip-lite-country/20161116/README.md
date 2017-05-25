@@ -7,4 +7,4 @@ Affected versions of the package are vulnerable to Man in the Middle (MitM) atta
 Update to version `1.1.4` or greater.
 
 ## References
-- [Github Commit](https://github.com/arve0/node-geoip-country/commit/9228f2096a882b251f917deba5ae7ffa1a9b4ccc)
+- [GitHub Commit](https://github.com/arve0/node-geoip-country/commit/9228f2096a882b251f917deba5ae7ffa1a9b4ccc)

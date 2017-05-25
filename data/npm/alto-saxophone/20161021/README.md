@@ -7,6 +7,6 @@ Affected versions of the package are vulnerable to Man in the Middle (MitM) atta
 Update to version `2.25.1` or higher.
 
 ## References
-- [Github Issue](https://github.com/tobli/alto-saxophone/issues/3)
-- [Github PR](https://github.com/tobli/alto-saxophone/pull/4)
-- [Github Commit](https://github.com/tobli/alto-saxophone/commit/8cb735e8194fa3aac47727cda5ba0a876adc4e45)
+- [GitHub Issue](https://github.com/tobli/alto-saxophone/issues/3)
+- [GitHub PR](https://github.com/tobli/alto-saxophone/pull/4)
+- [GitHub Commit](https://github.com/tobli/alto-saxophone/commit/8cb735e8194fa3aac47727cda5ba0a876adc4e45)

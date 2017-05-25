@@ -6,6 +6,6 @@ Affected versions of the package are vulnerable to SQL injection attacks. User-s
 Upgrade `loopback-connector-postgresql` to version 1.3.0 or higher.
 
 ## References
-- [Github Issue](https://github.com/strongloop/loopback/issues/983)
-- [Github PR](https://github.com/strongloop/loopback-connector-postgresql/pull/49)
-- [Github Commit](https://github.com/strongloop/loopback-connector-postgresql/commit/384bbfc3aa0d74f6d0d92a76caf4bd3ca926d626)
+- [GitHub Issue](https://github.com/strongloop/loopback/issues/983)
+- [GitHub PR](https://github.com/strongloop/loopback-connector-postgresql/pull/49)
+- [GitHub Commit](https://github.com/strongloop/loopback-connector-postgresql/commit/384bbfc3aa0d74f6d0d92a76caf4bd3ca926d626)

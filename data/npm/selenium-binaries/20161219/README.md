@@ -4,3 +4,6 @@ Affected versions of the package are vulnerable to Man in the Middle (MitM) atta
 
 ## Remediation
 There is no fix version for `selenium-binaries`.
+
+## References
+- [Vulnerable Code](https://github.com/spunjs/selenium-binaries/blob/master/lib/config.js#L38)

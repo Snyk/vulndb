@@ -11,5 +11,5 @@ You can read more about timing attacks in Node.js on the [Snyk blog](https://sny
 Upgrade `fernet` to version 0.1.0 or higher.
 
 ## References
-- [Github PR](https://github.com/csquared/fernet.js/pull/7)
-- [Github Commit](https://github.com/csquared/fernet.js/commit/29c456543c69604289931b4e8979ec17bbeeff33)
+- [GitHub PR](https://github.com/csquared/fernet.js/pull/7)
+- [GitHub Commit](https://github.com/csquared/fernet.js/commit/29c456543c69604289931b4e8979ec17bbeeff33)

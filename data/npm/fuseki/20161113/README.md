@@ -7,4 +7,4 @@ Affected versions of the package are vulnerable to Man in the Middle (MitM) atta
 Upgrade to version `1.0.1` or higher.
 
 ## References
-- [Github Commit](https://github.com/bergos/fuseki/commit/154c0f12c468a8af33562dff12b1bb0e5b659df9)]
+- [GitHub Commit](https://github.com/bergos/fuseki/commit/154c0f12c468a8af33562dff12b1bb0e5b659df9)]

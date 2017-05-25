@@ -8,4 +8,4 @@ Such usage is uncommon. The following usage scenarios are **not vulnerable**: [1
 
 ## References
 - [Hackerone](https://hackerone.com/reports/99245)
-- [Github Issue](https://github.com/mapbox/mapbox.js/pull/1102)
+- [GitHub Issue](https://github.com/mapbox/mapbox.js/pull/1102)

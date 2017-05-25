@@ -6,4 +6,4 @@ All versions of the package do not properly prevent path traversal. A request li
 There is no fix version for `bitty`. The maintainer of the package plans to unpublish it from the npm registry.
 
 ## References
-- [Github Issue](https://github.com/nodesecurity/nsp/issues/137)
+- [GitHub Issue](https://github.com/nodesecurity/nsp/issues/137)

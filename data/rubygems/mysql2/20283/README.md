@@ -4,5 +4,5 @@ Affected versions of this gem do not sanitize input passed into the `quoted_colu
 
 
 ## References
-- [Github Release Notes](https://github.com/brianmario/mysql2/releases/tag/0.2.12)
-- [Github Commit](https://github.com/brianmario/mysql2/commit/00fc49b9c247a1fef079bea1570b5767b1803e4c)
+- [GitHub Release Notes](https://github.com/brianmario/mysql2/releases/tag/0.2.12)
+- [GitHub Commit](https://github.com/brianmario/mysql2/commit/00fc49b9c247a1fef079bea1570b5767b1803e4c)

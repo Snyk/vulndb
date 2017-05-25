@@ -6,5 +6,5 @@ Upgrade `marked` to version 0.3.6 or higher.
 Also, you can patch the vulnerability using [Snyk wizard](https://snyk.io/docs/using-snyk/#wizard). Alternatively you can use `remarkable` or other markdown libraries.
 
 ## References
-- [Github PR](https://github.com/chjj/marked/pull/592)
-- [Github Commit](https://github.com/chjj/marked/pull/592/commits/2cff85979be8e7a026a9aca35542c470cf5da523)
+- [GitHub PR](https://github.com/chjj/marked/pull/592)
+- [GitHub Commit](https://github.com/chjj/marked/pull/592/commits/2cff85979be8e7a026a9aca35542c470cf5da523)

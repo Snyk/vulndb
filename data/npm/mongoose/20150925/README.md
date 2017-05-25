@@ -7,5 +7,5 @@ Upgrade `mongoose` to version 4.1.10 or higher.
 
 
 ## References
-- [Github Issue](https://github.com/Automattic/mongoose/issues/3405)
-- [Github Commit](https://github.com/Automattic/mongoose/commit/d4d57176848bcaaae20d466273f124355c0d262f)
+- [GitHub Issue](https://github.com/Automattic/mongoose/issues/3405)
+- [GitHub Commit](https://github.com/Automattic/mongoose/commit/d4d57176848bcaaae20d466273f124355c0d262f)

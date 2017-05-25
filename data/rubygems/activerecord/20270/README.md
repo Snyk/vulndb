@@ -24,5 +24,4 @@ Similarly, an attacker can craft a request such that `params[:token]` will retur
 Note that this impacts not only dynamic finders (`find_by_*`) but also relations (`User.where(:name => params[:name])`).
 
 ## References
-- http://rubysec.com/advisories/CVE-2016-6317
 - https://groups.google.com/forum/#!topic/rubyonrails-security/rgO20zYW33s

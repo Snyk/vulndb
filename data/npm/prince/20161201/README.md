@@ -7,4 +7,4 @@ Affected versions of the package are vulnerable to Man in the Middle (MitM) atta
 There is no fix version for `prince`.
 
 ## References
-- [Vulnerable Code](https://github.com/rse/node-prince/blob/master/prince-npm.js)
+- [Vulnerable Code](https://github.com/rse/node-prince/blob/master/prince-npm.js#L79)

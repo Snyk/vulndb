@@ -2,7 +2,7 @@
 [`jquery`](https://www.npmjs.com/package/jquery) is JavaScript library for DOM operations.
 Affected versions of the package are vulnerable to Cross-site Scripting (XSS). The `location.hash()` function was used to select elements, but also allows remote attackers to inject script into the page.
 
-Related to [this vulnerability](https://snyk.io/vuln/npm:jquery-migrate:20130419) in the jQuery-migrate package
+Related to a vulnerability in [jQuery-migrate](https://snyk.io/vuln/npm:jquery-migrate:20130419) and in [fullpage.js](npm:fullpage.js:20151207).
 
 ## Remediation
 Upgrade `jquery` to version 1.6.3 or higher.

@@ -7,4 +7,4 @@ Affected versions of the package are vulnerable to Man in the Middle (MitM) atta
 Update to version `0.0.3` or later.
 
 ## References
-- [Github Commit](https://github.com/Janpot/mongodb-instance/commit/c8fea750f8020ace8410c442b2684b33a9fddd3b)
+- [GitHub Commit](https://github.com/Janpot/mongodb-instance/commit/c8fea750f8020ace8410c442b2684b33a9fddd3b)

@@ -6,6 +6,6 @@ Affected versions of the package are vulnerable to SQL injection attacks. User-s
 Upgrade `loopback-connector-oracle` to version 1.5.0 or higher.
 
 ## References
-- [Github Issue](https://github.com/strongloop/loopback/issues/983)
-- [Github PR](https://github.com/strongloop/loopback-connector-oracle/pull/28)
-- [Github Commit](https://github.com/strongloop/loopback-connector-oracle/commit/29128e79000382011fc30c2aec98a24b0668273e)
+- [GitHub Issue](https://github.com/strongloop/loopback/issues/983)
+- [GitHub PR](https://github.com/strongloop/loopback-connector-oracle/pull/28)
+- [GitHub Commit](https://github.com/strongloop/loopback-connector-oracle/commit/29128e79000382011fc30c2aec98a24b0668273e)

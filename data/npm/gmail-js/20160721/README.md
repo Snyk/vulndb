@@ -6,9 +6,9 @@ As part of its execution, the library dynamically creates functions out of respo
 At least three functions perform this vulnerable flow: `tools.parse_response`, `helper.get.visible_emails_post`, and `helper.get.email_data_post`.
 
 ## Remediation
-Since there is no public patch yet available, we recommend you avoid using this library until a patch is released.
+Upgrade `gmail-js` to version 0.6.5 or higher.
 
 ## References
-- https://github.com/KartikTalwar/gmail.js/issues/281
-- https://www.owasp.org/index.php/DOM_Based_XSS
-
+- [GitHub Issue](https://github.com/KartikTalwar/gmail.js/issues/281)
+- [GitHub Commit](https://github.com/KartikTalwar/gmail.js/commit/82f1876bdc379531043d3f46ee19b338e8ec907d)
+- [OWASP](https://www.owasp.org/index.php/DOM_Based_XSS)

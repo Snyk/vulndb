@@ -7,4 +7,4 @@ Affected versions of the package are vulnerable to Man in the Middle (MitM) atta
 Update to iedriver version `3.0.0` or greater.
 
 ## References
-- [Github Commit](https://github.com/barretts/node-iedriver/commit/32ca1602573618c8d76182c4f2a30aee379d6629)
+- [GitHub Commit](https://github.com/barretts/node-iedriver/commit/32ca1602573618c8d76182c4f2a30aee379d6629)

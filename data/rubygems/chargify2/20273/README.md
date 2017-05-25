@@ -7,5 +7,5 @@ There is no fixed version for this vulnerability, but a fix was merged to the [`
 
 ## References
 
-- [Github PR](https://github.com/chargify/chargify2/pull/31)
-- [Github Commit](https://github.com/chargify/chargify2/commit/9163a9f82fe4b8dea2378210ffc7f06bf9c697a2)
+- [GitHub PR](https://github.com/chargify/chargify2/pull/31)
+- [GitHub Commit](https://github.com/chargify/chargify2/commit/9163a9f82fe4b8dea2378210ffc7f06bf9c697a2)

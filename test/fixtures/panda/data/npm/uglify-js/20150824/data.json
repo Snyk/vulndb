@@ -1,0 +1,42 @@
+{
+	"title": "Improper minification of non-boolean comparisons",
+	"credit": [
+		"Tom MacWright"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<= 2.4.23",
+		"unaffected": ">= 2.4.24"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-95"
+		],
+		"CVE": [],
+		"NSP": 39,
+		"ALTERNATIVE": [
+			"SNYK-JS-UGLIFYJS-10041"
+		]
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://uglify-js_20150824_0_0_905b6011784ca60d41919ac1a499962b7c1d4b02_snyk.patch"
+			],
+			"version": "<= 2.4.23 >2.0.0",
+			"modificationTime": "2015-08-24T09:29:10.000Z",
+			"comments": [],
+			"id": "patch:npm:uglify-js:20150824:0"
+		}
+	],
+	"moduleName": "uglify-js",
+	"creationTime": "2015-08-24T09:29:10.000Z",
+	"publicationTime": "2015-08-24T09:29:10.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2015-08-24T09:29:10.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:uglify-js:20150824"
+}

@@ -9,4 +9,4 @@ Such usage is uncommon. The following usage scenarios are **not vulnerable**: [1
 
 ## References
 - [Hackerone](https://hackerone.com/reports/54327a)
-- [Github commit](https://github.com/mapbox/mapbox.js/commit/538d229ab6767bb4c3f3969c417f9884189c1512)
+- [GitHub commit](https://github.com/mapbox/mapbox.js/commit/538d229ab6767bb4c3f3969c417f9884189c1512)

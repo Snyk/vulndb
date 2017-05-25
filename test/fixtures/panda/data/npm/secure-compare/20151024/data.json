@@ -1,0 +1,42 @@
+{
+	"title": "Insecure Comparison",
+	"credit": [
+		"Joshua Dague"
+	],
+	"creationTime": "2015-11-06T02:09:36.186Z",
+	"modificationTime": "2015-11-06T02:09:36.186Z",
+	"publicationTime": "2015-11-06T02:09:36.186Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=3.0.0",
+		"unaffected": ">3.0.0"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"NSP": 50,
+		"ALTERNATIVE": [
+			"SNYK-JS-SECURECOMPARE-10060"
+		]
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://secure-compare_20151024_0_0_b768f45003dad04743c91747e35df1b0a4c4c897.patch"
+			],
+			"version": "=3.0.0",
+			"modificationTime": "2015-10-24T21:00:53.201Z",
+			"comments": [
+				"https://github.com/vdemedes/secure-compare/commit/b768f45003dad04743c91747e35df1b0a4c4c897.patch"
+			],
+			"id": "patch:npm:secure-compare:20151024:0"
+		}
+	],
+	"moduleName": "secure-compare",
+	"disclosureTime": "2015-10-24T21:00:53.201Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:secure-compare:20151024"
+}

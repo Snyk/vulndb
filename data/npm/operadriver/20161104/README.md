@@ -6,4 +6,4 @@ Affected versions of the package are vulnerable to Man in the Middle (MitM) atta
 Upgrade to version `0.2.3` or later.
 
 ## References
-- [Github Commit](https://github.com/cnpm/node-operadriver/commit/190f09f0da4780f9d68a0a3e6466b871e090b1e1)
+- [GitHub Commit](https://github.com/cnpm/node-operadriver/commit/190f09f0da4780f9d68a0a3e6466b871e090b1e1)

@@ -5,3 +5,6 @@ Affected versions of the package are vulnerable to Man in the Middle (MitM) atta
 
 ## Remediation
 There is no fix version for `haxeshim`.
+
+## References
+- [Vulnerable Code](https://github.com/lix-pm/haxeshim/blob/master/.travis.yml#L19)

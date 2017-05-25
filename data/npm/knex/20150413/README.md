@@ -20,5 +20,5 @@ Upgrade `knex` to versions `0.6.23`, `0.7.6` or higher.
 
 
 ## References
-- [Github Issue](https://github.com/tgriesser/knex/issues/737)
-- [Github Commit](https://github.com/tgriesser/knex/commit/13995d6936208fe0a968b9ae0f46a2f19faacffc)
+- [GitHub Issue](https://github.com/tgriesser/knex/issues/737)
+- [GitHub Commit](https://github.com/tgriesser/knex/commit/13995d6936208fe0a968b9ae0f46a2f19faacffc)

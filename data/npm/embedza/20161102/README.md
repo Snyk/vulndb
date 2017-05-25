@@ -6,4 +6,4 @@ Affected versions of the package are vulnerable to Man in the Middle (MitM) atta
 Upgrade to version `1.2.5` or higher.
 
 ## References
-- [Github Commit](https://github.com/nodeca/embedza/commit/19ab5ed72c37a311ba2685f4ef4ed08b3b5c95c3)
+- [GitHub Commit](https://github.com/nodeca/embedza/commit/19ab5ed72c37a311ba2685f4ef4ed08b3b5c95c3)

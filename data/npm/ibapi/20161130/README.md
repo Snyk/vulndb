@@ -7,4 +7,4 @@ Affected versions of the package are vulnerable to Man in the Middle (MitM) atta
 There is no fix version for `ibapi`.
 
 ## References
-- [Gitlord Code](https://gitlord.com/summary/~dchem%2Fnode-ibapi-addon.git)
+- [Vulnerable Code](https://gitlord.com/blob/~dchem%2Fwatsonator.git/refs%2Fheads%2Fmaster/public%2Findex.html)

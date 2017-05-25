@@ -7,4 +7,4 @@ Affected versions of the package are vulnerable to Man in the Middle (MitM) atta
 Update to version `0.1.1` or greater.
 
 ## References
-- [Github Commit](https://github.com/redien/limbus-buildgen/commit/dfdcf27117f7ed03560054952c90b9d78c121329)
+- [GitHub Commit](https://github.com/redien/limbus-buildgen/commit/dfdcf27117f7ed03560054952c90b9d78c121329)

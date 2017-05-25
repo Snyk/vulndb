@@ -13,4 +13,4 @@ Related vulnerability:
 ## References
 - [Rubysec](http://rubysec.com/advisories/OSVDB-132871/)
 - [Hackerone](https://hackerone.com/reports/99245)
-- [Github Issue](https://github.com/mapbox/mapbox.js/pull/1102)
+- [GitHub Issue](https://github.com/mapbox/mapbox.js/pull/1102)

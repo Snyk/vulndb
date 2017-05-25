@@ -3,12 +3,13 @@ var fs = require('fs');
 var walkFiles = require('../lib/utils').walkFiles;
 var path = require('path');
 
+
 test('validate all /data/ vulns', function (t) {
   var vulnDataFiles = walkFiles('./data', 'data.json');
 
   var vulnIds = [];
   var patchIds = [];
-
+  
   vulnDataFiles.forEach(function (vulnDataFile) {
     var vuln = JSON.parse(fs.readFileSync(vulnDataFile));
 
@@ -19,12 +20,6 @@ test('validate all /data/ vulns', function (t) {
     if (vuln.identifiers.ALTERNATIVE) {
       vids = vids.concat(vuln.identifiers.ALTERNATIVE);
     }
-
-    vids.forEach(function (vid) {
-      t.assert(vulnIds.indexOf(vid) === -1, 'non unique id ' + vid);
-    });
-
-    vulnIds = vulnIds.concat(vids);
 
     // make sure we have an id
     t.assert(vuln.id, 'id exists');
@@ -45,7 +40,7 @@ test('validate all /data/ vulns', function (t) {
             vuln.moduleName.toUpperCase().replace(/-/g,'').replace(/_/g,'').replace(/\./g,''),
             xid[2],
             'moduleName matches the name in alt. id');
-          t.assert(vulnIds.indexOf(xid[3]) === -1, 'non unique id ' + xid[3]);
+          t.assert(vulnIds.indexOf(xid[3]) === -1, 'non unique id ' + iId);
           vulnIds = vulnIds.concat([xid[3]]);
         }
       });
@@ -61,7 +56,26 @@ test('validate all /data/ vulns', function (t) {
           t.end();
         });
       }
-    }
+    } else if (vuln.packageManager === 'rubygems') {
+      const id = vuln.id.split('-');
+      t.equals(vuln.language, id[1].toLowerCase(),
+               'language matches the lang in id');
+      t.equals(vuln.moduleName.toUpperCase().replace(/-/g,'').replace(/_/g,'').replace(/\./g,''),
+               id[2],
+               'moduleName matches the name in the id');
+      t.assert(vulnIds.indexOf(id[3]) === -1, 'non unique id ' + vuln.id);
+               vulnIds = vulnIds.concat([id[3]]);
 
+    } else if (vuln.packageManager === 'maven') {
+      const id = vuln.id.split('-');
+      t.equals(vuln.language, id[1].toLowerCase(),
+              'language matches the lang in alt. id');
+      t.equals(vuln.moduleName.split(':')[0].toUpperCase().replace(/-/g,'').replace(/_/g,'').replace(/\./g,''),           id[2],
+               'moduleName matches the name in the id');
+      t.assert(vulnIds.indexOf(id[3]) === -1, 'non unique id ' + vuln.id);
+               vulnIds = vulnIds.concat([id[3]]);
+    } else {
+      t.fail('package manager doesn\'t exist: ' + vuln.packageManager);
+    }
   });
 });

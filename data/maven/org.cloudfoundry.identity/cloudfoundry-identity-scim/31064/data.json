@@ -1,0 +1,34 @@
+{
+	"title": "Brute Force",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.cloudfoundry.identity:cloudfoundry-identity-scim",
+	"packageName": "org.cloudfoundry.identity:cloudfoundry-identity-scim",
+	"mavenModuleName": {
+		"groupId": "org.cloudfoundry.identity",
+		"artifactId": "cloudfoundry-identity-scim"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGCLOUDFOUNDRYIDENTITY-31064",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.4.0,2.7.4.9]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-307"
+		],
+		"CVE": [
+			"CVE-2016-3084"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:27.861Z",
+	"modificationTime": "2017-02-22T07:28:27.861Z",
+	"publicationTime": "2016-09-28T01:24:03.372Z",
+	"disclosureTime": "2016-09-28T01:24:03.372Z"
+}

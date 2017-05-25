@@ -28,5 +28,6 @@
 	"moduleName": "ipip",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:ipip:20161130"
+	"id": "npm:ipip:20161130",
+	"packageName": "ipip"
 }

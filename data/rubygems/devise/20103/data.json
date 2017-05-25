@@ -29,5 +29,6 @@
 	"modificationTime": "2016-09-21T12:36:49.000Z",
 	"publicationTime": "2013-08-01T21:00:00.000Z",
 	"disclosureTime": "2013-08-01T21:00:00.000Z",
-	"id": "SNYK-RUBY-DEVISE-20103"
+	"id": "SNYK-RUBY-DEVISE-20103",
+	"packageName": "devise"
 }

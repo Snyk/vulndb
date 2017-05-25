@@ -1,0 +1,33 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.springframework:spring-core",
+	"packageName": "org.springframework:spring-core",
+	"mavenModuleName": {
+		"groupId": "org.springframework",
+		"artifactId": "spring-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGSPRINGFRAMEWORK-31326",
+	"description": "file://README.md",
+	"semver": {
+			"vulnerable": "[3.2.8.RELEASE,3.2.14.RELEASE),[4.1.0.RELEASE,4.1.7.RELEASE)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:31.471Z",
+	"modificationTime": "2017-02-22T07:28:31.471Z",
+	"publicationTime": "2015-11-06T05:26:24.330Z",
+	"disclosureTime": "2015-11-06T05:26:24.330Z"
+}

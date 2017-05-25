@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary Code Execution",
+	"credit": [
+		"Pierre Ernst"
+	],
+	"moduleName": "org.apache.tika:tika-parsers",
+	"packageName": "org.apache.tika:tika-parsers",
+	"mavenModuleName": {
+		"groupId": "org.apache.tika",
+		"artifactId": "tika-parsers"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETIKA-30817",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.6,1.14)",
+		"unaffected": "[1.14]"
+	},
+	"identifiers": {
+		"CWE": [
+				"CWE-264"
+		],
+		"CVE": [
+			"CVE-2016-6809"
+		]
+	},
+	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:23.906Z",
+	"modificationTime": "2017-02-22T07:28:23.906Z",
+	"publicationTime": "2016-11-14T07:01:34.886Z",
+	"disclosureTime": "2016-11-14T07:01:34.886Z"
+}

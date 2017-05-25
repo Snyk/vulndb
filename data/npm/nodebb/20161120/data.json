@@ -1,0 +1,32 @@
+{
+	"title": "Arbitrary code execution ",
+	"credit": [
+		"Ben Lubar"
+	],
+	"moduleName": "nodebb",
+	"packageName": "nodebb",
+	"language": "js",
+	"packageManager": "npm",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-NODEBB-10445"
+		]
+	},
+	"semver": {
+		"unaffected": ">=1.4.1",
+		"vulnerable": "<1.4.1 >=0.4.3"
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"disclosureTime": "2016-11-19T22:00:00.000Z",
+	"publicationTime": "2017-04-03T10:38:24.598Z",
+	"modificationTime": "2017-03-06T15:23:31.954Z",
+	"creationTime": "2017-03-06T15:23:31.954Z",
+	"id": "npm:nodebb:20161120"
+}

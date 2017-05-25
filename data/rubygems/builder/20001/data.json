@@ -27,5 +27,6 @@
 	"modificationTime": "2016-09-21T12:36:46.000Z",
 	"publicationTime": "2007-06-14T21:00:00.000Z",
 	"disclosureTime": "2007-06-14T21:00:00.000Z",
-	"id": "SNYK-RUBY-BUILDER-20001"
+	"id": "SNYK-RUBY-BUILDER-20001",
+	"packageName": "builder"
 }

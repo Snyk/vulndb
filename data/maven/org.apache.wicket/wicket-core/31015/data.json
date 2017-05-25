@@ -1,0 +1,34 @@
+{
+	"title": "Information Disclosure",
+	"credit": [
+		"Andrea Del Bene, Martin Grigorov"
+	],
+	"moduleName": "org.apache.wicket:wicket-core",
+	"packageName": "org.apache.wicket:wicket-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.wicket",
+		"artifactId": "wicket-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEWICKET-31015",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.5.11],[6.16.0],[7.0.0-M2]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2014-3526"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:27.175Z",
+	"modificationTime": "2017-02-22T07:28:27.175Z",
+	"publicationTime": "2015-10-19T07:47:17.000Z",
+	"disclosureTime": "2015-10-19T07:47:17.000Z"
+}

@@ -1,0 +1,34 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Mikhail Egorov"
+	],
+	"moduleName": "org.jboss.resteasy:resteasy-jaxrs",
+	"packageName": "org.jboss.resteasy:resteasy-jaxrs",
+	"mavenModuleName": {
+		"groupId": "org.jboss.resteasy",
+		"artifactId": "resteasy-jaxrs"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGJBOSSRESTEASY-31206",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.0-beta-6,3.1.0.Beta1]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2016-6347"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"severity": "medium",
+	"creationTime": "2017-02-22T07:28:29.840Z",
+	"modificationTime": "2017-02-22T07:28:29.840Z",
+	"publicationTime": "2016-09-05T08:42:20.546Z",
+	"disclosureTime": "2016-09-05T08:42:20.546Z"
+}

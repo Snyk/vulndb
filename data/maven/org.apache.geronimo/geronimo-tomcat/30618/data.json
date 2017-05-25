@@ -1,0 +1,34 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.geronimo:geronimo-tomcat",
+	"packageName": "org.apache.geronimo:geronimo-tomcat",
+	"mavenModuleName": {
+		"groupId": "org.apache.geronimo",
+		"artifactId": "geronimo-tomcat"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEGERONIMO-30618",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-20"
+		],
+		"CVE": [
+			"CVE-2011-5034"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"creationTime": "2017-02-22T07:28:21.439Z",
+	"modificationTime": "2017-02-22T07:28:21.439Z",
+	"publicationTime": "2016-12-15T05:41:34.824Z",
+	"disclosureTime": "2016-12-15T05:41:34.824Z"
+}

@@ -28,5 +28,6 @@
 	"moduleName": "unicode",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:unicode:20161219"
+	"id": "npm:unicode:20161219",
+	"packageName": "unicode"
 }

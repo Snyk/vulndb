@@ -1,0 +1,35 @@
+{
+	"title": "Arbitrary Code Execution",
+	"credit": [
+		"Puppet Labs"
+	],
+	"moduleName": "puppet",
+	"packageName": "puppet",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2012-1988"
+		]
+	},
+	"semver": {
+		"unaffected": [
+			">=2.6.15, <2.7.0",
+			">=2.7.13"
+		],
+		"vulnerable": [
+			"<2.6.15",
+			">=2.7.0, <2.7.13"
+		]
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"disclosureTime": "2011-04-02T22:00:00.000Z",
+	"publicationTime": "2017-02-28T07:40:33.288Z",
+	"modificationTime": "2017-01-26T14:19:26.847Z",
+	"creationTime": "2017-01-26T14:19:26.847Z",
+	"id": "SNYK-RUBY-PUPPET-20313"
+}

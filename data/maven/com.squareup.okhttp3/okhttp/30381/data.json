@@ -1,0 +1,32 @@
+{
+	"title": "SSL Certificate Bypass",
+	"credit": [
+		"John Kozyrakis"
+	],
+	"moduleName": "com.squareup.okhttp3:okhttp",
+	"packageName": "com.squareup.okhttp3:okhttp",
+	"mavenModuleName": {
+		"groupId": "com.squareup.okhttp3",
+		"artifactId": "okhttp"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-COMSQUAREUPOKHTTP3-30381",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[3,3.1.1)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2016-2402"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:18.500Z",
+	"modificationTime": "2017-02-22T07:28:18.500Z",
+	"publicationTime": "2016-02-11T07:16:18.857Z",
+	"disclosureTime": "2016-02-11T07:16:18.857Z"
+}

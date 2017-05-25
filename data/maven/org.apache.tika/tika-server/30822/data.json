@@ -1,0 +1,34 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.tika:tika-server",
+	"packageName": "org.apache.tika:tika-server",
+	"mavenModuleName": {
+		"groupId": "org.apache.tika",
+		"artifactId": "tika-server"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETIKA-30822",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.9]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2015-3271"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:23.963Z",
+	"modificationTime": "2017-02-22T07:28:23.963Z",
+	"publicationTime": "2015-08-13T17:28:47.000Z",
+	"disclosureTime": "2015-08-13T17:28:47.000Z"
+}

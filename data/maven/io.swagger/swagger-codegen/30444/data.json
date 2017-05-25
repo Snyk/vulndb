@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary Code Execution",
+	"credit": [
+		"Scott Davis"
+	],
+	"moduleName": "io.swagger:swagger-codegen",
+	"packageName": "io.swagger:swagger-codegen",
+	"mavenModuleName": {
+		"groupId": "io.swagger",
+		"artifactId": "swagger-codegen"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-IOSWAGGER-30444",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,2.2.0)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [
+			"CVE-2016-5641"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+	"creationTime": "2017-02-22T07:28:19.278Z",
+	"modificationTime": "2017-02-22T07:28:19.278Z",
+	"publicationTime": "2016-07-21T08:10:51.939Z",
+	"disclosureTime": "2016-07-21T08:10:51.939Z"
+}

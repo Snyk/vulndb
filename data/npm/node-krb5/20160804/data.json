@@ -26,5 +26,6 @@
 	"moduleName": "node-krb5",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:node-krb5:20160804"
+	"id": "npm:node-krb5:20160804",
+	"packageName": "node-krb5"
 }

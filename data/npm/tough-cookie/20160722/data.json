@@ -38,5 +38,6 @@
 	"moduleName": "tough-cookie",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:tough-cookie:20160722"
+	"id": "npm:tough-cookie:20160722",
+	"packageName": "tough-cookie"
 }

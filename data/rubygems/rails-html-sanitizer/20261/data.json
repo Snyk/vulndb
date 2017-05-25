@@ -31,5 +31,6 @@
 	"modificationTime": "2016-09-21T12:37:04.000Z",
 	"publicationTime": "2016-01-24T22:00:00.000Z",
 	"disclosureTime": "2016-01-24T22:00:00.000Z",
-	"id": "SNYK-RUBY-RAILSHTMLSANITIZER-20261"
+	"id": "SNYK-RUBY-RAILSHTMLSANITIZER-20261",
+	"packageName": "rails-html-sanitizer"
 }

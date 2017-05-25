@@ -30,5 +30,4 @@ content_tag(:div, "hi", title: escape_quotes(sanitize(user_input)))
 ```
 
 ## References
-- http://rubysec.com/advisories/CVE-2016-6316
 - https://groups.google.com/forum/#!topic/rubyonrails-security/I-VWr034ouk

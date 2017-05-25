@@ -1,0 +1,35 @@
+{
+	"title": "XML External Entity (XXE) Injection",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.hornetq.rest:hornetq-rest",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "(,2.4.5.Final]",
+		"unaffected": "[2.5.0.Beta1,3)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+			"CVE-2014-3599"
+		]
+	},
+	"severity": "low",
+	"CVSSv2": "CVSS:2.0/AV:N/AC:M/Au:N/C:P/I:N/A:N",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2016-12-25T16:51:53.000Z",
+	"modificationTime": "2016-12-25T16:51:53.000Z",
+	"publicationTime": "2016-12-25T16:51:53.000Z",
+	"disclosureTime": "2016-12-25T16:51:53.000Z",
+	"id": "SNYK-JAVA-ORGHORNETQREST-30099",
+	"mavenModuleName": {
+		"groupId": "org.hornetq.rest",
+		"artifactId": "hornetq-rest"
+	},
+	"packageName": "org.hornetq.rest:hornetq-rest"
+}

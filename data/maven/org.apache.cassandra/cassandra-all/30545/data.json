@@ -1,0 +1,31 @@
+{
+	"title": "Denial Of Service (DoS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.cassandra:cassandra-all",
+	"packageName": "org.apache.cassandra:cassandra-all",
+	"mavenModuleName": {
+		"groupId": "org.apache.cassandra",
+		"artifactId": "cassandra-all"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHECASSANDRA-30545",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[3.2,3.3)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": []
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:20.529Z",
+	"modificationTime": "2017-02-22T07:28:20.529Z",
+	"publicationTime": "2016-05-12T08:33:06.523Z",
+	"disclosureTime": "2016-05-12T08:33:06.523Z"
+}

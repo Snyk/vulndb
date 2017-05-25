@@ -30,5 +30,6 @@
 	"modificationTime": "2016-09-21T12:36:54.000Z",
 	"publicationTime": "2014-06-29T21:00:00.000Z",
 	"disclosureTime": "2014-06-29T21:00:00.000Z",
-	"id": "SNYK-RUBY-GYAZO-20173"
+	"id": "SNYK-RUBY-GYAZO-20173",
+	"packageName": "gyazo"
 }

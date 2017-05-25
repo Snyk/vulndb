@@ -1,0 +1,34 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.archiva:archiva-database",
+	"packageName": "org.apache.archiva:archiva-database",
+	"mavenModuleName": {
+		"groupId": "org.apache.archiva",
+		"artifactId": "archiva-database"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEARCHIVA-30516",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.0.0,1.0.3]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2010-4408"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:20.187Z",
+	"modificationTime": "2017-02-22T07:28:20.187Z",
+	"publicationTime": "2015-02-11T03:45:59.000Z",
+	"disclosureTime": "2015-02-11T03:45:59.000Z"
+}

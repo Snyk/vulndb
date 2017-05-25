@@ -28,5 +28,6 @@
 	"moduleName": "cli",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:cli:20160615"
+	"id": "npm:cli:20160615",
+	"packageName": "cli"
 }

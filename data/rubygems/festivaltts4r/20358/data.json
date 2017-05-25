@@ -1,0 +1,35 @@
+{
+	"title": "Arbitrary Command Injection",
+	"credit": [
+		"Brendan Coles"
+	],
+	"moduleName": "festivaltts4r",
+	"packageName": "festivaltts4r",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [
+			"CVE-2016-10194"
+		]
+	},
+	"semver": {
+		"vulnerable": [
+			">=0.0.0"
+		],
+		"unaffected": [
+			"<0.0.0"
+		]
+	},
+	"patches": [],
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"disclosureTime": "2016-04-21T21:00:00.000Z",
+	"publicationTime": "2017-04-03T10:38:24.826Z",
+	"modificationTime": "2017-03-13T13:53:12.680Z",
+	"creationTime": "2017-03-13T13:53:12.680Z",
+	"id": "SNYK-RUBY-FESTIVALTTS4R-20358"
+}

@@ -1,0 +1,34 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.tomcat:tomcat-coyote",
+	"packageName": "org.apache.tomcat:tomcat-coyote",
+	"mavenModuleName": {
+		"groupId": "org.apache.tomcat",
+		"artifactId": "tomcat-coyote"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETOMCAT-30938",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[7,7.0.74),[8.5,8.5.9),[8.0.0RC1,8.0.40),[9.0.0M1,9.0.0M15)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2016-8745"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:25.937Z",
+	"modificationTime": "2017-02-22T07:28:25.937Z",
+	"publicationTime": "2016-12-13T04:53:40.527Z",
+	"disclosureTime": "2016-12-13T04:53:40.527Z"
+}

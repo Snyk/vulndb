@@ -27,5 +27,6 @@
 	"publicationTime": "2016-12-20T16:43:39.695Z",
 	"modificationTime": "2016-12-14T14:43:39.695Z",
 	"creationTime": "2016-12-14T14:43:39.695Z",
-	"id": "npm:knex:20150413"
+	"id": "npm:knex:20150413",
+	"packageName": "knex"
 }

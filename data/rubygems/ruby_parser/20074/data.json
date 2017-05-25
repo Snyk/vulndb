@@ -30,5 +30,6 @@
 	"modificationTime": "2016-09-21T12:37:06.000Z",
 	"publicationTime": "2013-02-20T22:00:00.000Z",
 	"disclosureTime": "2013-02-20T22:00:00.000Z",
-	"id": "SNYK-RUBY-RUBYPARSER-20074"
+	"id": "SNYK-RUBY-RUBYPARSER-20074",
+	"packageName": "ruby_parser"
 }

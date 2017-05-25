@@ -27,5 +27,6 @@
 	"modificationTime": "2016-09-21T12:36:51.000Z",
 	"publicationTime": "2013-03-12T22:00:00.000Z",
 	"disclosureTime": "2013-03-12T22:00:00.000Z",
-	"id": "SNYK-RUBY-FASTREADER-20085"
+	"id": "SNYK-RUBY-FASTREADER-20085",
+	"packageName": "fastreader"
 }

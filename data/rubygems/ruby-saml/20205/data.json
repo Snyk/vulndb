@@ -27,5 +27,6 @@
 	"modificationTime": "2016-09-21T12:37:06.000Z",
 	"publicationTime": "2015-02-02T22:00:00.000Z",
 	"disclosureTime": "2015-02-02T22:00:00.000Z",
-	"id": "SNYK-RUBY-RUBYSAML-20205"
+	"id": "SNYK-RUBY-RUBYSAML-20205",
+	"packageName": "ruby-saml"
 }

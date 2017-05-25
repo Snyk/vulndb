@@ -1,5 +1,5 @@
 {
-	"title": "Unauthorized SSL Connection to to lack of cert authentication",
+	"title": "Unauthorized SSL Connection due to lack of cert authentication",
 	"moduleName": "mysql",
 	"description": "file://README.md",
 	"language": "js",
@@ -25,7 +25,8 @@
 	"disclosureTime": "2014-05-13T21:00:00.000Z",
 	"patches": [],
 	"publicationTime": "2017-01-04T18:36:45.767Z",
-	"modificationTime": "2016-12-28T11:36:45.767Z",
+	"modificationTime": "2017-01-05T11:36:45.767Z",
 	"creationTime": "2016-12-28T11:36:45.767Z",
-	"id": "npm:mysql:20140514"
+	"id": "npm:mysql:20140514",
+	"packageName": "mysql"
 }

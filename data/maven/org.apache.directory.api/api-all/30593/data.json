@@ -1,0 +1,33 @@
+{
+	"title": "Timing Attack",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.directory.api:api-all",
+	"packageName": "org.apache.directory.api:api-all",
+	"mavenModuleName": {
+		"groupId": "org.apache.directory.api",
+		"artifactId": "api-all"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEDIRECTORYAPI-30593",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[0.0,1.0.0-M31)",
+		"unaffected": "[1.0.0-M31]"
+	},
+	"identifiers": {
+		"CWE": [
+				"CWE-208"
+		],
+		"CVE": [
+			"CVE-2015-3250"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:21.140Z",
+	"modificationTime": "2017-02-22T07:28:21.140Z",
+	"publicationTime": "2015-07-07T16:14:55.000Z",
+	"disclosureTime": "2015-07-07T16:14:55.000Z"
+}

@@ -8,7 +8,7 @@
 		"vulnerable": "<0.2.3",
 		"unaffected": ">=0.2.3"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
 	"severity": "high",
 	"identifiers": {
 		"CWE": [],
@@ -28,5 +28,6 @@
 	"disclosureTime": "2014-02-04T07:31:34.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:libyaml:20140204"
+	"id": "npm:libyaml:20140204",
+	"packageName": "libyaml"
 }

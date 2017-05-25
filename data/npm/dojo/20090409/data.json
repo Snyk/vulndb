@@ -1,12 +1,12 @@
 {
-	"title": "Cross-Site Scripting",
+	"title": "Cross-site Scripting (XSS)",
 	"credit": [],
 	"description": "file://README.md",
 	"semver": {
 		"vulnerable": "<1.1",
 		"unaffected": ">=1.1"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [
@@ -27,5 +27,6 @@
 	"disclosureTime": "2015-11-06T02:09:36.180Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:dojo:20090409"
+	"id": "npm:dojo:20090409",
+	"packageName": "dojo"
 }

@@ -30,5 +30,6 @@
 	"modificationTime": "2016-09-21T12:36:54.000Z",
 	"publicationTime": "2007-11-26T22:00:00.000Z",
 	"disclosureTime": "2007-11-26T22:00:00.000Z",
-	"id": "SNYK-RUBY-GTK2-20002"
+	"id": "SNYK-RUBY-GTK2-20002",
+	"packageName": "gtk2"
 }

@@ -1,0 +1,33 @@
+{
+	"title": "Regular Expression Denial of Service (ReDoS)",
+	"credit": [
+		"kamael"
+	],
+	"moduleName": "brace-expansion",
+	"packageName": "brace-expansion",
+	"language": "js",
+	"packageManager": "npm",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [],
+    "NSP": 338,
+		"ALTERNATIVE": [
+			"SNYK-JS-BRACEEXPANSION-10483"
+		]
+	},
+	"semver": {
+		"unaffected": ">=1.1.7",
+		"vulnerable": "<1.1.7"
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"disclosureTime": "2017-03-01T22:00:00.000Z",
+	"publicationTime": "2017-04-26T09:19:21.663Z",
+	"modificationTime": "2017-04-26T09:19:21.663Z",
+	"creationTime": "2017-04-26T09:19:21.663Z",
+	"id": "npm:brace-expansion:20170302"
+}

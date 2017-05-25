@@ -1,0 +1,105 @@
+{
+	"title": "Prototype Override Protection Bypass",
+	"credit": [
+		"Snyk Security Research Team"
+	],
+	"moduleName": "qs",
+	"packageName": "qs",
+	"language": "js",
+	"packageManager": "npm",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-20"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-QS-10407"
+		]
+	},
+	"semver": {
+		"vulnerable": "<6.3.2 >=6.3.0 || <6.2.3 >=6.2.0 || <6.1.2 >=6.1.0 || <6.0.4",
+		"unaffected": ">=6.4.0 || ~6.3.2 || ~6.2.3 || ~6.1.2 || ~6.0.4"
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://630_632.patch"
+			],
+			"version": "=6.3.0",
+			"modificationTime": "2017-03-09T00:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:qs:20170213:0"
+		},
+		{
+			"urls": [
+				"file://631_632.patch"
+			],
+			"version": "=6.3.1",
+			"modificationTime": "2017-03-09T00:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:qs:20170213:1"
+		},
+		{
+			"urls": [
+				"file://621_623.patch"
+			],
+			"version": "=6.2.1",
+			"modificationTime": "2017-03-09T00:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:qs:20170213:2"
+		},
+		{
+			"urls": [
+				"file://622_623.patch"
+			],
+			"version": "=6.2.2",
+			"modificationTime": "2017-03-09T00:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:qs:20170213:3"
+		},
+		{
+			"urls": [
+				"file://610_612.patch"
+			],
+			"version": "=6.1.0",
+			"modificationTime": "2017-03-09T00:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:qs:20170213:4"
+		},
+		{
+			"urls": [
+				"file://611_612.patch"
+			],
+			"version": "=6.1.1",
+			"modificationTime": "2017-03-09T00:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:qs:20170213:5"
+		},
+		{
+			"urls": [
+				"file://602_604.patch"
+			],
+			"version": "=6.0.2",
+			"modificationTime": "2017-03-09T00:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:qs:20170213:6"
+		},
+		{
+			"urls": [
+				"file://603_604.patch"
+			],
+			"version": "=6.0.3",
+			"modificationTime": "2017-03-09T00:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:qs:20170213:7"
+		}
+	],
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+	"disclosureTime": "2017-02-13T00:00:00.000Z",
+	"publicationTime": "2017-03-01T10:00:54.163Z",
+	"modificationTime": "2017-03-06T21:00:00.000Z",
+	"creationTime": "2017-02-14T11:44:54.163Z",
+	"id": "npm:qs:20170213"
+}

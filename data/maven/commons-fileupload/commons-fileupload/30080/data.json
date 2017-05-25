@@ -1,0 +1,35 @@
+{
+	"title": "Arbitrary File Write Permissions",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "commons-fileupload:commons-fileupload",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[1,1.3]",
+		"unaffected": "[1.3.1,2)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-20"
+		],
+		"CVE": [
+			"CVE-2013-2186"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:P/I:P/A:P",
+	"severity": "high",
+	"creationTime": "2016-12-25T16:51:48.000Z",
+	"modificationTime": "2016-12-25T16:51:48.000Z",
+	"publicationTime": "2013-06-16T16:51:48.000Z",
+	"disclosureTime": "2013-06-16T16:51:48.000Z",
+	"id": "SNYK-JAVA-COMMONSFILEUPLOAD-30080",
+	"mavenModuleName": {
+		"groupId": "commons-fileupload",
+		"artifactId": "commons-fileupload"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"packageName": "commons-fileupload:commons-fileupload"
+}

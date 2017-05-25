@@ -1,0 +1,32 @@
+{
+	"title": "Denial of Service (DoS)",
+	"moduleName": "sails",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-SAILS-10394"
+		]
+	},
+	"severity": "high",
+	"semver": {
+		"unaffected": ">=0.12.0-rc4",
+		"vulnerable": "<0.12.0-rc4 >=0.11.0-rc6"
+	},
+	"credit": [
+		"Niclas Snellman"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"disclosureTime": "2015-06-03T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-01-30T14:30:47.773Z",
+	"modificationTime": "2016-10-05T14:30:47.773Z",
+	"creationTime": "2016-10-05T14:30:47.773Z",
+	"id": "npm:sails:20150604",
+	"packageName": "sails"
+}

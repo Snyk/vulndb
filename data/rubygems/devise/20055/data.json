@@ -36,5 +36,6 @@
 	"modificationTime": "2016-09-21T12:36:49.000Z",
 	"publicationTime": "2013-01-27T22:00:00.000Z",
 	"disclosureTime": "2013-01-27T22:00:00.000Z",
-	"id": "SNYK-RUBY-DEVISE-20055"
+	"id": "SNYK-RUBY-DEVISE-20055",
+	"packageName": "devise"
 }

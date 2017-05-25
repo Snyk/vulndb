@@ -1,0 +1,34 @@
+{
+	"title": "Directory Traversal",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.wicket:wicket-core",
+	"packageName": "org.apache.wicket:wicket-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.wicket",
+		"artifactId": "wicket-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEWICKET-31012",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.4,1.4.20), [1.5,1.5.5)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-22"
+		],
+		"CVE": [
+			"CVE-2012-1089"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:27.134Z",
+	"modificationTime": "2017-02-22T07:28:27.134Z",
+	"publicationTime": "2014-06-17T04:16:47.000Z",
+	"disclosureTime": "2014-06-17T04:16:47.000Z"
+}

@@ -1,0 +1,35 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"moduleName": "react",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2013-7035"
+		],
+		"ALTERNATIVE": [
+			"SNYK-JS-REACT-10192"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=0.5.2 || <=0.3.x || =0.4.2",
+		"vulnerable": ">=0.5.0 <0.5.2 || >=0.4.0 <0.4.2"
+	},
+	"credit": [
+		"Paul O’Shannessy",
+		"Thomas Aylott"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+	"disclosureTime": "2013-12-16T22:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-01-18T14:00:21.094Z",
+	"modificationTime": "2016-11-08T08:23:21.094Z",
+	"creationTime": "2016-11-08T08:23:21.094Z",
+	"id": "npm:react:20131217",
+	"packageName": "react"
+}

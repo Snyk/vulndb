@@ -8,8 +8,8 @@
 		"vulnerable": "<1.1.1",
 		"unaffected": ">=1.1.1"
 	},
-	"CVSSv3": "",
-	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"severity": "high",
 	"identifiers": {
 		"CWE": [],
 		"CVE": [],
@@ -36,5 +36,6 @@
 	"disclosureTime": "2014-12-15T17:13:48.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:inert:20141215"
+	"id": "npm:inert:20141215",
+	"packageName": "inert"
 }

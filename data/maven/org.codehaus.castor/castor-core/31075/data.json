@@ -1,0 +1,34 @@
+{
+	"title": "XML External Entity (XXE) Injection",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.codehaus.castor:castor-core",
+	"packageName": "org.codehaus.castor:castor-core",
+	"mavenModuleName": {
+		"groupId": "org.codehaus.castor",
+		"artifactId": "castor-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGCODEHAUSCASTOR-31075",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,1.3.3)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+			"CVE-2014-3004"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:28.036Z",
+	"modificationTime": "2017-02-22T07:28:28.036Z",
+	"publicationTime": "2014-09-17T18:10:03.000Z",
+	"disclosureTime": "2014-09-17T18:10:03.000Z"
+}

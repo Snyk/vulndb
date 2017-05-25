@@ -1,5 +1,5 @@
 {
-	"title": "Regular Expression Denial of Service",
+	"title": "Regular Expression Denial of Service (DoS)",
 	"credit": [
 		"Karl Düüna"
 	],
@@ -8,8 +8,8 @@
 		"vulnerable": "<3.22.1",
 		"unaffected": ">=3.22.1"
 	},
-	"CVSSv3": "",
-	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"severity": "high",
 	"identifiers": {
 		"CWE": [
 			"CWE-400"
@@ -30,5 +30,6 @@
 	"disclosureTime": "2014-11-12T08:45:48.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:validator:20130705"
+	"id": "npm:validator:20130705",
+	"packageName": "validator"
 }

@@ -27,5 +27,6 @@
 	"modificationTime": "2016-09-21T12:36:43.000Z",
 	"publicationTime": "2008-10-09T22:00:00.000Z",
 	"disclosureTime": "2008-10-09T22:00:00.000Z",
-	"id": "SNYK-RUBY-ACTIVERECORDORACLEENHANCEDADAPTER-20006"
+	"id": "SNYK-RUBY-ACTIVERECORDORACLEENHANCEDADAPTER-20006",
+	"packageName": "activerecord-oracle_enhanced-adapter"
 }

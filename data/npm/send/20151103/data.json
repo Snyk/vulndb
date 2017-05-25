@@ -11,7 +11,7 @@
 		"vulnerable": "<0.11.1",
 		"unaffected": ">=0.11.1"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [],
@@ -39,5 +39,6 @@
 	"disclosureTime": "2015-11-03T07:12:20.676Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:send:20151103"
+	"id": "npm:send:20151103",
+	"packageName": "send"
 }

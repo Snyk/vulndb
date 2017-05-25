@@ -1,0 +1,34 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.rave:rave-web",
+	"packageName": "org.apache.rave:rave-web",
+	"mavenModuleName": {
+		"groupId": "org.apache.rave",
+		"artifactId": "rave-web"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHERAVE-30718",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[0.11,0.20]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2013-1814"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:22.650Z",
+	"modificationTime": "2017-02-22T07:28:22.650Z",
+	"publicationTime": "2015-05-18T21:57:16.000Z",
+	"disclosureTime": "2015-05-18T21:57:16.000Z"
+}

@@ -29,5 +29,6 @@
 	"modificationTime": "2016-09-21T12:36:49.000Z",
 	"publicationTime": "2015-02-09T22:00:00.000Z",
 	"disclosureTime": "2015-02-09T22:00:00.000Z",
-	"id": "SNYK-RUBY-DOORKEEPER-20206"
+	"id": "SNYK-RUBY-DOORKEEPER-20206",
+	"packageName": "doorkeeper"
 }

@@ -1,9 +1,9 @@
 ## Overview
 [bl](https://www.npmjs.com/package/bl) is a storage object for collections of Node Buffers.
 
-A possible memory disclosure vulnerability exists when a value of type `number` is provided to the `append()` method and results in concatination of uninitialized memory to the buffer collection. 
+A possible memory disclosure vulnerability exists when a value of type `number` is provided to the `append()` method and results in concatination of uninitialized memory to the buffer collection.
 
-This is a result of unobstructed use of the `Buffer` constructor, who's [insecure default constructor increases the odds of memory leakage](https://snyk.io/blog/exploiting-buffer/).
+This is a result of unobstructed use of the `Buffer` constructor, whose [insecure default constructor increases the odds of memory leakage](https://snyk.io/blog/exploiting-buffer/).
 
 ## Details
 Constructing a `Buffer` class with integer `N` creates a `Buffer` of length `N` with raw (not "zero-ed") memory.
@@ -11,9 +11,9 @@ Constructing a `Buffer` class with integer `N` creates a `Buffer` of length `N` 
 In the following example, the first call would allocate 100 bytes of memory, while the second example will allocate the memory needed for the string "100":
 ```js
 // uninitialized Buffer of length 100
-x = new Buffer(100); 
+x = new Buffer(100);
 // initialized Buffer with value of '100'
-x = new Buffer('100'); 
+x = new Buffer('100');
 ```
 
 `bl`'s `append` function uses the default `Buffer` constructor as-is, making it easy to append uninitialized memory to an existing list. If the value of the buffer list is exposed to users, it may expose raw server side memory, potentially holding secrets, private data and code. This is a similar vulnerability to the infamous [`Heartbleed`](http://heartbleed.com/) flaw in OpenSSL.

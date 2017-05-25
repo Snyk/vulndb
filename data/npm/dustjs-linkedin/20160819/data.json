@@ -27,5 +27,6 @@
 	"moduleName": "dustjs-linkedin",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:dustjs-linkedin:20160819"
+	"id": "npm:dustjs-linkedin:20160819",
+	"packageName": "dustjs-linkedin"
 }

@@ -1,0 +1,35 @@
+{
+	"title": "Directory Traversal",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.apache.solr:solr-velocity",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "(,4.5.1]",
+		"unaffected": "[3.6.3,4), [4.6.0,5), [5.0.0,)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-22"
+		],
+		"CVE": [
+			"CVE-2013-6397"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:P/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:50.000Z",
+	"modificationTime": "2016-12-25T16:51:50.000Z",
+	"publicationTime": "2013-11-27T16:51:50.000Z",
+	"disclosureTime": "2013-11-27T16:51:50.000Z",
+	"id": "SNYK-JAVA-ORGAPACHESOLR-30036",
+	"mavenModuleName": {
+		"groupId": "org.apache.solr",
+		"artifactId": "solr-velocity"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+	"packageName": "org.apache.solr:solr-velocity"
+}

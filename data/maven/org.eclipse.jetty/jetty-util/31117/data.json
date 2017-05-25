@@ -1,0 +1,33 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Simon Zuckerbraun"
+	],
+	"moduleName": "org.eclipse.jetty:jetty-util",
+	"packageName": "org.eclipse.jetty:jetty-util",
+	"mavenModuleName": {
+		"groupId": "org.eclipse.jetty",
+		"artifactId": "jetty-util"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGECLIPSEJETTY-31117",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[9.3,9.3.9)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2016-4800"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:28.614Z",
+	"modificationTime": "2017-02-22T07:28:28.614Z",
+	"publicationTime": "2016-05-31T00:26:24.916Z",
+	"disclosureTime": "2016-05-31T00:26:24.916Z"
+}

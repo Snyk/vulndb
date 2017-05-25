@@ -8,7 +8,7 @@
 		"vulnerable": "< 2.3.3",
 		"unaffected": ">= 2.3.3"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [],
@@ -40,5 +40,6 @@
 	"disclosureTime": "2015-09-18T09:29:10.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:ldapauth-fork:20150918"
+	"id": "npm:ldapauth-fork:20150918",
+	"packageName": "ldapauth-fork"
 }

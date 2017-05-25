@@ -24,7 +24,8 @@
 	"disclosureTime": "2012-06-19T21:00:00.000Z",
 	"patches": [],
 	"publicationTime": "2016-10-20T14:16:53.138Z",
-	"modificationTime": "2016-11-06T13:53:57.686Z",
+	"modificationTime": "2017-03-12T14:17:57.686Z",
 	"creationTime": "2016-11-06T13:53:57.686Z",
-	"id": "npm:jquery:20120206"
+	"id": "npm:jquery:20120206",
+	"packageName": "jquery"
 }

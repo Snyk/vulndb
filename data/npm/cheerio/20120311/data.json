@@ -27,5 +27,6 @@
 	"moduleName": "cheerio",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:cheerio:20120311"
+	"id": "npm:cheerio:20120311",
+	"packageName": "cheerio"
 }

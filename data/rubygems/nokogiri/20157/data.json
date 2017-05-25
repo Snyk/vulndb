@@ -30,5 +30,6 @@
 	"modificationTime": "2016-09-21T12:37:00.000Z",
 	"publicationTime": "2014-04-29T21:00:00.000Z",
 	"disclosureTime": "2014-04-29T21:00:00.000Z",
-	"id": "SNYK-RUBY-NOKOGIRI-20157"
+	"id": "SNYK-RUBY-NOKOGIRI-20157",
+	"packageName": "nokogiri"
 }

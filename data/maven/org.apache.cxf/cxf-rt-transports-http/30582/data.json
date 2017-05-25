@@ -1,0 +1,34 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Donald Kwakkel"
+	],
+	"moduleName": "org.apache.cxf:cxf-rt-transports-http",
+	"packageName": "org.apache.cxf:cxf-rt-transports-http",
+	"mavenModuleName": {
+		"groupId": "org.apache.cxf",
+		"artifactId": "cxf-rt-transports-http"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHECXF-30582",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,3.0.12),[3.1,3.1.9)",
+		"unaffected": "[3.1.9],[3.0.12]"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2016-6812"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:21.008Z",
+	"modificationTime": "2017-02-22T07:28:21.008Z",
+	"publicationTime": "2016-12-28T03:45:07.129Z",
+	"disclosureTime": "2016-12-28T03:45:07.129Z"
+}

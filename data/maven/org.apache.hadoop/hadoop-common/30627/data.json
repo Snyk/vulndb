@@ -1,0 +1,33 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Robert Kante"
+	],
+	"moduleName": "org.apache.hadoop:hadoop-common",
+	"packageName": "org.apache.hadoop:hadoop-common",
+	"mavenModuleName": {
+		"groupId": "org.apache.hadoop",
+		"artifactId": "hadoop-common"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEHADOOP-30627",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,2.6.5),[2.7,2.7.3)",
+		"unaffected": "[2.6.5],[2.7.3]"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2016-3086"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:21.552Z",
+	"modificationTime": "2017-02-22T07:28:21.552Z",
+	"publicationTime": "2017-01-10T07:24:41.781Z",
+	"disclosureTime": "2017-01-10T07:24:41.781Z"
+}

@@ -1,0 +1,33 @@
+{
+	"title": "Regular Expression Denial Of Service (ReDoS)",
+	"credit": [
+		"Peter Dotchev"
+	],
+	"creationTime": "2016-08-04T03:44:13.903Z",
+	"modificationTime": "2016-08-04T03:44:13.903Z",
+	"publicationTime": "2017-04-16T08:05:00.000Z",
+	"disclosureTime": "2016-03-15T08:05:00.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<3.0.0",
+		"unaffected": ">=3.0.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [],
+		"NSP": 100,
+		"ALTERNATIVE": [
+			"SNYK-JS-URIJS-10470"
+		]
+	},
+	"patches": [],
+	"moduleName": "uri-js",
+	"packageName": "uri-js",
+	"packageManager": "npm",
+	"language": "js",
+	"id": "npm:uri-js:20160804"
+}

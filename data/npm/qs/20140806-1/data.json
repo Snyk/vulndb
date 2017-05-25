@@ -8,7 +8,7 @@
 		"vulnerable": "<1.0.0",
 		"unaffected": ">= 1.x"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [
@@ -47,5 +47,6 @@
 	"disclosureTime": "2014-08-06T06:10:23.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:qs:20140806-1"
+	"id": "npm:qs:20140806-1",
+	"packageName": "qs"
 }

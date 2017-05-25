@@ -1,5 +1,5 @@
 {
-	"title": "Regular Expression Denial of Service",
+	"title": "Regular Expression Denial of Service (DoS)",
 	"credit": [
 		"Nick Starke"
 	],
@@ -47,5 +47,6 @@
 	"moduleName": "minimatch",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:minimatch:20160620"
+	"id": "npm:minimatch:20160620",
+	"packageName": "minimatch"
 }

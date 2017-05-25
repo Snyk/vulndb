@@ -1,0 +1,32 @@
+{
+	"title": "Directory Traversal",
+	"credit": [
+		"Liang Gong"
+	],
+	"moduleName": "sencisho",
+	"packageName": "sencisho",
+	"language": "js",
+	"packageManager": "npm",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-22"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-SENCISHO-10487"
+		]
+	},
+	"semver": {
+		"unaffected": ">=0.3.3",
+		"vulnerable": "<0.3.3"
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+	"disclosureTime": "2017-04-24T21:00:00.000Z",
+	"publicationTime": "2017-05-01T08:40:45.547Z",
+	"modificationTime": "2017-04-30T12:42:45.547Z",
+	"creationTime": "2017-04-24T12:42:45.547Z",
+	"id": "npm:sencisho:20170418"
+}

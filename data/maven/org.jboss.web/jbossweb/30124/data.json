@@ -1,0 +1,35 @@
+{
+	"title": "Arbitrary file upload",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.jboss.web:jbossweb",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[7,7.2.1], [3,3.0.0-CR2]",
+		"unaffected": "[7.2.0.Final-redhat-2], [7.2.2,8)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-20"
+		],
+		"CVE": [
+			"CVE-2013-2185"
+		]
+	},
+	"severity": "high",
+	"creationTime": "2016-12-25T16:51:48.000Z",
+	"modificationTime": "2016-12-25T16:51:48.000Z",
+	"publicationTime": "2016-12-25T16:51:48.000Z",
+	"disclosureTime": "2016-12-25T16:51:48.000Z",
+	"id": "SNYK-JAVA-ORGJBOSSWEB-30124",
+	"mavenModuleName": {
+		"groupId": "org.jboss.web",
+		"artifactId": "jbossweb"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:P/I:P/A:P",
+	"packageName": "org.jboss.web:jbossweb"
+}

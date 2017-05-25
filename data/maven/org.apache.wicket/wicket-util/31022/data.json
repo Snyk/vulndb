@@ -1,0 +1,36 @@
+{
+	"title": "Deserialization of untrusted data",
+	"credit": [
+		"Jacob Baines",
+		"Tenable Network Security",
+		"Pedro Santos"
+	],
+	"moduleName": "org.apache.wicket:wicket-util",
+	"packageName": "org.apache.wicket:wicket-util",
+	"mavenModuleName": {
+		"groupId": "org.apache.wicket",
+		"artifactId": "wicket-util"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEWICKET-31022",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.5,1.5.17),[6,6.25.0)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-502"
+		],
+		"CVE": [
+			"CVE-2016-6793"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:27.268Z",
+	"modificationTime": "2017-02-22T07:28:27.268Z",
+	"publicationTime": "2016-12-28T08:54:38.237Z",
+	"disclosureTime": "2016-12-28T08:54:38.237Z"
+}

@@ -24,5 +24,6 @@
 	"modificationTime": "2016-09-21T12:36:56.000Z",
 	"publicationTime": "2014-06-29T21:00:00.000Z",
 	"disclosureTime": "2014-06-29T21:00:00.000Z",
-	"id": "SNYK-RUBY-KAJAM-20171"
+	"id": "SNYK-RUBY-KAJAM-20171",
+	"packageName": "kajam"
 }

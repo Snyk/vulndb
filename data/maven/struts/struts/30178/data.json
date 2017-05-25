@@ -1,0 +1,35 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "struts:struts",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "(,1.3.10]",
+		"unaffected": "[,0.0.0)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2012-1007"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:N/I:P/A:N",
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:46.000Z",
+	"modificationTime": "2016-12-25T16:51:46.000Z",
+	"publicationTime": "2016-12-25T16:51:46.000Z",
+	"disclosureTime": "2016-12-25T16:51:46.000Z",
+	"id": "SNYK-JAVA-STRUTS-30178",
+	"mavenModuleName": {
+		"groupId": "struts",
+		"artifactId": "struts"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"packageName": "struts:struts"
+}

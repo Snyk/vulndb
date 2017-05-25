@@ -1,5 +1,5 @@
 {
-	"title": "Downloads Resources over insecure protocol",
+	"title": "Resources Downloaded over Insecure Protocol",
 	"credit": [
 		"Adam Baldwin"
 	],
@@ -26,5 +26,6 @@
 	"moduleName": "ntfserver",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:ntfserver:20170101"
+	"id": "npm:ntfserver:20170101",
+	"packageName": "ntfserver"
 }

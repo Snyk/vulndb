@@ -1,0 +1,33 @@
+{
+	"title": "URL parameter injection",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.jasig.cas:cas-client-core",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[3.3,3.3.1], [3.2,3.2.1], [3,3.1.12]",
+		"unaffected": "[3.3.2,3.4)"
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2014-4172"
+		]
+	},
+	"severity": "low",
+	"CVSSv2": "CVSS:2.0/AV:N/AC:M/Au:N/C:P/I:P/A:N",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2016-12-25T16:51:54.000Z",
+	"modificationTime": "2016-12-25T16:51:54.000Z",
+	"publicationTime": "2016-12-25T16:51:54.000Z",
+	"disclosureTime": "2016-12-25T16:51:54.000Z",
+	"id": "SNYK-JAVA-ORGJASIGCAS-30104",
+	"mavenModuleName": {
+		"groupId": "org.jasig.cas",
+		"artifactId": "cas-client-core"
+	},
+	"packageName": "org.jasig.cas:cas-client-core"
+}

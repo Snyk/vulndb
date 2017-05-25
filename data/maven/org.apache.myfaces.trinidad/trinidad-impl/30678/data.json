@@ -1,0 +1,34 @@
+{
+	"title": "Deserialization of Untrusted Data",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.myfaces.trinidad:trinidad-impl",
+	"packageName": "org.apache.myfaces.trinidad:trinidad-impl",
+	"mavenModuleName": {
+		"groupId": "org.apache.myfaces.trinidad",
+		"artifactId": "trinidad-impl"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEMYFACESTRINIDAD-30678",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.0.1,1.0.13]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-502"
+		],
+		"CVE": [
+			"CVE-2016-5019"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:22.164Z",
+	"modificationTime": "2017-02-22T07:28:22.164Z",
+	"publicationTime": "2016-09-30T09:40:55.320Z",
+	"disclosureTime": "2016-09-30T09:40:55.320Z"
+}

@@ -32,5 +32,6 @@
 	"modificationTime": "2016-09-21T12:36:42.000Z",
 	"publicationTime": "2014-08-17T21:00:00.000Z",
 	"disclosureTime": "2014-08-17T21:00:00.000Z",
-	"id": "SNYK-RUBY-ACTIVERECORD-20190"
+	"id": "SNYK-RUBY-ACTIVERECORD-20190",
+	"packageName": "activerecord"
 }

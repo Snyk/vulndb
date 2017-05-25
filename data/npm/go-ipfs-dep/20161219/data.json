@@ -27,5 +27,6 @@
 	"moduleName": "go-ipfs-dep",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:go-ipfs-dep:20161219"
+	"id": "npm:go-ipfs-dep:20161219",
+	"packageName": "go-ipfs-dep"
 }

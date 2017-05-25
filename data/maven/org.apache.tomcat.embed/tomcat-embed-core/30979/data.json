@@ -1,0 +1,34 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.tomcat.embed:tomcat-embed-core",
+	"packageName": "org.apache.tomcat.embed:tomcat-embed-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.tomcat.embed",
+		"artifactId": "tomcat-embed-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETOMCATEMBED-30979",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[7,7.0.50), [8,8.0.0-RC10]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2013-4590"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:26.596Z",
+	"modificationTime": "2017-02-22T07:28:26.596Z",
+	"publicationTime": "2014-06-08T00:23:07.000Z",
+	"disclosureTime": "2014-06-08T00:23:07.000Z"
+}

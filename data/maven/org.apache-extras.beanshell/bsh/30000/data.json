@@ -1,0 +1,36 @@
+{
+	"title": "Arbitrary Code Execution during Deserialization",
+	"credit": [
+		"Alvaro Muñoz",
+		"Christian Schneider"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.apache-extras.beanshell:bsh",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[2,2.0b5]",
+		"unaffected": "[2.0b6,)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-502"
+		],
+		"CVE": [
+			"CVE-2016-2510"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:P/I:P/A:P",
+	"severity": "high",
+	"creationTime": "2016-12-25T16:51:56.000Z",
+	"modificationTime": "2016-12-25T16:51:56.000Z",
+	"publicationTime": "2016-02-22T16:51:56.000Z",
+	"disclosureTime": "2016-02-22T16:51:56.000Z",
+	"id": "SNYK-JAVA-ORGAPACHEEXTRASBEANSHELL-30000",
+	"mavenModuleName": {
+		"groupId": "org.apache-extras.beanshell",
+		"artifactId": "bsh"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+	"packageName": "org.apache-extras.beanshell:bsh"
+}

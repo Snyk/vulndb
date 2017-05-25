@@ -1,0 +1,33 @@
+{
+	"title": "Reflected File Download",
+	"credit": [
+		"Alvaro Muñoz"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.springframework:spring-webmvc",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[4.2,4.2.1.RELEASE], [4.1,4.1.7.RELEASE], [4.0,4.0.9.RELEASE], [3.2,3.2.14.RELEASE]",
+		"unaffected": "[4.2.2.RELEASE,4.3), [4.1.8.RELEASE,4.2), [3.2.15.RELEASE,3.3)"
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2015-5211"
+		]
+	},
+	"severity": "medium",
+	"CVSSv2": "CVSS:2.0/AV:N/AC:M/Au:N/C:P/I:P/A:P",
+	"CVSSv3":  "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2016-12-25T16:51:56.000Z",
+	"modificationTime": "2016-12-25T16:51:56.000Z",
+	"publicationTime": "2016-12-25T16:51:56.000Z",
+	"disclosureTime": "2016-12-25T16:51:56.000Z",
+	"id": "SNYK-JAVA-ORGSPRINGFRAMEWORK-30170",
+	"mavenModuleName": {
+		"groupId": "org.springframework",
+		"artifactId": "spring-webmvc"
+	},
+	"packageName": "org.springframework:spring-webmvc"
+}

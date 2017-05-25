@@ -1,0 +1,34 @@
+{
+	"title": "HTTP Request Smuggling",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.tomcat:coyote",
+	"packageName": "org.apache.tomcat:coyote",
+	"mavenModuleName": {
+		"groupId": "org.apache.tomcat",
+		"artifactId": "coyote"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETOMCAT-30870",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[6,6.0.42)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-19"
+		],
+		"CVE": [
+			"CVE-2014-0227"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:24.606Z",
+	"modificationTime": "2017-02-22T07:28:24.606Z",
+	"publicationTime": "2015-02-16T20:49:36.000Z",
+	"disclosureTime": "2015-02-16T20:49:36.000Z"
+}

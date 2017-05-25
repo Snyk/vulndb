@@ -25,5 +25,6 @@
 	"publicationTime": "2016-12-26T14:45:40.050Z",
 	"modificationTime": "2016-12-26T14:45:40.050Z",
 	"creationTime": "2016-11-28T14:45:40.050Z",
-	"id": "npm:node-forge:20150626"
+	"id": "npm:node-forge:20150626",
+	"packageName": "node-forge"
 }

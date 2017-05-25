@@ -7,7 +7,7 @@
 	"identifiers": {
 		"CWE": [],
 		"CVE": [],
-    "NSP": 162,
+		"NSP": 162,
 		"ALTERNATIVE": [
 			"SNYK-JS-APPIUMCHROMEDRIVER-10221"
 		]
@@ -26,5 +26,6 @@
 	"publicationTime": "2016-12-06T11:57:39.924Z",
 	"modificationTime": "2016-12-06T11:57:39.924Z",
 	"creationTime": "2016-12-06T11:57:39.924Z",
-	"id": "npm:appium-chromedriver:20161103"
+	"id": "npm:appium-chromedriver:20161103",
+	"packageName": "appium-chromedriver"
 }

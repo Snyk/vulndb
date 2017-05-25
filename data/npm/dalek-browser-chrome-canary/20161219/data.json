@@ -28,5 +28,6 @@
 	"moduleName": "dalek-browser-chrome-canary",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:dalek-browser-chrome-canary:20161219"
+	"id": "npm:dalek-browser-chrome-canary:20161219",
+	"packageName": "dalek-browser-chrome-canary"
 }

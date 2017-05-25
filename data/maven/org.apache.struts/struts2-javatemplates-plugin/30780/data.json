@@ -1,0 +1,34 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.struts:struts2-javatemplates-plugin",
+	"packageName": "org.apache.struts:struts2-javatemplates-plugin",
+	"mavenModuleName": {
+		"groupId": "org.apache.struts",
+		"artifactId": "struts2-javatemplates-plugin"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHESTRUTS-30780",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.0,2.2.3)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2011-2087"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:23.440Z",
+	"modificationTime": "2017-02-22T07:28:23.440Z",
+	"publicationTime": "2014-01-09T23:55:53.000Z",
+	"disclosureTime": "2014-01-09T23:55:53.000Z"
+}

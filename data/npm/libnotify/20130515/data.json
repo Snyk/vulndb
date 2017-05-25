@@ -42,5 +42,6 @@
 	"disclosureTime": "2013-05-15T19:30:05.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:libnotify:20130515"
+	"id": "npm:libnotify:20130515",
+	"packageName": "libnotify"
 }

@@ -1,0 +1,35 @@
+{
+	"title": "Security Features",
+	"credit": [
+		"Jaime Pallarés Rel"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.apache.santuario:xmlsec",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[2,2.0.2]",
+		"unaffected": "[2.0.3,3)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-254"
+		],
+		"CVE": [
+			"CVE-2014-8152"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:N/I:P/A:N",
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:54.000Z",
+	"modificationTime": "2016-12-25T16:51:54.000Z",
+	"publicationTime": "2015-01-20T16:51:54.000Z",
+	"disclosureTime": "2015-01-20T16:51:54.000Z",
+	"id": "SNYK-JAVA-ORGAPACHESANTUARIO-30032",
+	"mavenModuleName": {
+		"groupId": "org.apache.santuario",
+		"artifactId": "xmlsec"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"packageName": "org.apache.santuario:xmlsec"
+}

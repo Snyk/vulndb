@@ -28,5 +28,6 @@
 	"moduleName": "wasdk",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:wasdk:20161219"
+	"id": "npm:wasdk:20161219",
+	"packageName": "wasdk"
 }

@@ -1,0 +1,32 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"moduleName": "angular",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-ANGULAR-10191"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=1.3.0-rc.4",
+		"vulnerable": "<1.3.0-rc.4"
+	},
+	"credit": [
+		"Laurent Trillaud"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"disclosureTime": "2014-09-07T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-01-23T10:50:00.000Z",
+	"modificationTime": "2016-11-07T09:46:43.092Z",
+	"creationTime": "2016-11-07T09:46:43.092Z",
+	"id": "npm:angular:20140908",
+	"packageName": "angular"
+}

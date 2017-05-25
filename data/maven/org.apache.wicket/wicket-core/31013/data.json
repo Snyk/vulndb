@@ -1,0 +1,32 @@
+{
+	"title": "Information Disclosure",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.wicket:wicket-core",
+	"packageName": "org.apache.wicket:wicket-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.wicket",
+		"artifactId": "wicket-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEWICKET-31013",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.4,1.4.23), [1.5,1.5.11), [6,6.8.0)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2013-2055"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:27.149Z",
+	"modificationTime": "2017-02-22T07:28:27.149Z",
+	"publicationTime": "2014-06-08T00:38:15.000Z",
+	"disclosureTime": "2014-06-08T00:38:15.000Z"
+}

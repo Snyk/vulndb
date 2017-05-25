@@ -1,0 +1,34 @@
+{
+	"title": "Command Injection",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.struts:struts2-core",
+	"packageName": "org.apache.struts:struts2-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.struts",
+		"artifactId": "struts2-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHESTRUTS-30770",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2,2.3.20.2) [2.3.24,2.3.24.2), [2.3.28,2.3.28.1)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-77"
+		],
+		"CVE": [
+			"CVE-2016-3081"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+	"creationTime": "2017-02-22T07:28:23.315Z",
+	"modificationTime": "2017-02-22T07:28:23.315Z",
+	"publicationTime": "2016-04-22T04:32:51.243Z",
+	"disclosureTime": "2016-04-22T04:32:51.243Z"
+}

@@ -15,7 +15,9 @@
 	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
 	"severity": "high",
 	"identifiers": {
-		"CWE": ["CWE-319"],
+		"CWE": [
+			"CWE-319"
+		],
 		"CVE": [],
 		"ALTERNATIVE": [
 			"SNYK-JS-CLOSUREUTIL-10235"
@@ -26,5 +28,6 @@
 	"moduleName": "closure-util",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:closure-util:20161219"
+	"id": "npm:closure-util:20161219",
+	"packageName": "closure-util"
 }

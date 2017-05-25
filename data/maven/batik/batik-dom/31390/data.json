@@ -1,0 +1,34 @@
+{
+	"title": "XML External Entity (XXE) Injection",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "batik:batik-dom",
+	"packageName": "batik:batik-dom",
+	"mavenModuleName": {
+		"groupId": "batik",
+		"artifactId": "batik-dom"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-BATIK-31390",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.5,1.6-1]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+			"CVE-2017-5662"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:H",
+	"creationTime": "2017-05-17T08:50:05.269Z",
+	"modificationTime": "2017-05-17T08:50:05.269Z",
+	"publicationTime": "2017-05-21T07:52:36.331Z",
+	"disclosureTime": "2017-04-19T01:00:17.480Z"
+}

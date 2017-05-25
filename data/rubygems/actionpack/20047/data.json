@@ -36,5 +36,6 @@
 	"modificationTime": "2016-10-18T12:36:41.000Z",
 	"publicationTime": "2016-10-18T22:00:00.000Z",
 	"disclosureTime": "2013-01-07T22:00:00.000Z",
-	"id": "SNYK-RUBY-ACTIONPACK-20047"
+	"id": "SNYK-RUBY-ACTIONPACK-20047",
+	"packageName": "actionpack"
 }

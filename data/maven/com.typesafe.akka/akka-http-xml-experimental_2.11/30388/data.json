@@ -1,0 +1,34 @@
+{
+	"title": "XML External Entity (XXE)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "com.typesafe.akka:akka-http-xml-experimental_2.11",
+	"packageName": "com.typesafe.akka:akka-http-xml-experimental_2.11",
+	"mavenModuleName": {
+		"groupId": "com.typesafe.akka",
+		"artifactId": "akka-http-xml-experimental_2.11"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-COMTYPESAFEAKKA-30388",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "(,1.0-RC4]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-661"
+		],
+		"CVE": [
+			"CVE-2014-3630"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:18.579Z",
+	"modificationTime": "2017-02-22T07:28:18.579Z",
+	"publicationTime": "2015-03-24T07:19:06.777Z",
+	"disclosureTime": "2015-03-24T07:19:06.777Z"
+}

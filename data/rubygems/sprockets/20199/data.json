@@ -58,5 +58,6 @@
 	"modificationTime": "2016-09-21T12:37:10.000Z",
 	"publicationTime": "2014-10-29T22:00:00.000Z",
 	"disclosureTime": "2014-10-29T22:00:00.000Z",
-	"id": "SNYK-RUBY-SPROCKETS-20199"
+	"id": "SNYK-RUBY-SPROCKETS-20199",
+	"packageName": "sprockets"
 }

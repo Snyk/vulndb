@@ -1,0 +1,32 @@
+{
+	"title": "Open Redirect",
+	"credit": [
+		"Oliver Jenkins"
+	],
+	"moduleName": "keystone",
+	"packageName": "keystone",
+	"language": "js",
+	"packageManager": "npm",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-601"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-KEYSTONE-10434"
+		]
+	},
+	"semver": {
+		"unaffected": ">=0.3.6",
+		"vulnerable": "<0.3.6 >=0.2.7"
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+	"disclosureTime": "2014-03-15T22:00:00.000Z",
+	"publicationTime": "2017-03-21T15:40:44.931Z",
+	"modificationTime": "2017-03-01T09:12:30.678Z",
+	"creationTime": "2017-03-01T09:12:30.678Z",
+	"id": "npm:keystone:20140316"
+}

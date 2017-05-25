@@ -32,5 +32,6 @@
 	"modificationTime": "2016-09-21T12:37:02.000Z",
 	"publicationTime": "2013-05-28T21:00:00.000Z",
 	"disclosureTime": "2013-05-28T21:00:00.000Z",
-	"id": "SNYK-RUBY-PASSENGER-20098"
+	"id": "SNYK-RUBY-PASSENGER-20098",
+	"packageName": "passenger"
 }

@@ -27,5 +27,6 @@
 	"modificationTime": "2016-09-21T12:37:12.000Z",
 	"publicationTime": "2013-12-11T22:00:00.000Z",
 	"disclosureTime": "2013-12-11T22:00:00.000Z",
-	"id": "SNYK-RUBY-WEBBYNODE-20126"
+	"id": "SNYK-RUBY-WEBBYNODE-20126",
+	"packageName": "webbynode"
 }

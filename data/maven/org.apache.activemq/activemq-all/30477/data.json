@@ -1,0 +1,35 @@
+{
+	"title": "Credentials Disclosure",
+	"credit": [
+		"Georgi Geshev",
+		"Arun Babu Neelicattu"
+	],
+	"moduleName": "org.apache.activemq:activemq-all",
+	"packageName": "org.apache.activemq:activemq-all",
+	"mavenModuleName": {
+		"groupId": "org.apache.activemq",
+		"artifactId": "activemq-all"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEACTIVEMQ-30477",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[5.0.0,5.10.1)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-255"
+		],
+		"CVE": [
+			"CVE-2015-6524"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:19.689Z",
+	"modificationTime": "2017-02-22T07:28:19.689Z",
+	"publicationTime": "2015-08-25T16:48:42.000Z",
+	"disclosureTime": "2015-08-25T16:48:42.000Z"
+}

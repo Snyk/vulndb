@@ -1,0 +1,34 @@
+{
+	"title": "Remote Code Execution",
+	"credit": [
+		"Matthias Kaiser"
+	],
+	"moduleName": "org.springframework.amqp:spring-amqp",
+	"packageName": "org.springframework.amqp:spring-amqp",
+	"mavenModuleName": {
+		"groupId": "org.springframework.amqp",
+			"artifactId": "spring-amqp"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGSPRINGFRAMEWORKAMQP-31334",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.0.0.RELEASE,1.5.5.RELEASE)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [
+			"CVE-2016-2173"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+	"severity": "medium",
+	"creationTime": "2017-02-22T07:28:31.576Z",
+	"modificationTime": "2017-02-22T07:28:31.576Z",
+	"publicationTime": "2016-04-12T03:00:59.669Z",
+	"disclosureTime": "2016-04-12T03:00:59.669Z"
+}

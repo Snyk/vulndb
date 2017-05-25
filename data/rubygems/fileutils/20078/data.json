@@ -24,5 +24,6 @@
 	"modificationTime": "2016-09-21T12:36:52.000Z",
 	"publicationTime": "2013-02-27T22:00:00.000Z",
 	"disclosureTime": "2013-02-27T22:00:00.000Z",
-	"id": "SNYK-RUBY-FILEUTILS-20078"
+	"id": "SNYK-RUBY-FILEUTILS-20078",
+	"packageName": "fileutils"
 }

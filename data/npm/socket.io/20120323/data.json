@@ -1,0 +1,32 @@
+{
+	"title": "Insecure Randomness",
+	"credit": [
+		"Martin Thomson"
+	],
+	"moduleName": "socket.io",
+	"packageName": "socket.io",
+	"language": "js",
+	"packageManager": "npm",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-330"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-SOCKETIO-10397"
+		]
+	},
+	"semver": {
+		"unaffected": ">=0.9.7",
+		"vulnerable": "<0.9.7"
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"disclosureTime": "2012-03-22T22:00:00.000Z",
+	"publicationTime": "2017-02-13T13:46:59.513Z",
+	"modificationTime": "2017-02-13T13:46:59.513Z",
+	"creationTime": "2017-02-01T13:46:59.513Z",
+	"id": "npm:socket.io:20120323"
+}

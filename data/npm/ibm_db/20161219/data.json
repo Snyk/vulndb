@@ -26,5 +26,6 @@
 	"moduleName": "ibm_db",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:ibm_db:20161219"
+	"id": "npm:ibm_db:20161219",
+	"packageName": "ibm_db"
 }

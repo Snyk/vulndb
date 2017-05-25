@@ -1,0 +1,32 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Diego Casorran"
+	],
+	"moduleName": "jspdf",
+	"packageName": "jspdf",
+	"language": "js",
+	"packageManager": "npm",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-JSPDF-10451"
+		]
+	},
+	"semver": {
+		"unaffected": ">=1.1.135",
+		"vulnerable": "<1.1.135"
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"disclosureTime": "2014-03-26T22:00:00.000Z",
+	"publicationTime": "2017-03-28T08:29:28.722Z",
+	"modificationTime": "2017-03-06T14:36:31.788Z",
+	"creationTime": "2017-03-06T14:36:31.788Z",
+	"id": "npm:jspdf:20140327"
+}

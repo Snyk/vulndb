@@ -11,5 +11,6 @@
   "quotmark": "single",
   "undef": true,
   "strict": false,
-  "unused": true
+  "unused": true,
+  "esversion" : 6
 }

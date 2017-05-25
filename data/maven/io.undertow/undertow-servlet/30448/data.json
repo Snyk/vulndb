@@ -1,0 +1,34 @@
+{
+	"title": "Directory Traversal",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "io.undertow:undertow-servlet",
+	"packageName": "io.undertow:undertow-servlet",
+	"mavenModuleName": {
+		"groupId": "io.undertow",
+		"artifactId": "undertow-servlet"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-IOUNDERTOW-30448",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.0.0,1.0.16]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-22"
+		],
+		"CVE": [
+			"CVE-2014-7816"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:19.328Z",
+	"modificationTime": "2017-02-22T07:28:19.328Z",
+	"publicationTime": "2016-08-29T02:31:29.837Z",
+	"disclosureTime": "2016-08-29T02:31:29.837Z"
+}

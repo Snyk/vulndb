@@ -1,0 +1,34 @@
+{
+	"title": "SQL Injection",
+	"credit": [
+		"Graham Viski"
+	],
+	"moduleName": "org.cloudfoundry.identity:cloudfoundry-identity-uaa",
+	"packageName": "org.cloudfoundry.identity:cloudfoundry-identity-uaa",
+	"mavenModuleName": {
+		"groupId": "org.cloudfoundry.identity",
+		"artifactId": "cloudfoundry-identity-uaa"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGCLOUDFOUNDRYIDENTITY-31074",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.2.4,2.7.4.4),[3.0.0,3.3.0.2),[3.4.1)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-89"
+		],
+		"CVE": [
+			"CVE-2016-4468"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:28.022Z",
+	"modificationTime": "2017-02-22T07:28:28.022Z",
+	"publicationTime": "2016-07-04T02:46:50.012Z",
+	"disclosureTime": "2016-07-04T02:46:50.012Z"
+}

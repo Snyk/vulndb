@@ -4,13 +4,13 @@
 		"Oddbjørn Haaland"
 	],
 	"creationTime": "2016-09-13T00:00:00.780Z",
-	"modificationTime": "2016-09-13T00:00:00.780Z",
+	"modificationTime": "2017-02-13T00:00:00.780Z",
 	"publicationTime": "2016-10-31T17:00:00.000Z",
 	"disclosureTime": "2015-08-16T00:00:00.780Z",
 	"description": "file://README.md",
 	"semver": {
-		"vulnerable": "<=0.51.0",
-		"unaffected": ">=0.51.2"
+		"vulnerable": "<0.51.2 >=0.38.0",
+		"unaffected": ">=0.51.2 || <0.38.0"
 	},
 	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
 	"severity": "medium",
@@ -37,5 +37,6 @@
 	"moduleName": "shout",
 	"packageManager": "npm",
 	"language": "js",
-	"id": "npm:shout:20160913"
+	"id": "npm:shout:20160913",
+	"packageName": "shout"
 }

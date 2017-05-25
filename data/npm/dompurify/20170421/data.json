@@ -1,0 +1,32 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"moduleName": "dompurify",
+	"packageName": "dompurify",
+	"semver": {
+		"vulnerable": "<0.8.6",
+		"unaffected": ">=0.8.6"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-DOMPURIFY-10474"
+		]
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+	"creationTime": "2017-04-21T02:09:36.180Z",
+	"publicationTime": "2017-04-24T09:42:36.180Z",
+	"modificationTime": "2017-04-21T02:09:36.180Z",
+	"disclosureTime": "2017-04-21T02:09:36.180Z",
+	"id": "npm:dompurify:20170421"
+}

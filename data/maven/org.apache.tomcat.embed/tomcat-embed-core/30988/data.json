@@ -1,0 +1,34 @@
+{
+	"title": "Timing attack",
+	"credit": [
+		"The Apache Tomcat Security Team"
+	],
+	"moduleName": "org.apache.tomcat.embed:tomcat-embed-core",
+	"packageName": "org.apache.tomcat.embed:tomcat-embed-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.tomcat.embed",
+		"artifactId": "tomcat-embed-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETOMCATEMBED-30988",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[7,7.0.72),[8,8.0.37),[8.5,8.5.5),[9,9.0.0M10)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-264"
+		],
+		"CVE": [
+			"CVE-2016-0762"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:26.764Z",
+	"modificationTime": "2017-02-22T07:28:26.764Z",
+	"publicationTime": "2016-10-28T04:54:04.437Z",
+	"disclosureTime": "2016-10-28T04:54:04.437Z"
+}

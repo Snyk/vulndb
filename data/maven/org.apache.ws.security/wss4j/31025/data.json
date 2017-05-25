@@ -1,0 +1,36 @@
+{
+	"title": "Use of a Risky Cryptographic Algorithm",
+	"credit": [
+		"Tibor Jager",
+		"Sebastian Schinzel",
+		"Juraj Somorovsky"
+	],
+	"moduleName": "org.apache.ws.security:wss4j",
+	"packageName": "org.apache.ws.security:wss4j",
+	"mavenModuleName": {
+		"groupId": "org.apache.ws.security",
+		"artifactId": "wss4j"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEWSSECURITY-31025",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "(,1.6.4]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-327"
+		],
+		"CVE": [
+			"CVE-2011-2487"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:27.311Z",
+	"modificationTime": "2017-02-22T07:28:27.311Z",
+	"publicationTime": "2015-10-16T08:51:59.000Z",
+	"disclosureTime": "2015-10-16T08:51:59.000Z"
+}

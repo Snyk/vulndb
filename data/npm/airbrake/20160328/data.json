@@ -3,16 +3,15 @@
 	"credit": [
 		"Phil Schleihauf"
 	],
-	"creationTime": "2016-03-29T00:00:02.780Z",
-	"modificationTime": "2016-03-29T00:00:02.780Z",
-	"publicationTime": "2016-03-29T00:00:02.780Z",
+	"language": "js",
+	"packageManager": "npm",
+	"moduleName": "airbrake",
+	"packageName": "airbrake",
 	"description": "file://README.md",
 	"semver": {
 		"vulnerable": "<=0.3.8",
 		"unaffected": ">=0.4.0"
 	},
-	"CVSSv3": "",
-	"severity": "medium",
 	"identifiers": {
 		"CWE": [
 			"CWE-200"
@@ -24,9 +23,11 @@
 		]
 	},
 	"patches": [],
-	"moduleName": "airbrake",
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2016-03-29T00:00:02.780Z",
+	"modificationTime": "2016-03-29T00:00:02.780Z",
+	"publicationTime": "2016-03-29T00:00:02.780Z",
 	"disclosureTime": "2016-03-28T22:48:46.000Z",
-	"language": "js",
-	"packageManager": "npm",
 	"id": "npm:airbrake:20160328"
 }

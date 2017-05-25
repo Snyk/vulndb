@@ -1,0 +1,34 @@
+{
+	"title": "Information Disclosure",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.tomcat:tomcat-coyote",
+	"packageName": "org.apache.tomcat:tomcat-coyote",
+	"mavenModuleName": {
+		"groupId": "org.apache.tomcat",
+		"artifactId": "tomcat-coyote"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETOMCAT-31402",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[8.5,8.5.13), [9,9.0.0.M19)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-19"
+		],
+		"CVE": [
+			"CVE-2017-5651"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-05-17T12:10:22.498Z",
+	"modificationTime": "2017-05-17T12:10:22.498Z",
+	"publicationTime": "2017-05-21T07:52:38.497Z",
+	"disclosureTime": "2017-04-11T05:08:06.794Z"
+}

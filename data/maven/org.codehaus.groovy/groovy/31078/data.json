@@ -1,0 +1,34 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.codehaus.groovy:groovy",
+	"packageName": "org.codehaus.groovy:groovy",
+	"mavenModuleName": {
+		"groupId": "org.codehaus.groovy",
+		"artifactId": "groovy"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGCODEHAUSGROOVY-31078",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.7.0,2.4.3]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-74"
+		],
+		"CVE": [
+			"CVE-2015-3253"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:28.076Z",
+	"modificationTime": "2017-02-22T07:28:28.076Z",
+	"publicationTime": "2015-07-16T18:47:39.000Z",
+	"disclosureTime": "2015-07-16T18:47:39.000Z"
+}

@@ -1,0 +1,34 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "tomcat:tomcat-coyote",
+	"packageName": "tomcat:tomcat-coyote",
+	"mavenModuleName": {
+		"groupId": "tomcat",
+		"artifactId": "tomcat-coyote"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-TOMCAT-31378",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[5.5,5.5.30)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-119"
+		],
+		"CVE": [
+			"CVE-2010-2227"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+	"creationTime": "2017-02-22T07:28:32.163Z",
+	"modificationTime": "2017-02-22T07:28:32.163Z",
+	"publicationTime": "2014-01-10T06:34:27.000Z",
+	"disclosureTime": "2014-01-10T06:34:27.000Z"
+}

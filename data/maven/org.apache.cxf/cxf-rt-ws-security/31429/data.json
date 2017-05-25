@@ -1,0 +1,34 @@
+{
+	"title": "Session Fixation",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.cxf:cxf-rt-ws-security",
+	"packageName": "org.apache.cxf:cxf-rt-ws-security",
+	"mavenModuleName": {
+		"groupId": "org.apache.cxf",
+		"artifactId": "cxf-rt-ws-security"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHECXF-31429",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,3.0.13], [3.1,3.1.10]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-384"
+		],
+		"CVE": [
+			"CVE-2017-5656"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-05-17T12:10:22.662Z",
+	"modificationTime": "2017-05-17T12:10:22.662Z",
+	"publicationTime": "2017-05-21T07:52:37.278Z",
+	"disclosureTime": "2017-04-19T03:13:44.713Z"
+}

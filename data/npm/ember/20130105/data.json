@@ -1,5 +1,5 @@
 {
-	"title": "Potential Cross-Site Scripting",
+	"title": "Potential Cross-site Scripting (XSS)",
 	"credit": [
 		"Mario Heiderich"
 	],
@@ -8,7 +8,7 @@
 		"vulnerable": ">= 1.0.0-rc.1 <1.0.0-rc.1.1 || >= 1.0.0-rc.2 <1.0.0-rc.2.1 || >= 1.0.0-rc.3 <1.0.0-rc.3.1 || >= 1.0.0-rc.4 <1.0.0-rc.4.1 || >= 1.0.0-rc.5 <1.0.0-rc.5.1 || >= 1.0.0-rc.6 <1.0.0-rc.6.1",
 		"unaffected": "< 1.0.0-rc.1 >=1.0.0-rc.1.1 || < 1.0.0-rc.2 >=1.0.0-rc.2.1 || < 1.0.0-rc.3 >=1.0.0-rc.3.1 || < 1.0.0-rc.4 >=1.0.0-rc.4.1 || < 1.0.0-rc.5 >=1.0.0-rc.5.1 || < 1.0.0-rc.6 >=1.0.0-rc.6.1"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [
@@ -34,5 +34,6 @@
 	"disclosureTime": "2015-11-06T02:09:36.180Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:ember:20130105"
+	"id": "npm:ember:20130105",
+	"packageName": "ember"
 }

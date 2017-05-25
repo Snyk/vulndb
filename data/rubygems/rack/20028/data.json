@@ -1,5 +1,5 @@
 {
-	"title": "Regular Expression Denial of Service",
+	"title": "Regular Expression Denial of Service (DoS)",
 	"credit": [
 		"Unknown"
 	],
@@ -38,5 +38,6 @@
 	"modificationTime": "2016-09-21T12:37:03.000Z",
 	"publicationTime": "2012-05-03T21:00:00.000Z",
 	"disclosureTime": "2012-05-03T21:00:00.000Z",
-	"id": "SNYK-RUBY-RACK-20028"
+	"id": "SNYK-RUBY-RACK-20028",
+	"packageName": "rack"
 }

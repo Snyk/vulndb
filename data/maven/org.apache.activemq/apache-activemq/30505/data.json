@@ -1,0 +1,33 @@
+{
+	"title": "XML External Entity (XXE) Injection",
+	"credit": [
+		"Georgi Geshev"
+	],
+	"moduleName": "org.apache.activemq:apache-activemq",
+	"packageName": "org.apache.activemq:apache-activemq",
+	"mavenModuleName": {
+		"groupId": "org.apache.activemq",
+		"artifactId": "apache-activemq"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEACTIVEMQ-30505",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[5,5.10.1)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+			"CVE-2014-3600"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:20.034Z",
+	"modificationTime": "2017-02-22T07:28:20.034Z",
+	"publicationTime": "2015-10-19T09:04:26.000Z",
+	"disclosureTime": "2015-10-19T09:04:26.000Z"
+}

@@ -1,0 +1,34 @@
+{
+	"title": "Man-in-the-Middle (MitM)",
+	"credit": [
+		"Georg Lukas"
+	],
+	"moduleName": "org.igniterealtime.smack:smack-tcp",
+	"packageName": "org.igniterealtime.smack:smack-tcp",
+	"mavenModuleName": {
+		"groupId": "org.igniterealtime.smack",
+		"artifactId": "smack-tcp"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGIGNITEREALTIMESMACK-31187",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[4,4.0.2)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-300"
+		],
+		"CVE": [
+			"CVE-2014-5075"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:29.603Z",
+	"modificationTime": "2017-02-22T07:28:29.603Z",
+	"publicationTime": "2015-02-11T01:47:53.000Z",
+	"disclosureTime": "2015-02-11T01:47:53.000Z"
+}

@@ -1,0 +1,34 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.directwebremoting:dwr",
+	"packageName": "org.directwebremoting:dwr",
+	"mavenModuleName": {
+		"groupId": "org.directwebremoting",
+		"artifactId": "dwr"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGDIRECTWEBREMOTING-31090",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "(,2.0.10], [3,3.0.RC2]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2014-5326"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:28.240Z",
+	"modificationTime": "2017-02-22T07:28:28.240Z",
+	"publicationTime": "2015-04-06T00:42:47.000Z",
+	"disclosureTime": "2015-04-06T00:42:47.000Z"
+}

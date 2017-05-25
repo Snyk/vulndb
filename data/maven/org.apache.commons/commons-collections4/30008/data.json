@@ -1,0 +1,35 @@
+{
+	"title": "Arbitrary Code Execution during Deserialization",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.apache.commons:commons-collections4",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[4.0]",
+		"unaffected": "[4.1,)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-502"
+		],
+		"CVE": [
+			"CVE-2015-7501"
+		]
+	},
+	"CVSSv2": 7.5,
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2016-12-25T16:51:56.000Z",
+	"modificationTime": "2016-12-25T16:51:56.000Z",
+	"publicationTime": "2015-11-06T16:51:56.000Z",
+	"disclosureTime": "2015-11-06T16:51:56.000Z",
+	"id": "SNYK-JAVA-ORGAPACHECOMMONS-30008",
+	"mavenModuleName": {
+		"groupId": "org.apache.commons",
+		"artifactId": "commons-collections4"
+	},
+	"packageName": "org.apache.commons:commons-collections4"
+}

@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary Code Execution",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.activemq:activemq-osgi",
+	"packageName": "org.apache.activemq:activemq-osgi",
+	"mavenModuleName": {
+		"groupId": "org.apache.activemq",
+		"artifactId": "activemq-osgi"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEACTIVEMQ-30493",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[5.8.0]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [
+			"CVE-2013-2035"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:19.886Z",
+	"modificationTime": "2017-02-22T07:28:19.886Z",
+	"publicationTime": "2014-06-08T00:39:42.000Z",
+	"disclosureTime": "2014-06-08T00:39:42.000Z"
+}

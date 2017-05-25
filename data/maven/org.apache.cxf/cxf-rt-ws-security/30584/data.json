@@ -1,0 +1,33 @@
+{
+	"title": "Authorization Bypass",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.cxf:cxf-rt-ws-security",
+	"packageName": "org.apache.cxf:cxf-rt-ws-security",
+	"mavenModuleName": {
+		"groupId": "org.apache.cxf",
+		"artifactId": "cxf-rt-ws-security"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHECXF-30584",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.4.5],[2.5.1]",
+		"unaffected": "[2.4.6],[2.5.2]"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-639"
+		],
+		"CVE": [
+			"CVE-2012-0803"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:21.026Z",
+	"modificationTime": "2017-02-22T07:28:21.026Z",
+	"publicationTime": "2015-10-19T10:52:18.000Z",
+	"disclosureTime": "2015-10-19T10:52:18.000Z"
+}

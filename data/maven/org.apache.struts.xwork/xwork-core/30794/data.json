@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary Code Execution",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.struts.xwork:xwork-core",
+	"packageName": "org.apache.struts.xwork:xwork-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.struts.xwork",
+		"artifactId": "xwork-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHESTRUTSXWORK-30794",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2,2.3.14.1)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [
+			"CVE-2013-1966"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+	"creationTime": "2017-02-22T07:28:23.621Z",
+	"modificationTime": "2017-02-22T07:28:23.621Z",
+	"publicationTime": "2014-06-08T00:39:44.000Z",
+	"disclosureTime": "2014-06-08T00:39:44.000Z"
+}

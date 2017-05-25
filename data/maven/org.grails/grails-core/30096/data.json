@@ -1,0 +1,37 @@
+{
+	"title": "Information disclosure",
+	"credit": [
+		"Ramsharan Shrestha",
+		"Kristian Mattila"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.grails:grails-core",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[2,2.3.6)",
+		"unaffected": "[2.3.6,3)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-264",
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2014-0053"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:P/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:51.000Z",
+	"modificationTime": "2016-12-25T16:51:51.000Z",
+	"publicationTime": "2016-12-25T16:51:51.000Z",
+	"disclosureTime": "2016-12-25T16:51:51.000Z",
+	"id": "SNYK-JAVA-ORGGRAILS-30096",
+	"mavenModuleName": {
+		"groupId": "org.grails",
+		"artifactId": "grails-core"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"packageName": "org.grails:grails-core"
+}

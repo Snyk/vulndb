@@ -1,0 +1,35 @@
+{
+	"title": "Cleartext Credential Exposure",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.jboss.cache:jbosscache-core",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[3.2.8.GA]",
+		"unaffected": "[,0.0.0)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-319"
+		],
+		"CVE": [
+			"CVE-2012-0034"
+		]
+	},
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:46.000Z",
+	"modificationTime": "2016-12-25T16:51:46.000Z",
+	"publicationTime": "2016-12-25T16:51:46.000Z",
+	"disclosureTime": "2016-12-25T16:51:46.000Z",
+	"id": "SNYK-JAVA-ORGJBOSSCACHE-30106",
+	"mavenModuleName": {
+		"groupId": "org.jboss.cache",
+		"artifactId": "jbosscache-core"
+	},
+	"CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"CVSSv2": "CVSS:2.0/AV:L/AC:L/AU:N/C:P/I:N/A:N",
+	"packageName": "org.jboss.cache:jbosscache-core"
+}

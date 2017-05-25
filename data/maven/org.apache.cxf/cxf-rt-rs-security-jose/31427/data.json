@@ -1,0 +1,34 @@
+{
+	"title": "Timing Attack",
+	"credit": [
+		"Richard Kettelerij"
+	],
+	"moduleName": "org.apache.cxf:cxf-rt-rs-security-jose",
+	"packageName": "org.apache.cxf:cxf-rt-rs-security-jose",
+	"mavenModuleName": {
+		"groupId": "org.apache.cxf",
+		"artifactId": "cxf-rt-rs-security-jose"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHECXF-31427",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,3.0.13], [3.1,3.1.10]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-385"
+		],
+		"CVE": [
+			"CVE-2017-3156"
+		]
+	},
+	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-05-17T12:10:22.657Z",
+	"modificationTime": "2017-05-17T12:10:22.657Z",
+	"publicationTime": "2017-05-21T07:52:37.074Z",
+	"disclosureTime": "2017-02-23T08:56:32.050Z"
+}

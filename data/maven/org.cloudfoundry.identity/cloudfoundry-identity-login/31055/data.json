@@ -1,0 +1,34 @@
+{
+	"title": "Open Redirect",
+	"credit": [
+		"Mohammed Abdulqader Abobaker Al-saggaf"
+	],
+	"moduleName": "org.cloudfoundry.identity:cloudfoundry-identity-login",
+	"packageName": "org.cloudfoundry.identity:cloudfoundry-identity-login",
+	"mavenModuleName": {
+		"groupId": "org.cloudfoundry.identity",
+		"artifactId": "cloudfoundry-identity-login"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGCLOUDFOUNDRYIDENTITY-31055",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,2.3.0)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-601"
+		],
+		"CVE": [
+			"CVE-2015-3190"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:27.739Z",
+	"modificationTime": "2017-02-22T07:28:27.739Z",
+	"publicationTime": "2016-09-28T07:39:25.687Z",
+	"disclosureTime": "2016-09-28T07:39:25.687Z"
+}

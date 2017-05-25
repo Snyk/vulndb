@@ -27,5 +27,6 @@
 	"modificationTime": "2016-09-21T12:36:55.000Z",
 	"publicationTime": "2009-12-06T22:00:00.000Z",
 	"disclosureTime": "2009-12-06T22:00:00.000Z",
-	"id": "SNYK-RUBY-JRUBYOPENSSL-20007"
+	"id": "SNYK-RUBY-JRUBYOPENSSL-20007",
+	"packageName": "jruby-openssl"
 }

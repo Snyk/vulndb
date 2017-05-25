@@ -8,8 +8,8 @@
 	"publicationTime": "2016-01-05T12:38:01.749Z",
 	"description": "file://README.md",
 	"semver": {
-		"vulnerable": ">=v2.0.0-alpha <v2.0.0-alpha8",
-		"unaffected": ">=v2.0.0-alpha8 || <v2.0.0-alpha"
+		"vulnerable": ">=2.0.0-alpha <2.0.0-alpha8",
+		"unaffected": ">=2.0.0-alpha8 || <2.0.0-alpha"
 	},
 	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
 	"severity": "high",
@@ -28,5 +28,6 @@
 	"disclosureTime": "2015-12-28T18:37:37.178Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:mysql:20151228"
+	"id": "npm:mysql:20151228",
+	"packageName": "mysql"
 }

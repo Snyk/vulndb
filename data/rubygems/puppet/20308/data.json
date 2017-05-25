@@ -1,0 +1,35 @@
+{
+	"title": "Group Privilege Escalation",
+	"credit": [
+		"Puppet Labs"
+	],
+	"moduleName": "puppet",
+	"packageName": "puppet",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2012-1053"
+		]
+	},
+	"semver": {
+		"unaffected": [
+			">=2.6.14, <2.7.0",
+			">=2.7.11"
+		],
+		"vulnerable": [
+			"<2.6.14",
+			">=2.7.0, <2.7.1"
+		]
+	},
+	"patches": [],
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+	"disclosureTime": "2011-10-11T22:00:00.000Z",
+	"publicationTime": "2017-02-28T07:40:32.922Z",
+	"modificationTime": "2017-01-26T14:19:26.847Z",
+	"creationTime": "2017-01-26T14:19:26.847Z",
+	"id": "SNYK-RUBY-PUPPET-20308"
+}

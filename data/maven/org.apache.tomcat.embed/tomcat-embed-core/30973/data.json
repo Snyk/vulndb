@@ -1,0 +1,34 @@
+{
+	"title": "Cross-site Request Forgery (CSRF)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.tomcat.embed:tomcat-embed-core",
+	"packageName": "org.apache.tomcat.embed:tomcat-embed-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.tomcat.embed",
+		"artifactId": "tomcat-embed-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETOMCATEMBED-30973",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[7,7.0.32)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-264"
+		],
+		"CVE": [
+			"CVE-2012-4431"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:26.517Z",
+	"modificationTime": "2017-02-22T07:28:26.517Z",
+	"publicationTime": "2014-08-11T09:49:28.000Z",
+	"disclosureTime": "2014-08-11T09:49:28.000Z"
+}

@@ -1,0 +1,32 @@
+{
+	"title": "Timing Attacks",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.keycloak:keycloak-server-spi-private",
+	"packageName": "org.keycloak:keycloak-server-spi-private",
+	"mavenModuleName": {
+		"groupId": "org.keycloak",
+		"artifactId": "keycloak-server-spi-private"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGKEYCLOAK-31447",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.5,2.5.0.Final]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2017-2585"
+		]
+	},
+	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-05-17T12:10:22.718Z",
+	"modificationTime": "2017-05-17T12:10:22.718Z",
+	"publicationTime": "2017-05-21T07:52:40.234Z",
+	"disclosureTime": "2017-04-05T06:18:12.041Z"
+}

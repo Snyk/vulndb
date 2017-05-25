@@ -1,0 +1,34 @@
+{
+	"title": "Improper Access Restriction",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.struts:struts2-core",
+	"packageName": "org.apache.struts:struts2-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.struts",
+		"artifactId": "struts2-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHESTRUTS-30775",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.3.20,2.3.28.1]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-20"
+		],
+		"CVE": [
+			"CVE-2016-4431"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:23.377Z",
+	"modificationTime": "2017-02-22T07:28:23.377Z",
+	"publicationTime": "2016-06-21T04:49:27.674Z",
+	"disclosureTime": "2016-06-21T04:49:27.674Z"
+}

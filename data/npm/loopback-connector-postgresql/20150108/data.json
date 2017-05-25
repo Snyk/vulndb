@@ -27,5 +27,6 @@
 	"publicationTime": "2017-01-04T18:22:12.631Z",
 	"modificationTime": "2016-12-27T12:22:12.631Z",
 	"creationTime": "2016-12-27T12:22:12.631Z",
-	"id": "npm:loopback-connector-postgresql:20150108"
+	"id": "npm:loopback-connector-postgresql:20150108",
+	"packageName": "loopback-connector-postgresql"
 }

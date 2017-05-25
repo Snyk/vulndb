@@ -8,8 +8,8 @@
 		"vulnerable": "<=2.0.0-rc7",
 		"unaffected": ">=2.0.0-rc8"
 	},
-	"CVSSv2": "7.5 (HIGH) (AV:N/AC:L/Au:N/C:P/I:P/A:P)",
-	"CVSSv3": "",
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:P",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
 	"severity": "high",
 	"identifiers": {
 		"CWE": [
@@ -41,5 +41,6 @@
 	"disclosureTime": "2015-01-18T20:00:00.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:sequelize:20150118"
+	"id": "npm:sequelize:20150118",
+	"packageName": "sequelize"
 }

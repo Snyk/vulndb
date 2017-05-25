@@ -24,5 +24,6 @@
 	"modificationTime": "2016-09-21T12:36:53.000Z",
 	"publicationTime": "2013-12-30T22:00:00.000Z",
 	"disclosureTime": "2013-12-30T22:00:00.000Z",
-	"id": "SNYK-RUBY-FLUKSO4R-20136"
+	"id": "SNYK-RUBY-FLUKSO4R-20136",
+	"packageName": "flukso4r"
 }

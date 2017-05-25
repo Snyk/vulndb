@@ -1,0 +1,34 @@
+{
+	"title": "XML External Entity (XXE)",
+	"credit": [
+		"Timo Schmid"
+	],
+	"moduleName": "batik:batik-dom",
+	"packageName": "batik:batik-dom",
+	"mavenModuleName": {
+		"groupId": "batik",
+		"artifactId": "batik-dom"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-BATIK-30190",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "(,1.7]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+			"CVE-2015-0250"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+	"creationTime": "2017-02-22T07:28:15.893Z",
+	"modificationTime": "2017-02-22T07:28:15.893Z",
+	"publicationTime": "2017-03-13T08:00:21.657Z",
+	"disclosureTime": "2012-07-25T03:40:46.086Z"
+}

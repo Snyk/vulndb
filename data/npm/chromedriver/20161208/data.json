@@ -28,5 +28,6 @@
 	"moduleName": "chromedriver",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:chromedriver:20161208"
+	"id": "npm:chromedriver:20161208",
+	"packageName": "chromedriver"
 }

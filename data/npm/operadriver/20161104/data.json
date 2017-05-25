@@ -28,5 +28,6 @@
 	"moduleName": "operadriver",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:operadriver:20161104"
+	"id": "npm:operadriver:20161104",
+	"packageName": "operadriver"
 }

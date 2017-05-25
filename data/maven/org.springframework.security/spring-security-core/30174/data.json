@@ -1,0 +1,35 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.springframework.security:spring-security-core",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[2.0.0,3), [3.0.0.RELEASE,3.1), [3.1.0.RELEASE,3.2)",
+		"unaffected": "[2.0.8.RELEASE,3), [3.0.8.RELEASE,3.1), [3.1.3.RELEASE,3.2)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2012-5055"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:P/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:47.000Z",
+	"modificationTime": "2016-12-25T16:51:47.000Z",
+	"publicationTime": "2016-12-25T16:51:47.000Z",
+	"disclosureTime": "2016-12-25T16:51:47.000Z",
+	"id": "SNYK-JAVA-ORGSPRINGFRAMEWORKSECURITY-30174",
+	"mavenModuleName": {
+		"groupId": "org.springframework.security",
+		"artifactId": "spring-security-core"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"packageName": "org.springframework.security:spring-security-core"
+}

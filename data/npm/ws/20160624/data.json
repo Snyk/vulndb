@@ -1,5 +1,5 @@
 {
-	"title": "Denial of Service",
+	"title": "Denial of Service (DoS)",
 	"credit": [
 		"Fedor Indutny"
 	],
@@ -47,5 +47,6 @@
 	"moduleName": "ws",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:ws:20160624"
+	"id": "npm:ws:20160624",
+	"packageName": "ws"
 }

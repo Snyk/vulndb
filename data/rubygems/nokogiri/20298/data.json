@@ -1,0 +1,32 @@
+{
+	"title": "XML External Entity (XXE)",
+	"credit": [
+		"Snyk Security Research Team"
+	],
+	"description": "file://README.md",
+	"moduleName": "nokogiri",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"unaffected": [
+			">= 1.5.4"
+		],
+		"vulnerable": [
+			"< 1.5.4"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": []
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
+	"severity": "high",
+	"creationTime": "2017-01-12T12:37:00.000Z",
+	"modificationTime": "2017-01-12T12:37:00.000Z",
+	"publicationTime": "2017-01-16T13:00:00.000Z",
+	"disclosureTime": "2017-01-11T21:00:00.000Z",
+	"id": "SNYK-RUBY-NOKOGIRI-20298",
+	"packageName": "nokogiri"
+}

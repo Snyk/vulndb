@@ -1,0 +1,30 @@
+{
+	"title": "Root User Permission modification",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.accumulo:accumulo-core",
+	"packageName": "org.apache.accumulo:accumulo-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.accumulo",
+		"artifactId": "accumulo-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEACCUMULO-30475",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,1.7.0)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": []
+	},
+	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L",
+	"creationTime": "2017-02-22T07:28:19.665Z",
+	"modificationTime": "2017-02-22T07:28:19.665Z",
+	"publicationTime": "2016-02-15T06:16:58.983Z",
+	"disclosureTime": "2016-02-15T06:16:58.983Z"
+}

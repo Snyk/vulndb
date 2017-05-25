@@ -29,5 +29,6 @@
 	"modificationTime": "2016-09-21T12:37:01.000Z",
 	"publicationTime": "2014-01-07T22:00:00.000Z",
 	"disclosureTime": "2014-01-07T22:00:00.000Z",
-	"id": "SNYK-RUBY-PARATROOPERNEWRELIC-20137"
+	"id": "SNYK-RUBY-PARATROOPERNEWRELIC-20137",
+	"packageName": "paratrooper-newrelic"
 }

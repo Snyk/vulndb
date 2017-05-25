@@ -1,0 +1,34 @@
+{
+	"title": "Cryptographic Issues",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.bouncycastle:bcprov-jdk16",
+	"packageName": "org.bouncycastle:bcprov-jdk16",
+	"mavenModuleName": {
+		"groupId": "org.bouncycastle",
+		"artifactId": "bcprov-jdk16"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGBOUNCYCASTLE-31049",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,1.51)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-310"
+		],
+		"CVE": [
+			"CVE-2015-7940"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:27.659Z",
+	"modificationTime": "2017-02-22T07:28:27.659Z",
+	"publicationTime": "2015-10-22T12:09:05.523Z",
+	"disclosureTime": "2015-10-22T12:09:05.523Z"
+}

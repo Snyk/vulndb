@@ -30,5 +30,6 @@
 	"modificationTime": "2016-09-21T12:37:03.000Z",
 	"publicationTime": "2012-06-05T21:00:00.000Z",
 	"disclosureTime": "2012-06-05T21:00:00.000Z",
-	"id": "SNYK-RUBY-RACKCACHE-20031"
+	"id": "SNYK-RUBY-RACKCACHE-20031",
+	"packageName": "rack-cache"
 }

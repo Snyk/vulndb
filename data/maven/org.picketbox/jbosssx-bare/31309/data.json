@@ -1,0 +1,34 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Arun Babu Neelicattu"
+	],
+	"moduleName": "org.picketbox:jbosssx-bare",
+	"packageName": "org.picketbox:jbosssx-bare",
+	"mavenModuleName": {
+		"groupId": "org.picketbox",
+		"artifactId": "jbosssx-bare"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGPICKETBOX-31309",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[4.0.2.final,4.1.2.Final]",
+		"unaffected": "[4.0.19.Final]"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-310"
+		],
+		"CVE": [
+			"CVE-2013-1921"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2017-02-22T07:28:31.227Z",
+	"modificationTime": "2017-02-22T07:28:31.227Z",
+	"publicationTime": "2015-02-24T21:22:54.000Z",
+	"disclosureTime": "2015-02-24T21:22:54.000Z"
+}

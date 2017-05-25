@@ -1,0 +1,34 @@
+{
+	"title": "TLS Timing Attack",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "bouncycastle:bcprov-jdk13",
+	"packageName": "bouncycastle:bcprov-jdk13",
+	"mavenModuleName": {
+		"groupId": "bouncycastle",
+		"artifactId": "bcprov-jdk13"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-BOUNCYCASTLE-30192",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[140]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-310"
+		],
+		"CVE": [
+			"CVE-2013-1624"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:15.986Z",
+	"modificationTime": "2017-02-22T07:28:15.986Z",
+	"publicationTime": "2017-03-13T08:00:21.795Z",
+	"disclosureTime": "2013-02-05T00:41:40.000Z"
+}

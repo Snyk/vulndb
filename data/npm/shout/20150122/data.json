@@ -1,0 +1,30 @@
+{
+	"title": "HTML Injection",
+	"moduleName": "shout",
+	"packageName": "shout",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-SHOUT-10403"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=0.50.0",
+		"vulnerable": "<0.50.0 >=0.44.0"
+	},
+	"credit": [
+		"pangeacake"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"disclosureTime": "2015-01-21T22:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-02-13T17:29:14.065Z",
+	"modificationTime": "2017-02-13T17:29:14.065Z",
+	"creationTime": "2017-01-23T17:29:14.065Z",
+	"id": "npm:shout:20150122"
+}

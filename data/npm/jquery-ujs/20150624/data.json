@@ -8,8 +8,8 @@
 		"vulnerable": "<= 1.0.3",
 		"unaffected": ">= 1.0.4"
 	},
-	"CVSSv2": "5.0 (MEDIUM) (AV:N/AC:L/Au:N/C:P/I:N/A:N)",
-	"CVSSv3": "",
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:N/A:N",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [],
@@ -29,5 +29,6 @@
 	"disclosureTime": "2015-06-24T06:00:00.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:jquery-ujs:20150624"
+	"id": "npm:jquery-ujs:20150624",
+	"packageName": "jquery-ujs"
 }

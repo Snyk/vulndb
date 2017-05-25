@@ -1,0 +1,34 @@
+{
+	"title": "Remote Code Execution",
+	"credit": [
+		"Alvaro Munoz"
+	],
+	"moduleName": "org.apache.struts.xwork:xwork-core",
+	"packageName": "org.apache.struts.xwork:xwork-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.struts.xwork",
+		"artifactId": "xwork-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHESTRUTSXWORK-30803",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.2.1,2.3.28.1]",
+		"unaffected": "[2.3.29]"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-264"
+		],
+		"CVE": [
+			"CVE-2016-4461"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:23.738Z",
+	"modificationTime": "2017-02-22T07:28:23.738Z",
+	"publicationTime": "2016-11-14T07:48:03.440Z",
+	"disclosureTime": "2016-11-14T07:48:03.440Z"
+}

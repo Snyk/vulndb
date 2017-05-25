@@ -26,5 +26,6 @@
 	"publicationTime": "2016-10-20T00:00:00.000Z",
 	"modificationTime": "2016-10-20T00:00:00.000Z",
 	"creationTime": "2016-10-14T22:59:55.112Z",
-	"id": "npm:sails:20161013"
+	"id": "npm:sails:20161013",
+	"packageName": "sails"
 }

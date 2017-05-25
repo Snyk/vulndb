@@ -1,0 +1,32 @@
+{
+	"title": "Arbitrary Command Execution",
+	"moduleName": "clamscan",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-CLAMSCAN-10262"
+		]
+	},
+	"severity": "high",
+	"semver": {
+		"unaffected": ">=0.8.2",
+		"vulnerable": "<0.8.2"
+	},
+	"credit": [
+		"Unknown"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+	"disclosureTime": "2015-08-20T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-01-18T14:00:00.000Z",
+	"modificationTime": "2017-01-09T14:00:00.000Z",
+	"creationTime": "2016-12-27T14:42:26.957Z",
+	"id": "npm:clamscan:20150821",
+	"packageName": "clamscan"
+}

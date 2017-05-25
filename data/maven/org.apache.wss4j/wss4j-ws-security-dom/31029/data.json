@@ -1,0 +1,36 @@
+{
+	"title": "Use of a Risky Cryptographic Algorithm",
+	"credit": [
+		"Dennis Kupser",
+		"Christian Mainka",
+		"Juraj Somorovsky"
+	],
+	"moduleName": "org.apache.wss4j:wss4j-ws-security-dom",
+	"packageName": "org.apache.wss4j:wss4j-ws-security-dom",
+	"mavenModuleName": {
+		"groupId": "org.apache.wss4j",
+			"artifactId": "wss4j-ws-security-dom"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEWSS4J-31029",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2,2.0.2)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-327"
+		],
+		"CVE": [
+			"CVE-2015-0226"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:27.367Z",
+	"modificationTime": "2017-02-22T07:28:27.367Z",
+	"publicationTime": "2015-04-17T17:49:27.000Z",
+	"disclosureTime": "2015-04-17T17:49:27.000Z"
+}

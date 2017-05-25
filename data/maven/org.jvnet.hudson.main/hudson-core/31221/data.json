@@ -1,0 +1,33 @@
+{
+	"title": "XML External Entity (XXE) Injection",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.jvnet.hudson.main:hudson-core",
+	"packageName": "org.jvnet.hudson.main:hudson-core",
+	"mavenModuleName": {
+		"groupId": "org.jvnet.hudson.main",
+		"artifactId": "hudson-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGJVNETHUDSONMAIN-31221",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "(,3.3.1]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+			"CVE-2015-8031"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:30.040Z",
+	"modificationTime": "2017-02-22T07:28:30.040Z",
+	"publicationTime": "2015-11-23T08:45:49.594Z",
+	"disclosureTime": "2015-11-23T08:45:49.594Z"
+}

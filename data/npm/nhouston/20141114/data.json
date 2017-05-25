@@ -8,7 +8,7 @@
 		"vulnerable": "*",
 		"unaffected": "<0.0.0"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
 	"severity": "high",
 	"identifiers": {
 		"CWE": [
@@ -28,5 +28,6 @@
 	"disclosureTime": "2014-11-13T23:30:48.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:nhouston:20141114"
+	"id": "npm:nhouston:20141114",
+	"packageName": "nhouston"
 }

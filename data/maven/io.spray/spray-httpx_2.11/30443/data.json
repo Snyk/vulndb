@@ -1,0 +1,32 @@
+{
+	"title": "XML External Entity (XXE)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "io.spray:spray-httpx_2.11",
+	"packageName": "io.spray:spray-httpx_2.11",
+	"mavenModuleName": {
+		"groupId": "io.spray",
+		"artifactId": "spray-httpx_2.11"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-IOSPRAY-30443",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.3,1.3.3)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": []
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:19.265Z",
+	"modificationTime": "2017-02-22T07:28:19.265Z",
+	"publicationTime": "2016-08-15T05:58:46.852Z",
+	"disclosureTime": "2016-08-15T05:58:46.852Z"
+}

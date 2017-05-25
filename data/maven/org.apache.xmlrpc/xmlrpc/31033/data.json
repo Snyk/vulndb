@@ -1,0 +1,34 @@
+{
+	"title": "Deserialization of Untrusted Data",
+	"credit": [
+		"0ang3el"
+	],
+	"moduleName": "org.apache.xmlrpc:xmlrpc",
+	"packageName": "org.apache.xmlrpc:xmlrpc",
+	"mavenModuleName": {
+		"groupId": "org.apache.xmlrpc",
+		"artifactId": "xmlrpc"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEXMLRPC-31033",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[3,3.1.3]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-502"
+		],
+		"CVE": [
+			"CVE-2016-5003"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:27.421Z",
+	"modificationTime": "2017-02-22T07:28:27.421Z",
+	"publicationTime": "2016-07-13T04:54:03.321Z",
+	"disclosureTime": "2016-07-13T04:54:03.321Z"
+}

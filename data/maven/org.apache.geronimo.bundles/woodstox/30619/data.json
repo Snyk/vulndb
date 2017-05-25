@@ -1,0 +1,34 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.geronimo.bundles:woodstox",
+	"packageName": "org.apache.geronimo.bundles:woodstox",
+	"mavenModuleName": {
+		"groupId": "org.apache.geronimo.bundles",
+		"artifactId": "woodstox"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEGERONIMOBUNDLES-30619",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[4.0.6_1]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-399"
+		],
+		"CVE": [
+			"CVE-2013-2160"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+	"creationTime": "2017-02-22T07:28:21.452Z",
+	"modificationTime": "2017-02-22T07:28:21.452Z",
+	"publicationTime": "2014-06-08T00:34:37.000Z",
+	"disclosureTime": "2014-06-08T00:34:37.000Z"
+}

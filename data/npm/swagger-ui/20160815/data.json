@@ -28,5 +28,6 @@
 	"moduleName": "swagger-ui",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:swagger-ui:20160815"
+	"id": "npm:swagger-ui:20160815",
+	"packageName": "swagger-ui"
 }

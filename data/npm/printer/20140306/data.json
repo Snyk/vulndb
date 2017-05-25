@@ -8,8 +8,8 @@
 		"vulnerable": "<= 0.0.1",
 		"unaffected": "> 0.0.1"
 	},
-	"CVSSv3": "",
-	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"severity": "medium",
 	"identifiers": {
 		"CWE": [],
 		"CVE": [
@@ -40,5 +40,6 @@
 	"disclosureTime": "2014-03-06T07:33:48.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:printer:20140306"
+	"id": "npm:printer:20140306",
+	"packageName": "printer"
 }

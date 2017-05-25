@@ -28,5 +28,6 @@
 	"moduleName": "jws",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:jws:20160726"
+	"id": "npm:jws:20160726",
+	"packageName": "jws"
 }

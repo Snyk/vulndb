@@ -30,5 +30,6 @@
 	"modificationTime": "2016-09-21T12:37:11.000Z",
 	"publicationTime": "2015-06-15T21:00:00.000Z",
 	"disclosureTime": "2015-06-15T21:00:00.000Z",
-	"id": "SNYK-RUBY-WEBCONSOLE-20226"
+	"id": "SNYK-RUBY-WEBCONSOLE-20226",
+	"packageName": "web-console"
 }

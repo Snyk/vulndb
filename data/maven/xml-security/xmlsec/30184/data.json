@@ -1,0 +1,35 @@
+{
+	"title": "XML Signature Spoofing",
+	"credit": [
+		"James Forshaw"
+	],
+	"description": "file://README.md",
+	"moduleName": "xml-security:xmlsec",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[1.4,1.4.7], [1.5,1.5.4]",
+		"unaffected": "[1.4.8,1.5), [1.5.5,1.6)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-310"
+		],
+		"CVE": [
+			"CVE-2013-2172"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:N/I:P/A:N",
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:48.000Z",
+	"modificationTime": "2016-12-25T16:51:48.000Z",
+	"publicationTime": "2016-12-25T16:51:48.000Z",
+	"disclosureTime": "2016-12-25T16:51:48.000Z",
+	"id": "SNYK-JAVA-XMLSECURITY-30184",
+	"mavenModuleName": {
+		"groupId": "xml-security",
+		"artifactId": "xmlsec"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"packageName": "xml-security:xmlsec"
+}

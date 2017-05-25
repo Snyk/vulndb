@@ -30,5 +30,6 @@
 	"moduleName": "dojo",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:dojo:20160523"
+	"id": "npm:dojo:20160523",
+	"packageName": "dojo"
 }

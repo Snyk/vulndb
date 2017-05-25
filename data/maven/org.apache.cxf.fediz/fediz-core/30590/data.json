@@ -1,0 +1,34 @@
+{
+	"title": "Improper Access Control",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.cxf.fediz:fediz-core",
+	"packageName": "org.apache.cxf.fediz:fediz-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.cxf.fediz",
+		"artifactId": "fediz-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHECXFFEDIZ-30590",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.2.0,1.2.2]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-284"
+		],
+		"CVE": [
+			"CVE-2016-4464"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:21.103Z",
+	"modificationTime": "2017-02-22T07:28:21.103Z",
+	"publicationTime": "2016-09-09T02:33:12.206Z",
+	"disclosureTime": "2016-09-09T02:33:12.206Z"
+}

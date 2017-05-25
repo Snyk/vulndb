@@ -1,0 +1,35 @@
+{
+	"title": "Improper Restriction of XML External Entity Reference (XXE)",
+	"credit": [
+		"Stephan Siano"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.apache.camel:camel-core",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "(,2.13.3], [2.14,2.14.1]",
+		"unaffected": "[2.13.4,2.14), [2.14.2,2.15)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+			"CVE-2015-0263"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:P/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:55.000Z",
+	"modificationTime": "2016-12-25T16:51:55.000Z",
+	"publicationTime": "2015-03-17T16:51:55.000Z",
+	"disclosureTime": "2015-03-17T16:51:55.000Z",
+	"id": "SNYK-JAVA-ORGAPACHECAMEL-30005",
+	"mavenModuleName": {
+		"groupId": "org.apache.camel",
+		"artifactId": "camel-core"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"packageName": "org.apache.camel:camel-core"
+}

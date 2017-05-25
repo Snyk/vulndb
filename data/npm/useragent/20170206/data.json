@@ -1,0 +1,33 @@
+{
+	"title": "Regular Expression Denial of Service (ReDoS)",
+	"credit": [
+		"Mathias Madsen"
+	],
+	"creationTime": "2017-04-16T08:45:42.742Z",
+	"modificationTime": "2017-04-16T08:45:42.742Z",
+	"publicationTime": "2017-04-16T08:45:42.742Z",
+	"disclosureTime": "2017-02-06T22:45:42.742Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<2.1.12",
+		"unaffected": ">=2.1.12"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [],
+		"NSP": 312,
+		"ALTERNATIVE": [
+			"SNYK-JS-USERAGENT-10471"
+		]
+	},
+	"patches": [],
+	"moduleName": "useragent",
+	"packageName": "useragent",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:useragent:20170206"
+}

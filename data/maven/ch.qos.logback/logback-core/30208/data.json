@@ -1,0 +1,35 @@
+{
+	"title": "Deserialization of Untrusted Data",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "ch.qos.logback:logback-core",
+	"packageName": "ch.qos.logback:logback-core",
+	"mavenModuleName": {
+		"groupId": "ch.qos.logback",
+		"artifactId": "logback-core"
+	},
+	"language": "java",
+	"packageManager": "maven",
+	"identifiers": {
+		"CWE": [
+			"CWE-502"
+		],
+		"CVE": [
+			"CVE-2017-5929"
+		]
+	},
+	"semver": {
+		"vulnerable": "[,1.2.0)",
+		"unaffected": ""
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:P",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+	"severity": "high",
+	"creationTime": "2017-03-19T14:58:38.000Z",
+	"modificationTime": "2017-03-19T14:58:38.000Z",
+	"publicationTime": "2017-03-21T15:30:44.715Z",
+	"disclosureTime": "2017-03-19T14:58:38.000Z",
+	"id": "SNYK-JAVA-CHQOSLOGBACK-30208"
+}

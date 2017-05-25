@@ -6,3 +6,4 @@ This issue may allow an attacker to inject arbitrary `IS NULL` clauses in to app
 
 ## References
 - http://rubysec.com/advisories/CVE-2012-2660
+- https://groups.google.com/forum/#!msg/rubyonrails-security/8SA-M3as7A8/Mr9fi9X4kNgJ

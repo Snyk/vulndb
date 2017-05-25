@@ -1,18 +1,17 @@
 {
-	"title": "Regular Expression Denial of Service",
+	"title": "Regular Expression Denial of Service (DoS)",
 	"credit": [
 		"Adam Baldwin"
 	],
-	"creationTime": "2015-11-06T02:09:36.187Z",
-	"modificationTime": "2015-11-06T02:09:36.187Z",
-	"publicationTime": "2015-11-06T02:09:36.187Z",
+	"language": "js",
+	"packageManager": "npm",
+	"moduleName": "bleach",
+	"packageName": "bleach",
 	"description": "file://README.md",
 	"semver": {
 		"vulnerable": "*",
 		"unaffected": "<0.0.0"
 	},
-	"CVSSv3": "",
-	"severity": "medium",
 	"identifiers": {
 		"CWE": [
 			"CWE-400"
@@ -26,9 +25,11 @@
 		]
 	},
 	"patches": [],
-	"moduleName": "bleach",
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+	"creationTime": "2015-11-06T02:09:36.187Z",
+	"modificationTime": "2015-11-06T02:09:36.187Z",
+	"publicationTime": "2015-11-06T02:09:36.187Z",
 	"disclosureTime": "2015-10-24T20:46:42.522Z",
-	"language": "js",
-	"packageManager": "npm",
 	"id": "npm:bleach:20151024"
 }

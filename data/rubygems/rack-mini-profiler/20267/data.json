@@ -27,5 +27,6 @@
 	"modificationTime": "2016-09-21T12:37:04.000Z",
 	"publicationTime": "2016-05-17T21:00:00.000Z",
 	"disclosureTime": "2016-05-17T21:00:00.000Z",
-	"id": "SNYK-RUBY-RACKMINIPROFILER-20267"
+	"id": "SNYK-RUBY-RACKMINIPROFILER-20267",
+	"packageName": "rack-mini-profiler"
 }

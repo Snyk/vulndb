@@ -1,0 +1,34 @@
+{
+	"title": "Privilege Escalation",
+	"credit": [
+		"GE Digital Security Team"
+	],
+	"moduleName": "org.cloudfoundry.identity:cloudfoundry-identity-server",
+	"packageName": "org.cloudfoundry.identity:cloudfoundry-identity-server",
+	"mavenModuleName": {
+		"groupId": "org.cloudfoundry.identity",
+		"artifactId": "cloudfoundry-identity-server"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGCLOUDFOUNDRYIDENTITY-31065",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[3,3.0.1)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-264"
+		],
+		"CVE": [
+			"CVE-2016-0732"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:27.876Z",
+	"modificationTime": "2017-02-22T07:28:27.876Z",
+	"publicationTime": "2016-09-28T06:37:36.522Z",
+	"disclosureTime": "2016-09-28T06:37:36.522Z"
+}

@@ -1,0 +1,35 @@
+{
+	"title": "Remote command execution",
+	"credit": [
+		"Takeshi Terada"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.apache.struts:struts2-core",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[2,2.3.15]",
+		"unaffected": "[2.3.15.1,2.3.16)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [
+			"CVE-2013-2251"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:C/I:C/A:C",
+	"severity": "high",
+	"creationTime": "2016-12-25T16:51:49.000Z",
+	"modificationTime": "2016-12-25T16:51:49.000Z",
+	"publicationTime": "2013-07-14T16:51:49.000Z",
+	"disclosureTime": "2013-07-14T16:51:49.000Z",
+	"id": "SNYK-JAVA-ORGAPACHESTRUTS-30050",
+	"mavenModuleName": {
+		"groupId": "org.apache.struts",
+		"artifactId": "struts2-core"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+	"packageName": "org.apache.struts:struts2-core"
+}

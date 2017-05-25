@@ -11,7 +11,7 @@
 		"vulnerable": "<2.0.0",
 		"unaffected": ">=2.0.0"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
 	"severity": "high",
 	"identifiers": {
 		"CWE": [],
@@ -49,5 +49,6 @@
 	"disclosureTime": "2015-11-03T07:15:12.900Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:tar:20151103"
+	"id": "npm:tar:20151103",
+	"packageName": "tar"
 }

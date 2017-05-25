@@ -27,5 +27,6 @@
 	"publicationTime": "2016-10-05T07:46:29.374Z",
 	"modificationTime": "2016-10-05T07:46:29.374Z",
 	"creationTime": "2016-10-05T07:46:29.374Z",
-	"id": "npm:boom:20130209"
+	"id": "npm:boom:20130209",
+	"packageName": "boom"
 }

@@ -1,5 +1,5 @@
 {
-	"title": "Cross-site scripting (XSS)",
+	"title": "Cross-site Scripting (XSS)",
 	"credit": [
 		"Unknown"
 	],
@@ -29,5 +29,6 @@
 	"modificationTime": "2016-09-21T12:36:59.000Z",
 	"publicationTime": "2015-11-16T22:00:00.000Z",
 	"disclosureTime": "2015-11-16T22:00:00.000Z",
-	"id": "SNYK-RUBY-MUSTACHEJSRAILS-20242"
+	"id": "SNYK-RUBY-MUSTACHEJSRAILS-20242",
+	"packageName": "mustache-js-rails"
 }

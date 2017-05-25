@@ -1,5 +1,5 @@
 {
-	"title": "Denial of Service",
+	"title": "Denial of Service (DoS)",
 	"credit": [
 		"Peter Sorowka"
 	],
@@ -11,8 +11,8 @@
 		"vulnerable": "<3.4.6 || > 4.0.0 <4.0.5",
 		"unaffected": ">=3.4.6 < 4.0.0|| >=4.0.5"
 	},
-	"CVSSv3": "",
-	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"severity": "high",
 	"identifiers": {
 		"CWE": [],
 		"CVE": [],
@@ -26,5 +26,6 @@
 	"disclosureTime": "2016-01-15T17:01:49.053Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:mqtt-packet:20160115"
+	"id": "npm:mqtt-packet:20160115",
+	"packageName": "mqtt-packet"
 }

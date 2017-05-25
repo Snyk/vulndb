@@ -28,5 +28,6 @@
 	"moduleName": "apk-parser3",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:apk-parser3:20161106"
+	"id": "npm:apk-parser3:20161106",
+	"packageName": "apk-parser3"
 }

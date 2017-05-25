@@ -27,5 +27,6 @@
 	"modificationTime": "2016-09-21T12:36:54.000Z",
 	"publicationTime": "2014-12-03T22:00:00.000Z",
 	"disclosureTime": "2014-12-03T22:00:00.000Z",
-	"id": "SNYK-RUBY-GOLLUMGRITADAPTER-20201"
+	"id": "SNYK-RUBY-GOLLUMGRITADAPTER-20201",
+	"packageName": "gollum-grit_adapter"
 }

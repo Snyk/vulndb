@@ -28,5 +28,6 @@
 	"moduleName": "pngcrush-installer",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:pngcrush-installer:20161104"
+	"id": "npm:pngcrush-installer:20161104",
+	"packageName": "pngcrush-installer"
 }

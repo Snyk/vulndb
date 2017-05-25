@@ -28,5 +28,6 @@
 	"moduleName": "bkjs-wand",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:bkjs-wand:20161101"
+	"id": "npm:bkjs-wand:20161101",
+	"packageName": "bkjs-wand"
 }

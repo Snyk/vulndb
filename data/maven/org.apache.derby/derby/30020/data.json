@@ -1,0 +1,35 @@
+{
+	"title": "XML External Entity (XXE) Injection",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.apache.derby:derby",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "(,10.11.1.1]",
+		"unaffected": "[,0.0.0)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+			"CVE-2015-1832"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:P/I:N/A:P",
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:55.000Z",
+	"modificationTime": "2016-12-25T16:51:55.000Z",
+	"publicationTime": "2015-07-17T16:51:55.000Z",
+	"disclosureTime": "2015-07-17T16:51:55.000Z",
+	"id": "SNYK-JAVA-ORGAPACHEDERBY-30020",
+	"mavenModuleName": {
+		"groupId": "org.apache.derby",
+		"artifactId": "derby"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+	"packageName": "org.apache.derby:derby"
+}

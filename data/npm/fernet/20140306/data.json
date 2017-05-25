@@ -27,5 +27,6 @@
 	"publicationTime": "2016-11-22T17:50:33.951Z",
 	"modificationTime": "2016-11-23T13:12:33.951Z",
 	"creationTime": "2016-10-14T22:50:33.951Z",
-	"id": "npm:fernet:20140306"
+	"id": "npm:fernet:20140306",
+	"packageName": "fernet"
 }

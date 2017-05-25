@@ -1,0 +1,32 @@
+{
+	"title": "User Impersonation",
+	"credit": [
+		"Andy LoPresto"
+	],
+	"moduleName": "org.apache.nifi:nifi-web-security",
+	"packageName": "org.apache.nifi:nifi-web-security",
+	"mavenModuleName": {
+		"groupId": "org.apache.nifi",
+		"artifactId": "nifi-web-security"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHENIFI-31439",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[0.7,0.7.2), [1.1,1.1.2)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2017-5636"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-05-17T12:10:22.691Z",
+	"modificationTime": "2017-05-17T12:10:22.691Z",
+	"publicationTime": "2017-05-21T07:52:37.845Z",
+	"disclosureTime": "2017-03-10T05:17:45.423Z"
+}

@@ -1,0 +1,34 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Masato Kinugawa"
+	],
+	"moduleName": "zeroclipboard",
+	"packageName": "zeroclipboard",
+	"language": "js",
+	"packageManager": "npm",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2014-1869"
+		],
+		"ALTERNATIVE": [
+			"SNYK-JS-ZEROCLIPBOARD-10428"
+		]
+	},
+	"semver": {
+		"unaffected": ">=1.3.2",
+		"vulnerable": "<1.3.2 >=1.0.7"
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"disclosureTime": "2014-01-30T22:00:00.000Z",
+	"publicationTime": "2017-03-13T08:00:23.219Z",
+	"modificationTime": "2017-02-13T15:47:17.281Z",
+	"creationTime": "2017-02-13T15:47:17.281Z",
+	"id": "npm:zeroclipboard:20140131"
+}

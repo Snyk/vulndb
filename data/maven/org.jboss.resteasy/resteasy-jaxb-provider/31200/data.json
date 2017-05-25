@@ -1,0 +1,32 @@
+{
+	"title": "Arbitrary File Read Access",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.jboss.resteasy:resteasy-jaxb-provider",
+	"packageName": "org.jboss.resteasy:resteasy-jaxb-provider",
+	"mavenModuleName": {
+		"groupId": "org.jboss.resteasy",
+		"artifactId": "resteasy-jaxb-provider"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGJBOSSRESTEASY-31200",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.3,2.3.8), [3,3.0.8)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2014-3490"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:29.758Z",
+	"modificationTime": "2017-02-22T07:28:29.758Z",
+	"publicationTime": "2015-02-20T17:35:55.000Z",
+	"disclosureTime": "2015-02-20T17:35:55.000Z"
+}

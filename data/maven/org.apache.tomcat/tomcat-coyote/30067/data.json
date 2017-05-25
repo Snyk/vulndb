@@ -1,0 +1,36 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"Peter Magnusson",
+		"Przemysław Celej"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.apache.tomcat:tomcat-coyote",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[7.51], [7,7.0.50], [8,8.0.1]",
+		"unaffected": "[7.52,), [8.0.2], [8.0.3,9)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-264"
+		],
+		"CVE": [
+			"CVE-2014-0050"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:P/I:P/A:P",
+	"severity": "high",
+	"creationTime": "2016-12-25T16:51:51.000Z",
+	"modificationTime": "2016-12-25T16:51:51.000Z",
+	"publicationTime": "2016-12-25T16:51:51.000Z",
+	"disclosureTime": "2016-12-25T16:51:51.000Z",
+	"id": "SNYK-JAVA-ORGAPACHETOMCAT-30067",
+	"mavenModuleName": {
+		"groupId": "org.apache.tomcat",
+		"artifactId": "tomcat-coyote"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"packageName": "org.apache.tomcat:tomcat-coyote"
+}

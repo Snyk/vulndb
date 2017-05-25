@@ -27,5 +27,6 @@
 	"publicationTime": "2016-12-20T17:34:26.727Z",
 	"modificationTime": "2016-12-20T12:34:26.727Z",
 	"creationTime": "2016-12-20T12:34:26.727Z",
-	"id": "npm:hostr:20161211"
+	"id": "npm:hostr:20161211",
+	"packageName": "hostr"
 }

@@ -1,0 +1,33 @@
+{
+	"title": "Arbitrary Code Execution",
+	"credit": [
+		"Tomcat security team"
+	],
+	"moduleName": "org.apache.tomcat:coyote",
+	"packageName": "org.apache.tomcat:coyote",
+	"mavenModuleName": {
+		"groupId": "org.apache.tomcat",
+		"artifactId": "coyote"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETOMCAT-30872",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[6.0.16,6.0.48]",
+		"unaffected": "[6.0.51]"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2016-8745"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:24.648Z",
+	"modificationTime": "2017-02-22T07:28:24.648Z",
+	"publicationTime": "2016-12-13T04:53:40.527Z",
+	"disclosureTime": "2016-12-13T04:53:40.527Z"
+}

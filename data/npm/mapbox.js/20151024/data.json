@@ -40,5 +40,6 @@
 	"disclosureTime": "2015-10-24T21:00:40.189Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:mapbox.js:20151024"
+	"id": "npm:mapbox.js:20151024",
+	"packageName": "mapbox.js"
 }

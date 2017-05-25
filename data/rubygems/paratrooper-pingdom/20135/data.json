@@ -29,5 +29,6 @@
 	"modificationTime": "2016-09-21T12:37:01.000Z",
 	"publicationTime": "2013-12-25T22:00:00.000Z",
 	"disclosureTime": "2013-12-25T22:00:00.000Z",
-	"id": "SNYK-RUBY-PARATROOPERPINGDOM-20135"
+	"id": "SNYK-RUBY-PARATROOPERPINGDOM-20135",
+	"packageName": "paratrooper-pingdom"
 }

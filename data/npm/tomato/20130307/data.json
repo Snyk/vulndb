@@ -8,8 +8,8 @@
 		"vulnerable": "<= 0.0.5",
 		"unaffected": ">= 0.0.6"
 	},
-	"CVSSv2": "6.8 (MEDIUM) (AV:N/AC:M/Au:N/C:P/I:P/A:P)",
-	"CVSSv3": "",
+	"CVSSv2": "CVSS:2.0/AV:N/AC:M/Au:N/C:P/I:P/A:P",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [
@@ -43,5 +43,6 @@
 	"disclosureTime": "2013-03-07T19:52:30.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:tomato:20130307"
+	"id": "npm:tomato:20130307",
+	"packageName": "tomato"
 }

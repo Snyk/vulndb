@@ -1,0 +1,34 @@
+{
+	"title": "Improper Input Validation",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.cxf.services.sts:cxf-services-sts-core",
+	"packageName": "org.apache.cxf.services.sts:cxf-services-sts-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.cxf.services.sts",
+		"artifactId": "cxf-services-sts-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHECXFSERVICESSTS-30591",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.5.0,2.6.11]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-20"
+		],
+		"CVE": [
+			"CVE-2014-0034"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:21.115Z",
+	"modificationTime": "2017-02-22T07:28:21.115Z",
+	"publicationTime": "2014-09-08T07:52:43.000Z",
+	"disclosureTime": "2014-09-08T07:52:43.000Z"
+}

@@ -8,7 +8,7 @@
 		"vulnerable": "<3.0.0",
 		"unaffected": ">=3.0.0"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [],
@@ -26,5 +26,6 @@
 	"disclosureTime": "2014-12-03T03:00:00.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:paypal-ipn:20141203"
+	"id": "npm:paypal-ipn:20141203",
+	"packageName": "paypal-ipn"
 }

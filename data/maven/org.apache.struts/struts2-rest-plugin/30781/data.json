@@ -1,0 +1,32 @@
+{
+	"title": "Improper Action Name Cleanup",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.struts:struts2-rest-plugin",
+	"packageName": "org.apache.struts:struts2-rest-plugin",
+	"mavenModuleName": {
+		"groupId": "org.apache.struts",
+		"artifactId": "struts2-rest-plugin"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHESTRUTS-30781",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.0.0,2.3.28.1],[2.5,2.5.1)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2016-4436"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:23.454Z",
+	"modificationTime": "2017-02-22T07:28:23.454Z",
+	"publicationTime": "2016-09-19T05:25:51.115Z",
+	"disclosureTime": "2016-09-19T05:25:51.115Z"
+}

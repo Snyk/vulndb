@@ -1,0 +1,30 @@
+{
+	"title": "Denial of Service (DoS)",
+	"moduleName": "websocket-driver",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-WEBSOCKETDRIVER-10212"
+		]
+	},
+	"severity": "high",
+	"semver": {
+		"unaffected": ">=0.3.1",
+		"vulnerable": "<0.3.1"
+	},
+	"credit": [
+		"David Glasser"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"disclosureTime": "2013-10-11T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-01-30T15:00:00.000Z",
+	"modificationTime": "2016-11-23T14:18:28.494Z",
+	"creationTime": "2016-11-23T14:18:28.494Z",
+	"id": "npm:websocket-driver:20131012",
+	"packageName": "websocket-driver"
+}

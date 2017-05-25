@@ -1,0 +1,35 @@
+{
+	"title": "Improper Authentication",
+	"credit": [
+		"Georgi Geshev",
+		"Arun Babu Neelicattu"
+	],
+	"moduleName": "org.apache.activemq:activemq-broker",
+	"packageName": "org.apache.activemq:activemq-broker",
+	"mavenModuleName": {
+		"groupId": "org.apache.activemq",
+		"artifactId": "activemq-broker"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEACTIVEMQ-30481",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[5.0.0,5.10.1)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-287"
+		],
+		"CVE": [
+			"CVE-2014-3612"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:19.734Z",
+	"modificationTime": "2017-02-22T07:28:19.734Z",
+	"publicationTime": "2015-08-25T16:46:08.000Z",
+	"disclosureTime": "2015-08-25T16:46:08.000Z"
+}

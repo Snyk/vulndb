@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary Code Execution",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.drools:drools-workbench-models-test-scenarios",
+	"packageName": "org.drools:drools-workbench-models-test-scenarios",
+	"mavenModuleName": {
+		"groupId": "org.drools",
+		"artifactId": "drools-workbench-models-test-scenarios"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGDROOLS-31092",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,6.0.1)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [
+			"CVE-2013-6468"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:28.266Z",
+	"modificationTime": "2017-02-22T07:28:28.266Z",
+	"publicationTime": "2014-06-08T00:15:40.000Z",
+	"disclosureTime": "2014-06-08T00:15:40.000Z"
+}

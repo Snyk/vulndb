@@ -1,0 +1,35 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Tibor Jager",
+		"Sebastian Schinzel",
+		"Juraj Somorovsky"
+	],
+	"moduleName": "org.apache.cxf:cxf",
+	"packageName": "org.apache.cxf:cxf",
+	"mavenModuleName": {
+		"groupId": "org.apache.cxf",
+		"artifactId": "cxf"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHECXF-30553",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.4.0,2.4.7),[2.5.1,2.5.3)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-327"
+		],
+		"CVE": [
+			"CVE-2011-2487"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:20.634Z",
+	"modificationTime": "2017-02-22T07:28:20.634Z",
+	"publicationTime": "2015-10-16T08:51:59.000Z",
+	"disclosureTime": "2015-10-16T08:51:59.000Z"
+}

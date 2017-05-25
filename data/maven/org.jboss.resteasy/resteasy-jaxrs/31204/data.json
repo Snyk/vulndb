@@ -1,0 +1,32 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"Mikhail Egorov"
+	],
+	"moduleName": "org.jboss.resteasy:resteasy-jaxrs",
+	"packageName": "org.jboss.resteasy:resteasy-jaxrs",
+	"mavenModuleName": {
+		"groupId": "org.jboss.resteasy",
+		"artifactId": "resteasy-jaxrs"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGJBOSSRESTEASY-31204",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.2,1.2.1.GA]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2016-6346"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+	"creationTime": "2017-02-22T07:28:29.813Z",
+	"modificationTime": "2017-02-22T07:28:29.813Z",
+	"publicationTime": "2016-09-05T08:06:06.295Z",
+	"disclosureTime": "2016-09-05T08:06:06.295Z"
+}

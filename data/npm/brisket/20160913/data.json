@@ -27,5 +27,6 @@
 	"moduleName": "brisket",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:brisket:20160913"
+	"id": "npm:brisket:20160913",
+	"packageName": "brisket"
 }

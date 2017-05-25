@@ -1,0 +1,34 @@
+{
+	"title": "XML External Entity (XXE) Injection",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.poi:poi-examples",
+	"packageName": "org.apache.poi:poi-examples",
+	"mavenModuleName": {
+		"groupId": "org.apache.poi",
+		"artifactId": "poi-examples"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEPOI-30699",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,3.14)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+			"CVE-2016-5000"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:22.406Z",
+	"modificationTime": "2017-02-22T07:28:22.406Z",
+	"publicationTime": "2016-07-25T02:44:47.777Z",
+	"disclosureTime": "2016-07-25T02:44:47.777Z"
+}

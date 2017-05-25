@@ -8,8 +8,8 @@
 		"vulnerable": "<  2.0.5",
 		"unaffected": ">= 2.0.5"
 	},
-	"CVSSv2": "6.8 (MEDIUM) (AV:N/AC:M/Au:N/C:P/I:P/A:P)",
-	"CVSSv3": "",
+	"CVSSv2": "CVSS:2.0/AV:N/AC:M/Au:N/C:P/I:P/A:P",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [
@@ -31,5 +31,6 @@
 	"disclosureTime": "2013-06-23T19:23:50.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:js-yaml:20130623"
+	"id": "npm:js-yaml:20130623",
+	"packageName": "js-yaml"
 }

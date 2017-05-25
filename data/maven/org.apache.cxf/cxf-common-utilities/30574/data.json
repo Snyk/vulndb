@@ -1,0 +1,34 @@
+{
+	"title": "Insufficient constraints on Document Type Declarations (DTDs)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.cxf:cxf-common-utilities",
+	"packageName": "org.apache.cxf:cxf-common-utilities",
+	"mavenModuleName": {
+		"groupId": "org.apache.cxf",
+		"artifactId": "cxf-common-utilities"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHECXF-30574",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.0.0,2.0.12]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-20"
+		],
+		"CVE": [
+			"CVE-2010-2076"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:20.903Z",
+	"modificationTime": "2017-02-22T07:28:20.903Z",
+	"publicationTime": "2014-01-10T06:25:16.000Z",
+	"disclosureTime": "2014-01-10T06:25:16.000Z"
+}

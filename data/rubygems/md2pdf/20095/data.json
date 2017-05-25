@@ -27,5 +27,6 @@
 	"modificationTime": "2016-09-21T12:36:58.000Z",
 	"publicationTime": "2013-04-12T21:00:00.000Z",
 	"disclosureTime": "2013-04-12T21:00:00.000Z",
-	"id": "SNYK-RUBY-MD2PDF-20095"
+	"id": "SNYK-RUBY-MD2PDF-20095",
+	"packageName": "md2pdf"
 }

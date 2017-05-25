@@ -1,0 +1,37 @@
+{
+	"title": "Arbitrary Code Execution via Symlink attack",
+	"credit": [
+		"Puppet Labs"
+	],
+	"moduleName": "puppet",
+	"packageName": "puppet",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-61"
+		],
+		"CVE": [
+			"CVE-2011-3871"
+		]
+	},
+	"semver": {
+		"unaffected": [
+			">=2.6.11, <2.7.0",
+			">=2.7.5"
+		],
+		"vulnerable": [
+			"<2.6.11",
+			">=2.7.0, <2.7.5"
+		]
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"disclosureTime": "2011-09-29T22:00:00.000Z",
+	"publicationTime": "2017-02-28T07:40:32.688Z",
+	"modificationTime": "2017-01-26T14:19:26.847Z",
+	"creationTime": "2017-01-26T14:19:26.847Z",
+	"id": "SNYK-RUBY-PUPPET-20305"
+}

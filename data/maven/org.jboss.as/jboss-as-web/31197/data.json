@@ -1,0 +1,32 @@
+{
+	"title": "Information Disclosure",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.jboss.as:jboss-as-web",
+	"packageName": "org.jboss.as:jboss-as-web",
+	"mavenModuleName": {
+		"groupId": "org.jboss.as",
+		"artifactId": "jboss-as-web"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGJBOSSAS-31197",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,7.2.0)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2012-4529"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:29.716Z",
+	"modificationTime": "2017-02-22T07:28:29.716Z",
+	"publicationTime": "2014-06-17T04:06:02.000Z",
+	"disclosureTime": "2014-06-17T04:06:02.000Z"
+}

@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary File Write",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.jackrabbit:oak-run",
+	"packageName": "org.apache.jackrabbit:oak-run",
+	"mavenModuleName": {
+		"groupId": "org.apache.jackrabbit",
+		"artifactId": "oak-run"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEJACKRABBIT-30656",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.0.9,1.5.2]",
+		"unaffected": "[1.5.3]"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-626"
+		],
+		"CVE": [
+			"CVE-2013-2186"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:21.915Z",
+	"modificationTime": "2017-02-22T07:28:21.915Z",
+	"publicationTime": "2014-06-08T00:33:21.000Z",
+	"disclosureTime": "2014-06-08T00:33:21.000Z"
+}

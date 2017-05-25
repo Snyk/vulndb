@@ -1,0 +1,34 @@
+{
+	"title": "SQL Injection",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.springframework.data:spring-data-jpa",
+	"packageName": "org.springframework.data:spring-data-jpa",
+	"mavenModuleName": {
+		"groupId": "org.springframework.data",
+		"artifactId": "spring-data-jpa"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGSPRINGFRAMEWORKDATA-31335",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,1.9.6), [1.10,1.10.4)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-89"
+		],
+		"CVE": [
+			"CVE-2016-6652"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:31.591Z",
+	"modificationTime": "2017-02-22T07:28:31.591Z",
+	"publicationTime": "2016-10-03T10:05:22.564Z",
+	"disclosureTime": "2016-10-03T10:05:22.564Z"
+}

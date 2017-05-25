@@ -19,7 +19,7 @@
 		"unaffected": ">=2.5.3"
 	},
 	"credit": [
-		"Snyk Security Research"
+		"Snyk Security Research Team"
 	],
 	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
 	"disclosureTime": "2016-11-27T22:00:00.000Z",
@@ -37,5 +37,6 @@
 	"publicationTime": "2016-11-28T18:44:12.405Z",
 	"modificationTime": "2016-12-01T18:44:12.405Z",
 	"creationTime": "2016-11-28T18:44:12.405Z",
-	"id": "npm:ejs:20161128"
+	"id": "npm:ejs:20161128",
+	"packageName": "ejs"
 }

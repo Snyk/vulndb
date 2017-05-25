@@ -1,0 +1,35 @@
+{
+	"title": "XML External Entity (XXE) Injection",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.jboss.resteasy:resteasy-fastinfoset-provider",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[1.2.1.GA_CP01]",
+		"unaffected": "[,0.0.0)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+			"CVE-2012-0818"
+		]
+	},
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:46.000Z",
+	"modificationTime": "2016-12-25T16:51:46.000Z",
+	"publicationTime": "2016-12-25T16:51:46.000Z",
+	"disclosureTime": "2016-12-25T16:51:46.000Z",
+	"id": "SNYK-JAVA-ORGJBOSSRESTEASY-30112",
+	"mavenModuleName": {
+		"groupId": "org.jboss.resteasy",
+		"artifactId": "resteasy-fastinfoset-provider"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:P/I:N/A:N",
+	"packageName": "org.jboss.resteasy:resteasy-fastinfoset-provider"
+}

@@ -1,0 +1,33 @@
+{
+	"title": "XML External Entity (XXE) Injection",
+	"credit": [
+		"Georgi Geshev"
+	],
+	"moduleName": "org.apache.activemq:apollo-selector",
+	"packageName": "org.apache.activemq:apollo-selector",
+	"mavenModuleName": {
+		"groupId": "org.apache.activemq",
+		"artifactId": "apollo-selector"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEACTIVEMQ-30508",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.0,1.3]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+			"CVE-2014-3579"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:20.071Z",
+	"modificationTime": "2017-02-22T07:28:20.071Z",
+	"publicationTime": "2015-10-19T09:36:33.000Z",
+	"disclosureTime": "2015-10-19T09:36:33.000Z"
+}

@@ -1,0 +1,34 @@
+{
+	"title": "Man-in-the-Middle (MitM)",
+	"credit": [
+		"Alberto Fernández"
+	],
+	"moduleName": "axis:axis",
+	"packageName": "axis:axis",
+	"mavenModuleName": {
+		"groupId": "axis",
+		"artifactId": "axis"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-AXIS-30189",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "(,1.4]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-20"
+		],
+		"CVE": [
+			"CVE-2012-5784"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:15.850Z",
+	"modificationTime": "2017-02-22T07:28:15.850Z",
+	"publicationTime": "2017-03-13T08:00:21.585Z",
+	"disclosureTime": "2014-06-17T03:59:52.000Z"
+}

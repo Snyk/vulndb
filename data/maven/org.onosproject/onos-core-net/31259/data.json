@@ -1,0 +1,34 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"Jonathan Hart"
+	],
+	"moduleName": "org.onosproject:onos-core-net",
+	"packageName": "org.onosproject:onos-core-net",
+	"mavenModuleName": {
+		"groupId": "org.onosproject",
+		"artifactId": "onos-core-net"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGONOSPROJECT-31259",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.0.0,1.0.1)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [
+			"CVE-2015-1166"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+	"severity": "medium",
+	"creationTime": "2017-02-22T07:28:30.553Z",
+	"modificationTime": "2017-02-22T07:28:30.553Z",
+	"publicationTime": "2015-10-09T05:17:19.000Z",
+	"disclosureTime": "2015-10-09T05:17:19.000Z"
+}

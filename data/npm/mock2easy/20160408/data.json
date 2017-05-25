@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary Code Injection",
+	"credit": [
+		"Cristian-Alexandru Staicu",
+		"Michael Pradel",
+		"Ben Livshits"
+	],
+	"moduleName": "mock2easy",
+	"packageName": "mock2easy",
+	"language": "js",
+	"packageManager": "npm",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-MOCK2EASY-10496"
+		]
+	},
+	"semver": {
+		"vulnerable": "*",
+		"unaffected": "<0.0.0"
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"disclosureTime": "2016-04-08T21:00:00.000Z",
+	"publicationTime": "2017-05-01T07:50:31.315Z",
+	"modificationTime": "2017-04-30T10:25:31.315Z",
+	"creationTime": "2017-04-30T10:25:31.315Z",
+	"id": "npm:mock2easy:20160408"
+}

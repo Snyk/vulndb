@@ -1,0 +1,32 @@
+{
+	"title": "Information Disclosure",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.karaf.tooling:karaf-maven-plugin",
+	"packageName": "org.apache.karaf.tooling:karaf-maven-plugin",
+	"mavenModuleName": {
+		"groupId": "org.apache.karaf.tooling",
+		"artifactId": "karaf-maven-plugin"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEKARAFTOOLING-30663",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[4.0.4]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": []
+	},
+	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:P/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:21.976Z",
+	"modificationTime": "2017-02-22T07:28:21.976Z",
+	"publicationTime": "2015-12-22T08:18:18.619Z",
+	"disclosureTime": "2015-12-22T08:18:18.619Z"
+}

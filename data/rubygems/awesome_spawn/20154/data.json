@@ -28,5 +28,6 @@
 	"modificationTime": "2016-09-21T12:36:45.000Z",
 	"publicationTime": "2014-03-27T22:00:00.000Z",
 	"disclosureTime": "2014-03-27T22:00:00.000Z",
-	"id": "SNYK-RUBY-AWESOMESPAWN-20154"
+	"id": "SNYK-RUBY-AWESOMESPAWN-20154",
+	"packageName": "awesome_spawn"
 }

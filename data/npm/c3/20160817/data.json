@@ -28,5 +28,6 @@
 	"moduleName": "c3",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:c3:20160817"
+	"id": "npm:c3:20160817",
+	"packageName": "c3"
 }

@@ -1,0 +1,34 @@
+{
+	"title": "Improper Validation of Certificate Expiration",
+	"credit": [
+		"Hristo Ivanov Dobtchev"
+	],
+	"moduleName": "org.cloudfoundry.identity:cloudfoundry-identity-server",
+	"packageName": "org.cloudfoundry.identity:cloudfoundry-identity-server",
+	"mavenModuleName": {
+		"groupId": "org.cloudfoundry.identity",
+		"artifactId": "cloudfoundry-identity-server"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGCLOUDFOUNDRYIDENTITY-31070",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[3.0.0,3.3.0.3),[3.4,3.4.1)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-298"
+		],
+		"CVE": [
+				"CVE-2016-5016"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:27.960Z",
+	"modificationTime": "2017-02-22T07:28:27.960Z",
+	"publicationTime": "2016-09-28T05:45:33.659Z",
+	"disclosureTime": "2016-09-28T05:45:33.659Z"
+}

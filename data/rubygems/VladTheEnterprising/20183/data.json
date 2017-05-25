@@ -24,5 +24,6 @@
 	"modificationTime": "2016-09-21T12:37:11.000Z",
 	"publicationTime": "2014-06-29T21:00:00.000Z",
 	"disclosureTime": "2014-06-29T21:00:00.000Z",
-	"id": "SNYK-RUBY-VLADTHEENTERPRISING-20183"
+	"id": "SNYK-RUBY-VLADTHEENTERPRISING-20183",
+	"packageName": "VladTheEnterprising"
 }

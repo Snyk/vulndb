@@ -1,15 +1,17 @@
 {
-	"title": "methodOverride Middleware Reflected Cross-Site Scripting",
+	"title": "methodOverride Middleware Reflected Cross-site Scripting (XSS)",
 	"credit": [
 		"Sergio Arcos"
 	],
+	"language": "js",
+	"packageManager": "npm",
+	"moduleName": "connect",
+	"packageName": "connect",
 	"description": "file://README.md",
 	"semver": {
 		"vulnerable": "<=2.8.0",
 		"unaffected": ">=2.8.1"
 	},
-	"CVSSv3": "",
-	"severity": "medium",
 	"identifiers": {
 		"CWE": [],
 		"CVE": [
@@ -21,12 +23,11 @@
 		]
 	},
 	"patches": [],
-	"moduleName": "connect",
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
 	"creationTime": "2013-06-30T22:08:59.000Z",
 	"publicationTime": "2013-06-30T22:08:59.000Z",
-	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"modificationTime": "2017-02-13T02:09:36.180Z",
 	"disclosureTime": "2013-06-30T22:08:59.000Z",
-	"language": "js",
-	"packageManager": "npm",
 	"id": "npm:connect:20130701"
 }

@@ -28,5 +28,6 @@
 	"moduleName": "fuelux",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:fuelux:20160725"
+	"id": "npm:fuelux:20160725",
+	"packageName": "fuelux"
 }

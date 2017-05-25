@@ -26,5 +26,6 @@
 	"modificationTime": "2016-12-17T14:30:00.000Z",
 	"publicationTime": "2017-01-04T18:30:00.000Z",
 	"disclosureTime": "2015-11-16T22:00:00.000Z",
-	"id": "SNYK-RUBY-MYSQL2-20283"
+	"id": "SNYK-RUBY-MYSQL2-20283",
+	"packageName": "mysql2"
 }

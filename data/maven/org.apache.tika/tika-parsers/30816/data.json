@@ -1,0 +1,37 @@
+{
+	"title": "XML External Entity (XXE)",
+	"credit": [
+		"Arthur Khashaev",
+		"Seulgi Kim",
+		"Mesut Timur",
+		"Microsoft Vulnerability Research"
+	],
+	"moduleName": "org.apache.tika:tika-parsers",
+	"packageName": "org.apache.tika:tika-parsers",
+	"mavenModuleName": {
+		"groupId": "org.apache.tika",
+		"artifactId": "tika-parsers"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETIKA-30816",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.6,1.13)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+			"CVE-2016-4434"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:23.892Z",
+	"modificationTime": "2017-02-22T07:28:23.892Z",
+	"publicationTime": "2016-05-27T04:53:37.861Z",
+	"disclosureTime": "2016-05-27T04:53:37.861Z"
+}

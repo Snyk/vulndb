@@ -1,0 +1,32 @@
+{
+	"title": "Manipulation of Struts' internals",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.apache.struts:struts2-core",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "(,2.3.24]",
+		"unaffected": "[2.3.24.1,)"
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2015-5209"
+		]
+	},
+	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+	"creationTime": "2016-12-25T16:51:56.000Z",
+	"modificationTime": "2016-12-25T16:51:56.000Z",
+	"publicationTime": "2015-07-01T16:51:56.000Z",
+	"disclosureTime": "2015-07-01T16:51:56.000Z",
+	"id": "SNYK-JAVA-ORGAPACHESTRUTS-30060",
+	"mavenModuleName": {
+		"groupId": "org.apache.struts",
+		"artifactId": "struts2-core"
+	},
+	"packageName": "org.apache.struts:struts2-core"
+}

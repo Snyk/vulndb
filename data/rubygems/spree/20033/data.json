@@ -1,5 +1,5 @@
 {
-	"title": "Cross-Site Scripting (XSS)",
+	"title": "Cross-site Scripting (XSS)",
 	"credit": [
 		"Unknown"
 	],
@@ -35,5 +35,6 @@
 	"modificationTime": "2016-09-21T12:37:08.000Z",
 	"publicationTime": "2012-07-01T21:00:00.000Z",
 	"disclosureTime": "2012-07-01T21:00:00.000Z",
-	"id": "SNYK-RUBY-SPREE-20033"
+	"id": "SNYK-RUBY-SPREE-20033",
+	"packageName": "spree"
 }

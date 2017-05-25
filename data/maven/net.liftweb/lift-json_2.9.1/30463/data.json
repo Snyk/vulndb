@@ -1,0 +1,32 @@
+{
+	"title": "XML External Entity (XXE)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "net.liftweb:lift-json_2.9.1",
+	"packageName": "net.liftweb:lift-json_2.9.1",
+	"mavenModuleName": {
+		"groupId": "net.liftweb",
+		"artifactId": "lift-json_2.9.1"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-NETLIFTWEB-30463",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,2.5.3)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": []
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:19.479Z",
+	"modificationTime": "2017-02-22T07:28:19.479Z",
+	"publicationTime": "2016-06-08T06:19:46.972Z",
+	"disclosureTime": "2016-06-08T06:19:46.972Z"
+}

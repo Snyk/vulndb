@@ -1,5 +1,5 @@
 {
-	"title": "Denial of Service",
+	"title": "Denial of Service (DoS)",
 	"credit": [
 		"James Halliday"
 	],
@@ -11,8 +11,8 @@
 		"vulnerable": "<1.4.0",
 		"unaffected": ">=1.4.0"
 	},
-	"CVSSv3": "",
-	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"severity": "high",
 	"identifiers": {
 		"CWE": [
 			"CWE-248"
@@ -28,5 +28,6 @@
 	"disclosureTime": "2015-12-23T23:21:25.322Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:ecstatic:20151223"
+	"id": "npm:ecstatic:20151223",
+	"packageName": "ecstatic"
 }

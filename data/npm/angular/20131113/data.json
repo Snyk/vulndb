@@ -1,0 +1,30 @@
+{
+	"title": "Protection Bypass",
+	"moduleName": "angular",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-ANGULAR-10200"
+		]
+	},
+	"severity": "high",
+	"semver": {
+		"unaffected": ">=1.2.2",
+		"vulnerable": "<1.2.2"
+	},
+	"credit": [
+		"Chirayu Krishnappa"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+	"disclosureTime": "2013-11-12T22:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-01-23T10:30:00.000Z",
+	"modificationTime": "2016-11-09T12:07:09.956Z",
+	"creationTime": "2016-11-09T12:07:09.956Z",
+	"id": "npm:angular:20131113",
+	"packageName": "angular"
+}

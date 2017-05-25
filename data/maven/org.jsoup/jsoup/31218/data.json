@@ -1,0 +1,34 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Tommy Johansen"
+	],
+	"moduleName": "org.jsoup:jsoup",
+	"packageName": "org.jsoup:jsoup",
+	"mavenModuleName": {
+		"groupId": "org.jsoup",
+		"artifactId": "jsoup"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGJSOUP-31218",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.6.0,1.8.3)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2015-6748"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"severity": "medium",
+	"creationTime": "2017-02-22T07:28:29.999Z",
+	"modificationTime": "2017-02-22T07:28:29.999Z",
+	"publicationTime": "2015-08-28T15:52:03.000Z",
+	"disclosureTime": "2015-08-28T15:52:03.000Z"
+}

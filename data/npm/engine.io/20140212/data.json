@@ -27,5 +27,6 @@
 	"publicationTime": "2016-11-15T07:41:29.146Z",
 	"modificationTime": "2016-11-15T07:41:29.146Z",
 	"creationTime": "2016-09-27T07:41:29.146Z",
-	"id": "npm:engine.io:20140212"
+	"id": "npm:engine.io:20140212",
+	"packageName": "engine.io"
 }

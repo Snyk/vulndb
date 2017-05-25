@@ -1,0 +1,35 @@
+{
+	"title": "Arbitrary Code Injection",
+	"credit": [
+		"Florian Weimer"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.jruby:jruby",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "(,1.7.4]",
+		"unaffected": "[1.7.5,)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [
+			"CVE-2013-2035"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:L/AC:L/AU:N/C:P/I:P/A:P",
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:48.000Z",
+	"modificationTime": "2016-12-25T16:51:48.000Z",
+	"publicationTime": "2016-12-25T16:51:48.000Z",
+	"disclosureTime": "2016-12-25T16:51:48.000Z",
+	"id": "SNYK-JAVA-ORGJRUBY-30135",
+	"mavenModuleName": {
+		"groupId": "org.jruby",
+		"artifactId": "jruby"
+	},
+	"CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+	"packageName": "org.jruby:jruby"
+}

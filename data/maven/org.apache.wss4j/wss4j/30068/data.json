@@ -1,0 +1,35 @@
+{
+	"title": "Improper Authentication",
+	"credit": [
+		"Dario Amiri"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.apache.wss4j:wss4j",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "(,2.0.1]",
+		"unaffected": "[2.0.2,)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-287"
+		],
+		"CVE": [
+			"CVE-2014-3623"
+		]
+	},
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:53.000Z",
+	"modificationTime": "2016-12-25T16:51:53.000Z",
+	"publicationTime": "2016-12-25T16:51:53.000Z",
+	"disclosureTime": "2016-12-25T16:51:53.000Z",
+	"id": "SNYK-JAVA-ORGAPACHEWSS4J-30068",
+	"mavenModuleName": {
+		"groupId": "org.apache.wss4j",
+		"artifactId": "wss4j"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:N/I:P/A:N",
+	"packageName": "org.apache.wss4j:wss4j"
+}

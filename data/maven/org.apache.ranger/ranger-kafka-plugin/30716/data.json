@@ -1,0 +1,34 @@
+{
+	"title": "Authentication Bypass",
+	"credit": [
+		"Velmurugan Periasamy"
+	],
+	"moduleName": "org.apache.ranger:ranger-kafka-plugin",
+	"packageName": "org.apache.ranger:ranger-kafka-plugin",
+	"mavenModuleName": {
+		"groupId": "org.apache.ranger",
+		"artifactId": "ranger-kafka-plugin"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHERANGER-30716",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,0.6.2)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-592"
+		],
+		"CVE": [
+			"CVE-2016-6815"
+		]
+	},
+	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:22.623Z",
+	"modificationTime": "2017-02-22T07:28:22.623Z",
+	"publicationTime": "2016-11-10T02:58:07.501Z",
+	"disclosureTime": "2016-11-10T02:58:07.501Z"
+}

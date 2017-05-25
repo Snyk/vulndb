@@ -28,5 +28,6 @@
 	"moduleName": "jser-stat",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:jser-stat:20161201"
+	"id": "npm:jser-stat:20161201",
+	"packageName": "jser-stat"
 }

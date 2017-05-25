@@ -25,5 +25,6 @@
 	"publicationTime": "2016-12-13T08:55:28.055Z",
 	"modificationTime": "2016-11-24T08:55:28.055Z",
 	"creationTime": "2016-11-24T08:55:28.055Z",
-	"id": "npm:mongoose:20150925"
+	"id": "npm:mongoose:20150925",
+	"packageName": "mongoose"
 }

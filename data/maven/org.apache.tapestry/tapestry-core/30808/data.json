@@ -1,0 +1,34 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.tapestry:tapestry-core",
+	"packageName": "org.apache.tapestry:tapestry-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.tapestry",
+		"artifactId": "tapestry-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETAPESTRY-30808",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "(,5.3.6)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-399"
+		],
+		"CVE": [
+			"CVE-2014-1972"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"creationTime": "2017-02-22T07:28:23.805Z",
+	"modificationTime": "2017-02-22T07:28:23.805Z",
+	"publicationTime": "2015-08-24T15:42:14.000Z",
+	"disclosureTime": "2015-08-24T15:42:14.000Z"
+}

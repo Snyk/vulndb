@@ -1,0 +1,33 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Regis Leroy"
+	],
+	"moduleName": "org.apache.tomcat:coyote",
+	"packageName": "org.apache.tomcat:coyote",
+	"mavenModuleName": {
+		"groupId": "org.apache.tomcat",
+		"artifactId": "coyote"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETOMCAT-30871",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[6.0.13,6.0.47]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2016-6816"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:24.627Z",
+	"modificationTime": "2017-02-22T07:28:24.627Z",
+	"publicationTime": "2016-11-23T07:08:48.384Z",
+	"disclosureTime": "2016-11-23T07:08:48.384Z"
+}

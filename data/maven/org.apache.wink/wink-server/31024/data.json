@@ -1,0 +1,33 @@
+{
+	"title": "XML External Entity (XXE) Injection",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.wink:wink-server",
+	"packageName": "org.apache.wink:wink-server",
+	"mavenModuleName": {
+		"groupId": "org.apache.wink",
+		"artifactId": "wink-server"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEWINK-31024",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,1.1.1-incubating)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+			"CVE-2010-2245"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:27.296Z",
+	"modificationTime": "2017-02-22T07:28:27.296Z",
+	"publicationTime": "2015-11-25T05:23:04.589Z",
+	"disclosureTime": "2015-11-25T05:23:04.589Z"
+}

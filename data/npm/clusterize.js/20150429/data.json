@@ -27,5 +27,6 @@
 	"publicationTime": "2016-12-26T00:00:00.000Z",
 	"modificationTime": "2016-12-26T14:34:10.566Z",
 	"creationTime": "2016-09-28T14:34:10.566Z",
-	"id": "npm:clusterize.js:20150429"
+	"id": "npm:clusterize.js:20150429",
+	"packageName": "clusterize.js"
 }

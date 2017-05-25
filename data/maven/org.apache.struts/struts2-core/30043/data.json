@@ -1,0 +1,35 @@
+{
+	"title": "Cross-Site Request Forgery (CSRF)",
+	"credit": [
+		"James K. Williams"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.apache.struts:struts2-core",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[2,2.3.4]",
+		"unaffected": "[2.3.4.1,2.3.5)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-352"
+		],
+		"CVE": [
+			"CVE-2012-4386"
+		]
+	},
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:46.000Z",
+	"modificationTime": "2016-12-25T16:51:46.000Z",
+	"publicationTime": "2012-08-11T16:51:46.000Z",
+	"disclosureTime": "2012-08-11T16:51:46.000Z",
+	"id": "SNYK-JAVA-ORGAPACHESTRUTS-30043",
+	"mavenModuleName": {
+		"groupId": "org.apache.struts",
+		"artifactId": "struts2-core"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:P/I:P/A:P",
+	"packageName": "org.apache.struts:struts2-core"
+}

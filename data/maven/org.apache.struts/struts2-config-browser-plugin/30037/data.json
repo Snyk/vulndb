@@ -1,0 +1,35 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.apache.struts:struts2-config-browser-plugin",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[2,2.3.15.3]",
+		"unaffected": "[,0.0.0)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2013-6348"
+		]
+	},
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:50.000Z",
+	"modificationTime": "2016-12-25T16:51:50.000Z",
+	"publicationTime": "2013-10-28T16:51:50.000Z",
+	"disclosureTime": "2013-10-28T16:51:50.000Z",
+	"id": "SNYK-JAVA-ORGAPACHESTRUTS-30037",
+	"mavenModuleName": {
+		"groupId": "org.apache.struts",
+		"artifactId": "struts2-config-browser-plugin"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:N/I:P/A:N",
+	"packageName": "org.apache.struts:struts2-config-browser-plugin"
+}

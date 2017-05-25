@@ -48,5 +48,6 @@
 	"moduleName": "engine.io-client",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:engine.io-client:20160426"
+	"id": "npm:engine.io-client:20160426",
+	"packageName": "engine.io-client"
 }

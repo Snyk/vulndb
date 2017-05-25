@@ -1,0 +1,35 @@
+{
+	"title": "Arbitrary Code Execution",
+	"credit": [
+		"Hideyuki Suzumi"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.apache.struts:struts2-core",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[2,2.2.3]",
+		"unaffected": "[2.2.3.1,3)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-20"
+		],
+		"CVE": [
+			"CVE-2012-0838"
+		]
+	},
+	"severity": "high",
+	"creationTime": "2016-12-25T16:51:46.000Z",
+	"modificationTime": "2016-12-25T16:51:46.000Z",
+	"publicationTime": "2011-08-05T16:51:46.000Z",
+	"disclosureTime": "2011-08-05T16:51:46.000Z",
+	"id": "SNYK-JAVA-ORGAPACHESTRUTS-30042",
+	"mavenModuleName": {
+		"groupId": "org.apache.struts",
+		"artifactId": "struts2-core"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:C/I:C/A:C",
+	"packageName": "org.apache.struts:struts2-core"
+}

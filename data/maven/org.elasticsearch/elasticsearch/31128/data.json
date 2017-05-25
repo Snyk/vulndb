@@ -1,0 +1,34 @@
+{
+	"title": "Directory Traversal",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.elasticsearch:elasticsearch",
+	"packageName": "org.elasticsearch:elasticsearch",
+	"mavenModuleName": {
+		"groupId": "org.elasticsearch",
+		"artifactId": "elasticsearch"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGELASTICSEARCH-31128",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,1.4.5), [1.5,1.5.2)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-22"
+		],
+		"CVE": [
+			"CVE-2015-3337"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:28.766Z",
+	"modificationTime": "2017-02-22T07:28:28.766Z",
+	"publicationTime": "2016-06-09T07:13:33.985Z",
+	"disclosureTime": "2016-06-09T07:13:33.985Z"
+}

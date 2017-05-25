@@ -24,5 +24,6 @@
 	"modificationTime": "2016-09-21T12:36:45.000Z",
 	"publicationTime": "2016-01-07T22:00:00.000Z",
 	"disclosureTime": "2016-01-07T22:00:00.000Z",
-	"id": "SNYK-RUBY-AUTOAWESOMPLETE-20249"
+	"id": "SNYK-RUBY-AUTOAWESOMPLETE-20249",
+	"packageName": "auto_awesomplete"
 }

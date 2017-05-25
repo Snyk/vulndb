@@ -8,8 +8,8 @@
 		"vulnerable": "2.0.x || 2.1.x",
 		"unaffected": ">= 2.2.x"
 	},
-	"CVSSv3": "",
-	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"severity": "high",
 	"identifiers": {
 		"CWE": [],
 		"CVE": [
@@ -28,5 +28,6 @@
 	"disclosureTime": "2014-07-08T06:33:48.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:hapi:20140708"
+	"id": "npm:hapi:20140708",
+	"packageName": "hapi"
 }

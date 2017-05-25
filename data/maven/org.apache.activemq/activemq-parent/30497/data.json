@@ -1,0 +1,31 @@
+{
+	"title": "Clickjacking",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.activemq:activemq-parent",
+	"packageName": "org.apache.activemq:activemq-parent",
+	"mavenModuleName": {
+		"groupId": "org.apache.activemq",
+		"artifactId": "activemq-parent"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEACTIVEMQ-30497",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[5.13,5.13.2)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-693"
+		],
+		"CVE": []
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:19.928Z",
+	"modificationTime": "2017-02-22T07:28:19.928Z",
+	"publicationTime": "2016-07-13T07:07:12.295Z",
+	"disclosureTime": "2016-07-13T07:07:12.295Z"
+}

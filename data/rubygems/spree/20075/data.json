@@ -30,5 +30,6 @@
 	"modificationTime": "2016-09-21T12:37:09.000Z",
 	"publicationTime": "2013-02-20T22:00:00.000Z",
 	"disclosureTime": "2013-02-20T22:00:00.000Z",
-	"id": "SNYK-RUBY-SPREE-20075"
+	"id": "SNYK-RUBY-SPREE-20075",
+	"packageName": "spree"
 }

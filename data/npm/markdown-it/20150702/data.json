@@ -1,0 +1,32 @@
+{
+	"title": "Cross-site Scripting (XSS) via Class Injection",
+	"moduleName": "markdown-it",
+	"packageName": "markdown-it",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-MARKDOWNIT-10378"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=4.3.1",
+		"vulnerable": "<4.3.1 >=4.0.0"
+	},
+	"credit": [
+		"Alex Kocharin"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+	"disclosureTime": "2015-07-01T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-02-13T12:49:26.864Z",
+	"modificationTime": "2017-02-13T12:49:26.864Z",
+	"creationTime": "2017-01-16T12:49:26.864Z",
+	"id": "npm:markdown-it:20150702"
+}

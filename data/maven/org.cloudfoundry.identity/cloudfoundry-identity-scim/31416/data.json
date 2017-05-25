@@ -1,0 +1,32 @@
+{
+	"title": "Privilege Escalation",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.cloudfoundry.identity:cloudfoundry-identity-scim",
+	"packageName": "org.cloudfoundry.identity:cloudfoundry-identity-scim",
+	"mavenModuleName": {
+		"groupId": "org.cloudfoundry.identity",
+		"artifactId": "cloudfoundry-identity-scim"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGCLOUDFOUNDRYIDENTITY-31416",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,2.7.4.9]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2017-4973"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+	"creationTime": "2017-05-17T12:10:22.566Z",
+	"modificationTime": "2017-05-17T12:10:22.566Z",
+	"publicationTime": "2017-05-21T07:52:39.257Z",
+	"disclosureTime": "2017-04-22T03:43:13.140Z"
+}

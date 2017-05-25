@@ -8,8 +8,7 @@
 		"vulnerable": "<3.17.2",
 		"unaffected": ">3.17.2"
 	},
-	"CVSSv2": "",
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [
@@ -48,5 +47,6 @@
 	"disclosureTime": "2016-01-15T00:00:00.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:sequelize:20160115"
+	"id": "npm:sequelize:20160115",
+	"packageName": "sequelize"
 }

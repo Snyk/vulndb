@@ -1,0 +1,35 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Alvaro Munoz"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.glassfish:javax.faces",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[2,2.2.5]",
+		"unaffected": "[2.2.6,)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2013-5855"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:N/I:P/A:N",
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:49.000Z",
+	"modificationTime": "2016-12-25T16:51:49.000Z",
+	"publicationTime": "2016-12-25T16:51:49.000Z",
+	"disclosureTime": "2016-12-25T16:51:49.000Z",
+	"id": "SNYK-JAVA-ORGGLASSFISH-30095",
+	"mavenModuleName": {
+		"groupId": "org.glassfish",
+		"artifactId": "javax.faces"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"packageName": "org.glassfish:javax.faces"
+}

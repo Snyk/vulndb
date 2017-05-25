@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary Code Execution",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "commons-fileupload:commons-fileupload",
+	"packageName": "commons-fileupload:commons-fileupload",
+	"mavenModuleName": {
+		"groupId": "commons-fileupload",
+		"artifactId": "commons-fileupload"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-COMMONSFILEUPLOAD-30401",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.1,1.3.1]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-284"
+		],
+		"CVE": [
+			"CVE-2016-1000031"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+	"creationTime": "2017-02-22T07:28:18.753Z",
+	"modificationTime": "2017-02-22T07:28:18.753Z",
+	"publicationTime": "2016-10-26T03:04:11.895Z",
+	"disclosureTime": "2016-10-26T03:04:11.895Z"
+}

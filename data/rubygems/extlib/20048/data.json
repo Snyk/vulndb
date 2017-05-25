@@ -30,5 +30,6 @@
 	"modificationTime": "2016-09-21T12:36:51.000Z",
 	"publicationTime": "2013-01-07T22:00:00.000Z",
 	"disclosureTime": "2013-01-07T22:00:00.000Z",
-	"id": "SNYK-RUBY-EXTLIB-20048"
+	"id": "SNYK-RUBY-EXTLIB-20048",
+	"packageName": "extlib"
 }

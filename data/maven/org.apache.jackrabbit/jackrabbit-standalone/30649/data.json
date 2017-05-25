@@ -1,0 +1,34 @@
+	{
+	"title": "Man-in-the-Middle (MitM)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.jackrabbit:jackrabbit-standalone",
+	"packageName": "org.apache.jackrabbit:jackrabbit-standalone",
+	"mavenModuleName": {
+		"groupId": "org.apache.jackrabbit",
+		"artifactId": "jackrabbit-standalone"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEJACKRABBIT-30649",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,1.6.5]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-300"
+		],
+		"CVE": [
+			"CVE-2012-5783"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:21.826Z",
+	"modificationTime": "2017-02-22T07:28:21.826Z",
+	"publicationTime": "2014-01-08T23:54:13.000Z",
+	"disclosureTime": "2014-01-08T23:54:13.000Z"
+}

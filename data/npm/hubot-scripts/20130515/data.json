@@ -8,7 +8,7 @@
 		"vulnerable": "<= 2.4.3",
 		"unaffected": "> 2.4.3"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [],
@@ -28,5 +28,6 @@
 	"disclosureTime": "2013-05-15T19:14:38.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:hubot-scripts:20130515"
+	"id": "npm:hubot-scripts:20130515",
+	"packageName": "hubot-scripts"
 }

@@ -1,0 +1,34 @@
+{
+	"title": "Access Restriction Bypass",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.ws.security:wss4j",
+	"packageName": "org.apache.ws.security:wss4j",
+	"mavenModuleName": {
+		"groupId": "org.apache.ws.security",
+		"artifactId": "wss4j"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEWSSECURITY-31027",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,1.6.17), [2,2.0.2)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-264"
+		],
+		"CVE": [
+			"CVE-2015-0227"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:27.337Z",
+	"modificationTime": "2017-02-22T07:28:27.337Z",
+	"publicationTime": "2015-02-13T17:18:13.000Z",
+	"disclosureTime": "2015-02-13T17:18:13.000Z"
+}

@@ -1,5 +1,5 @@
 {
-	"title": "Downloads Resources over insecure protocol",
+	"title": "Resources Downloaded over Insecure Protocol",
 	"credit": [
 		"Adam Baldwin"
 	],
@@ -26,5 +26,6 @@
 	"moduleName": "windows-seleniumjar-mirror",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:windows-seleniumjar-mirror:20170102"
+	"id": "npm:windows-seleniumjar-mirror:20170102",
+	"packageName": "windows-seleniumjar-mirror"
 }

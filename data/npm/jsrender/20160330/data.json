@@ -11,8 +11,8 @@
 		"vulnerable": "<=0.9.73",
 		"unaffected": ">=0.9.74"
 	},
-	"CVSSv3": "",
-	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+	"severity": "medium",
 	"identifiers": {
 		"CWE": [
 			"CWE-94"
@@ -30,5 +30,6 @@
 	"disclosureTime": "2016-03-30T22:25:57.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:jsrender:20160330"
+	"id": "npm:jsrender:20160330",
+	"packageName": "jsrender"
 }

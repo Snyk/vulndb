@@ -1,5 +1,5 @@
 {
-	"title": "Cross-Site Scripting (XSS)",
+	"title": "Cross-site Scripting (XSS)",
 	"credit": [
 		"Paweł Hałdrzyński"
 	],
@@ -8,7 +8,7 @@
 		"vulnerable": "<3.11 || >=4 <4.5",
 		"unaffected": ">=3.11 <4 || >=4.5"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [
@@ -31,5 +31,6 @@
 	"disclosureTime": "2014-09-12T04:46:45.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:express:20140912"
+	"id": "npm:express:20140912",
+	"packageName": "express"
 }

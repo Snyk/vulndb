@@ -1,0 +1,35 @@
+{
+	"title": "Arbitrary Code Execution",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.rhq:rhq-enterprise-comm",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[4,4.13]",
+		"unaffected": "[,0.0.0)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-20"
+		],
+		"CVE": [
+			"CVE-2016-3737"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:P/I:P/A:C",
+	"severity": "high",
+	"creationTime": "2016-12-25T16:51:56.000Z",
+	"modificationTime": "2016-12-25T16:51:56.000Z",
+	"publicationTime": "2016-12-25T16:51:56.000Z",
+	"disclosureTime": "2016-12-25T16:51:56.000Z",
+	"id": "SNYK-JAVA-ORGRHQ-30149",
+	"mavenModuleName": {
+		"groupId": "org.rhq",
+		"artifactId": "rhq-enterprise-comm"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
+	"packageName": "org.rhq:rhq-enterprise-comm"
+}

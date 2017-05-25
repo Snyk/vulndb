@@ -1,0 +1,33 @@
+{
+	"title": "Insecure use of Tmp files",
+	"credit": [
+		"maxnikulin"
+	],
+	"creationTime": "2017-04-16T08:03:34.186Z",
+	"modificationTime": "2017-04-16T08:03:34.186Z",
+	"publicationTime": "2017-04-16T08:03:34.186Z",
+	"disclosureTime": "2016-01-24T21:03:34.186Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "*",
+		"unaffected": "<0.0.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+      "CWE-377"
+    ],
+		"CVE": [],
+		"NSP": 310,
+		"ALTERNATIVE": [
+			"SNYK-JS-SYNCEXEC-10469"
+		]
+	},
+	"patches": [],
+  "moduleName": "sync-exec",
+	"packageName": "sync-exec",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:sync-exec:20160124"
+}

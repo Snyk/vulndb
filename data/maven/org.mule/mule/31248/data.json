@@ -1,0 +1,33 @@
+	{
+	"title": "XML External Entity (XXE)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.mule:mule",
+	"packageName": "org.mule:mule",
+	"mavenModuleName": {
+		"groupId": "org.mule",
+		"artifactId": "mule"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGMULE-31248",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[3.0.0-RC2-3.6.0)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"severity": "high",
+	"creationTime": "2017-02-22T07:28:30.408Z",
+	"modificationTime": "2017-02-22T07:28:30.408Z",
+	"publicationTime": "2016-10-05T06:08:05.934Z",
+	"disclosureTime": "2016-10-05T06:08:05.934Z"
+}

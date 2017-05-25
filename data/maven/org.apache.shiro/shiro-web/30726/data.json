@@ -1,0 +1,34 @@
+{
+	"title": "Improper Access Control",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.shiro:shiro-web",
+	"packageName": "org.apache.shiro:shiro-web",
+	"mavenModuleName": {
+		"groupId": "org.apache.shiro",
+		"artifactId": "shiro-web"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHESHIRO-30726",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,1.3.2)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-284"
+		],
+		"CVE": [
+			"CVE-2016-6802"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:22.753Z",
+	"modificationTime": "2017-02-22T07:28:22.753Z",
+	"publicationTime": "2016-09-14T02:32:04.710Z",
+	"disclosureTime": "2016-09-14T02:32:04.710Z"
+}

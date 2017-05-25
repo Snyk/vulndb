@@ -28,5 +28,6 @@
 	"moduleName": "nodewebkit",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:nodewebkit:20161219"
+	"id": "npm:nodewebkit:20161219",
+	"packageName": "nodewebkit"
 }

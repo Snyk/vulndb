@@ -1,0 +1,33 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Kihwal Lee"
+	],
+	"moduleName": "org.apache.hadoop:hadoop-hdfs",
+	"packageName": "org.apache.hadoop:hadoop-hdfs",
+	"mavenModuleName": {
+		"groupId": "org.apache.hadoop",
+		"artifactId": "hadoop-hdfs"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEHADOOP-30631",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,2.6.4),[2.7,2.7.2)",
+		"unaffected": "[2.6.4],[2.7.2]"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2016-5001"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:21.602Z",
+	"modificationTime": "2017-02-22T07:28:21.602Z",
+	"publicationTime": "2016-12-19T05:48:26.320Z",
+	"disclosureTime": "2016-12-19T05:48:26.320Z"
+}

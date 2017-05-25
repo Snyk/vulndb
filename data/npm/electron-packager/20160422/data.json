@@ -12,8 +12,8 @@
 		"vulnerable": ">= 5.2.1 <= 6.0.2",
 		"unaffected": ">= 7.0.0"
 	},
-	"CVSSv3": "",
-	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:P/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N",
+	"severity": "low",
 	"identifiers": {
 		"CWE": [
 			"CWE-295"
@@ -38,5 +38,6 @@
 	"moduleName": "electron-packager",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:electron-packager:20160422"
+	"id": "npm:electron-packager:20160422",
+	"packageName": "electron-packager"
 }

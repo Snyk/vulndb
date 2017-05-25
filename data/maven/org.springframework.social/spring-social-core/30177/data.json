@@ -1,0 +1,33 @@
+{
+	"title": "Cross-Site Request Forgery (CSRF)",
+	"credit": [
+		"Kris Bosch",
+		"Paul Ambrosini"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.springframework.social:spring-social-core",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[1.0,1.0.3.RELEASE], [1.1,1.1.2.RELEASE]",
+		"unaffected": "[1.1.3.RELEASE,)"
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2015-5258"
+		]
+	},
+	"CVSSv2": 4,
+	"severity": "low",
+	"creationTime": "2016-12-25T16:51:56.000Z",
+	"modificationTime": "2016-12-25T16:51:56.000Z",
+	"publicationTime": "2016-12-25T16:51:56.000Z",
+	"disclosureTime": "2016-12-25T16:51:56.000Z",
+	"id": "SNYK-JAVA-ORGSPRINGFRAMEWORKSOCIAL-30177",
+	"mavenModuleName": {
+		"groupId": "org.springframework.social",
+		"artifactId": "spring-social-core"
+	},
+	"packageName": "org.springframework.social:spring-social-core"
+}

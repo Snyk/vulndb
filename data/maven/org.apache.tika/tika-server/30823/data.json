@@ -1,0 +1,33 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Tommy Johansen"
+	],
+	"moduleName": "org.apache.tika:tika-server",
+	"packageName": "org.apache.tika:tika-server",
+	"mavenModuleName": {
+		"groupId": "org.apache.tika",
+		"artifactId": "tika-server"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETIKA-30823",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.8,1.10]",
+		"unaffected": "[1.11]"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2015-6748"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:23.975Z",
+	"modificationTime": "2017-02-22T07:28:23.975Z",
+	"publicationTime": "2015-08-28T15:52:03.000Z",
+	"disclosureTime": "2015-08-28T15:52:03.000Z"
+}

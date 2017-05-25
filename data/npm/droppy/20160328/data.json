@@ -11,7 +11,7 @@
 		"vulnerable": "<3.5.0",
 		"unaffected": ">=3.5.0"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [
@@ -28,5 +28,6 @@
 	"disclosureTime": "2016-03-28T22:40:54.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:droppy:20160328"
+	"id": "npm:droppy:20160328",
+	"packageName": "droppy"
 }

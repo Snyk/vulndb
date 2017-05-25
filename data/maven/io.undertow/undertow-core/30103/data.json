@@ -1,0 +1,35 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "io.undertow:undertow-core",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[2,2.0.0.Alpha1], [1.4,1.4.3.Final], [1.3,1.3.25.Final]",
+		"unaffected": "[,0.0.0)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-399"
+		],
+		"CVE": [
+			"CVE-2016-7046"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:N/I:N/A:C",
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:57.000Z",
+	"modificationTime": "2016-12-25T16:51:57.000Z",
+	"publicationTime": "2016-09-15T16:51:57.000Z",
+	"disclosureTime": "2016-09-15T16:51:57.000Z",
+	"id": "SNYK-JAVA-IOUNDERTOW-30103",
+	"mavenModuleName": {
+		"groupId": "io.undertow",
+		"artifactId": "undertow-core"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+	"packageName": "io.undertow:undertow-core"
+}

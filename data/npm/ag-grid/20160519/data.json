@@ -1,0 +1,32 @@
+{
+	"title": "HTML Injection",
+	"credit": [
+		"Theodore Brown"
+	],
+	"moduleName": "ag-grid",
+	"packageName": "ag-grid",
+	"language": "js",
+	"packageManager": "npm",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-80"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-AGGRID-10432"
+		]
+	},
+	"semver": {
+		"unaffected": ">=5.0.0-alpha.0",
+		"vulnerable": "<5.0.0-alpha.0 >=3.3.0"
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"disclosureTime": "2016-05-18T21:00:00.000Z",
+	"publicationTime": "2017-03-16T09:05:41.103Z",
+	"modificationTime": "2017-03-16T09:05:41.103Z",
+	"creationTime": "2017-03-16T09:05:41.103Z",
+	"id": "npm:ag-grid:20160519"
+}

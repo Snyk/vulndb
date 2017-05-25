@@ -28,5 +28,6 @@
 	"moduleName": "waterline-sequel",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:waterline-sequel:20160804"
+	"id": "npm:waterline-sequel:20160804",
+	"packageName": "waterline-sequel"
 }

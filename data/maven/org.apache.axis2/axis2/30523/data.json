@@ -1,0 +1,34 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.axis2:axis2",
+	"packageName": "org.apache.axis2:axis2",
+	"mavenModuleName": {
+		"groupId": "org.apache.axis2",
+		"artifactId": "axis2"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEAXIS2-30523",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.4.1]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2010-2103"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:20.275Z",
+	"modificationTime": "2017-02-22T07:28:20.275Z",
+	"publicationTime": "2014-01-10T06:27:34.000Z",
+	"disclosureTime": "2014-01-10T06:27:34.000Z"
+}

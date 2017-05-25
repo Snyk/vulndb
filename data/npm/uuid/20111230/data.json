@@ -1,0 +1,30 @@
+{
+	"title": "Insecure Randomness",
+	"moduleName": "uuid",
+	"packageName": "uuid",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-UUID-10214"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=1.3.1",
+		"vulnerable": "<1.3.1"
+	},
+	"credit": [
+		"Robert Kieffer"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"disclosureTime": "2011-12-29T22:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-02-13T15:24:29.994Z",
+	"modificationTime": "2017-02-13T15:24:29.994Z",
+	"creationTime": "2016-11-23T15:24:29.994Z",
+	"id": "npm:uuid:20111230"
+}

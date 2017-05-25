@@ -1,0 +1,34 @@
+{
+	"title": "Directory Traversal",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.myfaces.core:myfaces-core-project",
+	"packageName": "org.apache.myfaces.core:myfaces-core-project",
+	"mavenModuleName": {
+		"groupId": "org.apache.myfaces.core",
+		"artifactId": "myfaces-core-project"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEMYFACESCORE-30673",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.0.0,2.0.11]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-22"
+		],
+		"CVE": [
+			"CVE-2011-4367"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:22.102Z",
+	"modificationTime": "2017-02-22T07:28:22.102Z",
+	"publicationTime": "2015-04-13T16:58:31.000Z",
+	"disclosureTime": "2015-04-13T16:58:31.000Z"
+}

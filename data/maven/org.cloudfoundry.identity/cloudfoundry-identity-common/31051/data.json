@@ -1,0 +1,33 @@
+{
+	"title": "Privilege Escalation",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.cloudfoundry.identity:cloudfoundry-identity-common",
+	"packageName": "org.cloudfoundry.identity:cloudfoundry-identity-common",
+	"mavenModuleName": {
+		"groupId": "org.cloudfoundry.identity",
+		"artifactId": "cloudfoundry-identity-common"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGCLOUDFOUNDRYIDENTITY-31051",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.2.4,2.7.4.7]",
+		"unaffected": "[2.7.4.8]"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-264"
+		],
+		"CVE": [
+			"CVE-2016-0732"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:27.685Z",
+	"modificationTime": "2017-02-22T07:28:27.685Z",
+	"publicationTime": "2016-09-28T06:37:36.522Z",
+	"disclosureTime": "2016-09-28T06:37:36.522Z"
+}

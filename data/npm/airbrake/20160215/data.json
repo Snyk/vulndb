@@ -27,5 +27,6 @@
 	"moduleName": "airbrake",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:airbrake:20160215"
+	"id": "npm:airbrake:20160215",
+	"packageName": "airbrake"
 }

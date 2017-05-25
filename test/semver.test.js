@@ -4,6 +4,7 @@ const semver = require('semver');
 const walkFiles = require('../lib/utils').walkFiles;
 const path = require('path');
 const rubySemver = require('@snyk/ruby-semver');
+const mavenSemver = require('@snyk/maven-semver');
 
 
 test('validate all /data/ vulns', function (t) {
@@ -20,11 +21,13 @@ test('validate all /data/ vulns', function (t) {
     if (vuln.packageManager === 'npm') {
       // vulnerable semver range
       t.assert(vuln.semver && vuln.semver.vulnerable &&
+               vuln.semver.vulnerable.indexOf('v') === -1 &&
                semver.validRange(vuln.semver.vulnerable),
                vulnDataFile + ' vulnerable range: ' + vuln.semver.vulnerable);
 
       // patched semver range
       t.assert(vuln.semver && vuln.semver.unaffected &&
+        vuln.semver.unaffected.indexOf('v') === -1 &&
                semver.validRange(vuln.semver.unaffected),
                vulnDataFile + ' patched range: ' + vuln.semver.unaffected);
 
@@ -59,21 +62,34 @@ test('validate all /data/ vulns', function (t) {
     } else if (vuln.packageManager === 'rubygems') {
       // vulnerable semver range exists and has at least one value
       t.assert(vuln.semver.vulnerable.length > 0,
-              vulnDataFile + ' vulnerable range must have at least one value' )
+              vulnDataFile + ' vulnerable range must have at least one value');
       // vulnerable semver range contains comma
       vuln.semver.vulnerable.forEach(vulnerableRange => {
         t.assert(rubySemver.validRange(vulnerableRange) !== null ,
-                vulnDataFile + ' vulnerable range: ' + vulnerableRange)
-              })
+                vulnDataFile + ' vulnerable range: ' + vulnerableRange);
+              });
       // only if unaffected exists, validate semver range contains coma
       if (vuln.semver.unaffected !== undefined){
         vuln.semver.unaffected.forEach(unaffectedRange => {
           t.assert(rubySemver.validRange(unaffectedRange),
-                  vulnDataFile + ' unaffected range: ' + unaffectedRange)
-                })
+                  vulnDataFile + ' unaffected range: ' + unaffectedRange);
+                });
+      }
+    } else if (vuln.packageManager === 'maven') {
+      // vulnerable semver range exists and has at least one value
+      t.assert(vuln.semver.vulnerable.length > 0,
+              vulnDataFile + ' vulnerable range must have at least one value');
+      // vulnerable semver range contains comma
+
+        t.assert(mavenSemver.validRange(vuln.semver.vulnerable) !== null ,
+                vulnDataFile + ' vulnerable range: ' + vuln.semver.vulnerable);
+      // only if unaffected exists, validate semver range contains coma
+      if (vuln.semver.unaffected !== undefined){
+          t.assert(mavenSemver.validRange(vuln.semver.unaffected),
+                  vulnDataFile + ' unaffected range: ' + vuln.semver.unaffected);
       }
     } else {
-      t.fail('Unhandled Package Manager Name: ' + vuln.packageManager)
+      t.fail('Unhandled Package Manager Name: ' + vuln.packageManager);
     }
 
 

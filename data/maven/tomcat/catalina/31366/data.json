@@ -1,0 +1,34 @@
+{
+	"title": "Improper Authentication",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "tomcat:catalina",
+	"packageName": "tomcat:catalina",
+	"mavenModuleName": {
+		"groupId": "tomcat",
+		"artifactId": "catalina"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-TOMCAT-31366",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[5.5,5.5.34)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-287"
+		],
+		"CVE": [
+			"CVE-2011-5063"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:32.006Z",
+	"modificationTime": "2017-02-22T07:28:32.006Z",
+	"publicationTime": "2015-06-10T17:16:18.000Z",
+	"disclosureTime": "2015-06-10T17:16:18.000Z"
+}

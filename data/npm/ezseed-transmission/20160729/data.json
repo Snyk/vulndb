@@ -29,5 +29,6 @@
 	"moduleName": "ezseed-transmission",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:ezseed-transmission:20160729"
+	"id": "npm:ezseed-transmission:20160729",
+	"packageName": "ezseed-transmission"
 }

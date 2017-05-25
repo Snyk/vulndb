@@ -1,0 +1,34 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.tomcat.embed:tomcat-embed-core",
+	"packageName": "org.apache.tomcat.embed:tomcat-embed-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.tomcat.embed",
+		"artifactId": "tomcat-embed-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETOMCATEMBED-30955",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[7,7.0.6)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2011-0013"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:26.248Z",
+	"modificationTime": "2017-02-22T07:28:26.248Z",
+	"publicationTime": "2015-06-10T20:30:32.000Z",
+	"disclosureTime": "2015-06-10T20:30:32.000Z"
+}

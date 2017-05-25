@@ -1,0 +1,33 @@
+{
+	"title": "Insufficient Session Expiration",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.cloudfoundry.identity:cloudfoundry-identity-common",
+	"packageName": "org.cloudfoundry.identity:cloudfoundry-identity-common",
+	"mavenModuleName": {
+		"groupId": "org.cloudfoundry.identity",
+		"artifactId": "cloudfoundry-identity-common"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGCLOUDFOUNDRYIDENTITY-31050",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,2.5.2)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-613"
+		],
+		"CVE": [
+			"CVE-2015-5171"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:27.671Z",
+	"modificationTime": "2017-02-22T07:28:27.671Z",
+	"publicationTime": "2016-09-28T02:51:01.626Z",
+	"disclosureTime": "2016-09-28T02:51:01.626Z"
+}

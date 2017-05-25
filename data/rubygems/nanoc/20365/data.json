@@ -1,0 +1,33 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Mike Pennisi"
+	],
+	"moduleName": "nanoc",
+	"packageName": "nanoc",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": []
+	},
+	"semver": {
+		"unaffected": [
+			">=3.8.0"
+		],
+		"vulnerable": [
+			"<3.8.0"
+		]
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"disclosureTime": "2015-04-15T21:00:00.000Z",
+	"publicationTime": "2017-05-08T12:34:46.798Z",
+	"modificationTime": "2017-04-24T07:18:47.892Z",
+	"creationTime": "2017-04-24T07:18:47.892Z",
+	"id": "SNYK-RUBY-NANOC-20365"
+}

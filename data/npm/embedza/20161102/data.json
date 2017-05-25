@@ -28,5 +28,6 @@
 	"moduleName": "embedza",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:embedza:20161102"
+	"id": "npm:embedza:20161102",
+	"packageName": "embedza"
 }

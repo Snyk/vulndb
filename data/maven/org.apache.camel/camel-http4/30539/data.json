@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary Command Execution",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.camel:camel-http4",
+	"packageName": "org.apache.camel:camel-http4",
+	"mavenModuleName": {
+		"groupId": "org.apache.camel",
+		"artifactId": "camel-http4"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHECAMEL-30539",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.16.0]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-19"
+		],
+		"CVE": [
+			"CVE-2015-5348"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:20.461Z",
+	"modificationTime": "2017-02-22T07:28:20.461Z",
+	"publicationTime": "2015-12-17T23:04:00.135Z",
+	"disclosureTime": "2015-12-17T23:04:00.135Z"
+}

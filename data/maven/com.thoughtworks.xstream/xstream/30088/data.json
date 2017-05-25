@@ -1,0 +1,35 @@
+{
+	"title": "Insecure XML deserialization",
+	"credit": [
+		"Dinis Cruz"
+	],
+	"description": "file://README.md",
+	"moduleName": "com.thoughtworks.xstream:xstream",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "(,1.4.6]",
+		"unaffected": "[1.4.7,)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-502"
+		],
+		"CVE": [
+			"CVE-2013-7285"
+		]
+	},
+	"CVSSv2": 6.8,
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"creationTime": "2016-12-25T16:51:50.000Z",
+	"modificationTime": "2016-12-25T16:51:50.000Z",
+	"publicationTime": "2013-12-22T16:51:50.000Z",
+	"disclosureTime": "2013-12-22T16:51:50.000Z",
+	"id": "SNYK-JAVA-COMTHOUGHTWORKSXSTREAM-30088",
+	"mavenModuleName": {
+		"groupId": "com.thoughtworks.xstream",
+		"artifactId": "xstream"
+	},
+	"packageName": "com.thoughtworks.xstream:xstream"
+}

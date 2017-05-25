@@ -1,0 +1,34 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"moduleName": "jquery-ui",
+	"packageName": "jquery-ui",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2010-5312"
+		],
+		"ALTERNATIVE": [
+			"SNYK-JS-JQUERYUI-10188"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=1.10.0",
+		"vulnerable": "<1.10.0"
+	},
+	"credit": [
+		"shadowman131"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+	"disclosureTime": "2010-09-02T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-02-13T14:37:13.516Z",
+	"modificationTime": "2017-02-13T14:37:13.516Z",
+	"creationTime": "2016-12-26T14:37:13.516Z",
+	"id": "npm:jquery-ui:20100903"
+}

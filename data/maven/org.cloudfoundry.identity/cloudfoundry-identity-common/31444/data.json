@@ -1,0 +1,32 @@
+{
+	"title": "Blind SQL Injection",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.cloudfoundry.identity:cloudfoundry-identity-common",
+	"packageName": "org.cloudfoundry.identity:cloudfoundry-identity-common",
+	"mavenModuleName": {
+		"groupId": "org.cloudfoundry.identity",
+		"artifactId": "cloudfoundry-identity-common"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGCLOUDFOUNDRYIDENTITY-31444",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,2.7.4.9]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2017-4974"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+	"creationTime": "2017-05-17T12:10:22.709Z",
+	"modificationTime": "2017-05-17T12:10:22.709Z",
+	"publicationTime": "2017-05-21T07:52:39.190Z",
+	"disclosureTime": "2017-05-02T02:56:40.203Z"
+}

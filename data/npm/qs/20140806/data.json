@@ -8,9 +8,9 @@
 		"vulnerable": "<1.0.0",
 		"unaffected": ">= 1.x"
 	},
-	"CVSSv2": "5.0 (MEDIUM) (AV:N/AC:L/Au:N/C:N/I:N/A:P)",
-	"CVSSv3": "",
-	"severity": "medium",
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"severity": "high",
 	"identifiers": {
 		"CWE": [
 			"CWE-400"
@@ -50,5 +50,6 @@
 	"disclosureTime": "2014-08-06T06:10:22.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:qs:20140806"
+	"id": "npm:qs:20140806",
+	"packageName": "qs"
 }

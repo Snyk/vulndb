@@ -1,0 +1,33 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.springframework:spring-jms",
+	"packageName": "org.springframework:spring-jms",
+	"mavenModuleName": {
+		"groupId": "org.springframework",
+		"artifactId": "spring-jms"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGSPRINGFRAMEWORK-31327",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[3.2.11.RELEASE,3.2.14.RELEASE),[4.0.7.RELEASE,4.0.9.RELEASE]",
+		"unaffected": "[4.1.7.RELEASE]"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:31.483Z",
+	"modificationTime": "2017-02-22T07:28:31.483Z",
+	"publicationTime": "2015-11-06T05:15:24.913Z",
+	"disclosureTime": "2015-11-06T05:15:24.913Z"
+}

@@ -1,5 +1,5 @@
 {
-	"title": "Regular Expression Denial of Service",
+	"title": "Regular Expression Denial of Service (DoS)",
 	"credit": [
 		"Adam Baldwin"
 	],
@@ -11,7 +11,7 @@
 		"vulnerable": "<=2.11.1",
 		"unaffected": ">2.11.1"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
 	"severity": "low",
 	"identifiers": {
 		"CWE": [
@@ -74,5 +74,6 @@
 	"disclosureTime": "2016-01-26T20:04:21.225Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:moment:20160126"
+	"id": "npm:moment:20160126",
+	"packageName": "moment"
 }

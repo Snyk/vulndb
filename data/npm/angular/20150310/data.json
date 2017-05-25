@@ -1,0 +1,32 @@
+{
+	"title": "Arbitrary Code Execution",
+	"moduleName": "angular",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-78"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-ANGULAR-10174"
+		]
+	},
+	"severity": "high",
+	"semver": {
+		"unaffected": ">=1.5.0-beta.2",
+		"vulnerable": "<1.5.0-beta.2"
+	},
+	"credit": [
+		"Rodric Haddad"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+	"disclosureTime": "2015-03-09T22:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-01-23T11:20:00.000Z",
+	"modificationTime": "2017-02-13T14:24:12.988Z",
+	"creationTime": "2016-11-01T14:24:12.988Z",
+	"id": "npm:angular:20150310",
+	"packageName": "angular"
+}

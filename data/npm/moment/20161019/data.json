@@ -1,5 +1,5 @@
 {
-	"title": "Regular Expression Denial of Service",
+	"title": "Regular Expression Denial of Service (DoS)",
 	"moduleName": "moment",
 	"description": "file://README.md",
 	"language": "js",
@@ -13,7 +13,6 @@
 			"SNYK-JS-MOMENT-10164"
 		]
 	},
-	"severity": "medium",
 	"semver": {
 		"vulnerable": "<2.15.2",
 		"unaffected": ">=2.15.2"
@@ -21,10 +20,11 @@
 	"credit": [
 		"Snyk Security Research Team"
 	],
+	"severity": "medium",
 	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
 	"disclosureTime": "2016-10-18T21:00:00.000Z",
 	"patches": [
-    {
+		{
 			"urls": [
 				"file://moment_20161019_0_1.patch"
 			],
@@ -33,7 +33,7 @@
 			"comments": [],
 			"id": "patch:npm:moment:20161019:0"
 		},
-    {
+		{
 			"urls": [
 				"file://moment_20161019_0_0.patch"
 			],
@@ -46,5 +46,6 @@
 	"publicationTime": "2016-10-24T06:57:59.675Z",
 	"modificationTime": "2016-10-23T06:57:59.675Z",
 	"creationTime": "2016-10-23T06:57:59.675Z",
-	"id": "npm:moment:20161019"
+	"id": "npm:moment:20161019",
+	"packageName": "moment"
 }

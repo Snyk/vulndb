@@ -1,0 +1,34 @@
+{
+	"title": "Remote Code Execution",
+	"credit": [
+		"David Vieira-Kurz"
+	],
+	"moduleName": "org.springframework.security.oauth:spring-security-oauth2",
+	"packageName": "org.springframework.security.oauth:spring-security-oauth2",
+	"mavenModuleName": {
+		"groupId": "org.springframework.security.oauth",
+		"artifactId": "spring-security-oauth2"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGSPRINGFRAMEWORKSECURITYOAUTH-31345",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.0.0.RELEASE,1.0.5.RELEASE],[2.0.0.RELEASE,2.0.10.RELEASE)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [
+			"CVE-2016-4977"
+		]
+	},
+	"CVSSv3":  "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+	"severity": "medium",
+	"creationTime": "2017-02-22T07:28:31.723Z",
+	"modificationTime": "2017-02-22T07:28:31.723Z",
+	"publicationTime": "2016-07-04T02:58:12.766Z",
+	"disclosureTime": "2016-07-04T02:58:12.766Z"
+}

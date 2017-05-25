@@ -1,0 +1,32 @@
+{
+	"title": "Directory traversal",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "com.jcraft:jsch",
+	"packageName": "com.jcraft:jsch",
+	"mavenModuleName": {
+		"groupId": "com.jcraft",
+		"artifactId": "jsch"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-COMJCRAFT-30302",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[0.1.29,0.1.53]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2016-5725"
+		]
+	},
+	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+	"creationTime": "2017-02-22T07:28:17.516Z",
+	"modificationTime": "2017-02-22T07:28:17.516Z",
+	"publicationTime": "2017-03-28T08:29:28.306Z",
+	"disclosureTime": "2016-09-13T06:45:18.732Z"
+}

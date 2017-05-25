@@ -1,0 +1,30 @@
+{
+	"title": "Downloads Resources over Insecure Protocol",
+	"credit": [
+		"Liang Gong"
+	],
+	"language": "js",
+	"packageManager": "npm",
+	"moduleName": "ec2-price",
+	"packageName": "ec2-price",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<0.5.0",
+		"unaffected": ">=0.5.0"
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-EC2PRICE-10485"
+		]
+	},
+	"patches": [],
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+	"creationTime": "2017-04-30T04:52:48.000Z",
+	"modificationTime": "2017-04-30T04:52:48.000Z",
+	"publicationTime": "2017-05-01T08:20:03.000Z",
+	"disclosureTime": "2017-04-24T04:52:48.000Z",
+	"id": "npm:ec2-price:20170418"
+}

@@ -1,0 +1,31 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.poi:poi",
+	"packageName": "org.apache.poi:poi",
+	"mavenModuleName": {
+		"groupId": "org.apache.poi",
+		"artifactId": "poi"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEPOI-30698",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[3.0.1-FINAL-3.15]",
+		"unaffected": "[3.16-beta1]"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": []
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:22.393Z",
+	"modificationTime": "2017-02-22T07:28:22.393Z",
+	"publicationTime": "2016-11-18T08:26:05.094Z",
+	"disclosureTime": "2016-11-18T08:26:05.094Z"
+}

@@ -1,0 +1,30 @@
+{
+	"title": "Unsigned Request Headers",
+	"moduleName": "http-signature",
+	"packageName": "http-signature",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-HTTPSIGNATURE-10389"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=0.10.0",
+		"vulnerable": "<0.10.0 >=0.9.0"
+	},
+	"credit": [
+		"Dave Longley"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"disclosureTime": "2013-04-17T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-02-13T15:02:16.566Z",
+	"modificationTime": "2017-02-13T15:02:16.566Z",
+	"creationTime": "2017-01-22T15:02:16.566Z",
+	"id": "npm:http-signature:20130418"
+}

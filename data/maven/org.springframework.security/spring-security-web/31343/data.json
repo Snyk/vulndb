@@ -1,0 +1,34 @@
+{
+	"title": "Authentication Bypass",
+	"credit": [
+		"Clément Notin"
+	],
+	"moduleName": "org.springframework.security:spring-security-web",
+	"packageName": "org.springframework.security:spring-security-web",
+	"mavenModuleName": {
+		"groupId": "org.springframework.security",
+		"artifactId": "spring-security-web"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGSPRINGFRAMEWORKSECURITY-31343",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[3.2.0.RELEASE,4.1.1.RELEASE)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-41"
+		],
+		"CVE": [
+			"CVE-2016-5007"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2017-02-22T07:28:31.697Z",
+	"modificationTime": "2017-02-22T07:28:31.697Z",
+	"publicationTime": "2016-07-11T04:37:38.739Z",
+	"disclosureTime": "2016-07-11T04:37:38.739Z"
+}

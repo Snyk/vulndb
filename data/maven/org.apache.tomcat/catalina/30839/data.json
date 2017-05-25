@@ -1,0 +1,34 @@
+{
+	"title": "Access Restriction Bypass",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.tomcat:catalina",
+	"packageName": "org.apache.tomcat:catalina",
+	"mavenModuleName": {
+		"groupId": "org.apache.tomcat",
+		"artifactId": "catalina"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETOMCAT-30839",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[6,6.0.36)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-264"
+		],
+		"CVE": [
+			"CVE-2012-3546"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:24.176Z",
+	"modificationTime": "2017-02-22T07:28:24.176Z",
+	"publicationTime": "2014-06-17T04:11:05.000Z",
+	"disclosureTime": "2014-06-17T04:11:05.000Z"
+}

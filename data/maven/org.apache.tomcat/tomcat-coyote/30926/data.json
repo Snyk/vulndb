@@ -1,0 +1,34 @@
+{
+	"title": "Improper Input Validation",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.tomcat:tomcat-coyote",
+	"packageName": "org.apache.tomcat:tomcat-coyote",
+	"mavenModuleName": {
+		"groupId": "org.apache.tomcat",
+		"artifactId": "tomcat-coyote"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETOMCAT-30926",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[7,7.0.28)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-20"
+		],
+		"CVE": [
+			"CVE-2012-2733"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+	"creationTime": "2017-02-22T07:28:25.687Z",
+	"modificationTime": "2017-02-22T07:28:25.687Z",
+	"publicationTime": "2014-06-17T04:12:36.000Z",
+	"disclosureTime": "2014-06-17T04:12:36.000Z"
+}

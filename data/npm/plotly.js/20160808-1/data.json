@@ -25,5 +25,6 @@
 	"moduleName": "plotly.js",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:plotly.js:20160808-1"
+	"id": "npm:plotly.js:20160808-1",
+	"packageName": "plotly.js"
 }

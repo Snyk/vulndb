@@ -1,0 +1,34 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.geode:geode-pulse",
+	"packageName": "org.apache.geode:geode-pulse",
+	"mavenModuleName": {
+		"groupId": "org.apache.geode",
+		"artifactId": "geode-pulse"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEGEODE-31446",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,1.1.1)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2017-5649"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-05-17T12:10:22.716Z",
+	"modificationTime": "2017-05-17T12:10:22.716Z",
+	"publicationTime": "2017-05-21T07:52:37.415Z",
+	"disclosureTime": "2017-04-05T08:35:27.413Z"
+}

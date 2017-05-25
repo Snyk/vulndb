@@ -1,0 +1,34 @@
+	{
+	"title": "Timing attack",
+	"credit": [
+		"Apache Tomcat Security Team"
+	],
+	"moduleName": "org.apache.tomcat:catalina",
+	"packageName": "org.apache.tomcat:catalina",
+	"mavenModuleName": {
+		"groupId": "org.apache.tomcat",
+		"artifactId": "catalina"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETOMCAT-30854",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[6,6.0.45]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-208"
+		],
+		"CVE": [
+			"CVE-2016-0762"
+		]
+	},
+	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:24.366Z",
+	"modificationTime": "2017-02-22T07:28:24.366Z",
+	"publicationTime": "2016-10-28T04:54:04.437Z",
+	"disclosureTime": "2016-10-28T04:54:04.437Z"
+}

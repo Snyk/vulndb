@@ -27,5 +27,6 @@
 	"publicationTime": "2016-11-10T00:00:00.000Z",
 	"modificationTime": "2016-09-25T08:18:13.239Z",
 	"creationTime": "2016-09-25T08:18:13.239Z",
-	"id": "npm:hoek:20130326"
+	"id": "npm:hoek:20130326",
+	"packageName": "hoek"
 }

@@ -1,0 +1,34 @@
+{
+	"title": "Improper Access Control",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.elasticsearch:elasticsearch",
+	"packageName": "org.elasticsearch:elasticsearch",
+	"mavenModuleName": {
+		"groupId": "org.elasticsearch",
+		"artifactId": "elasticsearch"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGELASTICSEARCH-31127",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[0.6.0,1.3.8), [1.4,1.4.3)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-284"
+		],
+		"CVE": [
+			"CVE-2015-1427"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:28.755Z",
+	"modificationTime": "2017-02-22T07:28:28.755Z",
+	"publicationTime": "2015-02-18T17:22:02.000Z",
+	"disclosureTime": "2015-02-18T17:22:02.000Z"
+}

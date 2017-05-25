@@ -1,0 +1,34 @@
+{
+	"title": "Deserialization of untrusted data",
+	"credit": [
+		"Michael Klishin"
+	],
+	"moduleName": "com.rabbitmq.jms:rabbitmq-jms",
+	"packageName": "com.rabbitmq.jms:rabbitmq-jms",
+	"mavenModuleName": {
+		"groupId": "com.rabbitmq.jms",
+		"artifactId": "rabbitmq-jms"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-COMRABBITMQJMS-30368",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "(,1.5.0)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-502"
+		],
+		"CVE": [
+			"CVE-2016-6194"
+		]
+	},
+	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:18.338Z",
+	"modificationTime": "2017-02-22T07:28:18.338Z",
+	"publicationTime": "2016-07-18T05:39:59.362Z",
+	"disclosureTime": "2016-07-18T05:39:59.362Z"
+}

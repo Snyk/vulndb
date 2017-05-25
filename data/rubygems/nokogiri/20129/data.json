@@ -1,7 +1,8 @@
 {
 	"title": "Denial of Service (DoS) via XML Document handling",
 	"credit": [
-		"Yoko Harada", "John Shahid"
+		"Yoko Harada",
+		"John Shahid"
 	],
 	"description": "file://README.md",
 	"moduleName": "nokogiri",
@@ -34,5 +35,6 @@
 	"modificationTime": "2016-09-21T12:37:00.000Z",
 	"publicationTime": "2013-12-13T22:00:00.000Z",
 	"disclosureTime": "2013-12-13T22:00:00.000Z",
-	"id": "SNYK-RUBY-NOKOGIRI-20129"
+	"id": "SNYK-RUBY-NOKOGIRI-20129",
+	"packageName": "nokogiri"
 }

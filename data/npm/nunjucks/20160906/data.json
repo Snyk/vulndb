@@ -28,5 +28,6 @@
 	"moduleName": "nunjucks",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:nunjucks:20160906"
+	"id": "npm:nunjucks:20160906",
+	"packageName": "nunjucks"
 }

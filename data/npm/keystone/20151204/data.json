@@ -8,7 +8,7 @@
 		"vulnerable": "<0.3.16",
 		"unaffected": ">=0.3.16"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [
@@ -38,5 +38,6 @@
 	"disclosureTime": "2015-12-04T17:52:25.832Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:keystone:20151204"
+	"id": "npm:keystone:20151204",
+	"packageName": "keystone"
 }

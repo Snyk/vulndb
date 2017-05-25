@@ -34,5 +34,6 @@
 	"modificationTime": "2016-09-21T12:37:03.000Z",
 	"publicationTime": "2013-02-06T22:00:00.000Z",
 	"disclosureTime": "2013-02-06T22:00:00.000Z",
-	"id": "SNYK-RUBY-RACK-20058"
+	"id": "SNYK-RUBY-RACK-20058",
+	"packageName": "rack"
 }

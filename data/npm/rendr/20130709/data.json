@@ -27,5 +27,6 @@
 	"publicationTime": "2016-11-22T15:21:57.930Z",
 	"modificationTime": "2016-11-15T15:21:57.930Z",
 	"creationTime": "2016-10-05T15:21:57.930Z",
-	"id": "npm:rendr:20130709"
+	"id": "npm:rendr:20130709",
+	"packageName": "rendr"
 }

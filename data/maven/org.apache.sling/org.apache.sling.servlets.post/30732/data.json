@@ -1,0 +1,34 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.sling:org.apache.sling.servlets.post",
+	"packageName": "org.apache.sling:org.apache.sling.servlets.post",
+	"mavenModuleName": {
+		"groupId": "org.apache.sling",
+		"artifactId": "org.apache.sling.servlets.post"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHESLING-30732",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,2.1.2)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2015-2944"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:22.834Z",
+	"modificationTime": "2017-02-22T07:28:22.834Z",
+	"publicationTime": "2015-06-03T16:21:02.000Z",
+	"disclosureTime": "2015-06-03T16:21:02.000Z"
+}

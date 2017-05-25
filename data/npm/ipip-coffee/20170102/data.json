@@ -1,5 +1,5 @@
 {
-	"title": "Downloads Resources over insecure protocol",
+	"title": "Resources Downloaded over Insecure Protocol",
 	"credit": [
 		"Adam Baldwin"
 	],
@@ -26,5 +26,6 @@
 	"moduleName": "ipip-coffee",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:ipip-coffee:20170102"
+	"id": "npm:ipip-coffee:20170102",
+	"packageName": "ipip-coffee"
 }

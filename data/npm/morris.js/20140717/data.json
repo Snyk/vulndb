@@ -1,0 +1,33 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Jelte Fennema"
+	],
+	"creationTime": "2017-04-16T07:00:20.146Z",
+	"modificationTime": "2017-04-16T07:00:20.146Z",
+	"publicationTime": "2017-04-16T07:00:20.146Z",
+	"disclosureTime": "2014-07-17T07:00:20.146Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=0.5.0",
+		"unaffected": "<0.0.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"NSP": 307,
+		"ALTERNATIVE": [
+			"SNYK-JS-MORRISJS-10466"
+		]
+	},
+	"patches": [],
+	"moduleName": "morris.js",
+	"packageName": "morris.js",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:morris.js:20140717"
+}

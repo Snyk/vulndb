@@ -1,15 +1,17 @@
 {
-	"title": "Regular Expression Denial of Service",
+	"title": "Regular Expression Denial of Service (DoS)",
 	"credit": [
 		"Adam Baldwin"
 	],
+	"language": "js",
+	"packageManager": "npm",
+	"moduleName": "ansi2html",
+	"packageName": "ansi2html",
 	"description": "file://README.md",
 	"semver": {
 		"vulnerable": "*",
 		"unaffected": "<0.0.0"
 	},
-	"CVSSv3": "",
-	"severity": "medium",
 	"identifiers": {
 		"CWE": [
 			"CWE-400"
@@ -21,12 +23,11 @@
 		]
 	},
 	"patches": [],
-	"moduleName": "ansi2html",
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
 	"creationTime": "2015-11-06T02:09:36.185Z",
 	"modificationTime": "2015-11-06T02:09:36.185Z",
 	"publicationTime": "2015-11-06T02:09:36.185Z",
 	"disclosureTime": "2015-10-25T01:35:01.611Z",
-	"language": "js",
-	"packageManager": "npm",
 	"id": "npm:ansi2html:20151025"
 }

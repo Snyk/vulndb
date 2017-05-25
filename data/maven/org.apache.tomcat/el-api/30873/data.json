@@ -1,0 +1,34 @@
+{
+	"title": "Improper Access Control",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.tomcat:el-api",
+	"packageName": "org.apache.tomcat:el-api",
+	"mavenModuleName": {
+		"groupId": "org.apache.tomcat",
+		"artifactId": "el-api"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETOMCAT-30873",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[6,6.0.44)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-284"
+		],
+		"CVE": [
+			"CVE-2014-7810"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:24.670Z",
+	"modificationTime": "2017-02-22T07:28:24.670Z",
+	"publicationTime": "2015-05-14T21:09:38.000Z",
+	"disclosureTime": "2015-05-14T21:09:38.000Z"
+}

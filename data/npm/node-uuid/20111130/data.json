@@ -27,5 +27,6 @@
 	"publicationTime": "2016-11-23T07:29:58.965Z",
 	"modificationTime": "2016-09-27T07:29:58.965Z",
 	"creationTime": "2016-09-27T07:29:58.965Z",
-	"id": "npm:node-uuid:20111130"
+	"id": "npm:node-uuid:20111130",
+	"packageName": "node-uuid"
 }

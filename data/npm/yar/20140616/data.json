@@ -1,5 +1,5 @@
 {
-	"title": "Denial of Service",
+	"title": "Denial of Service (DoS)",
 	"credit": [
 		"Reid Burke"
 	],
@@ -8,7 +8,7 @@
 		"vulnerable": "<2.2.0",
 		"unaffected": ">=2.2.0"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [
@@ -42,5 +42,6 @@
 	"disclosureTime": "2014-06-16T09:29:10.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:yar:20140616"
+	"id": "npm:yar:20140616",
+	"packageName": "yar"
 }

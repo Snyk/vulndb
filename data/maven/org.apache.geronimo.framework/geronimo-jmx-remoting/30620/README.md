@@ -1,0 +1,6 @@
+## Overview
+[`org.apache.geronimo.framework:geronimo-jmx-remoting`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22geronimo-jmx-remoting%22)
+The JMX Remoting functionality in Apache Geronimo 3.x before 3.0.1, as used in IBM WebSphere Application Server (WAS) Community Edition 3.0.0.3 and other products, does not properly implement the RMI classloader, which allows remote attackers to execute arbitrary code by using the JMX connector to send a crafted serialized object.
+
+## References
+- [NVD](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-1777)

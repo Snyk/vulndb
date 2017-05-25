@@ -1,0 +1,33 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.qpid:qpid-broker-core",
+	"packageName": "org.apache.qpid:qpid-broker-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.qpid",
+		"artifactId": "qpid-broker-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEQPID-30709",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[6,6.0.6),[6.1,6.1.1)",
+		"unaffected": "[6.1.1],[6.0.6]"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2016-8741"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:22.534Z",
+	"modificationTime": "2017-02-22T07:28:22.534Z",
+	"publicationTime": "2016-12-30T01:09:32.665Z",
+	"disclosureTime": "2016-12-30T01:09:32.665Z"
+}

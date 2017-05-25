@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary Command Execution",
+	"credit": [
+		"Blake Burkhart"
+	],
+	"description": "file://README.md",
+	"moduleName": "git-fastclone",
+	"packageName": "git-fastclone",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"vulnerable": [
+			"<1.0.5"
+		],
+		"unaffected": [
+			">=1.0.5"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [
+			"CVE-2015-8969"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-03-08T10:54:36.000Z",
+	"modificationTime": "2017-03-08T10:54:36.000Z",
+	"publicationTime": "2017-03-28T08:31:28.929Z",
+	"disclosureTime": "2015-12-15T00:00:00.000Z",
+	"id": "SNYK-RUBY-GITFASTCLONE-20352"
+}

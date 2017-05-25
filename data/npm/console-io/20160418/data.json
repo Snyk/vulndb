@@ -3,17 +3,15 @@
 	"credit": [
 		"Craig Arendt"
 	],
-	"creationTime": "2016-04-20T14:42:40.365Z",
-	"modificationTime": "2016-04-20T14:42:40.365Z",
-	"publicationTime": "2016-05-17T21:17:58.000Z",
-	"disclosureTime": "2016-04-18T21:17:58.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"moduleName": "console-io",
+	"packageName": "console-io",
 	"description": "file://README.md",
 	"semver": {
 		"vulnerable": "<=2.2.13",
 		"unaffected": ">=2.3.0"
 	},
-	"CVSSv3": "",
-	"severity": "high",
 	"identifiers": {
 		"CWE": [
 			"CWE-592"
@@ -25,8 +23,11 @@
 		]
 	},
 	"patches": [],
-	"moduleName": "console-io",
-	"language": "js",
-	"packageManager": "npm",
+	"CVSSv3": "",
+	"severity": "high",
+	"creationTime": "2016-04-20T14:42:40.365Z",
+	"modificationTime": "2016-04-20T14:42:40.365Z",
+	"publicationTime": "2016-05-17T21:17:58.000Z",
+	"disclosureTime": "2016-04-18T21:17:58.000Z",
 	"id": "npm:console-io:20160418"
 }

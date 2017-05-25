@@ -1,5 +1,5 @@
 {
-	"title": "Regular Expression Denial of Service",
+	"title": "Regular Expression Denial of Service (DoS)",
 	"credit": [
 		"Adam Baldwin"
 	],
@@ -11,13 +11,15 @@
 		"vulnerable": "<=0.7.0",
 		"unaffected": ">0.7.0"
 	},
-	"CVSSv3": "",
-	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+	"severity": "medium",
 	"identifiers": {
 		"CWE": [
 			"CWE-400"
 		],
-		"CVE": [],
+		"CVE": [
+			"CVE-2015-8315"
+		],
 		"NSP": 46,
 		"ALTERNATIVE": [
 			"SNYK-JS-MS-10064"
@@ -83,5 +85,6 @@
 	"disclosureTime": "2015-10-24T20:39:59.852Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:ms:20151024"
+	"id": "npm:ms:20151024",
+	"packageName": "ms"
 }

@@ -28,5 +28,6 @@
 	"moduleName": "product-monitor",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:product-monitor:20161104"
+	"id": "npm:product-monitor:20161104",
+	"packageName": "product-monitor"
 }

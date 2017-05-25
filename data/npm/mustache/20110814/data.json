@@ -1,12 +1,12 @@
 {
-	"title": "Cross-Site Scripting",
+	"title": "Cross-site Scripting (XSS)",
 	"credit": [],
 	"description": "file://README.md",
 	"semver": {
 		"vulnerable": "< 0.3.1",
 		"unaffected": ">= 0.3.1"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [
@@ -25,5 +25,6 @@
 	"disclosureTime": "2015-11-06T02:09:36.180Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:mustache:20110814"
+	"id": "npm:mustache:20110814",
+	"packageName": "mustache"
 }

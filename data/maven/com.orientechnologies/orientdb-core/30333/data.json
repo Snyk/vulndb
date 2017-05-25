@@ -1,0 +1,30 @@
+{
+	"title": "Insecure Random Number Generation",
+	"credit": [
+		"Predrag Gruevski"
+	],
+	"moduleName": "com.orientechnologies:orientdb-core",
+	"packageName": "com.orientechnologies:orientdb-core",
+	"mavenModuleName": {
+		"groupId": "com.orientechnologies",
+		"artifactId": "orientdb-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-COMORIENTECHNOLOGIES-30333",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "(,2.1.11)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": []
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:17.903Z",
+	"modificationTime": "2017-02-22T07:28:17.903Z",
+	"publicationTime": "2016-01-15T05:19:54.884Z",
+	"disclosureTime": "2016-01-15T05:19:54.884Z"
+}

@@ -1,5 +1,5 @@
 {
-	"title": "Denial of Service",
+	"title": "Denial of Service (DoS)",
 	"credit": [
 		"Unknown"
 	],
@@ -38,5 +38,6 @@
 	"modificationTime": "2016-09-21T12:36:40.000Z",
 	"publicationTime": "2013-12-02T22:00:00.000Z",
 	"disclosureTime": "2013-12-02T22:00:00.000Z",
-	"id": "SNYK-RUBY-ACTIONPACK-20122"
+	"id": "SNYK-RUBY-ACTIONPACK-20122",
+	"packageName": "actionpack"
 }

@@ -11,7 +11,7 @@
 		"vulnerable": "5.1.1",
 		"unaffected": ">=5.1.2 || <5.1.1"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
 	"severity": "high",
 	"identifiers": {
 		"CWE": [
@@ -28,5 +28,6 @@
 	"disclosureTime": "2016-01-28T07:56:52.379Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:hapi-auth-jwt2:20160128"
+	"id": "npm:hapi-auth-jwt2:20160128",
+	"packageName": "hapi-auth-jwt2"
 }

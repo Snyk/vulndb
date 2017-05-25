@@ -1,0 +1,34 @@
+{
+	"title": "Improper Input Validation",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "struts:struts",
+	"packageName": "struts:struts",
+	"mavenModuleName": {
+		"groupId": "struts",
+		"artifactId": "struts"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-STRUTS-31354",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1,1.3.0)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-20"
+		],
+		"CVE": [
+			"CVE-2015-0899"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:31.846Z",
+	"modificationTime": "2017-02-22T07:28:31.846Z",
+	"publicationTime": "2015-10-15T04:40:40.000Z",
+	"disclosureTime": "2015-10-15T04:40:40.000Z"
+}

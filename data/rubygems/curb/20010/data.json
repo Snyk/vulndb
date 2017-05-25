@@ -29,5 +29,6 @@
 	"modificationTime": "2016-09-21T12:36:48.000Z",
 	"publicationTime": "2010-08-11T21:00:00.000Z",
 	"disclosureTime": "2010-08-11T21:00:00.000Z",
-	"id": "SNYK-RUBY-CURB-20010"
+	"id": "SNYK-RUBY-CURB-20010",
+	"packageName": "curb"
 }

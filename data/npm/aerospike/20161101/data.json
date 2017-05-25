@@ -26,5 +26,6 @@
 	"publicationTime": "2016-12-06T11:52:05.268Z",
 	"modificationTime": "2016-12-06T11:52:05.268Z",
 	"creationTime": "2016-12-06T11:52:05.268Z",
-	"id": "npm:aerospike:20161101"
+	"id": "npm:aerospike:20161101",
+	"packageName": "aerospike"
 }

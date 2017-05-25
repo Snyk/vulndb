@@ -1,0 +1,35 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.eclipse.jetty:jetty-http",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[9.2.3,9.3), [9.2,9.2.8]",
+		"unaffected": "[9.2.9,9.3)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2015-2080"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:P/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:55.000Z",
+	"modificationTime": "2016-12-25T16:51:55.000Z",
+	"publicationTime": "2016-12-25T16:51:55.000Z",
+	"disclosureTime": "2016-12-25T16:51:55.000Z",
+	"id": "SNYK-JAVA-ORGECLIPSEJETTY-30090",
+	"mavenModuleName": {
+		"groupId": "org.eclipse.jetty",
+		"artifactId": "jetty-http"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"packageName": "org.eclipse.jetty:jetty-http"
+}

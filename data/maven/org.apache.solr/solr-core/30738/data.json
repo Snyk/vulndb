@@ -1,0 +1,32 @@
+{
+	"title": "XML External Entity (XXE) Injection",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.solr:solr-core",
+	"packageName": "org.apache.solr:solr-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.solr",
+		"artifactId": "solr-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHESOLR-30738",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[4.0.0]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2012-6612"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:22.910Z",
+	"modificationTime": "2017-02-22T07:28:22.910Z",
+	"publicationTime": "2014-06-17T03:39:21.000Z",
+	"disclosureTime": "2014-06-17T03:39:21.000Z"
+}

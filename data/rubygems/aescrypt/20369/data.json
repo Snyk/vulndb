@@ -1,0 +1,33 @@
+{
+	"title": "Insecure Encryption",
+	"credit": [
+		"Jens Finkhaeuser"
+	],
+	"moduleName": "aescrypt",
+	"packageName": "aescrypt",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-329"
+		],
+		"CVE": []
+	},
+	"semver": {
+		"vulnerable": [
+			">=0.0.0"
+		],
+		"unaffected": [
+			"<0.0.0"
+		]
+	},
+	"patches": [],
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+	"disclosureTime": "2013-09-30T21:00:00.000Z",
+	"publicationTime": "2017-05-15T07:10:09.705Z",
+	"modificationTime": "2017-05-15T10:26:09.705Z",
+	"creationTime": "2017-05-15T10:26:09.705Z",
+	"id": "SNYK-RUBY-AESCRYPT-20369"
+}

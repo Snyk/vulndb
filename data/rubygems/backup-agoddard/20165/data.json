@@ -29,5 +29,6 @@
 	"modificationTime": "2016-09-21T12:36:45.000Z",
 	"publicationTime": "2014-06-29T21:00:00.000Z",
 	"disclosureTime": "2014-06-29T21:00:00.000Z",
-	"id": "SNYK-RUBY-BACKUPAGODDARD-20165"
+	"id": "SNYK-RUBY-BACKUPAGODDARD-20165",
+	"packageName": "backup-agoddard"
 }

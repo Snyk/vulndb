@@ -1,0 +1,34 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.directwebremoting:dwr",
+	"packageName": "org.directwebremoting:dwr",
+	"mavenModuleName": {
+		"groupId": "org.directwebremoting",
+		"artifactId": "dwr"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGDIRECTWEBREMOTING-31089",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "(,2.0.10], [3,3.0.RC2]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2014-5325"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:28.226Z",
+	"modificationTime": "2017-02-22T07:28:28.226Z",
+	"publicationTime": "2015-04-05T19:26:06.000Z",
+	"disclosureTime": "2015-04-05T19:26:06.000Z"
+}

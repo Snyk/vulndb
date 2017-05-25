@@ -1,0 +1,30 @@
+{
+	"title": "JSONP Callback Attack",
+	"moduleName": "angular",
+	"packageName": "angular",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-ANGULAR-10175"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"vulnerable": "<1.6.1",
+		"unaffected": ">=1.6.1"
+	},
+	"credit": [
+		"Pete Bacon Darwin"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"disclosureTime": "2015-03-14T22:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-02-13T18:30:00.000Z",
+	"modificationTime": "2017-02-13T14:36:18.735Z",
+	"creationTime": "2016-11-01T14:36:18.735Z",
+	"id": "npm:angular:20150315"
+}

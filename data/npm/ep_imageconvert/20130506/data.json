@@ -8,7 +8,7 @@
 		"vulnerable": "<=0.0.2",
 		"unaffected": ">=0.0.3"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
 	"severity": "high",
 	"identifiers": {
 		"CWE": [],
@@ -41,5 +41,6 @@
 	"disclosureTime": "2013-05-06T06:33:48.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:ep_imageconvert:20130506"
+	"id": "npm:ep_imageconvert:20130506",
+	"packageName": "ep_imageconvert"
 }

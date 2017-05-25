@@ -28,5 +28,6 @@
 	"moduleName": "jquery-ui",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:jquery-ui:20160721"
+	"id": "npm:jquery-ui:20160721",
+	"packageName": "jquery-ui"
 }

@@ -37,5 +37,6 @@
 	"moduleName": "bl",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:bl:20160119"
+	"id": "npm:bl:20160119",
+	"packageName": "bl"
 }

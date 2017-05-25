@@ -1,0 +1,34 @@
+{
+	"title": "Improper Access Control",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.hadoop:hadoop-common",
+	"packageName": "org.apache.hadoop:hadoop-common",
+	"mavenModuleName": {
+		"groupId": "org.apache.hadoop",
+		"artifactId": "hadoop-common"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEHADOOP-30628",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.6.0,2.6.4]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-284"
+		],
+		"CVE": [
+			"CVE-2016-5393"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:21.564Z",
+	"modificationTime": "2017-02-22T07:28:21.564Z",
+	"publicationTime": "2016-11-29T05:18:07.697Z",
+	"disclosureTime": "2016-11-29T05:18:07.697Z"
+}

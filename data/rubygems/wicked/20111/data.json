@@ -30,5 +30,6 @@
 	"modificationTime": "2016-09-21T12:37:12.000Z",
 	"publicationTime": "2013-10-07T21:00:00.000Z",
 	"disclosureTime": "2013-10-07T21:00:00.000Z",
-	"id": "SNYK-RUBY-WICKED-20111"
+	"id": "SNYK-RUBY-WICKED-20111",
+	"packageName": "wicked"
 }

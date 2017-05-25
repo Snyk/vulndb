@@ -1,0 +1,34 @@
+{
+	"title": "Improper Authentication",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.hive:hive-service",
+	"packageName": "org.apache.hive:hive-service",
+	"mavenModuleName": {
+		"groupId": "org.apache.hive",
+		"artifactId": "hive-service"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEHIVE-30640",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[0.11.0,1.0.0]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-287"
+		],
+		"CVE": [
+			"CVE-2015-1772"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:21.707Z",
+	"modificationTime": "2017-02-22T07:28:21.707Z",
+	"publicationTime": "2015-05-22T15:42:11.000Z",
+	"disclosureTime": "2015-05-22T15:42:11.000Z"
+}

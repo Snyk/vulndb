@@ -1,0 +1,34 @@
+{
+	"title": "XML External Entity (XXE) Injection",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.jbpm:jbpm-designer-backend",
+	"packageName": "org.jbpm:jbpm-designer-backend",
+	"mavenModuleName": {
+		"groupId": "org.jbpm",
+		"artifactId": "jbpm-designer-backend"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGJBPM-31208",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[6,6.0.1.Final], [6.2,6.2.0.Final]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+			"CVE-2014-3682"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:29.865Z",
+	"modificationTime": "2017-02-22T07:28:29.865Z",
+	"publicationTime": "2015-02-23T18:01:43.000Z",
+	"disclosureTime": "2015-02-23T18:01:43.000Z"
+}

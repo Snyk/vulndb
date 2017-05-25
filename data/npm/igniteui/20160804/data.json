@@ -26,5 +26,6 @@
 	"moduleName": "igniteui",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:igniteui:20160804"
+	"id": "npm:igniteui:20160804",
+	"packageName": "igniteui"
 }

@@ -33,5 +33,6 @@
 	"modificationTime": "2016-09-21T12:36:49.000Z",
 	"publicationTime": "2013-02-18T22:00:00.000Z",
 	"disclosureTime": "2013-02-18T22:00:00.000Z",
-	"id": "SNYK-RUBY-DRAGONFLY-20065"
+	"id": "SNYK-RUBY-DRAGONFLY-20065",
+	"packageName": "dragonfly"
 }

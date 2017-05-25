@@ -27,5 +27,6 @@
 	"modificationTime": "2016-10-26T00:00:00.000Z",
 	"publicationTime": "2016-10-26T00:00:00.000Z",
 	"disclosureTime": "2014-10-03T00:00:00.000Z",
-	"id": "SNYK-RUBY-BREADCRUMBSONRAILS-20297"
+	"id": "SNYK-RUBY-BREADCRUMBSONRAILS-20297",
+	"packageName": "breadcrumbs_on_rails"
 }

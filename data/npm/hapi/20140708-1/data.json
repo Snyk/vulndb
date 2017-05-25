@@ -8,7 +8,7 @@
 		"vulnerable": "< 6.1.0",
 		"unaffected": ">= 6.1.0"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [],
@@ -40,5 +40,6 @@
 	"disclosureTime": "2014-07-08T06:33:48.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:hapi:20140708-1"
+	"id": "npm:hapi:20140708-1",
+	"packageName": "hapi"
 }

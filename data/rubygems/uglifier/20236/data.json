@@ -27,5 +27,6 @@
 	"modificationTime": "2016-09-21T12:37:10.000Z",
 	"publicationTime": "2015-07-20T21:00:00.000Z",
 	"disclosureTime": "2015-07-20T21:00:00.000Z",
-	"id": "SNYK-RUBY-UGLIFIER-20236"
+	"id": "SNYK-RUBY-UGLIFIER-20236",
+	"packageName": "uglifier"
 }

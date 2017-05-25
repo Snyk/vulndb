@@ -1,0 +1,34 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.activemq:activemq-client",
+	"packageName": "org.apache.activemq:activemq-client",
+	"mavenModuleName": {
+		"groupId": "org.apache.activemq",
+		"artifactId": "activemq-client"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEACTIVEMQ-30482",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[4.0.0,5.8.0]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2013-1879"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:19.748Z",
+	"modificationTime": "2017-02-22T07:28:19.748Z",
+	"publicationTime": "2014-06-08T00:40:38.000Z",
+	"disclosureTime": "2014-06-08T00:40:38.000Z"
+}

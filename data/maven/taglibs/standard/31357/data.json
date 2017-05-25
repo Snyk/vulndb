@@ -1,0 +1,32 @@
+{
+	"title": "XML External Entity (XXE) Injection",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "taglibs:standard",
+	"packageName": "taglibs:standard",
+	"mavenModuleName": {
+		"groupId": "taglibs",
+		"artifactId": "standard"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-TAGLIBS-31357",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,1.2.3)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2015-0254"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:31.886Z",
+	"modificationTime": "2017-02-22T07:28:31.886Z",
+	"publicationTime": "2015-02-27T16:13:27.000Z",
+	"disclosureTime": "2015-02-27T16:13:27.000Z"
+}

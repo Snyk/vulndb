@@ -30,5 +30,6 @@
 	"modificationTime": "2016-09-21T12:36:53.000Z",
 	"publicationTime": "2013-11-03T22:00:00.000Z",
 	"disclosureTime": "2013-11-03T22:00:00.000Z",
-	"id": "SNYK-RUBY-GITLABGRIT-20116"
+	"id": "SNYK-RUBY-GITLABGRIT-20116",
+	"packageName": "gitlab-grit"
 }

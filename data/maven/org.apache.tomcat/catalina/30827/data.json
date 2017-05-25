@@ -1,0 +1,32 @@
+{
+	"title": "Directory Traversal",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.tomcat:catalina",
+	"packageName": "org.apache.tomcat:catalina",
+	"mavenModuleName": {
+		"groupId": "org.apache.tomcat",
+		"artifactId": "catalina"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETOMCAT-30827",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[6.0,6.1)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2010-3718"
+		]
+	},
+	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:24.021Z",
+	"modificationTime": "2017-02-22T07:28:24.021Z",
+	"publicationTime": "2015-02-11T03:40:04.000Z",
+	"disclosureTime": "2015-02-11T03:40:04.000Z"
+}

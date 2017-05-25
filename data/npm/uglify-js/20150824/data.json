@@ -8,8 +8,8 @@
 		"vulnerable": "<= 2.4.23",
 		"unaffected": ">= 2.4.24"
 	},
-	"CVSSv3": "",
-	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L",
+	"severity": "high",
 	"identifiers": {
 		"CWE": [
 			"CWE-95"
@@ -38,5 +38,6 @@
 	"disclosureTime": "2015-08-24T09:29:10.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:uglify-js:20150824"
+	"id": "npm:uglify-js:20150824",
+	"packageName": "uglify-js"
 }

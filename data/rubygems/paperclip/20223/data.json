@@ -29,5 +29,6 @@
 	"modificationTime": "2016-09-21T12:37:01.000Z",
 	"publicationTime": "2015-06-04T21:00:00.000Z",
 	"disclosureTime": "2015-06-04T21:00:00.000Z",
-	"id": "SNYK-RUBY-PAPERCLIP-20223"
+	"id": "SNYK-RUBY-PAPERCLIP-20223",
+	"packageName": "paperclip"
 }

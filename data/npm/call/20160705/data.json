@@ -47,5 +47,6 @@
 	"moduleName": "call",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:call:20160705"
+	"id": "npm:call:20160705",
+	"packageName": "call"
 }

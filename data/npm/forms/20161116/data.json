@@ -1,0 +1,31 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Jordan Harband"
+	],
+	"creationTime": "2017-04-12T23:25:46.449Z",
+	"modificationTime": "2017-04-12T23:25:46.449Z",
+	"publicationTime": "2017-04-12T11:25:46.449Z",
+	"disclosureTime": "2016-11-16T23:25:46.449Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<1.3.0",
+		"unaffected": ">=1.3.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"NSP": 158,
+		"ALTERNATIVE": [
+			"SNYK-JS-FORMS-10462"
+		]
+	},
+	"patches": [],
+  "moduleName": "forms",
+	"packageName": "forms",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:forms:20161116"
+}

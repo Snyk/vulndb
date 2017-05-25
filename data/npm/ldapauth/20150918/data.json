@@ -9,7 +9,7 @@
 		"vulnerable": "<=2.2.4",
 		"unaffected": ">2.2.5"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [
@@ -29,5 +29,6 @@
 	"disclosureTime": "2015-09-18T09:30:10.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:ldapauth:20150918"
+	"id": "npm:ldapauth:20150918",
+	"packageName": "ldapauth"
 }

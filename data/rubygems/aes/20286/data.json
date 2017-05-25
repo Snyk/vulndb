@@ -1,0 +1,28 @@
+{
+	"title": "Insecure Encryption",
+	"credit": [
+		"Kacper Walanus"
+	],
+	"description": "file://README.md",
+	"moduleName": "aes",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"vulnerable": [
+			">= 0"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-327"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+	"severity": "high",
+	"creationTime": "2017-02-07T11:36:45.000Z",
+	"modificationTime": "2017-02-07T12:36:45.000Z",
+	"publicationTime": "2017-02-07T12:36:45.000Z",
+	"disclosureTime": "2014-09-24T21:00:00.000Z",
+	"id": "SNYK-RUBY-AES-20286",
+	"packageName": "aes"
+}

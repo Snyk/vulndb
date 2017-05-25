@@ -11,8 +11,8 @@
 		"vulnerable": "<11.1.3",
 		"unaffected": ">=11.1.3"
 	},
-	"CVSSv3": "",
-	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"severity": "high",
 	"identifiers": {
 		"CWE": [
 			"CWE-400"
@@ -28,5 +28,6 @@
 	"disclosureTime": "2015-12-23T23:17:51.134Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:hapi:20151223"
+	"id": "npm:hapi:20151223",
+	"packageName": "hapi"
 }

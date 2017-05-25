@@ -27,5 +27,6 @@
 	"modificationTime": "2016-09-21T12:37:07.000Z",
 	"publicationTime": "2015-07-16T21:00:00.000Z",
 	"disclosureTime": "2015-07-16T21:00:00.000Z",
-	"id": "SNYK-RUBY-SIDEKIQPRO-20234"
+	"id": "SNYK-RUBY-SIDEKIQPRO-20234",
+	"packageName": "sidekiq-pro"
 }

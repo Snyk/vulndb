@@ -1,0 +1,30 @@
+{
+	"title": "Command Injection",
+	"moduleName": "shelljs",
+	"packageName": "shelljs",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-SHELLJS-10215"
+		]
+	},
+	"severity": "high",
+	"semver": {
+		"vulnerable": "*",
+		"unaffected": "<0.0.0"
+	},
+	"credit": [
+		"Chris Corbyn"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:L",
+	"disclosureTime": "2014-07-22T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-02-13T15:39:20.483Z",
+	"modificationTime": "2017-02-13T15:39:20.483Z",
+	"creationTime": "2016-11-23T15:39:20.483Z",
+	"id": "npm:shelljs:20140723"
+}

@@ -30,5 +30,6 @@
 	"modificationTime": "2016-09-21T12:36:52.000Z",
 	"publicationTime": "2015-02-15T22:00:00.000Z",
 	"disclosureTime": "2015-02-15T22:00:00.000Z",
-	"id": "SNYK-RUBY-FATFREECRM-20207"
+	"id": "SNYK-RUBY-FATFREECRM-20207",
+	"packageName": "fat_free_crm"
 }

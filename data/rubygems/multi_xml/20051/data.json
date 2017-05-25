@@ -30,5 +30,6 @@
 	"modificationTime": "2016-09-21T12:36:59.000Z",
 	"publicationTime": "2013-01-10T22:00:00.000Z",
 	"disclosureTime": "2013-01-10T22:00:00.000Z",
-	"id": "SNYK-RUBY-MULTIXML-20051"
+	"id": "SNYK-RUBY-MULTIXML-20051",
+	"packageName": "multi_xml"
 }

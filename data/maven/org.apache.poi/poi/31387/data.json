@@ -1,0 +1,36 @@
+{
+	"title": "XML Entity Expansion (XEE)",
+	"credit": [
+		"Xiaolong Zhu",
+		"Huijun Chen"
+	],
+	"moduleName": "org.apache.poi:poi",
+	"packageName": "org.apache.poi:poi",
+	"mavenModuleName": {
+		"groupId": "org.apache.poi",
+		"artifactId": "poi"
+	},
+	"language": "java",
+	"packageManager": "maven",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-399"
+		],
+		"CVE": [
+			"CVE-2017-5644"
+		]
+	},
+	"semver": {
+		"unaffected": "[3.15,]",
+		"vulnerable": "[,3.15)"
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+	"disclosureTime": "2017-03-19T22:00:00.000Z",
+	"publicationTime": "2017-04-10T09:39:59.896Z",
+	"modificationTime": "2017-04-09T10:44:00.496Z",
+	"creationTime": "2017-04-09T10:44:00.496Z",
+	"id": "SNYK-JAVA-ORGAPACHEPOI-31387"
+}

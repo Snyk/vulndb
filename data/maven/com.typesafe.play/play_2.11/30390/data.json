@@ -1,0 +1,34 @@
+{
+	"title": "XML External Entities (XXE)",
+	"credit": [
+		"David Jorm"
+	],
+	"moduleName": "com.typesafe.play:play_2.11",
+	"packageName": "com.typesafe.play:play_2.11",
+	"mavenModuleName": {
+		"groupId": "com.typesafe.play",
+		"artifactId": "play_2.11"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-COMTYPESAFEPLAY-30390",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2,2.2.6)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+			"CVE-2014-3630"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L",
+	"creationTime": "2017-02-22T07:28:18.605Z",
+	"modificationTime": "2017-02-22T07:28:18.605Z",
+	"publicationTime": "2016-08-02T06:11:19.484Z",
+	"disclosureTime": "2016-08-02T06:11:19.484Z"
+}

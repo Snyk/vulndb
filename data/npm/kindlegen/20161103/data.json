@@ -28,5 +28,6 @@
 	"moduleName": "kindlegen",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:kindlegen:20161103"
+	"id": "npm:kindlegen:20161103",
+	"packageName": "kindlegen"
 }

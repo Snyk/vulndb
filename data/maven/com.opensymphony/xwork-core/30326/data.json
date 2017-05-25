@@ -1,0 +1,35 @@
+{
+	"title": "Arbitrary Command Execution",
+	"credit": [
+		"Johannes Dahse",
+		"Bruce Phillips"
+	],
+	"moduleName": "com.opensymphony:xwork-core",
+	"packageName": "com.opensymphony:xwork-core",
+	"mavenModuleName": {
+		"groupId": "com.opensymphony",
+		"artifactId": "xwork-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-COMOPENSYMPHONY-30326",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.1.4,2.1.6]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-264"
+		],
+		"CVE": [
+			"CVE-2012-0392"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+	"creationTime": "2017-02-22T07:28:17.823Z",
+	"modificationTime": "2017-02-22T07:28:17.823Z",
+	"publicationTime": "2011-12-20T04:19:57.000Z",
+	"disclosureTime": "2011-12-20T04:19:57.000Z"
+}

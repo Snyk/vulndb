@@ -1,0 +1,34 @@
+{
+	"title": "Authentication Bypass",
+	"credit": [
+		"Clément Notin"
+	],
+	"moduleName": "springframework:spring-webmvc",
+	"packageName": "springframework:spring-webmvc",
+	"mavenModuleName": {
+		"groupId": "springframework",
+		"artifactId": "spring-webmvc"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-SPRINGFRAMEWORK-31353",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.0-rc1,1.2.6]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-41"
+		],
+		"CVE": [
+			"CVE-2016-5007"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2017-02-22T07:28:31.831Z",
+	"modificationTime": "2017-02-22T07:28:31.831Z",
+	"publicationTime": "2016-07-11T04:37:38.739Z",
+	"disclosureTime": "2016-07-11T04:37:38.739Z"
+}

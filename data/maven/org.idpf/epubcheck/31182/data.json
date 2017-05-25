@@ -1,0 +1,34 @@
+{
+	"title": "XML External Entity (XXE) Injection",
+	"credit": [
+		"Craig Arendt"
+	],
+	"moduleName": "org.idpf:epubcheck",
+	"packageName": "org.idpf:epubcheck",
+	"mavenModuleName": {
+		"groupId": "org.idpf",
+		"artifactId": "epubcheck"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGIDPF-31182",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[v4.0.0-alpha7,4.0.2)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+			"CVE-2016-9487"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:29.534Z",
+	"modificationTime": "2017-02-22T07:28:29.534Z",
+	"publicationTime": "2016-12-20T01:53:51.448Z",
+	"disclosureTime": "2016-12-20T01:53:51.448Z"
+}

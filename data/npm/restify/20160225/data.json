@@ -1,0 +1,32 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"moduleName": "restify",
+	"packageName": "restify",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-RESTIFY-10380"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=4.1.0",
+		"vulnerable": "<4.1.0 >=2.0.0"
+	},
+	"credit": [
+		"Peter Hinz"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+	"disclosureTime": "2016-02-24T22:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-02-13T15:04:38.558Z",
+	"modificationTime": "2017-02-13T15:04:38.558Z",
+	"creationTime": "2017-01-18T15:04:38.558Z",
+	"id": "npm:restify:20160225"
+}

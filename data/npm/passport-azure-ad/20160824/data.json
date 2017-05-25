@@ -5,13 +5,11 @@
 	"language": "js",
 	"packageManager": "npm",
 	"identifiers": {
-		"CWE": [
-			"CVE-2016-7191"
-		],
+		"CWE": [],
 		"CVE": [
 			"CVE-2016-7191"
 		],
-    "NSP": 151,
+		"NSP": 151,
 		"ALTERNATIVE": [
 			"SNYK-JS-PASSPORTAZUREAD-10220"
 		]
@@ -30,5 +28,6 @@
 	"publicationTime": "2016-12-06T10:53:36.115Z",
 	"modificationTime": "2016-12-06T10:53:36.115Z",
 	"creationTime": "2016-12-06T10:53:36.115Z",
-	"id": "npm:passport-azure-ad:20160824"
+	"id": "npm:passport-azure-ad:20160824",
+	"packageName": "passport-azure-ad"
 }

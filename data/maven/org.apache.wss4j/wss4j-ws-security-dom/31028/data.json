@@ -1,0 +1,34 @@
+{
+	"title": "Improper Authentication",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.wss4j:wss4j-ws-security-dom",
+	"packageName": "org.apache.wss4j:wss4j-ws-security-dom",
+	"mavenModuleName": {
+		"groupId": "org.apache.wss4j",
+		"artifactId": "wss4j-ws-security-dom"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEWSS4J-31028",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,1.6.17), [2.0.0,2.0.2)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-287"
+		],
+		"CVE": [
+			"CVE-2014-3623"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:27.351Z",
+	"modificationTime": "2017-02-22T07:28:27.351Z",
+	"publicationTime": "2015-02-10T19:13:00.000Z",
+	"disclosureTime": "2015-02-10T19:13:00.000Z"
+}

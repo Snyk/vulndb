@@ -1,0 +1,35 @@
+{
+	"title": "Directory Traversal",
+	"credit": [
+		"Paul Nicolucci"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.apache.myfaces.core:myfaces-impl",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[2.0,2.0.11], [2.1,2.1.5]",
+		"unaffected": "[2.0.12,2.1), [2.1.6,2.2)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-22"
+		],
+		"CVE": [
+			"CVE-2011-4367"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:P/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:46.000Z",
+	"modificationTime": "2016-12-25T16:51:46.000Z",
+	"publicationTime": "2012-02-09T16:51:46.000Z",
+	"disclosureTime": "2012-02-09T16:51:46.000Z",
+	"id": "SNYK-JAVA-ORGAPACHEMYFACESCORE-30023",
+	"mavenModuleName": {
+		"groupId": "org.apache.myfaces.core",
+		"artifactId": "myfaces-impl"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"packageName": "org.apache.myfaces.core:myfaces-impl"
+}

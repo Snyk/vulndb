@@ -28,5 +28,6 @@
 	"moduleName": "rendr",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:rendr:20160725"
+	"id": "npm:rendr:20160725",
+	"packageName": "rendr"
 }

@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary Command Execution",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.fitnesse:fitnesse",
+	"packageName": "org.fitnesse:fitnesse",
+	"mavenModuleName": {
+		"groupId": "org.fitnesse",
+		"artifactId": "fitnesse"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGFITNESSE-31132",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[0,20140201]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [
+			"CVE-2014-1216"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:28.819Z",
+	"modificationTime": "2017-02-22T07:28:28.819Z",
+	"publicationTime": "2015-02-10T22:55:12.000Z",
+	"disclosureTime": "2015-02-10T22:55:12.000Z"
+}

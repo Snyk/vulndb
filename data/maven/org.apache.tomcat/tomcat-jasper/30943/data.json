@@ -1,0 +1,34 @@
+{
+	"title": "Access Restriction Bypass",
+	"credit": [
+		"Apache Tomcat Security Team"
+	],
+	"moduleName": "org.apache.tomcat:tomcat-jasper",
+	"packageName": "org.apache.tomcat:tomcat-jasper",
+	"mavenModuleName": {
+		"groupId": "org.apache.tomcat",
+		"artifactId": "tomcat-jasper"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETOMCAT-30943",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[7,7.0.72),[8,8.0.37),[8.5,8.5.5),[9,9.0.0M10)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-284"
+		],
+		"CVE": [
+			"CVE-2016-6796"
+		]
+	},
+	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:26.034Z",
+	"modificationTime": "2017-02-22T07:28:26.034Z",
+	"publicationTime": "2016-10-28T06:31:28.982Z",
+	"disclosureTime": "2016-10-28T06:31:28.982Z"
+}

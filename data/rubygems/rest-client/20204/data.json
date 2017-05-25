@@ -25,9 +25,11 @@
 		]
 	},
 	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
 	"creationTime": "2016-09-21T12:37:05.000Z",
 	"modificationTime": "2016-09-21T12:37:05.000Z",
 	"publicationTime": "2015-01-11T22:00:00.000Z",
 	"disclosureTime": "2015-01-11T22:00:00.000Z",
-	"id": "SNYK-RUBY-RESTCLIENT-20204"
+	"id": "SNYK-RUBY-RESTCLIENT-20204",
+	"packageName": "rest-client"
 }

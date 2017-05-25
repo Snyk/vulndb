@@ -28,5 +28,6 @@
 	"moduleName": "baryton-saxophone",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:baryton-saxophone:20161104"
+	"id": "npm:baryton-saxophone:20161104",
+	"packageName": "baryton-saxophone"
 }

@@ -1,0 +1,34 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"moduleName": "yui",
+	"packageName": "yui",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2013-4941"
+		],
+		"ALTERNATIVE": [
+			"SNYK-JS-YUI-10386"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=3.10.0 || <3.0.0",
+		"vulnerable": "<3.10.0 >=3.0.0"
+	},
+	"credit": [
+		"Aleksandr Dobkin"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+	"disclosureTime": "2013-05-14T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-02-13T08:54:05.822Z",
+	"modificationTime": "2017-02-13T08:54:05.822Z",
+	"creationTime": "2017-01-22T08:54:05.822Z",
+	"id": "npm:yui:20130515"
+}

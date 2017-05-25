@@ -1,0 +1,35 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"James Forshaw"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.apache.santuario:xmlsec",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "(,1.5.5]",
+		"unaffected": "[1.5.6,)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-399"
+		],
+		"CVE": [
+			"CVE-2013-4517"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:N/I:N/A:P",
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:49.000Z",
+	"modificationTime": "2016-12-25T16:51:49.000Z",
+	"publicationTime": "2013-12-19T16:51:49.000Z",
+	"disclosureTime": "2013-12-19T16:51:49.000Z",
+	"id": "SNYK-JAVA-ORGAPACHESANTUARIO-30030",
+	"mavenModuleName": {
+		"groupId": "org.apache.santuario",
+		"artifactId": "xmlsec"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+	"packageName": "org.apache.santuario:xmlsec"
+}

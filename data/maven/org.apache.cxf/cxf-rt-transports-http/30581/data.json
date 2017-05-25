@@ -1,0 +1,32 @@
+{
+	"title": "Man-in-the-Middle (MitM)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.cxf:cxf-rt-transports-http",
+	"packageName": "org.apache.cxf:cxf-rt-transports-http",
+	"mavenModuleName": {
+		"groupId": "org.apache.cxf",
+		"artifactId": "cxf-rt-transports-http"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHECXF-30581",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.7.0,2.7.13]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2014-3577"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:20.994Z",
+	"modificationTime": "2017-02-22T07:28:20.994Z",
+	"publicationTime": "2014-09-08T09:41:38.000Z",
+	"disclosureTime": "2014-09-08T09:41:38.000Z"
+}

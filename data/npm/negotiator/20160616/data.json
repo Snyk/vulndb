@@ -1,5 +1,5 @@
 {
-	"title": "Regular Expression Denial of Service",
+	"title": "Regular Expression Denial of Service (DoS)",
 	"credit": [
 		"Adam Baldwin"
 	],
@@ -65,5 +65,6 @@
 	"moduleName": "negotiator",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:negotiator:20160616"
+	"id": "npm:negotiator:20160616",
+	"packageName": "negotiator"
 }

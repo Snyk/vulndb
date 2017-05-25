@@ -1,0 +1,33 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Andrew Krasichkov"
+	],
+	"creationTime": "2017-04-12T10:49:58.283Z",
+	"modificationTime": "2017-04-12T10:49:58.283Z",
+	"publicationTime": "2017-04-12T11:00:58.283Z",
+	"disclosureTime": "2016-03-26T23:49:58.283Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<1.11.4",
+		"unaffected": ">=1.11.4"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"NSP": 154,
+		"ALTERNATIVE": [
+			"SNYK-JS-SANITIZEHTML-10461"
+		]
+	},
+	"patches": [],
+	"moduleName": "sanitize-html",
+	"packageName": "sanitize-html",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:sanitize-html:20161026"
+}

@@ -1,8 +1,8 @@
 ## Overview
 [`life_star`](https://www.npmjs.com/package/life_star) is a web server for [`Lively`](https://github.com/LivelyKernel/LivelyKernel).
 
-A possible memory disclosure vulnerability exists when a value of type `number` is provided to the `buffer` and results in concatenation of uninitialized memory to the buffer collection. 
-This is a result of unobstructed use of the `Buffer` constructor, who's [insecure default constructor increases the odds of memory leakage](https://snyk.io/blog/exploiting-buffer/).
+A possible memory disclosure vulnerability exists when a value of type `number` is provided to the `buffer` and results in concatenation of uninitialized memory to the buffer collection.
+This is a result of unobstructed use of the `Buffer` constructor, whose [insecure default constructor increases the odds of memory leakage](https://snyk.io/blog/exploiting-buffer/).
 
 You can read more about the insecure `Buffer` behavior [on our blog](https://snyk.io/blog/exploiting-buffer/).
 

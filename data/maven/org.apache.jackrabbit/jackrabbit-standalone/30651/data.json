@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary File Write",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.jackrabbit:jackrabbit-standalone",
+	"packageName": "org.apache.jackrabbit:jackrabbit-standalone",
+	"mavenModuleName": {
+		"groupId": "org.apache.jackrabbit",
+		"artifactId": "jackrabbit-standalone"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEJACKRABBIT-30651",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,1.6.5]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-626"
+		],
+		"CVE": [
+			"CVE-2013-2186"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:21.852Z",
+	"modificationTime": "2017-02-22T07:28:21.852Z",
+	"publicationTime": "2014-06-08T00:33:21.000Z",
+	"disclosureTime": "2014-06-08T00:33:21.000Z"
+}

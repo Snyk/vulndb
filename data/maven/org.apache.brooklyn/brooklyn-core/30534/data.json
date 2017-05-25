@@ -1,0 +1,31 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"John McCabe"
+	],
+	"moduleName": "org.apache.brooklyn:brooklyn-core",
+	"packageName": "org.apache.brooklyn:brooklyn-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.brooklyn",
+		"artifactId": "brooklyn-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEBROOKLYN-30534",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[0.10.0]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": []
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:20.406Z",
+	"modificationTime": "2017-02-22T07:28:20.406Z",
+	"publicationTime": "2016-05-19T08:42:15.011Z",
+	"disclosureTime": "2016-05-19T08:42:15.011Z"
+}

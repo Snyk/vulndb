@@ -1,0 +1,33 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"BalusC,Frederick Kämpfer"
+	],
+	"moduleName": "org.apache.myfaces.core.internal:myfaces-impl-shared",
+	"packageName": "org.apache.myfaces.core.internal:myfaces-impl-shared",
+	"mavenModuleName": {
+		"groupId": "org.apache.myfaces.core.internal",
+		"artifactId": "myfaces-impl-shared"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEMYFACESCOREINTERNAL-30675",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2,2.0.11),[2.1,2.1.5)",
+		"unaffected": "[2.0.11],[2.1.5]"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2011-4343"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:22.126Z",
+	"modificationTime": "2017-02-22T07:28:22.126Z",
+	"publicationTime": "2015-10-19T11:11:02.000Z",
+	"disclosureTime": "2015-10-19T11:11:02.000Z"
+}

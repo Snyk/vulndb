@@ -8,7 +8,7 @@
 		"vulnerable": "<= 0.16.1",
 		"unaffected": "> 0.16.1"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [],
@@ -43,5 +43,6 @@
 	"disclosureTime": "2016-02-14T07:31:34.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:libxmljs:20151214"
+	"id": "npm:libxmljs:20151214",
+	"packageName": "libxmljs"
 }

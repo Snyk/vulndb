@@ -28,5 +28,6 @@
 	"moduleName": "ibapi",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:ibapi:20161130"
+	"id": "npm:ibapi:20161130",
+	"packageName": "ibapi"
 }

@@ -26,5 +26,6 @@
 	"moduleName": "closurecompiler",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:closurecompiler:20160831"
+	"id": "npm:closurecompiler:20160831",
+	"packageName": "closurecompiler"
 }

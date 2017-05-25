@@ -1,0 +1,32 @@
+{
+	"title": "Denial Of Service (DoS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.tika:tika-bundle",
+	"packageName": "org.apache.tika:tika-bundle",
+	"mavenModuleName": {
+		"groupId": "org.apache.tika",
+		"artifactId": "tika-bundle"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETIKA-30815",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.6,1.13)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": []
+	},
+	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+	"creationTime": "2017-02-22T07:28:23.879Z",
+	"modificationTime": "2017-02-22T07:28:23.879Z",
+	"publicationTime": "2016-05-10T02:00:00.804Z",
+	"disclosureTime": "2016-05-10T02:00:00.804Z"
+}

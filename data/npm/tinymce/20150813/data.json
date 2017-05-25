@@ -25,7 +25,8 @@
 	"disclosureTime": "2015-08-12T21:00:00.000Z",
 	"patches": [],
 	"publicationTime": "2016-10-27T13:49:24.240Z",
-	"modificationTime": "2016-09-27T13:49:24.240Z",
+	"modificationTime": "2016-12-29T13:49:24.240Z",
 	"creationTime": "2016-09-27T13:49:24.240Z",
-	"id": "npm:tinymce:20150813"
+	"id": "npm:tinymce:20150813",
+	"packageName": "tinymce"
 }

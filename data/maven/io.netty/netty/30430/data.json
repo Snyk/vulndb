@@ -1,0 +1,35 @@
+{
+	"title": "Information Disclosure",
+	"credit": [
+		"Roman Shafigullin",
+		"Luca Carettoni",
+		"Mukul Khullar"
+	],
+	"moduleName": "io.netty:netty",
+	"packageName": "io.netty:netty",
+	"mavenModuleName": {
+		"groupId": "io.netty",
+		"artifactId": "netty"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-IONETTY-30430",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[3.3,3.9.8.Final), [3.10,3.10.3.Final), [4.0,4.0.28.Final), [4.1,4.1.0.Beta5)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2015-2156"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:19.122Z",
+	"modificationTime": "2017-02-22T07:28:19.122Z",
+	"publicationTime": "2015-04-08T21:44:31.000Z",
+	"disclosureTime": "2015-04-08T21:44:31.000Z"
+}

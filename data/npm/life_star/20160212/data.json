@@ -27,5 +27,6 @@
 	"moduleName": "life_star",
 	"packageManager": "npm",
 	"language": "js",
-	"id": "npm:life_star:20160212"
+	"id": "npm:life_star:20160212",
+	"packageName": "life_star"
 }

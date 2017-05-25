@@ -28,5 +28,6 @@
 	"moduleName": "pouchdb",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:pouchdb:20160830"
+	"id": "npm:pouchdb:20160830",
+	"packageName": "pouchdb"
 }

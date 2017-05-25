@@ -1,0 +1,34 @@
+{
+	"title": "Improper Input Validation",
+	"credit": [
+		"Sunil Yadav"
+	],
+	"moduleName": "org.apache.hadoop:hadoop-hdfs",
+	"packageName": "org.apache.hadoop:hadoop-hdfs",
+	"mavenModuleName": {
+		"groupId": "org.apache.hadoop",
+		"artifactId": "hadoop-hdfs"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEHADOOP-31400",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,2.7.0)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-20"
+		],
+		"CVE": [
+			"CVE-2017-3162"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-05-17T12:10:22.493Z",
+	"modificationTime": "2017-05-17T12:10:22.493Z",
+	"publicationTime": "2017-05-21T07:52:37.486Z",
+	"disclosureTime": "2017-04-27T02:21:20.458Z"
+}

@@ -1,5 +1,5 @@
 {
-	"title": "Regular Expression Denial of Service",
+	"title": "Regular Expression Denial of Service (DoS)",
 	"credit": [
 		"Vitaly Puzrin"
 	],
@@ -27,5 +27,6 @@
 	"language": "js",
 	"packageManager": "npm",
 	"moduleName": "uc.micro",
-	"id": "npm:uc.micro:20160530"
+	"id": "npm:uc.micro:20160530",
+	"packageName": "uc.micro"
 }

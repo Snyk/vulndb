@@ -1,5 +1,5 @@
 {
-	"title": "Denial of Service",
+	"title": "Denial of Service (DoS)",
 	"credit": [
 		"Matteo Collina"
 	],
@@ -28,5 +28,6 @@
 	"moduleName": "mqtt",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:mqtt:20160817"
+	"id": "npm:mqtt:20160817",
+	"packageName": "mqtt"
 }

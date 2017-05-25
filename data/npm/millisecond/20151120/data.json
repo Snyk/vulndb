@@ -1,5 +1,5 @@
 {
-	"title": "Regular Expression Denial of Service",
+	"title": "Regular Expression Denial of Service (DoS)",
 	"credit": [
 		"Luigi Pinca"
 	],
@@ -11,8 +11,8 @@
 		"vulnerable": "<0.1.2",
 		"unaffected": ">=0.1.2"
 	},
-	"CVSSv3": "",
-	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+	"severity": "medium",
 	"identifiers": {
 		"CWE": [
 			"CWE-400"
@@ -40,5 +40,6 @@
 	"disclosureTime": "2015-11-20T18:52:47.394Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:millisecond:20151120"
+	"id": "npm:millisecond:20151120",
+	"packageName": "millisecond"
 }

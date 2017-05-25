@@ -1,0 +1,35 @@
+{
+	"title": "Authentication Bypass",
+	"credit": [
+		"Thomas Roessler"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.apache.santuario:xmlsec",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[1.4,1.4.2]",
+		"unaffected": "[1.4.3,)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-592"
+		],
+		"CVE": [
+			"CVE-2009-0217"
+		]
+	},
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:45.000Z",
+	"modificationTime": "2016-12-25T16:51:45.000Z",
+	"publicationTime": "2009-07-15T16:51:45.000Z",
+	"disclosureTime": "2009-07-15T16:51:45.000Z",
+	"id": "SNYK-JAVA-ORGAPACHESANTUARIO-30028",
+	"mavenModuleName": {
+		"groupId": "org.apache.santuario",
+		"artifactId": "xmlsec"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:N/I:P/A:N",
+	"packageName": "org.apache.santuario:xmlsec"
+}

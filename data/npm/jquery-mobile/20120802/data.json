@@ -27,5 +27,6 @@
 	"publicationTime": "2016-12-26T11:28:34.624Z",
 	"modificationTime": "2016-12-26T11:28:34.624Z",
 	"creationTime": "2016-11-09T11:28:34.624Z",
-	"id": "npm:jquery-mobile:20120802"
+	"id": "npm:jquery-mobile:20120802",
+	"packageName": "jquery-mobile"
 }

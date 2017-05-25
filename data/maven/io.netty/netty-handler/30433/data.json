@@ -1,0 +1,34 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "io.netty:netty-handler",
+	"packageName": "io.netty:netty-handler",
+	"mavenModuleName": {
+		"groupId": "io.netty",
+		"artifactId": "netty-handler"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-IONETTY-30433",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[4.0,4.0.37.Final), [4.1,4.1.1.Final)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [
+			"CVE-2016-4970"
+		]
+	},
+	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+	"creationTime": "2017-02-22T07:28:19.159Z",
+	"modificationTime": "2017-02-22T07:28:19.159Z",
+	"publicationTime": "2016-06-07T09:14:30.056Z",
+	"disclosureTime": "2016-06-07T09:14:30.056Z"
+}

@@ -6,7 +6,7 @@
 		"vulnerable": "< 1.4.3",
 		"unaffected": ">= 1.4.3"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [],
@@ -23,5 +23,6 @@
 	"disclosureTime": "2015-11-06T02:09:36.180Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:sanitize-html:20141024"
+	"id": "npm:sanitize-html:20141024",
+	"packageName": "sanitize-html"
 }

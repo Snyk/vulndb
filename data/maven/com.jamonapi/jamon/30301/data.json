@@ -1,0 +1,34 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "com.jamonapi:jamon",
+	"packageName": "com.jamonapi:jamon",
+	"mavenModuleName": {
+		"groupId": "com.jamonapi",
+		"artifactId": "jamon"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-COMJAMONAPI-30301",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "(,2.79]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2013-6235"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:17.504Z",
+	"modificationTime": "2017-02-22T07:28:17.504Z",
+	"publicationTime": "2017-03-28T08:29:28.225Z",
+	"disclosureTime": "2015-06-09T21:28:38.000Z"
+}

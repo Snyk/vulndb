@@ -42,5 +42,6 @@
 	"modificationTime": "2016-09-21T12:36:50.000Z",
 	"publicationTime": "2016-01-13T22:00:00.000Z",
 	"disclosureTime": "2016-01-13T22:00:00.000Z",
-	"id": "SNYK-RUBY-EMBERSOURCE-20251"
+	"id": "SNYK-RUBY-EMBERSOURCE-20251",
+	"packageName": "ember-source"
 }

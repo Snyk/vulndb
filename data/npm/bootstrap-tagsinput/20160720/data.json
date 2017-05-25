@@ -28,5 +28,6 @@
 	"moduleName": "bootstrap-tagsinput",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:bootstrap-tagsinput:20160720"
+	"id": "npm:bootstrap-tagsinput:20160720",
+	"packageName": "bootstrap-tagsinput"
 }

@@ -1,0 +1,32 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Allan Jardine"
+	],
+	"moduleName": "datatables",
+	"packageName": "datatables",
+	"language": "js",
+	"packageManager": "npm",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-DATATABLES-10439"
+		]
+	},
+	"semver": {
+		"unaffected": ">=1.10.10",
+		"vulnerable": "<1.10.10 >=1.10.1"
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"disclosureTime": "2015-11-05T22:00:00.000Z",
+	"publicationTime": "2017-05-08T12:34:45.631Z",
+	"modificationTime": "2017-03-20T13:17:55.262Z",
+	"creationTime": "2017-03-20T13:17:55.262Z",
+	"id": "npm:datatables:20151106"
+}

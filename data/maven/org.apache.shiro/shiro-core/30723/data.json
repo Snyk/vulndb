@@ -1,0 +1,34 @@
+{
+	"title": "Authentication Bypass",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.shiro:shiro-core",
+	"packageName": "org.apache.shiro:shiro-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.shiro",
+		"artifactId": "shiro-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHESHIRO-30723",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1,1.2.3)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-287"
+		],
+		"CVE": [
+			"CVE-2014-0074"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:22.715Z",
+	"modificationTime": "2017-02-22T07:28:22.715Z",
+	"publicationTime": "2014-10-07T14:52:40.000Z",
+	"disclosureTime": "2014-10-07T14:52:40.000Z"
+}

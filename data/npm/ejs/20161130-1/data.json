@@ -1,12 +1,12 @@
 {
-	"title": "Denial of Service",
+	"title": "Denial of Service (DoS)",
 	"moduleName": "ejs",
 	"description": "file://README.md",
 	"language": "js",
 	"packageManager": "npm",
 	"identifiers": {
 		"CWE": [
-			"CWE-TODO"
+			"CWE-400"
 		],
 		"CVE": [],
 		"ALTERNATIVE": [
@@ -19,7 +19,7 @@
 		"unaffected": ">=2.5.5"
 	},
 	"credit": [
-		"Snyk Security Research"
+		"Snyk Security Research Team"
 	],
 	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
 	"disclosureTime": "2016-11-27T22:00:00.000Z",
@@ -27,5 +27,6 @@
 	"publicationTime": "2016-12-06T15:00:00.000Z",
 	"modificationTime": "2016-12-06T00:00:00.000Z",
 	"creationTime": "2016-11-28T18:44:12.405Z",
-	"id": "npm:ejs:20161130-1"
+	"id": "npm:ejs:20161130-1",
+	"packageName": "ejs"
 }

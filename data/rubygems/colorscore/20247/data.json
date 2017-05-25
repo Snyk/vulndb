@@ -24,5 +24,6 @@
 	"modificationTime": "2016-09-21T12:36:48.000Z",
 	"publicationTime": "2016-01-03T22:00:00.000Z",
 	"disclosureTime": "2016-01-03T22:00:00.000Z",
-	"id": "SNYK-RUBY-COLORSCORE-20247"
+	"id": "SNYK-RUBY-COLORSCORE-20247",
+	"packageName": "colorscore"
 }

@@ -1,0 +1,35 @@
+{
+	"title": "Path Traversal",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.owasp.esapi:esapi",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "(,2.0.1]",
+		"unaffected": "[2.1.0,)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-22"
+		],
+		"CVE": [
+			"CVE-2013-5979"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:P/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:50.000Z",
+	"modificationTime": "2016-12-25T16:51:50.000Z",
+	"publicationTime": "2016-12-25T16:51:50.000Z",
+	"disclosureTime": "2016-12-25T16:51:50.000Z",
+	"id": "SNYK-JAVA-ORGOWASPESAPI-30144",
+	"mavenModuleName": {
+		"groupId": "org.owasp.esapi",
+		"artifactId": "esapi"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"packageName": "org.owasp.esapi:esapi"
+}

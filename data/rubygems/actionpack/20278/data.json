@@ -1,0 +1,35 @@
+{
+	"title": "Authentication Bypass via case-insensitivity",
+	"credit": [
+		"Jan M. Faber"
+	],
+	"description": "file://README.md",
+	"moduleName": "actionpack",
+	"packageName": "actionpack",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 3.0.4"
+		],
+		"unaffected": [
+			"< 3.0.0"
+		],
+		"vulnerable": [
+			">= 3.0.0, <=3.0.3"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2011-0449"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2016-12-11T12:36:39.000Z",
+	"modificationTime": "2016-12-11T12:36:39.000Z",
+	"publicationTime": "2017-02-28T07:40:32.119Z",
+	"disclosureTime": "2011-02-08T22:00:00.000Z",
+	"id": "SNYK-RUBY-ACTIONPACK-20278"
+}

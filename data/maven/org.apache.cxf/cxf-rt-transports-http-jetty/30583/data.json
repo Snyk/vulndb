@@ -1,0 +1,29 @@
+{
+	"title": "Cross-site Tracing (XST)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.cxf:cxf-rt-transports-http-jetty",
+	"packageName": "org.apache.cxf:cxf-rt-transports-http-jetty",
+	"mavenModuleName": {
+		"groupId": "org.apache.cxf",
+		"artifactId": "cxf-rt-transports-http-jetty"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHECXF-30583",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[3,3.0.12),[3.1,3.1.9)",
+		"unaffected": "[3.1.9],[3.0.12],[3.2.0]"
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": []
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:21.013Z",
+	"modificationTime": "2017-02-22T07:28:21.013Z",
+	"publicationTime": "2016-10-30T16:48:50.711Z",
+	"disclosureTime": "2016-10-30T16:48:50.711Z"
+}

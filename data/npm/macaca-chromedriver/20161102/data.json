@@ -28,5 +28,6 @@
 	"moduleName": "macaca-chromedriver",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:macaca-chromedriver:20161102"
+	"id": "npm:macaca-chromedriver:20161102",
+	"packageName": "macaca-chromedriver"
 }

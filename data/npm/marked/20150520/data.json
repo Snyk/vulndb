@@ -60,5 +60,6 @@
 	"disclosureTime": "2015-05-20T16:45:00.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:marked:20150520"
+	"id": "npm:marked:20150520",
+	"packageName": "marked"
 }

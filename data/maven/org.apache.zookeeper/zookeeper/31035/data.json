@@ -1,0 +1,34 @@
+{
+	"title": "Insufficiently Protected Credentials",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.zookeeper:zookeeper",
+	"packageName": "org.apache.zookeeper:zookeeper",
+	"mavenModuleName": {
+		"groupId": "org.apache.zookeeper",
+		"artifactId": "zookeeper"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEZOOKEEPER-31035",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[3.3.0,3.4.7), [3.5,3.5.1),",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-522"
+		],
+		"CVE": [
+			"CVE-2014-0085"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:27.448Z",
+	"modificationTime": "2017-02-22T07:28:27.448Z",
+	"publicationTime": "2016-10-05T08:19:32.697Z",
+	"disclosureTime": "2016-10-05T08:19:32.697Z"
+}

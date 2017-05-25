@@ -1,5 +1,5 @@
 {
-	"title": "Denial of Service",
+	"title": "Denial of Service (DoS)",
 	"moduleName": "uws",
 	"description": "file://README.md",
 	"language": "js",
@@ -28,5 +28,6 @@
 	"publicationTime": "2016-10-17T22:33:27.772Z",
 	"modificationTime": "2016-10-17T22:33:27.772Z",
 	"creationTime": "2016-10-14T22:33:27.772Z",
-	"id": "npm:uws:20161013"
+	"id": "npm:uws:20161013",
+	"packageName": "uws"
 }

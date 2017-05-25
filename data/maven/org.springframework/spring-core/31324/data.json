@@ -1,0 +1,34 @@
+{
+	"title": "Access Restriction Bypass",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.springframework:spring-core",
+	"packageName": "org.springframework:spring-core",
+	"mavenModuleName": {
+		"groupId": "org.springframework",
+		"artifactId": "spring-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGSPRINGFRAMEWORK-31324",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[3,3.0.5]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-264"
+		],
+		"CVE": [
+			"CVE-2011-2894"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:31.453Z",
+	"modificationTime": "2017-02-22T07:28:31.453Z",
+	"publicationTime": "2014-09-08T13:44:47.000Z",
+	"disclosureTime": "2014-09-08T13:44:47.000Z"
+}

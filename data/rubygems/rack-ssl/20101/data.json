@@ -32,5 +32,6 @@
 	"modificationTime": "2016-09-21T12:37:04.000Z",
 	"publicationTime": "2013-07-08T21:00:00.000Z",
 	"disclosureTime": "2013-07-08T21:00:00.000Z",
-	"id": "SNYK-RUBY-RACKSSL-20101"
+	"id": "SNYK-RUBY-RACKSSL-20101",
+	"packageName": "rack-ssl"
 }

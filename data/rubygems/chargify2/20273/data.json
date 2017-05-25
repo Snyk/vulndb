@@ -26,5 +26,6 @@
 	"modificationTime": "2016-12-26T12:36:47.000Z",
 	"publicationTime": "2016-12-26T21:00:00.000Z",
 	"disclosureTime": "2014-09-01T21:00:00.000Z",
-	"id": "SNYK-RUBY-CHARGIFY2-20273"
+	"id": "SNYK-RUBY-CHARGIFY2-20273",
+	"packageName": "chargify2"
 }

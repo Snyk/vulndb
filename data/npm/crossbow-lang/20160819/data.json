@@ -25,5 +25,6 @@
 	"moduleName": "crossbow-lang",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:crossbow-lang:20160819"
+	"id": "npm:crossbow-lang:20160819",
+	"packageName": "crossbow-lang"
 }

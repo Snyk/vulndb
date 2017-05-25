@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary Command Execution",
+	"moduleName": "angular",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-78"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-ANGULAR-10173"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=1.3.2",
+		"vulnerable": "<1.3.2"
+	},
+	"credit": [
+		"Sebastian Lekies",
+		"Jann Horn",
+		"Gábor Molnár"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L",
+	"disclosureTime": "2014-11-03T22:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-01-23T11:10:00.000Z",
+	"modificationTime": "2016-11-01T12:33:38.496Z",
+	"creationTime": "2016-11-01T12:33:38.496Z",
+	"id": "npm:angular:20141104",
+	"packageName": "angular"
+}

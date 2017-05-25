@@ -1,15 +1,17 @@
 {
-	"title": "Cross-Site Scripting",
+	"title": "Cross-site Scripting (XSS)",
 	"credit": [
 		"Onur Yilmaz"
 	],
+	"language": "js",
+	"packageManager": "npm",
+	"moduleName": "datatables",
+	"packageName": "datatables",
 	"description": "file://README.md",
 	"semver": {
 		"vulnerable": "<=1.10.8",
 		"unaffected": ">1.10.8"
 	},
-	"CVSSv3": "",
-	"severity": "medium",
 	"identifiers": {
 		"CWE": [
 			"CWE-80"
@@ -23,12 +25,11 @@
 		]
 	},
 	"patches": [],
-	"moduleName": "datatables",
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
 	"creationTime": "2015-09-18T09:29:10.000Z",
 	"publicationTime": "2015-09-18T09:29:10.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
 	"disclosureTime": "2015-09-18T09:29:10.000Z",
-	"language": "js",
-	"packageManager": "npm",
 	"id": "npm:datatables:20150918"
 }

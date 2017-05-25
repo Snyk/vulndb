@@ -29,5 +29,6 @@
 	"modificationTime": "2016-09-21T12:37:06.000Z",
 	"publicationTime": "2016-04-19T21:00:00.000Z",
 	"disclosureTime": "2016-04-19T21:00:00.000Z",
-	"id": "SNYK-RUBY-SAFEMODE-20266"
+	"id": "SNYK-RUBY-SAFEMODE-20266",
+	"packageName": "safemode"
 }

@@ -1,0 +1,35 @@
+{
+	"title": "Directory Traversal",
+	"credit": [
+		"ecneladis"
+	],
+	"moduleName": "minitar",
+	"packageName": "minitar",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-22"
+		],
+		"CVE": [
+			"CVE-2016-10173"
+		]
+	},
+	"semver": {
+		"unaffected": [
+			">=0.6"
+		],
+		"vulnerable": [
+			"<0.6"
+		]
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"disclosureTime": "2016-08-21T21:00:00.000Z",
+	"publicationTime": "2017-03-06T08:39:49.814Z",
+	"modificationTime": "2017-03-05T08:26:50.234Z",
+	"creationTime": "2017-03-05T08:26:50.234Z",
+	"id": "SNYK-RUBY-MINITAR-20335"
+}

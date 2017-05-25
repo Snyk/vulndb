@@ -1,0 +1,32 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"moduleName": "validator",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-VALIDATOR-10213"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=3.34.0",
+		"vulnerable": "<3.34.0 >=3.0.0"
+	},
+	"credit": [
+		"Alessandro Segala"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+	"disclosureTime": "2015-03-12T22:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-01-30T15:00:00.000Z",
+	"modificationTime": "2016-11-23T14:52:22.668Z",
+	"creationTime": "2016-11-23T14:52:22.668Z",
+	"id": "npm:validator:20150313",
+	"packageName": "validator"
+}

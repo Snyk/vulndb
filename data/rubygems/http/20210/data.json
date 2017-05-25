@@ -29,5 +29,6 @@
 	"modificationTime": "2016-09-21T12:36:54.000Z",
 	"publicationTime": "2015-03-23T22:00:00.000Z",
 	"disclosureTime": "2015-03-23T22:00:00.000Z",
-	"id": "SNYK-RUBY-HTTP-20210"
+	"id": "SNYK-RUBY-HTTP-20210",
+	"packageName": "http"
 }

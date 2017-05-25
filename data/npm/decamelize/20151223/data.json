@@ -1,0 +1,33 @@
+{
+	"title": "Regular Expression Denial of Service (ReDoS)",
+	"credit": [
+		"Jay Freeman"
+	],
+	"creationTime": "2017-04-16T09:00:05.019Z",
+	"modificationTime": "2017-04-16T09:00:05.019Z",
+	"publicationTime": "2017-04-16T09:00:05.019Z",
+	"disclosureTime": "2015-12-23T20:58:05.019Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": ">=1.1.0 <1.1.2",
+		"unaffected": ">=1.1.2 || <1.1.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [],
+		"NSP": 308,
+		"ALTERNATIVE": [
+			"SNYK-JS-DECAMELIZE-10472"
+		]
+	},
+	"patches": [],
+	"moduleName": "decamelize",
+	"packageName": "decamelize",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:decamelize:20151223"
+}

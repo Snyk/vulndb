@@ -1,0 +1,32 @@
+{
+	"title": "Arbitrary Code Execution",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.springframework.flex:spring-flex-core",
+	"packageName": "org.springframework.flex:spring-flex-core",
+	"mavenModuleName": {
+		"groupId": "org.springframework.flex",
+		"artifactId": "spring-flex-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGSPRINGFRAMEWORKFLEX-31403",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,1.5.2.RELEASE]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2017-3203"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-05-17T12:10:22.502Z",
+	"modificationTime": "2017-05-17T12:10:22.502Z",
+	"publicationTime": "2017-05-21T07:52:40.375Z",
+	"disclosureTime": "2017-04-06T08:26:21.863Z"
+}

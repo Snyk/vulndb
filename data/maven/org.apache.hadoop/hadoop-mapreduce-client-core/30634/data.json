@@ -1,0 +1,34 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.hadoop:hadoop-mapreduce-client-core",
+	"packageName": "org.apache.hadoop:hadoop-mapreduce-client-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.hadoop",
+		"artifactId": "hadoop-mapreduce-client-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEHADOOP-30634",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.6.0,2.7.0]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2015-1776"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:21.639Z",
+	"modificationTime": "2017-02-22T07:28:21.639Z",
+	"publicationTime": "2016-02-16T01:58:59.367Z",
+	"disclosureTime": "2016-02-16T01:58:59.367Z"
+}

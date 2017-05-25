@@ -1,0 +1,34 @@
+{
+	"title": "Deserialization of Untrusted Data",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.activemq:artemis-jms-client",
+	"packageName": "org.apache.activemq:artemis-jms-client",
+	"mavenModuleName": {
+		"groupId": "org.apache.activemq",
+		"artifactId": "artemis-jms-client"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEACTIVEMQ-30509",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.0.0,1.3.0]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-502"
+		],
+		"CVE": [
+			"CVE-2016-4978"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:20.085Z",
+	"modificationTime": "2017-02-22T07:28:20.085Z",
+	"publicationTime": "2016-09-26T07:21:42.474Z",
+	"disclosureTime": "2016-09-26T07:21:42.474Z"
+}

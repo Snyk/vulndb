@@ -26,5 +26,6 @@
 	"publicationTime": "2016-12-06T11:33:44.856Z",
 	"modificationTime": "2016-12-06T11:33:44.856Z",
 	"creationTime": "2016-12-06T11:33:44.856Z",
-	"id": "npm:galenframework-cli:20161101"
+	"id": "npm:galenframework-cli:20161101",
+	"packageName": "galenframework-cli"
 }

@@ -1,0 +1,33 @@
+{
+	"title": "Mass Assignment",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "katello",
+	"packageName": "katello",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-915"
+		],
+		"CVE": []
+	},
+	"semver": {
+		"unaffected": [
+			">=3.0.0.rc1"
+		],
+		"vulnerable": [
+			"<3.0.0.rc1"
+		]
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"disclosureTime": "2015-11-12T22:00:00.000Z",
+	"publicationTime": "2017-03-28T07:40:29.026Z",
+	"modificationTime": "2017-03-12T10:01:29.236Z",
+	"creationTime": "2017-03-12T10:01:29.236Z",
+	"id": "SNYK-RUBY-KATELLO-20355"
+}

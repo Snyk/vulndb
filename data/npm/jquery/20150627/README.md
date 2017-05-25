@@ -9,5 +9,6 @@ Upgrade `jquery` to version `3.0.0` or higher.
 ## References
 - [Github Issue](https://github.com/jquery/jquery/issues/2432)
 - [Github PR](https://github.com/jquery/jquery/pull/2588)
-- [Github Commit](https://github.com/jquery/jquery/commit/b078a62013782c7424a4a61a240c23c4c0b42614)
+- [Github Commit 3.0.0](https://github.com/jquery/jquery/pull/2588/commits/c254d308a7d3f1eac4d0b42837804cfffcba4bb2)
+- [Github Commit 1.12](https://github.com/jquery/jquery/commit/f60729f3903d17917dc351f3ac87794de379b0cc)
 - [Vulnerable code](https://github.com/jquery/jquery/blob/250a1990baa571de60325ab2c52eabb399c4cf9e/src/ajax/script.js#L18)

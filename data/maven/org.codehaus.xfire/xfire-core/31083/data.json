@@ -1,0 +1,34 @@
+{
+	"title": "Improper Input Validation",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.codehaus.xfire:xfire-core",
+	"packageName": "org.codehaus.xfire:xfire-core",
+	"mavenModuleName": {
+		"groupId": "org.codehaus.xfire",
+		"artifactId": "xfire-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGCODEHAUSXFIRE-31083",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "(,1.2.6]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-20"
+		],
+		"CVE": [
+			"CVE-2012-5817"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:28.145Z",
+	"modificationTime": "2017-02-22T07:28:28.145Z",
+	"publicationTime": "2015-02-24T23:03:11.000Z",
+	"disclosureTime": "2015-02-24T23:03:11.000Z"
+}

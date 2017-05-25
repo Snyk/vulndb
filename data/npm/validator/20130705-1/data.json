@@ -8,7 +8,7 @@
 		"vulnerable": "<2.0.0",
 		"unaffected": ">=2.0.0"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [
@@ -38,5 +38,6 @@
 	"disclosureTime": "2014-10-27T06:33:48.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:validator:20130705-1"
+	"id": "npm:validator:20130705-1",
+	"packageName": "validator"
 }

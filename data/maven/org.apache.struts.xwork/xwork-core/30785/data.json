@@ -1,0 +1,34 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.struts.xwork:xwork-core",
+	"packageName": "org.apache.struts.xwork:xwork-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.struts.xwork",
+		"artifactId": "xwork-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHESTRUTSXWORK-30785",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2,2.2.3)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2011-1772"
+		]
+	},
+	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:23.508Z",
+	"modificationTime": "2017-02-22T07:28:23.508Z",
+	"publicationTime": "2014-01-10T00:04:17.000Z",
+	"disclosureTime": "2014-01-10T00:04:17.000Z"
+}

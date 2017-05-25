@@ -25,5 +25,6 @@
 	"publicationTime": "2016-12-20T15:04:57.337Z",
 	"modificationTime": "2016-11-30T13:48:57.337Z",
 	"creationTime": "2016-11-30T13:48:57.337Z",
-	"id": "npm:podium:20160913"
+	"id": "npm:podium:20160913",
+	"packageName": "podium"
 }

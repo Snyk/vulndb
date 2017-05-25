@@ -1,0 +1,35 @@
+{
+	"title": "Arbitrary Code Injection",
+	"credit": [
+		"Grégory Draperi"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.apache.camel:camel-core",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "(,2.9.7], [2.10,2.10.6], [2.11,2.11.1], [2.12.0]",
+		"unaffected": "[2.9.8,2.10), [2.10.7,2.11), [2.11.2,2.12), [2.12.1,2.13)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [
+			"CVE-2013-4330"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:P/I:P/A:P",
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:49.000Z",
+	"modificationTime": "2016-12-25T16:51:49.000Z",
+	"publicationTime": "2013-09-24T16:51:49.000Z",
+	"disclosureTime": "2013-09-24T16:51:49.000Z",
+	"id": "SNYK-JAVA-ORGAPACHECAMEL-30002",
+	"mavenModuleName": {
+		"groupId": "org.apache.camel",
+		"artifactId": "camel-core"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+	"packageName": "org.apache.camel:camel-core"
+}

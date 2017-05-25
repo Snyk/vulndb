@@ -1,0 +1,34 @@
+{
+	"title": "Access Restriction Bypass",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.python:jython",
+	"packageName": "org.python:jython",
+	"mavenModuleName": {
+		"groupId": "org.python",
+		"artifactId": "jython"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGPYTHON-31315",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.2.1]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-264"
+		],
+		"CVE": [
+			"CVE-2013-2027"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:31.328Z",
+	"modificationTime": "2017-02-22T07:28:31.328Z",
+	"publicationTime": "2015-02-20T17:49:45.000Z",
+	"disclosureTime": "2015-02-20T17:49:45.000Z"
+}

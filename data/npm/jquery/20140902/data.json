@@ -29,5 +29,6 @@
 	"publicationTime": "2016-10-20T14:16:53.138Z",
 	"modificationTime": "2016-10-06T14:16:53.138Z",
 	"creationTime": "2016-11-06T14:16:53.138Z",
-	"id": "npm:jquery:20140902"
+	"id": "npm:jquery:20140902",
+	"packageName": "jquery"
 }

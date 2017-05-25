@@ -30,5 +30,6 @@
 	"modificationTime": "2016-09-21T12:36:58.000Z",
 	"publicationTime": "2013-03-11T22:00:00.000Z",
 	"disclosureTime": "2013-03-11T22:00:00.000Z",
-	"id": "SNYK-RUBY-MINIMAGICK-20084"
+	"id": "SNYK-RUBY-MINIMAGICK-20084",
+	"packageName": "mini_magick"
 }

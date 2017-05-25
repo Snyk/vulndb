@@ -30,5 +30,6 @@
 	"modificationTime": "2016-09-21T12:37:07.000Z",
 	"publicationTime": "2013-08-13T21:00:00.000Z",
 	"disclosureTime": "2013-08-13T21:00:00.000Z",
-	"id": "SNYK-RUBY-SOUNDER-20106"
+	"id": "SNYK-RUBY-SOUNDER-20106",
+	"packageName": "sounder"
 }

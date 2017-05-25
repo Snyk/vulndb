@@ -1,0 +1,33 @@
+{
+	"title": "XML External Entity (XXE) Injection",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.wink:wink-assembly-aggregatejar-osgi",
+	"packageName": "org.apache.wink:wink-assembly-aggregatejar-osgi",
+	"mavenModuleName": {
+		"groupId": "org.apache.wink",
+		"artifactId": "wink-assembly-aggregatejar-osgi"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEWINK-31023",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[0.1-incubating,1.1-incubating]",
+		"unaffected": "[1.1.1-incubating]"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+			"CVE-2010-2245"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:27.280Z",
+	"modificationTime": "2017-02-22T07:28:27.280Z",
+	"publicationTime": "2015-11-25T05:23:04.589Z",
+	"disclosureTime": "2015-11-25T05:23:04.589Z"
+}

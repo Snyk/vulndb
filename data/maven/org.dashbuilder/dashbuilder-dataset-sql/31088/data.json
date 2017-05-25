@@ -1,0 +1,34 @@
+{
+	"title": "SQL Injection",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.dashbuilder:dashbuilder-dataset-sql",
+	"packageName": "org.dashbuilder:dashbuilder-dataset-sql",
+	"mavenModuleName": {
+		"groupId": "org.dashbuilder",
+		"artifactId": "dashbuilder-dataset-sql"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGDASHBUILDER-31088",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,0.6.0.Beta1)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-89"
+		],
+		"CVE": [
+			"CVE-2016-4999"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:28.213Z",
+	"modificationTime": "2017-02-22T07:28:28.213Z",
+	"publicationTime": "2016-08-08T03:13:46.696Z",
+	"disclosureTime": "2016-08-08T03:13:46.696Z"
+}

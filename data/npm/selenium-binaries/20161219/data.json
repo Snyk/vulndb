@@ -28,5 +28,6 @@
 	"moduleName": "selenium-binaries",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:selenium-binaries:20161219"
+	"id": "npm:selenium-binaries:20161219",
+	"packageName": "selenium-binaries"
 }

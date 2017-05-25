@@ -1,0 +1,32 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.keycloak:keycloak-saml-core",
+	"packageName": "org.keycloak:keycloak-saml-core",
+	"mavenModuleName": {
+		"groupId": "org.keycloak",
+		"artifactId": "keycloak-saml-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGKEYCLOAK-31398",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.2,2.5.4.Final]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2017-2646"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"creationTime": "2017-05-17T12:10:22.490Z",
+	"modificationTime": "2017-05-17T12:10:22.490Z",
+	"publicationTime": "2017-05-21T07:52:40.166Z",
+	"disclosureTime": "2017-03-27T03:25:08.573Z"
+}

@@ -1,0 +1,34 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "net.bull.javamelody:javamelody-core",
+	"packageName": "net.bull.javamelody:javamelody-core",
+	"mavenModuleName": {
+		"groupId": "net.bull.javamelody",
+		"artifactId": "javamelody-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-NETBULLJAVAMELODY-30451",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,1.46.0)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2013-4378"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:19.404Z",
+	"modificationTime": "2017-02-22T07:28:19.404Z",
+	"publicationTime": "2015-06-10T00:05:48.000Z",
+	"disclosureTime": "2015-06-10T00:05:48.000Z"
+}

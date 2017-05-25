@@ -1,0 +1,34 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.portals.jetspeed-2:jetspeed-portal",
+	"packageName": "org.apache.portals.jetspeed-2:jetspeed-portal",
+	"mavenModuleName": {
+		"groupId": "org.apache.portals.jetspeed-2",
+		"artifactId": "jetspeed-portal"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEPORTALSJETSPEED2-30704",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,2.3.1)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2016-0712"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:22.467Z",
+	"modificationTime": "2017-02-22T07:28:22.467Z",
+	"publicationTime": "2016-03-09T07:55:29.973Z",
+	"disclosureTime": "2016-03-09T07:55:29.973Z"
+}

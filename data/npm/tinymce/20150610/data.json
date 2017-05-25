@@ -1,0 +1,32 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"moduleName": "tinymce",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-TINYMCE-10264"
+		]
+	},
+	"severity": "high",
+	"semver": {
+		"unaffected": ">=4.2.0",
+		"vulnerable": "<4.2.0"
+	},
+	"credit": [
+		"Johan Sörlin"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N",
+	"disclosureTime": "2015-06-10T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-01-09T14:00:00.000Z",
+	"modificationTime": "2017-01-09T14:00:00.000Z",
+	"creationTime": "2016-12-29T13:49:24.240Z",
+	"id": "npm:tinymce:20150610",
+	"packageName": "tinymce"
+}

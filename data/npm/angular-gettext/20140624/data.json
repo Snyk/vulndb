@@ -1,0 +1,32 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"moduleName": "angular-gettext",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-ANGULARGETTEXT-10178"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">0.4.0",
+		"vulnerable": "<=0.4.0"
+	},
+	"credit": [
+		"Walden Raines"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+	"disclosureTime": "2014-06-23T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-01-23T09:50:00.000Z",
+	"modificationTime": "2017-01-25T13:19:47.018Z",
+	"creationTime": "2016-11-01T13:19:47.018Z",
+	"id": "npm:angular-gettext:20140624",
+	"packageName": "angular-gettext"
+}

@@ -1,0 +1,34 @@
+{
+	"title": "Session Hijacking",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.springframework:spring-websocket",
+	"packageName": "org.springframework:spring-websocket",
+	"mavenModuleName": {
+		"groupId": "org.springframework",
+		"artifactId": "spring-websocket"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGSPRINGFRAMEWORK-31333",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[4.1,4.1.5)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-254"
+		],
+		"CVE": [
+			"CVE-2015-0201"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:31.564Z",
+	"modificationTime": "2017-02-22T07:28:31.564Z",
+	"publicationTime": "2015-03-11T15:50:47.000Z",
+	"disclosureTime": "2015-03-11T15:50:47.000Z"
+}

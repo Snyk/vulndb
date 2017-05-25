@@ -1,0 +1,33 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.cxf.fediz:fediz-core",
+	"packageName": "org.apache.cxf.fediz:fediz-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.cxf.fediz",
+		"artifactId": "fediz-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHECXFFEDIZ-30589",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.0,1.1.3),[1.2.0]",
+		"unaffected": "[1.1.3],[1.2.1]"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [
+			"CVE-2015-5175"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:21.090Z",
+	"modificationTime": "2017-02-22T07:28:21.090Z",
+	"publicationTime": "2015-08-26T15:27:12.000Z",
+	"disclosureTime": "2015-08-26T15:27:12.000Z"
+}

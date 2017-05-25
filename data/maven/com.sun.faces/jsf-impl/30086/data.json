@@ -1,0 +1,35 @@
+{
+	"title": "XML External Entity (XXE) Injection",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "com.sun.faces:jsf-impl",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[2,2.1.18]",
+		"unaffected": "[2.1.19,3)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+			"CVE-2013-3827"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:P/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:49.000Z",
+	"modificationTime": "2016-12-25T16:51:49.000Z",
+	"publicationTime": "2013-12-06T16:51:49.000Z",
+	"disclosureTime": "2013-12-06T16:51:49.000Z",
+	"id": "SNYK-JAVA-COMSUNFACES-30086",
+	"mavenModuleName": {
+		"groupId": "com.sun.faces",
+		"artifactId": "jsf-impl"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"packageName": "com.sun.faces:jsf-impl"
+}

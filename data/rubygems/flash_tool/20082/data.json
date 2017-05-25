@@ -27,5 +27,6 @@
 	"modificationTime": "2016-09-21T12:36:52.000Z",
 	"publicationTime": "2013-03-03T22:00:00.000Z",
 	"disclosureTime": "2013-03-03T22:00:00.000Z",
-	"id": "SNYK-RUBY-FLASHTOOL-20082"
+	"id": "SNYK-RUBY-FLASHTOOL-20082",
+	"packageName": "flash_tool"
 }

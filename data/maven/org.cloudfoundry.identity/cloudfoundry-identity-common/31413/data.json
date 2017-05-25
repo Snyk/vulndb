@@ -1,0 +1,32 @@
+{
+	"title": "Session Fixation",
+	"credit": [
+		"GE Digital Security Team"
+	],
+	"moduleName": "org.cloudfoundry.identity:cloudfoundry-identity-common",
+	"packageName": "org.cloudfoundry.identity:cloudfoundry-identity-common",
+	"mavenModuleName": {
+		"groupId": "org.cloudfoundry.identity",
+		"artifactId": "cloudfoundry-identity-common"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGCLOUDFOUNDRYIDENTITY-31413",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,2.7.4.9]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2017-4963"
+		]
+	},
+	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-05-17T12:10:22.558Z",
+	"modificationTime": "2017-05-17T12:10:22.558Z",
+	"publicationTime": "2017-05-21T07:52:39.048Z",
+	"disclosureTime": "2017-03-31T01:41:13.442Z"
+}

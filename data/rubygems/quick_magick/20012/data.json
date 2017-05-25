@@ -24,5 +24,6 @@
 	"modificationTime": "2016-09-21T12:37:02.000Z",
 	"publicationTime": "2011-01-11T22:00:00.000Z",
 	"disclosureTime": "2011-01-11T22:00:00.000Z",
-	"id": "SNYK-RUBY-QUICKMAGICK-20012"
+	"id": "SNYK-RUBY-QUICKMAGICK-20012",
+	"packageName": "quick_magick"
 }

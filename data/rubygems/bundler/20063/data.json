@@ -27,5 +27,6 @@
 	"modificationTime": "2016-09-21T12:36:47.000Z",
 	"publicationTime": "2013-02-11T22:00:00.000Z",
 	"disclosureTime": "2013-02-11T22:00:00.000Z",
-	"id": "SNYK-RUBY-BUNDLER-20063"
+	"id": "SNYK-RUBY-BUNDLER-20063",
+	"packageName": "bundler"
 }

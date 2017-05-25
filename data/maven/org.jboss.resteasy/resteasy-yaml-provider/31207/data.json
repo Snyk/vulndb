@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary Code Execution",
+	"credit": [
+		"Moritz Bechler"
+	],
+	"moduleName": "org.jboss.resteasy:resteasy-yaml-provider",
+	"packageName": "org.jboss.resteasy:resteasy-yaml-provider",
+	"mavenModuleName": {
+		"groupId": "org.jboss.resteasy",
+		"artifactId": "resteasy-yaml-provider"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGJBOSSRESTEASY-31207",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[3,3.1.0.Final]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [
+			"CVE-2016-9606"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+	"severity": "high",
+	"creationTime": "2017-02-22T07:28:29.853Z",
+	"modificationTime": "2017-02-22T07:28:29.853Z",
+	"publicationTime": "2016-12-16T08:05:27.815Z",
+	"disclosureTime": "2016-12-16T08:05:27.815Z"
+}

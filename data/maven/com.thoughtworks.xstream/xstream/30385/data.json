@@ -1,0 +1,34 @@
+{
+	"title": "XML External Entity (XXE)",
+	"credit": [
+		"guykoth"
+	],
+	"moduleName": "com.thoughtworks.xstream:xstream",
+	"packageName": "com.thoughtworks.xstream:xstream",
+	"mavenModuleName": {
+		"groupId": "com.thoughtworks.xstream",
+		"artifactId": "xstream"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-COMTHOUGHTWORKSXSTREAM-30385",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "(,1.4.9)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2016-3674"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:18.550Z",
+	"modificationTime": "2017-02-22T07:28:18.550Z",
+	"publicationTime": "2016-03-20T22:26:12.680Z",
+	"disclosureTime": "2016-03-20T22:26:12.680Z"
+}

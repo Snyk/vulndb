@@ -1,0 +1,34 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Mikhail Egorov"
+	],
+	"moduleName": "org.jboss.resteasy:resteasy-jaxrs",
+	"packageName": "org.jboss.resteasy:resteasy-jaxrs",
+	"mavenModuleName": {
+		"groupId": "org.jboss.resteasy",
+		"artifactId": "resteasy-jaxrs"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGJBOSSRESTEASY-31203",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,3.1.0.Beta2)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2016-6345"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:29.797Z",
+	"modificationTime": "2017-02-22T07:28:29.797Z",
+	"publicationTime": "2016-09-05T07:37:51.977Z",
+	"disclosureTime": "2016-09-05T07:37:51.977Z"
+}

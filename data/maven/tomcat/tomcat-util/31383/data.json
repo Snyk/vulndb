@@ -1,0 +1,34 @@
+{
+	"title": "XML External Entity (XXE) Injection",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "tomcat:tomcat-util",
+	"packageName": "tomcat:tomcat-util",
+	"mavenModuleName": {
+		"groupId": "tomcat",
+		"artifactId": "tomcat-util"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-TOMCAT-31383",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[3.2.1,5.5.23]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+			"CVE-2013-4590"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:32.229Z",
+	"modificationTime": "2017-02-22T07:28:32.229Z",
+	"publicationTime": "2014-06-08T00:23:07.000Z",
+	"disclosureTime": "2014-06-08T00:23:07.000Z"
+}

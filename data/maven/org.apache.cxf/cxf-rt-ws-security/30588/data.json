@@ -1,0 +1,34 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.cxf:cxf-rt-ws-security",
+	"packageName": "org.apache.cxf:cxf-rt-ws-security",
+	"mavenModuleName": {
+		"groupId": "org.apache.cxf",
+		"artifactId": "cxf-rt-ws-security"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHECXF-30588",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.0,2.6.12]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-310"
+		],
+		"CVE": [
+			"CVE-2014-0035"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:21.077Z",
+	"modificationTime": "2017-02-22T07:28:21.077Z",
+	"publicationTime": "2014-09-08T07:52:41.000Z",
+	"disclosureTime": "2014-09-08T07:52:41.000Z"
+}

@@ -34,5 +34,6 @@
 	"modificationTime": "2016-09-21T12:36:54.000Z",
 	"publicationTime": "2013-12-02T22:00:00.000Z",
 	"disclosureTime": "2013-12-02T22:00:00.000Z",
-	"id": "SNYK-RUBY-I18N-20124"
+	"id": "SNYK-RUBY-I18N-20124",
+	"packageName": "i18n"
 }

@@ -1,0 +1,35 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"TERASOLUNA Framework Development Team"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.apache.tomcat:tomcat-catalina",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[7,7.0.70), [8.0,8.0.36), [8.5,8.5.3), [9,9.0.0.M7)",
+		"unaffected": "[7.70,8),[8.0.36,8.1), [8.5.3,8.6), [9.0.0.M7,10)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-20"
+		],
+		"CVE": [
+			"CVE-2016-3092"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:N/I:N/A:C",
+	"severity": "high",
+	"creationTime": "2016-12-25T16:51:56.000Z",
+	"modificationTime": "2016-12-25T16:51:56.000Z",
+	"publicationTime": "2016-12-25T16:51:56.000Z",
+	"disclosureTime": "2016-12-25T16:51:56.000Z",
+	"id": "SNYK-JAVA-ORGAPACHETOMCAT-30065",
+	"mavenModuleName": {
+		"groupId": "org.apache.tomcat",
+		"artifactId": "tomcat-catalina"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"packageName": "org.apache.tomcat:tomcat-catalina"
+}

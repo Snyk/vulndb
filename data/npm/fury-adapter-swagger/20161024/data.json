@@ -1,0 +1,34 @@
+{
+	"title": "Directory Traversal",
+	"moduleName": "fury-adapter-swagger",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-22"
+		],
+		"CVE": [
+			"CVE-2016-1000249"
+		],
+		"ALTERNATIVE": [
+			"SNYK-JS-FURYADAPTERSWAGGER-10376"
+		]
+	},
+	"severity": "high",
+	"semver": {
+		"unaffected": ">=0.9.7",
+		"vulnerable": "<0.9.7 >=0.2.0 || ~0.8.0-pre"
+	},
+	"credit": [
+		"Adam Kliment"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"disclosureTime": "2016-10-23T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-01-11T15:29:26.100Z",
+	"modificationTime": "2017-01-11T15:29:26.100Z",
+	"creationTime": "2017-01-11T12:29:26.100Z",
+	"id": "npm:fury-adapter-swagger:20161024",
+	"packageName": "fury-adapter-swagger"
+}

@@ -28,5 +28,6 @@
 	"moduleName": "backbone",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:backbone:20160523"
+	"id": "npm:backbone:20160523",
+	"packageName": "backbone"
 }

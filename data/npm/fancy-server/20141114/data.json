@@ -8,8 +8,8 @@
 		"vulnerable": "<0.1.4",
 		"unaffected": ">=0.1.4"
 	},
-	"CVSSv3": "",
-	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"severity": "medium",
 	"identifiers": {
 		"CWE": [
 			"CWE-23"
@@ -28,5 +28,6 @@
 	"disclosureTime": "2014-11-14T18:00:48.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:fancy-server:20141114"
+	"id": "npm:fancy-server:20141114",
+	"packageName": "fancy-server"
 }

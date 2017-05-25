@@ -27,5 +27,6 @@
 	"publicationTime": "2016-11-22T11:04:19.911Z",
 	"modificationTime": "2016-09-22T11:04:19.911Z",
 	"creationTime": "2016-09-22T11:04:19.911Z",
-	"id": "npm:hapi:20130320"
+	"id": "npm:hapi:20130320",
+	"packageName": "hapi"
 }

@@ -30,5 +30,6 @@
 	"modificationTime": "2016-09-21T12:36:53.000Z",
 	"publicationTime": "2013-02-18T22:00:00.000Z",
 	"disclosureTime": "2013-02-18T22:00:00.000Z",
-	"id": "SNYK-RUBY-FOGDRAGONFLY-20066"
+	"id": "SNYK-RUBY-FOGDRAGONFLY-20066",
+	"packageName": "fog-dragonfly"
 }

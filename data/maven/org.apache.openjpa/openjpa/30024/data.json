@@ -1,0 +1,35 @@
+{
+	"title": "Arbitrary Code Execution",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.apache.openjpa:openjpa",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[1.0.0,1.2.3), [2,2.2.2)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-264"
+		],
+		"CVE": [
+			"CVE-2013-1768"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:P/I:P/A:P",
+	"severity": "high",
+	"creationTime": "2016-12-25T16:51:47.000Z",
+	"modificationTime": "2016-12-25T16:51:47.000Z",
+	"publicationTime": "2013-07-12T16:51:47.000Z",
+	"disclosureTime": "2013-07-12T16:51:47.000Z",
+	"id": "SNYK-JAVA-ORGAPACHEOPENJPA-30024",
+	"mavenModuleName": {
+		"groupId": "org.apache.openjpa",
+		"artifactId": "openjpa"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"packageName": "org.apache.openjpa:openjpa"
+}

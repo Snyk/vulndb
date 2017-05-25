@@ -8,7 +8,7 @@
 		"vulnerable": "<0.1.1",
 		"unaffected": ">=0.1.1"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [],
@@ -26,5 +26,6 @@
 	"disclosureTime": "2014-11-11T17:33:48.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:dns-sync:20141111"
+	"id": "npm:dns-sync:20141111",
+	"packageName": "dns-sync"
 }

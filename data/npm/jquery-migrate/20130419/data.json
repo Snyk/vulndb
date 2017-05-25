@@ -27,5 +27,6 @@
 	"publicationTime": "2016-12-26T09:46:52.647Z",
 	"modificationTime": "2016-12-26T09:46:52.647Z",
 	"creationTime": "2016-12-26T09:46:52.647Z",
-	"id": "npm:jquery-migrate:20130419"
+	"id": "npm:jquery-migrate:20130419",
+	"packageName": "jquery-migrate"
 }

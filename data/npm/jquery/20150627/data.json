@@ -15,8 +15,8 @@
 	},
 	"severity": "medium",
 	"semver": {
-		"unaffected": ">=3.0.0-beta1 || >=1.12.0 <1.12.3 || 2.2.0",
-		"vulnerable": "<3.0.0-beta1 >2.2.0 || <2.2.0 >1.12.3 || <1.12.0 >=1.4.0"
+		"unaffected": ">=3.0.0-beta1 || >=1.12.0 <1.12.3",
+		"vulnerable": "<3.0.0-beta1 >1.12.3 || <1.12.0 >=1.4.0"
 	},
 	"credit": [
 		"Egor Homakov"
@@ -25,7 +25,8 @@
 	"disclosureTime": "2015-06-26T21:00:00.000Z",
 	"patches": [],
 	"publicationTime": "2016-11-27T00:00:00.000Z",
-	"modificationTime": "2016-11-06T15:12:44.538Z",
+	"modificationTime": "2017-03-27T15:12:44.538Z",
 	"creationTime": "2016-11-06T15:12:44.538Z",
-	"id": "npm:jquery:20150627"
+	"id": "npm:jquery:20150627",
+	"packageName": "jquery"
 }

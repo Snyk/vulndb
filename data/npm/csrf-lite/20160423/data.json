@@ -28,5 +28,6 @@
 	"moduleName": "csrf-lite",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:csrf-lite:20160423"
+	"id": "npm:csrf-lite:20160423",
+	"packageName": "csrf-lite"
 }

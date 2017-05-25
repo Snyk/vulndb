@@ -11,7 +11,7 @@
 		"vulnerable": "<1.6.1",
 		"unaffected": ">=1.6.1"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
 	"severity": "high",
 	"identifiers": {
 		"CWE": [
@@ -28,5 +28,6 @@
 	"disclosureTime": "2016-03-28T22:21:23.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:restafary:20160328"
+	"id": "npm:restafary:20160328",
+	"packageName": "restafary"
 }

@@ -1,0 +1,35 @@
+{
+	"title": "Sensitive Information Exposure",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.springframework:spring-core",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[2,2.5.6.SEC02], [3.0,3.0.5.RELEASE]",
+		"unaffected": "[2.5.6.SEC03,3), [3.0.6.RELEASE,3.1)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-16"
+		],
+		"CVE": [
+			"CVE-2011-2730"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:P/I:P/A:P",
+	"severity": "high",
+	"creationTime": "2016-12-25T16:51:45.000Z",
+	"modificationTime": "2016-12-25T16:51:45.000Z",
+	"publicationTime": "2016-12-25T16:51:45.000Z",
+	"disclosureTime": "2016-12-25T16:51:45.000Z",
+	"id": "SNYK-JAVA-ORGSPRINGFRAMEWORK-30157",
+	"mavenModuleName": {
+		"groupId": "org.springframework",
+		"artifactId": "spring-core"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"packageName": "org.springframework:spring-core"
+}

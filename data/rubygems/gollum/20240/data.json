@@ -27,5 +27,6 @@
 	"modificationTime": "2016-09-21T12:36:54.000Z",
 	"publicationTime": "2015-09-19T21:00:00.000Z",
 	"disclosureTime": "2015-09-19T21:00:00.000Z",
-	"id": "SNYK-RUBY-GOLLUM-20240"
+	"id": "SNYK-RUBY-GOLLUM-20240",
+	"packageName": "gollum"
 }

@@ -28,5 +28,6 @@
 	"moduleName": "reduce-css-calc",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:reduce-css-calc:20160913"
+	"id": "npm:reduce-css-calc:20160913",
+	"packageName": "reduce-css-calc"
 }

@@ -8,8 +8,8 @@
 		"vulnerable": "<=0.8.4",
 		"unaffected": ">=0.9.0"
 	},
-	"CVSSv3": "",
-	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"severity": "medium",
 	"identifiers": {
 		"CWE": [],
 		"CVE": [
@@ -28,5 +28,6 @@
 	"disclosureTime": "2015-01-22T07:33:48.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:ungit:20150122"
+	"id": "npm:ungit:20150122",
+	"packageName": "ungit"
 }

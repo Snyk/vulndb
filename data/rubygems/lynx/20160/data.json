@@ -19,9 +19,11 @@
 		]
 	},
 	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
 	"creationTime": "2016-09-21T12:36:57.000Z",
 	"modificationTime": "2016-09-21T12:36:57.000Z",
 	"publicationTime": "2014-06-29T21:00:00.000Z",
 	"disclosureTime": "2014-06-29T21:00:00.000Z",
-	"id": "SNYK-RUBY-LYNX-20160"
+	"id": "SNYK-RUBY-LYNX-20160",
+	"packageName": "lynx"
 }

@@ -1,6 +1,6 @@
 ## Overview
 
-[bundler](https://rubygems.org/gems/bundler) is a dependencies manager. 
+[`bundler`](https://rubygems.org/gems/bundler) is a dependencies manager.
 Affected versions of this Gem contain a flaw that is triggered when handling a Gemfile that contains multiple top-level source lines. This may allow a gem to be installed from an unintended source server, allowing an attacker to install specially crafted gems, leading to arbitrary code execution.
 
 ## Details
@@ -12,7 +12,7 @@ It is possible to work around the issue by removing all but one `source` line fr
 Unfortunately, backporting a fix for this issue proved impractical, as previous versions of Bundler lacked the ability to distinguish between gem servers.
 
 ## References
-
-- http://rubysec.com/advisories/CVE-2013-0334/
-- https://groups.google.com/forum/#!topic/ruby-security-ann/Rms5sZhLxdo
-- http://bundler.io/v1.7/whats_new.html
+- [Bundler.io release notes](http://bundler.io/v1.7/whats_new.html)
+- [Bundler Blog](http://bundler.io/blog/2014/08/14/bundler-may-install-gems-from-a-different-source-than-expected-cve-2013-0334.html)
+- [Rubysec](http://rubysec.com/advisories/CVE-2013-0334/)
+- [Ruby Security Google Group](https://groups.google.com/forum/#!topic/ruby-security-ann/Rms5sZhLxdo)

@@ -1,0 +1,32 @@
+{
+	"title": "Access control bypass",
+	"credit": [
+		"David Ohsie"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.springframework.security:spring-security-cas",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[3.2,3.2.4.RELEASE], [3.1,3.1.6.RELEASE]",
+		"unaffected": "[3.2.5.RELEASE,3.3), [3.1.7.RELEASE,3.2)"
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2014-3527"
+		]
+	},
+	"CVSSv2": 5.8,
+	"severity": "low",
+	"creationTime": "2016-12-25T16:51:52.000Z",
+	"modificationTime": "2016-12-25T16:51:52.000Z",
+	"publicationTime": "2016-12-25T16:51:52.000Z",
+	"disclosureTime": "2016-12-25T16:51:52.000Z",
+	"id": "SNYK-JAVA-ORGSPRINGFRAMEWORKSECURITY-30173",
+	"mavenModuleName": {
+		"groupId": "org.springframework.security",
+		"artifactId": "spring-security-cas"
+	},
+	"packageName": "org.springframework.security:spring-security-cas"
+}

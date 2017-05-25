@@ -6,7 +6,7 @@
 		"vulnerable": "<1.8.1",
 		"unaffected": ">=1.8.1"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
 	"severity": "low",
 	"identifiers": {
 		"CWE": [
@@ -25,5 +25,6 @@
 	"disclosureTime": "2015-01-20T04:46:45.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:serve-static:20150120"
+	"id": "npm:serve-static:20150120",
+	"packageName": "serve-static"
 }

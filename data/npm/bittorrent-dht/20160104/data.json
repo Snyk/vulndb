@@ -4,16 +4,15 @@
 		"Feross Aboukhadijeh",
 		"Mathias Buss Madsen"
 	],
-	"creationTime": "2016-01-05T12:38:01.746Z",
-	"modificationTime": "2016-01-05T12:38:01.746Z",
-	"publicationTime": "2016-01-05T12:38:01.746Z",
+	"language": "js",
+	"packageManager": "npm",
+	"moduleName": "bittorrent-dht",
+	"packageName": "bittorrent-dht",
 	"description": "file://README.md",
 	"semver": {
 		"vulnerable": "<5.1.3",
 		"unaffected": ">=5.1.3"
 	},
-	"CVSSv3": "",
-	"severity": "medium",
 	"identifiers": {
 		"CWE": [
 			"CWE-201"
@@ -25,9 +24,11 @@
 		]
 	},
 	"patches": [],
-	"moduleName": "bittorrent-dht",
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"creationTime": "2016-01-05T12:38:01.746Z",
+	"modificationTime": "2016-01-05T12:38:01.746Z",
+	"publicationTime": "2016-01-05T12:38:01.746Z",
 	"disclosureTime": "2016-01-04T19:52:32.207Z",
-	"language": "js",
-	"packageManager": "npm",
 	"id": "npm:bittorrent-dht:20160104"
 }

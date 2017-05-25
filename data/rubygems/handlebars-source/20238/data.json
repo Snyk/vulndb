@@ -1,5 +1,5 @@
 {
-	"title": "Cross-site scripting (XSS)",
+	"title": "Cross-site Scripting (XSS)",
 	"credit": [
 		"Unknown"
 	],
@@ -29,5 +29,6 @@
 	"modificationTime": "2016-09-21T12:36:54.000Z",
 	"publicationTime": "2015-08-23T21:00:00.000Z",
 	"disclosureTime": "2015-08-23T21:00:00.000Z",
-	"id": "SNYK-RUBY-HANDLEBARSSOURCE-20238"
+	"id": "SNYK-RUBY-HANDLEBARSSOURCE-20238",
+	"packageName": "handlebars-source"
 }

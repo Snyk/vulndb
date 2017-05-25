@@ -8,7 +8,7 @@
 		"vulnerable": "< 1.1.1",
 		"unaffected": ">= 1.1.1"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [
@@ -30,5 +30,6 @@
 	"disclosureTime": "2014-07-15T06:33:48.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:syntax-error:20140715"
+	"id": "npm:syntax-error:20140715",
+	"packageName": "syntax-error"
 }

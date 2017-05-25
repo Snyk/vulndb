@@ -1,0 +1,37 @@
+{
+	"title": "Missing Authentication",
+	"credit": [
+		"Daniel Oliver"
+	],
+	"moduleName": "chef",
+	"packageName": "chef",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-306"
+		],
+		"CVE": [
+			"CVE-2011-5097"
+		]
+	},
+	"semver": {
+		"unaffected": [
+			">=0.9.18, <0.10.0",
+			">=0.10.2"
+		],
+		"vulnerable": [
+			"<0.9.18",
+			">=0.10.0, <0.10.2"
+		]
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
+	"disclosureTime": "2011-06-22T21:00:00.000Z",
+	"publicationTime": "2017-03-21T15:30:45.145Z",
+	"modificationTime": "2017-03-07T13:26:50.590Z",
+	"creationTime": "2017-03-07T13:26:50.590Z",
+	"id": "SNYK-RUBY-CHEF-20348"
+}

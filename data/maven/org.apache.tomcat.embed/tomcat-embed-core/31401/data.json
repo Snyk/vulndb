@@ -1,0 +1,34 @@
+{
+	"title": "Information Disclosure",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.tomcat.embed:tomcat-embed-core",
+	"packageName": "org.apache.tomcat.embed:tomcat-embed-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.tomcat.embed",
+		"artifactId": "tomcat-embed-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETOMCATEMBED-31401",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[8.5,8.5.13), [9,9.0.0.M19)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-19"
+		],
+		"CVE": [
+			"CVE-2017-5651"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-05-17T12:10:22.496Z",
+	"modificationTime": "2017-05-17T12:10:22.496Z",
+	"publicationTime": "2017-05-21T07:52:38.070Z",
+	"disclosureTime": "2017-04-11T05:08:06.794Z"
+}

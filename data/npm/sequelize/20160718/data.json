@@ -58,5 +58,6 @@
 	"moduleName": "sequelize",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:sequelize:20160718"
+	"id": "npm:sequelize:20160718",
+	"packageName": "sequelize"
 }

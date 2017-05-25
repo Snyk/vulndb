@@ -14,8 +14,8 @@
 		"vulnerable": "<= 2.15.0 || >= 3.0.0 <= 3.8.2",
 		"unaffected": ">= 2.15.1 <= 3.0.0 || >= 3.8.3"
 	},
-	"CVSSv3": "",
-	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N",
+	"severity": "medium",
 	"identifiers": {
 		"CWE": [
 			"CWE-200"
@@ -31,5 +31,6 @@
 	"disclosureTime": "2016-04-18T21:16:44.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:npm:20160418"
+	"id": "npm:npm:20160418",
+	"packageName": "npm"
 }

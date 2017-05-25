@@ -1,0 +1,32 @@
+{
+	"title": "Directory Traversal",
+	"credit": [
+		"Liang Gong"
+	],
+	"moduleName": "pooledwebsocket",
+	"packageName": "pooledwebsocket",
+	"language": "js",
+	"packageManager": "npm",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-22"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-POOLEDWEBSOCKET-10482"
+		]
+	},
+	"semver": {
+		"unaffected": ">=0.0.18",
+		"vulnerable": "<0.0.18"
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+	"disclosureTime": "2017-04-19T21:00:00.000Z",
+	"publicationTime": "2017-04-25T08:25:22.166Z",
+	"modificationTime": "2017-04-25T08:25:22.166Z",
+	"creationTime": "2017-04-25T08:25:22.166Z",
+	"id": "npm:pooledwebsocket:20170420"
+}

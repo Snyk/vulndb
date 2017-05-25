@@ -9,13 +9,18 @@
 		"vulnerable": "< 1.1.1",
 		"unaffected": ">= 1.1.1"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [
 			"CWE-79"
 		],
-		"CVE": [],
+		"CVE": [
+			"CVE-2013-7451",
+			"CVE-2013-7452",
+			"CVE-2013-7453",
+			"CVE-2013-7454"
+		],
 		"NSP": 41,
 		"ALTERNATIVE": [
 			"SNYK-JS-VALIDATOR-10006"
@@ -30,5 +35,6 @@
 	"disclosureTime": "2013-07-05T09:29:10.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:validator:20130705-2"
+	"id": "npm:validator:20130705-2",
+	"packageName": "validator"
 }

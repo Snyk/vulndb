@@ -1,0 +1,32 @@
+{
+	"title": "Authentication Bypass",
+	"credit": [
+		"Spring Development team"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.springframework.security:spring-security-core",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[3.2,3.2.1.RELEASE], [3.1,3.1.5.RELEASE]",
+		"unaffected": "[3.2.2.RELEASE,3.3), [3.1.6.RELEASE,3.2)"
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2014-0097"
+		]
+	},
+	"CVSSv2": 7.5,
+	"severity": "low",
+	"creationTime": "2016-12-25T16:51:51.000Z",
+	"modificationTime": "2016-12-25T16:51:51.000Z",
+	"publicationTime": "2016-12-25T16:51:51.000Z",
+	"disclosureTime": "2016-12-25T16:51:51.000Z",
+	"id": "SNYK-JAVA-ORGSPRINGFRAMEWORKSECURITY-30175",
+	"mavenModuleName": {
+		"groupId": "org.springframework.security",
+		"artifactId": "spring-security-core"
+	},
+	"packageName": "org.springframework.security:spring-security-core"
+}

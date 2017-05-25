@@ -8,8 +8,8 @@
 		"vulnerable": "<0.2.5",
 		"unaffected": ">=0.2.5"
 	},
-	"CVSSv3": "",
-	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"severity": "medium",
 	"identifiers": {
 		"CWE": [
 			"CWE-22"
@@ -40,5 +40,6 @@
 	"disclosureTime": "2014-02-06T07:33:48.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:st:20140206"
+	"id": "npm:st:20140206",
+	"packageName": "st"
 }

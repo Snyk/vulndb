@@ -28,5 +28,6 @@
 	"moduleName": "cue-sdk-node",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:cue-sdk-node:20161201"
+	"id": "npm:cue-sdk-node:20161201",
+	"packageName": "cue-sdk-node"
 }

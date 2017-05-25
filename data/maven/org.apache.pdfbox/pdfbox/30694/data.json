@@ -1,0 +1,31 @@
+{
+	"title": "Authentication Bypass",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.pdfbox:pdfbox",
+	"packageName": "org.apache.pdfbox:pdfbox",
+	"mavenModuleName": {
+		"groupId": "org.apache.pdfbox",
+		"artifactId": "pdfbox"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEPDFBOX-30694",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,1.8.12),[2,2.0.2)",
+		"unaffected": "[1.8.13],[2.0.2]"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-592"
+		],
+		"CVE": []
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:22.356Z",
+	"modificationTime": "2017-02-22T07:28:22.356Z",
+	"publicationTime": "2016-05-06T02:08:52.510Z",
+	"disclosureTime": "2016-05-06T02:08:52.510Z"
+}

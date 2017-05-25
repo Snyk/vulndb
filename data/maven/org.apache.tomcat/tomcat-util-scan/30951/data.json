@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary File Read",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.tomcat:tomcat-util-scan",
+	"packageName": "org.apache.tomcat:tomcat-util-scan",
+	"mavenModuleName": {
+		"groupId": "org.apache.tomcat",
+		"artifactId": "tomcat-util-scan"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETOMCAT-30951",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[8,8.0.6]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-264"
+		],
+		"CVE": [
+			"CVE-2014-0119"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:26.192Z",
+	"modificationTime": "2017-02-22T07:28:26.192Z",
+	"publicationTime": "2014-09-08T07:52:11.000Z",
+	"disclosureTime": "2014-09-08T07:52:11.000Z"
+}

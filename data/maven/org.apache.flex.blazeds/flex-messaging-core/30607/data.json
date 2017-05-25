@@ -1,0 +1,34 @@
+{
+	"title": "Improper Input Validation",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.flex.blazeds:flex-messaging-core",
+	"packageName": "org.apache.flex.blazeds:flex-messaging-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.flex.blazeds",
+		"artifactId": "flex-messaging-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEFLEXBLAZEDS-30607",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[4.7.0]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-20"
+		],
+		"CVE": [
+			"CVE-2015-5255"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:21.308Z",
+	"modificationTime": "2017-02-22T07:28:21.308Z",
+	"publicationTime": "2015-11-24T09:48:16.070Z",
+	"disclosureTime": "2015-11-24T09:48:16.070Z"
+}

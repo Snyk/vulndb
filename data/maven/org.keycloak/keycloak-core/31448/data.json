@@ -1,0 +1,32 @@
+{
+	"title": "Timing Attack",
+	"credit": [
+		"Richard Kettelerij"
+	],
+	"moduleName": "org.keycloak:keycloak-core",
+	"packageName": "org.keycloak:keycloak-core",
+	"mavenModuleName": {
+		"groupId": "org.keycloak",
+		"artifactId": "keycloak-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGKEYCLOAK-31448",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.4.0.Final,2.5.0.Final]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2017-2585"
+		]
+	},
+	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-05-17T12:10:22.721Z",
+	"modificationTime": "2017-05-17T12:10:22.721Z",
+	"publicationTime": "2017-05-21T07:52:40.096Z",
+	"disclosureTime": "2017-04-05T06:18:12.041Z"
+}

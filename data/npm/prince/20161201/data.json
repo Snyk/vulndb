@@ -28,5 +28,6 @@
 	"moduleName": "prince",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:prince:20161201"
+	"id": "npm:prince:20161201",
+	"packageName": "prince"
 }

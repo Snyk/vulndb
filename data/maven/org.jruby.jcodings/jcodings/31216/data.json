@@ -1,0 +1,34 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.jruby.jcodings:jcodings",
+	"packageName": "org.jruby.jcodings:jcodings",
+	"mavenModuleName": {
+		"groupId": "org.jruby.jcodings",
+		"artifactId": "jcodings"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGJRUBYJCODINGS-31216",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,1.4.1)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2010-1330"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:29.971Z",
+	"modificationTime": "2017-02-22T07:28:29.971Z",
+	"publicationTime": "2015-02-26T20:58:32.000Z",
+	"disclosureTime": "2015-02-26T20:58:32.000Z"
+}

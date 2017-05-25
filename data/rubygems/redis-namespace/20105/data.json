@@ -33,5 +33,6 @@
 	"modificationTime": "2016-09-21T12:37:05.000Z",
 	"publicationTime": "2013-08-02T21:00:00.000Z",
 	"disclosureTime": "2013-08-02T21:00:00.000Z",
-	"id": "SNYK-RUBY-REDISNAMESPACE-20105"
+	"id": "SNYK-RUBY-REDISNAMESPACE-20105",
+	"packageName": "redis-namespace"
 }

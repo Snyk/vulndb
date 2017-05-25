@@ -28,5 +28,6 @@
 	"moduleName": "emojione",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:emojione:20160725"
+	"id": "npm:emojione:20160725",
+	"packageName": "emojione"
 }

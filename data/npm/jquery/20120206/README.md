@@ -1,7 +1,9 @@
 ## Overview
 [`jquery`](https://www.npmjs.com/package/jquery) is JavaScript library for DOM operations.
-Affected versions of the package are vulnerable to Cross-site Scripting (XSS), `jQuery(strInput)` cannot reliably differentiate selectors from HTML.
-`quickExpr` was abandoned in favor of a simpler "parse as HTML if and only if there is a leading less-than" rule, with intentional parsing handled by the `jQuery( "<div/>" ).html( strHtml ).contents()` pattern.
+
+Affected versions of the package are vulnerable to Cross-site Scripting (XSS) attacks. The `jQuery(strInput)` function does not differentiate selectors from HTML in a reliable fashion. In the vulnerable version, jQuery determined whether the input was HTML or not by looking for the '<' character anywhere in the string, giving attackers more flexibility when attempting to construct malicious payload. 
+
+In the fixed versions, jQuery only deems the input to be HTML if it explicitly starts with '<', limiting exploitability only to attackers who can control the beginning of a string, which is far less common.
 
 ## Remediation
 Upgrade `jquery` to version 1.9.0 or higher.

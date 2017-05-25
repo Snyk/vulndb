@@ -8,8 +8,8 @@
 		"vulnerable": "<2.2.1",
 		"unaffected": ">=2.2.1"
 	},
-	"CVSSv3": "",
-	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"severity": "medium",
 	"identifiers": {
 		"CWE": [
 			"CWE-79"
@@ -40,5 +40,6 @@
 	"disclosureTime": "2015-12-07T17:13:57.565Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:mustache:20151207"
+	"id": "npm:mustache:20151207",
+	"packageName": "mustache"
 }

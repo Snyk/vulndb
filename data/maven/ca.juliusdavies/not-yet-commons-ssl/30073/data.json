@@ -1,0 +1,35 @@
+{
+	"title": "Security Bypass",
+	"credit": [
+		"Arun Babu Neelicattu"
+	],
+	"description": "file://README.md",
+	"moduleName": "ca.juliusdavies:not-yet-commons-ssl",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "(,0.3.13]",
+		"unaffected": "[0.3.15,)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-310"
+		],
+		"CVE": [
+			"CVE-2014-3604"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:P/I:P/A:P",
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:53.000Z",
+	"modificationTime": "2016-12-25T16:51:53.000Z",
+	"publicationTime": "2014-08-20T16:51:53.000Z",
+	"disclosureTime": "2014-08-20T16:51:53.000Z",
+	"id": "SNYK-JAVA-CAJULIUSDAVIES-30073",
+	"mavenModuleName": {
+		"groupId": "ca.juliusdavies",
+		"artifactId": "not-yet-commons-ssl"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+	"packageName": "ca.juliusdavies:not-yet-commons-ssl"
+}

@@ -2,7 +2,7 @@
 [`jquery-migrate`](https://www.npmjs.com/package/jquery-migrate) is package that helps migrate older jQuery code to jQuery 3.0+. It is an official plugin to jQuery.
 Affected versions of the package are vulnerable to Cross-site Scripting (XSS). The `jquery-migrate` package used code from an older jquery library that contained the vulnerable `location.hash()` function. It was used to select elements, but also allows remote attackers to inject script into the page.
 
-Related to [this vulnerability](https://snyk.io/vuln/npm:jquery:20110606) in the jQuery package.
+Related to a vulnerability in [jQuery](https://snyk.io/vuln/npm:jquery:20110606) and [fullpage.js](npm:fullpage.js:20151207).
 
 ## Remediation
 Upgrade `jquery-migrate` to version 1.2.1 or higher.

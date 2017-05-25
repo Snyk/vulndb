@@ -29,5 +29,6 @@
 	"modificationTime": "2016-09-21T12:37:05.000Z",
 	"publicationTime": "2012-02-28T22:00:00.000Z",
 	"disclosureTime": "2012-02-28T22:00:00.000Z",
-	"id": "SNYK-RUBY-REDCLOTH-20023"
+	"id": "SNYK-RUBY-REDCLOTH-20023",
+	"packageName": "RedCloth"
 }

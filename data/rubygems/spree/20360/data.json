@@ -1,0 +1,40 @@
+{
+	"title": "Cross Site Request Forgery",
+	"credit": [
+		"Egor Homakov"
+	],
+	"description": "file://README.md",
+	"moduleName": "spree",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 2.2.10",
+			"~> 2.3.8",
+			"~> 2.4.5",
+			">= 3.0.0.rc4"
+		],
+		"vulnerable": [
+			"< 3.0.0.rc4, >= 2.5",
+			"< 2.4.5, >= 2.4",
+			"< 2.3.8, >= 2.3",
+			"< 2.2.10"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"OSVDB": [
+			"OSVDB-119205"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:37:08.000Z",
+	"modificationTime": "2016-09-21T12:37:08.000Z",
+	"publicationTime": "2015-03-04T22:00:00.000Z",
+	"disclosureTime": "2015-03-04T22:00:00.000Z",
+	"id": "SNYK-RUBY-SPREE-20360",
+	"packageName": "spree"
+}

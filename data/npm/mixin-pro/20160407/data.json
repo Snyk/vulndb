@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary Code Injection",
+	"credit": [
+		"Cristian-Alexandru Staicu",
+		"Michael Pradel",
+		"Ben Livshits"
+	],
+	"moduleName": "mixin-pro",
+	"packageName": "mixin-pro",
+	"language": "js",
+	"packageManager": "npm",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-MIXINPRO-10488"
+		]
+	},
+	"semver": {
+		"unaffected": ">=0.6.7",
+		"vulnerable": "<0.6.7"
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"disclosureTime": "2016-04-07T21:00:00.000Z",
+	"publicationTime": "2017-05-01T06:40:59.354Z",
+	"modificationTime": "2017-04-30T08:40:59.354Z",
+	"creationTime": "2017-04-30T08:40:59.354Z",
+	"id": "npm:mixin-pro:20160407"
+}

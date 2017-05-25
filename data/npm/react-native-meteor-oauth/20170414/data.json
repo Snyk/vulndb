@@ -1,0 +1,33 @@
+{
+	"title": "Insecure Randomness",
+	"credit": [
+		"Sven Slootweg"
+	],
+	"creationTime": "2017-04-16T06:07:15.405Z",
+	"modificationTime": "2017-04-16T06:07:15.405Z",
+	"publicationTime": "2017-04-16T06:07:15.405Z",
+	"disclosureTime": "2017-04-16T06:07:15.405Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "*",
+		"unaffected": "<0.0.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"severity": "low",
+	"identifiers": {
+		"CWE": [
+			"CWE-330"
+		],
+		"CVE": [],
+		"NSP": 157,
+		"ALTERNATIVE": [
+			"SNYK-JS-REACTNATIVEMETEOROAUTH-10464"
+		]
+	},
+	"patches": [],
+	"moduleName": "react-native-meteor-oauth",
+	"packageName": "react-native-meteor-oauth",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:react-native-meteor-oauth:20170414"
+}

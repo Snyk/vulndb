@@ -1,0 +1,33 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.kie.workbench.screens:kie-wb-common-project-explorer-backend",
+	"packageName": "org.kie.workbench.screens:kie-wb-common-project-explorer-backend",
+	"mavenModuleName": {
+		"groupId": "org.kie.workbench.screens",
+		"artifactId": "kie-wb-common-project-explorer-backend"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGKIEWORKBENCHSCREENS-31235",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[6.0.0.Beta3,6.5.0.CR2),[7.0.0.Beta1,7.0.0.Beta2)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N",
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:30.243Z",
+	"modificationTime": "2017-02-22T07:28:30.243Z",
+	"publicationTime": "2016-09-02T06:03:57.966Z",
+	"disclosureTime": "2016-09-02T06:03:57.966Z"
+}

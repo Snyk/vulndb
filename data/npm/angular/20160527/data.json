@@ -1,0 +1,30 @@
+{
+	"title": "Arbitrary Script Injection",
+	"moduleName": "angular",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-ANGULAR-10203"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=1.2.30",
+		"vulnerable": "<1.2.30 >=1.0.0"
+	},
+	"credit": [
+		"Raphaël Jamet"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"disclosureTime": "2016-05-26T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-01-23T12:40:00.000Z",
+	"modificationTime": "2016-11-09T13:00:18.135Z",
+	"creationTime": "2016-11-09T13:00:18.135Z",
+	"id": "npm:angular:20160527",
+	"packageName": "angular"
+}

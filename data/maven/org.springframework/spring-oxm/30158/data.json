@@ -1,0 +1,35 @@
+{
+	"title": "XML External Entity (XXE) Injection",
+	"credit": [
+		"Alvaro Munoz"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.springframework:spring-oxm",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[3,3.2.3.RELEASE], [4,4.0.0.M1]",
+		"unaffected": "[3.2.4.RELEASE,4), [4.0.0.M2,5)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+			"CVE-2013-4152"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:P/I:P/A:P",
+	"severity": "medium",
+	"creationTime": "2016-12-25T16:51:49.000Z",
+	"modificationTime": "2016-12-25T16:51:49.000Z",
+	"publicationTime": "2016-12-25T16:51:49.000Z",
+	"disclosureTime": "2016-12-25T16:51:49.000Z",
+	"id": "SNYK-JAVA-ORGSPRINGFRAMEWORK-30158",
+	"mavenModuleName": {
+		"groupId": "org.springframework",
+		"artifactId": "spring-oxm"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+	"packageName": "org.springframework:spring-oxm"
+}

@@ -1,0 +1,32 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Hakim El Hattab"
+	],
+	"moduleName": "reveal.js",
+	"packageName": "reveal.js",
+	"language": "js",
+	"packageManager": "npm",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-REVEALJS-10420"
+		]
+	},
+	"semver": {
+		"unaffected": ">=2.6.0",
+		"vulnerable": "<2.6.0"
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"disclosureTime": "2013-10-23T21:00:00.000Z",
+	"publicationTime": "2017-03-13T08:00:22.654Z",
+	"modificationTime": "2017-03-06T15:53:02.678Z",
+	"creationTime": "2017-03-06T15:53:02.678Z",
+	"id": "npm:reveal.js:20131024"
+}

@@ -1,0 +1,35 @@
+{
+	"title": "Arbitrary Code Injection",
+	"credit": [
+		"Barak Tawily"
+	],
+	"description": "file://README.md",
+	"moduleName": "com.smartbear.soapui:soapui-project",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "(,4.6.3], [2.5,)",
+		"unaffected": "[4.6.4,)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [
+			"CVE-2014-1202"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/AU:N/C:C/I:C/A:C",
+	"severity": "high",
+	"creationTime": "2016-12-25T16:51:52.000Z",
+	"modificationTime": "2016-12-25T16:51:52.000Z",
+	"publicationTime": "2014-01-15T16:51:52.000Z",
+	"disclosureTime": "2014-01-15T16:51:52.000Z",
+	"id": "SNYK-JAVA-COMSMARTBEARSOAPUI-30085",
+	"mavenModuleName": {
+		"groupId": "com.smartbear.soapui",
+		"artifactId": "soapui-project"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+	"packageName": "com.smartbear.soapui:soapui-project"
+}

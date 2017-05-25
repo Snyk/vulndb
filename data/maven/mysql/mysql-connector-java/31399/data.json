@@ -1,0 +1,34 @@
+{
+	"title": "Improper Access Control",
+	"credit": [
+		"Thijs Alkemade"
+	],
+	"moduleName": "mysql:mysql-connector-java",
+	"packageName": "mysql:mysql-connector-java",
+	"mavenModuleName": {
+		"groupId": "mysql",
+		"artifactId": "mysql-connector-java"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-MYSQL-31399",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,5.1.41)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-284"
+		],
+		"CVE": [
+			"CVE-2017-3523"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-05-17T12:10:22.492Z",
+	"modificationTime": "2017-05-17T12:10:22.492Z",
+	"publicationTime": "2017-05-21T07:52:36.871Z",
+	"disclosureTime": "2017-04-25T03:05:38.381Z"
+}

@@ -28,5 +28,6 @@
 	"moduleName": "jqtree",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:jqtree:20160725"
+	"id": "npm:jqtree:20160725",
+	"packageName": "jqtree"
 }

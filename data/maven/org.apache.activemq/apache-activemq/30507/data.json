@@ -1,0 +1,34 @@
+{
+	"title": "Improper Input Validation",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.activemq:apache-activemq",
+	"packageName": "org.apache.activemq:apache-activemq",
+	"mavenModuleName": {
+		"groupId": "org.apache.activemq",
+		"artifactId": "apache-activemq"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEACTIVEMQ-30507",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[5.0.0,5.13.3]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-20"
+		],
+		"CVE": [
+			"CVE-2016-3088"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:20.059Z",
+	"modificationTime": "2017-02-22T07:28:20.059Z",
+	"publicationTime": "2016-05-24T09:06:01.967Z",
+	"disclosureTime": "2016-05-24T09:06:01.967Z"
+}

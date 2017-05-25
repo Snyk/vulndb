@@ -1,0 +1,34 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.wicket:wicket",
+	"packageName": "org.apache.wicket:wicket",
+	"mavenModuleName": {
+		"groupId": "org.apache.wicket",
+		"artifactId": "wicket"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEWICKET-31008",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.4.0,1.4.20)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2012-0047"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:27.080Z",
+	"modificationTime": "2017-02-22T07:28:27.080Z",
+	"publicationTime": "2014-01-09T17:47:15.000Z",
+	"disclosureTime": "2014-01-09T17:47:15.000Z"
+}

@@ -11,7 +11,7 @@
 		"vulnerable": "<1.4.0",
 		"unaffected": ">=1.4.0"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [],
@@ -36,5 +36,6 @@
 	"disclosureTime": "2016-01-25T17:56:55.455Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:i18n-node-angular:20160125"
+	"id": "npm:i18n-node-angular:20160125",
+	"packageName": "i18n-node-angular"
 }

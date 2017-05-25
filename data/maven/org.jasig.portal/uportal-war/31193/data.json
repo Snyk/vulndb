@@ -1,0 +1,34 @@
+{
+	"title": "Privilege Elevation",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.jasig.portal:uportal-war",
+	"packageName": "org.jasig.portal:uportal-war",
+	"mavenModuleName": {
+		"groupId": "org.jasig.portal",
+		"artifactId": "uportal-war"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGJASIGPORTAL-31193",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,4.0.13.1)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-264"
+		],
+		"CVE": [
+			"CVE-2014-3416"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:29.663Z",
+	"modificationTime": "2017-02-22T07:28:29.663Z",
+	"publicationTime": "2015-02-10T23:00:41.000Z",
+	"disclosureTime": "2015-02-10T23:00:41.000Z"
+}

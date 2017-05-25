@@ -1,0 +1,33 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"The Apache Tomcat Security Team"
+	],
+	"moduleName": "tomcat:tomcat-util",
+	"packageName": "tomcat:tomcat-util",
+	"mavenModuleName": {
+		"groupId": "tomcat",
+		"artifactId": "tomcat-util"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-TOMCAT-31384",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[3.2.1,5.5.23]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2016-6794"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:32.242Z",
+	"modificationTime": "2017-02-22T07:28:32.242Z",
+	"publicationTime": "2016-10-28T09:07:47.885Z",
+	"disclosureTime": "2016-10-28T09:07:47.885Z"
+}

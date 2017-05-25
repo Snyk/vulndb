@@ -1,0 +1,34 @@
+{
+	"title": "Authentication Bypass",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.cxf:cxf-bundle-minimal",
+	"packageName": "org.apache.cxf:cxf-bundle-minimal",
+	"mavenModuleName": {
+		"groupId": "org.apache.cxf",
+		"artifactId": "cxf-bundle-minimal"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHECXF-30569",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.3.6,2.6.1]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-20"
+		],
+		"CVE": [
+			"CVE-2012-3451"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:20.838Z",
+	"modificationTime": "2017-02-22T07:28:20.838Z",
+	"publicationTime": "2014-01-09T01:55:56.000Z",
+	"disclosureTime": "2014-01-09T01:55:56.000Z"
+}

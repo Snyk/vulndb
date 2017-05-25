@@ -1,0 +1,35 @@
+{
+	"title": "Arbitrary Code Execution",
+	"credit": [
+		"Ajin Abraham"
+	],
+	"creationTime": "2017-02-12T16:38:36.000Z",
+	"modificationTime": "2017-02-13T16:38:36.000Z",
+	"publicationTime": "2017-02-13T16:38:36.000Z",
+	"disclosureTime": "2017-02-08T16:38:36.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "*",
+		"unaffected": "<0.0.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-502"
+		],
+		"CVE": [
+			"CVE-2017-5941"
+		],
+		"NSP": 311,
+		"ALTERNATIVE": [
+			"SNYK-JS-NODESERIALIZE-10400"
+		]
+	},
+	"patches": [],
+	"moduleName": "node-serialize",
+	"packageName": "node-serialize",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:node-serialize:20170208"
+}

@@ -1,0 +1,33 @@
+{
+	"title": "Code Injection",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.geronimo.gshell:gshell-embeddable",
+	"packageName": "org.apache.geronimo.gshell:gshell-embeddable",
+	"mavenModuleName": {
+		"groupId": "org.apache.geronimo.gshell",
+		"artifactId": "gshell-embeddable"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEGERONIMOGSHELL-30621",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.0-alpha-1]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [
+			"CVE-2013-7285"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:21.476Z",
+	"modificationTime": "2017-02-22T07:28:21.476Z",
+	"publicationTime": "2015-05-15T16:22:18.000Z",
+	"disclosureTime": "2015-05-15T16:22:18.000Z"
+}

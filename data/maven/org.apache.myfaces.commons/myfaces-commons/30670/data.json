@@ -1,0 +1,34 @@
+{
+	"title": "Cryptographic Issues",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.myfaces.commons:myfaces-commons",
+	"packageName": "org.apache.myfaces.commons:myfaces-commons",
+	"mavenModuleName": {
+		"groupId": "org.apache.myfaces.commons",
+		"artifactId": "myfaces-commons"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEMYFACESCOMMONS-30670",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.1.0,1.1.7]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-310"
+		],
+		"CVE": [
+			"CVE-2010-2057"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:22.064Z",
+	"modificationTime": "2017-02-22T07:28:22.064Z",
+	"publicationTime": "2014-01-10T06:34:57.000Z",
+	"disclosureTime": "2014-01-10T06:34:57.000Z"
+}

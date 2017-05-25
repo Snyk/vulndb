@@ -28,5 +28,6 @@
 	"moduleName": "nw",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:nw:20161219"
+	"id": "npm:nw:20161219",
+	"packageName": "nw"
 }

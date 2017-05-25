@@ -39,5 +39,6 @@
 	"moduleName": "shell-quote",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:shell-quote:20160621"
+	"id": "npm:shell-quote:20160621",
+	"packageName": "shell-quote"
 }

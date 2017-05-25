@@ -1,0 +1,35 @@
+{
+	"title": "Arbitrary Code Execution",
+	"credit": [
+		"Luca Burgazzoli"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.apache.camel:camel-snakeyaml",
+	"packageName": "org.apache.camel:camel-snakeyaml",
+	"mavenModuleName": {
+		"groupId": "org.apache.camel",
+		"artifactId": "camel-snakeyaml"
+	},
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[,2.14.4], [2.17,2.17.5), [2.18, 2.18.2)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-502"
+		],
+		"CVE": [
+			"CVE-2017-3159"
+		]
+	},
+	"CVSSv2": "CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:P",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+	"severity": "high",
+	"creationTime": "2017-03-19T14:58:16.000Z",
+	"modificationTime": "2017-03-19T14:58:16.000Z",
+	"publicationTime": "2017-03-21T15:50:44.792Z",
+	"disclosureTime": "2017-03-19T14:58:16.000Z",
+	"id": "SNYK-JAVA-ORGAPACHECAMEL-30209"
+}

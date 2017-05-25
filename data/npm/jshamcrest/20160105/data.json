@@ -1,5 +1,5 @@
 {
-	"title": "Regular Expression Denial of Service",
+	"title": "Regular Expression Denial of Service (DoS)",
 	"credit": [
 		"Adam Baldwin"
 	],
@@ -11,8 +11,8 @@
 		"vulnerable": "*",
 		"unaffected": "<0.0.0"
 	},
-	"CVSSv3": "",
-	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"severity": "high",
 	"identifiers": {
 		"CWE": [
 			"CWE-400"
@@ -28,5 +28,6 @@
 	"disclosureTime": "2016-01-05T23:05:18.308Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:jshamcrest:20160105"
+	"id": "npm:jshamcrest:20160105",
+	"packageName": "jshamcrest"
 }

@@ -26,5 +26,6 @@
 	"publicationTime": "2016-12-13T00:00:00.000Z",
 	"modificationTime": "2016-12-06T00:00:00.000Z",
 	"creationTime": "2016-12-06T00:00:00.000Z",
-	"id": "npm:bitty:20161014"
+	"id": "npm:bitty:20161014",
+	"packageName": "bitty"
 }

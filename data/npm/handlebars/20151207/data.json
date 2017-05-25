@@ -8,8 +8,8 @@
 		"vulnerable": "<4.0.0",
 		"unaffected": ">=4.0.0"
 	},
-	"CVSSv3": "",
-	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"severity": "medium",
 	"identifiers": {
 		"CWE": [
 			"CWE-79"
@@ -40,5 +40,6 @@
 	"disclosureTime": "2015-12-07T16:52:07.962Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:handlebars:20151207"
+	"id": "npm:handlebars:20151207",
+	"packageName": "handlebars"
 }

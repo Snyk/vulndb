@@ -1,5 +1,5 @@
 {
-	"title": "Regular Expression Denial of Service",
+	"title": "Regular Expression Denial of Service (DoS)",
 	"credit": [
 		"Adam Baldwin"
 	],
@@ -11,8 +11,8 @@
 		"vulnerable": "<=2.12.3",
 		"unaffected": ">=2.12.4"
 	},
-	"CVSSv3": "",
-	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"severity": "high",
 	"identifiers": {
 		"CWE": [
 			"CWE-400"
@@ -47,5 +47,6 @@
 	"disclosureTime": "2016-01-18T04:29:55.903Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:is-my-json-valid:20160118"
+	"id": "npm:is-my-json-valid:20160118",
+	"packageName": "is-my-json-valid"
 }

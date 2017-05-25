@@ -28,5 +28,6 @@
 	"moduleName": "cookie-signature",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:cookie-signature:20160804"
+	"id": "npm:cookie-signature:20160804",
+	"packageName": "cookie-signature"
 }

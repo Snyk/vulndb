@@ -1,5 +1,5 @@
 {
-	"title": "Regular Expression Denial of Service",
+	"title": "Regular Expression Denial of Service (DoS)",
 	"credit": [
 		"Barış Soner Uşaklı"
 	],
@@ -8,8 +8,8 @@
 		"vulnerable": "<=0.3.3",
 		"unaffected": ">=0.3.4"
 	},
-	"CVSSv3": "",
-	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"severity": "high",
 	"identifiers": {
 		"CWE": [
 			"CWE-185",
@@ -41,5 +41,6 @@
 	"disclosureTime": "2014-01-30T22:33:12.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:marked:20140131-1"
+	"id": "npm:marked:20140131-1",
+	"packageName": "marked"
 }

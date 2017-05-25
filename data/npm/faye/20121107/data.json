@@ -1,0 +1,35 @@
+{
+	"title": "Insecure Defaults",
+	"credit": [
+		"Thai Duong",
+		"Juliano Rizzo"
+	],
+	"moduleName": "faye",
+	"packageName": "faye",
+	"language": "js",
+	"packageManager": "npm",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [
+			"CWE-300"
+		],
+		"CVE": [
+			"CVE-2011-3389"
+		],
+		"ALTERNATIVE": [
+			"SNYK-JS-FAYE-10457"
+		]
+	},
+	"semver": {
+		"unaffected": ">=0.8.9",
+		"vulnerable": "<0.8.9 >=0.5.0"
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+	"disclosureTime": "2012-11-06T22:00:00.000Z",
+	"publicationTime": "2017-03-28T08:30:28.513Z",
+	"modificationTime": "2017-03-06T12:10:12.391Z",
+	"creationTime": "2017-03-06T12:10:12.391Z",
+	"id": "npm:faye:20121107"
+}

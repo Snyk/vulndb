@@ -27,5 +27,6 @@
 	"moduleName": "ckeditor-dev",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:ckeditor-dev:20140626"
+	"id": "npm:ckeditor-dev:20140626",
+	"packageName": "ckeditor-dev"
 }

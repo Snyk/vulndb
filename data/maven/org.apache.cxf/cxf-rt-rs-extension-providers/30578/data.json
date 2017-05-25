@@ -1,0 +1,31 @@
+{
+	"title": "XML External Entity (XXE) Injection",
+	"credit": [
+		"Donald Kwakkel"
+	],
+	"moduleName": "org.apache.cxf:cxf-rt-rs-extension-providers",
+	"packageName": "org.apache.cxf:cxf-rt-rs-extension-providers",
+	"mavenModuleName": {
+		"groupId": "org.apache.cxf",
+		"artifactId": "cxf-rt-rs-extension-providers"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHECXF-30578",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.6.0,2.7.18]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": []
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:20.956Z",
+	"modificationTime": "2017-02-22T07:28:20.956Z",
+	"publicationTime": "2016-12-23T04:04:51.688Z",
+	"disclosureTime": "2016-12-23T04:04:51.688Z"
+}

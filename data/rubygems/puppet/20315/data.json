@@ -1,0 +1,35 @@
+{
+	"title": "Arbitrary File Access",
+	"credit": [
+		"Puppet Labs"
+	],
+	"moduleName": "puppet",
+	"packageName": "puppet",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"description": "file://README.md",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2012-3864"
+		]
+	},
+	"semver": {
+		"unaffected": [
+			">=2.7.18",
+			">=2.6.17, <2.7.0"
+		],
+		"vulnerable": [
+			">=2.7.0, <2.7.18",
+			"<2.6.17"
+		]
+	},
+	"patches": [],
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+	"disclosureTime": "2012-06-27T22:00:00.000Z",
+	"publicationTime": "2017-02-28T07:40:33.430Z",
+	"modificationTime": "2017-01-26T14:19:26.847Z",
+	"creationTime": "2017-01-26T14:19:26.847Z",
+	"id": "SNYK-RUBY-PUPPET-20315"
+}

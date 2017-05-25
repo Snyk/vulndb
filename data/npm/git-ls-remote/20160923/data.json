@@ -27,5 +27,6 @@
 	"publicationTime": "2016-09-25T08:53:46.832Z",
 	"modificationTime": "2016-09-25T08:53:46.832Z",
 	"creationTime": "2016-09-25T08:53:46.832Z",
-	"id": "npm:git-ls-remote:20160923"
+	"id": "npm:git-ls-remote:20160923",
+	"packageName": "git-ls-remote"
 }

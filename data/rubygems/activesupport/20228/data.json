@@ -34,5 +34,6 @@
 	"modificationTime": "2016-09-21T12:36:44.000Z",
 	"publicationTime": "2015-06-15T21:00:00.000Z",
 	"disclosureTime": "2015-06-15T21:00:00.000Z",
-	"id": "SNYK-RUBY-ACTIVESUPPORT-20228"
+	"id": "SNYK-RUBY-ACTIVESUPPORT-20228",
+	"packageName": "activesupport"
 }

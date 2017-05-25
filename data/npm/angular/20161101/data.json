@@ -1,0 +1,30 @@
+{
+	"title": "Content Security Policy (CSP) Bypass",
+	"moduleName": "angular",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-ANGULAR-10190"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=1.5.9",
+		"vulnerable": "<1.5.9 >=1.5.0"
+	},
+	"credit": [
+		"Martin Probst"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:N",
+	"disclosureTime": "2016-10-31T22:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-01-23T12:50:00.000Z",
+	"modificationTime": "2017-01-24T09:16:32.893Z",
+	"creationTime": "2016-11-07T09:16:32.893Z",
+	"id": "npm:angular:20161101",
+	"packageName": "angular"
+}

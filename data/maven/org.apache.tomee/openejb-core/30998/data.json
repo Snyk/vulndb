@@ -1,0 +1,34 @@
+{
+	"title": "Untrusted Object Deserialization",
+	"credit": [
+		"Romain Manni-Bucau"
+	],
+	"moduleName": "org.apache.tomee:openejb-core",
+	"packageName": "org.apache.tomee:openejb-core",
+	"mavenModuleName": {
+		"groupId": "org.apache.tomee",
+		"artifactId": "openejb-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETOMEE-30998",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[7,7.0.0-M3)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-502"
+		],
+		"CVE": [
+			"CVE-2016-0779"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:26.941Z",
+	"modificationTime": "2017-02-22T07:28:26.941Z",
+	"publicationTime": "2016-03-15T05:56:14.681Z",
+	"disclosureTime": "2016-03-15T05:56:14.681Z"
+}

@@ -1,0 +1,35 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Dr. Marian Ventuneac"
+	],
+	"description": "file://README.md",
+	"moduleName": "org.apache.struts:struts2-core",
+	"language": "java",
+	"packageManager": "maven",
+	"semver": {
+		"vulnerable": "[2,2.2.1.1]",
+		"unaffected": "[2.2.3,)"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2011-1772"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2016-12-25T16:51:45.000Z",
+	"modificationTime": "2016-12-25T16:51:45.000Z",
+	"publicationTime": "2011-02-22T16:51:45.000Z",
+	"disclosureTime": "2011-02-22T16:51:45.000Z",
+	"id": "SNYK-JAVA-ORGAPACHESTRUTS-30040",
+	"mavenModuleName": {
+		"groupId": "org.apache.struts",
+		"artifactId": "struts2-core"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"CVSSv2": "CVSS:2.0/AV:N/AC:H/AU:N/C:N/I:P/A:N",
+	"packageName": "org.apache.struts:struts2-core"
+}

@@ -1,0 +1,35 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.cxf:cxf-api",
+	"packageName": "org.apache.cxf:cxf-api",
+	"mavenModuleName": {
+		"groupId": "org.apache.cxf",
+		"artifactId": "cxf-api"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHECXF-30557",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.6.0,2.6.13]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-399",
+			"CWE-770"
+		],
+		"CVE": [
+			"CVE-2014-0109"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+	"creationTime": "2017-02-22T07:28:20.685Z",
+	"modificationTime": "2017-02-22T07:28:20.685Z",
+	"publicationTime": "2014-05-01T18:49:06.000Z",
+	"disclosureTime": "2014-05-01T18:49:06.000Z"
+}

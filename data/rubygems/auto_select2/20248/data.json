@@ -27,5 +27,6 @@
 	"modificationTime": "2016-09-21T12:36:45.000Z",
 	"publicationTime": "2016-01-07T22:00:00.000Z",
 	"disclosureTime": "2016-01-07T22:00:00.000Z",
-	"id": "SNYK-RUBY-AUTOSELECT2-20248"
+	"id": "SNYK-RUBY-AUTOSELECT2-20248",
+	"packageName": "auto_select2"
 }

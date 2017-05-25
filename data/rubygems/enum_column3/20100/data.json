@@ -26,5 +26,6 @@
 	"modificationTime": "2016-09-21T12:36:51.000Z",
 	"publicationTime": "2013-06-25T21:00:00.000Z",
 	"disclosureTime": "2013-06-25T21:00:00.000Z",
-	"id": "SNYK-RUBY-ENUMCOLUMN3-20100"
+	"id": "SNYK-RUBY-ENUMCOLUMN3-20100",
+	"packageName": "enum_column3"
 }

@@ -29,5 +29,6 @@
 	"modificationTime": "2016-09-21T12:36:58.000Z",
 	"publicationTime": "2015-06-03T21:00:00.000Z",
 	"disclosureTime": "2015-06-03T21:00:00.000Z",
-	"id": "SNYK-RUBY-MOPED-20222"
+	"id": "SNYK-RUBY-MOPED-20222",
+	"packageName": "moped"
 }

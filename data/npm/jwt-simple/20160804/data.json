@@ -28,5 +28,6 @@
 	"moduleName": "jwt-simple",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:jwt-simple:20160804"
+	"id": "npm:jwt-simple:20160804",
+	"packageName": "jwt-simple"
 }

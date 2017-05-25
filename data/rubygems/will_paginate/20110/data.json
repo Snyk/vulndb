@@ -32,5 +32,6 @@
 	"modificationTime": "2016-09-21T12:37:12.000Z",
 	"publicationTime": "2013-09-18T21:00:00.000Z",
 	"disclosureTime": "2013-09-18T21:00:00.000Z",
-	"id": "SNYK-RUBY-WILLPAGINATE-20110"
+	"id": "SNYK-RUBY-WILLPAGINATE-20110",
+	"packageName": "will_paginate"
 }

@@ -1,5 +1,5 @@
 {
-	"title": "Cross-Site Scripting due to improper file and directory names escaping",
+	"title": "Cross-site Scripting due to improper file and directory names escaping",
 	"credit": [
 		"Ivan Kozik"
 	],
@@ -8,7 +8,7 @@
 		"vulnerable": "<1.6.3",
 		"unaffected": ">=1.6.3"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
 	"severity": "medium",
 	"identifiers": {
 		"CWE": [
@@ -38,5 +38,6 @@
 	"disclosureTime": "2015-03-13T23:24:28.000Z",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:serve-index:20150314"
+	"id": "npm:serve-index:20150314",
+	"packageName": "serve-index"
 }

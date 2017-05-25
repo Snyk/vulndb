@@ -1,0 +1,34 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"Luca Carettoni"
+	],
+	"moduleName": "activemq:activemq-core",
+	"packageName": "activemq:activemq-core",
+	"mavenModuleName": {
+		"groupId": "activemq",
+		"artifactId": "activemq-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ACTIVEMQ-30188",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "(,4.0-M3]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-399"
+		],
+		"CVE": [
+			"CVE-2011-4905"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+	"creationTime": "2017-02-22T07:28:15.806Z",
+	"modificationTime": "2017-02-22T07:28:15.806Z",
+	"publicationTime": "2017-03-13T08:00:21.440Z",
+	"disclosureTime": "2011-04-22T19:04:35.000Z"
+}

@@ -1,0 +1,34 @@
+{
+	"title": "Improper Input Validation",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.qpid:qpid-java-build",
+	"packageName": "org.apache.qpid:qpid-java-build",
+	"mavenModuleName": {
+		"groupId": "org.apache.qpid",
+		"artifactId": "qpid-java-build"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEQPID-30713",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[0.30,6.0.3]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-20"
+		],
+		"CVE": [
+			"CVE-2016-4974"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:22.584Z",
+	"modificationTime": "2017-02-22T07:28:22.584Z",
+	"publicationTime": "2016-07-04T01:23:08.375Z",
+	"disclosureTime": "2016-07-04T01:23:08.375Z"
+}

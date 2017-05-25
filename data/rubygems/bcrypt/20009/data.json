@@ -29,5 +29,6 @@
 	"modificationTime": "2016-09-21T12:36:46.000Z",
 	"publicationTime": "2010-01-31T22:00:00.000Z",
 	"disclosureTime": "2010-01-31T22:00:00.000Z",
-	"id": "SNYK-RUBY-BCRYPT-20009"
+	"id": "SNYK-RUBY-BCRYPT-20009",
+	"packageName": "bcrypt"
 }

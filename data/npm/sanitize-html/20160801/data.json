@@ -1,5 +1,5 @@
 {
-	"title": "Cross-site Scripting",
+	"title": "Cross-site Scripting (XSS)",
 	"credit": [
 		"Björn Kimminich"
 	],
@@ -28,5 +28,6 @@
 	"moduleName": "sanitize-html",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:sanitize-html:20160801"
+	"id": "npm:sanitize-html:20160801",
+	"packageName": "sanitize-html"
 }

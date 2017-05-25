@@ -1,0 +1,34 @@
+{
+	"title": "Cross-Site Request Forgery (CSRF)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.springframework:spring-web",
+	"packageName": "org.springframework:spring-web",
+	"mavenModuleName": {
+		"groupId": "org.springframework",
+		"artifactId": "spring-web"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGSPRINGFRAMEWORK-31331",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[,3.2.8), [4,4.0.2)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-352"
+		],
+		"CVE": [
+			"CVE-2014-0054"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:31.538Z",
+	"modificationTime": "2017-02-22T07:28:31.538Z",
+	"publicationTime": "2014-06-06T21:43:43.000Z",
+	"disclosureTime": "2014-06-06T21:43:43.000Z"
+}

@@ -1,0 +1,30 @@
+{
+	"title": "Arbitrary File Deletion",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "bundler",
+	"packageName": "bundler",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 1.6.1"
+		],
+		"vulnerable": [
+			">=0.9.2, <1.6.1"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": []
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"severity": "medium",
+	"creationTime": "2016-12-27T15:30:00.000Z",
+	"modificationTime": "2017-02-13T15:30:00.000Z",
+	"publicationTime": "2017-02-13T15:30:00.000Z",
+	"disclosureTime": "2014-03-31T15:30:00.000Z",
+	"id": "SNYK-RUBY-BUNDLER-20284"
+}

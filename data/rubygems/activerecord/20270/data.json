@@ -16,7 +16,6 @@
 			">= 5.0.0"
 		],
 		"vulnerable": [
-			"< 5.0.0, >= 4.2.8",
 			"< 4.2.7.1, >= 4.2.0"
 		]
 	},
@@ -32,5 +31,6 @@
 	"modificationTime": "2016-09-21T12:36:42.000Z",
 	"publicationTime": "2016-08-10T21:00:00.000Z",
 	"disclosureTime": "2016-08-10T21:00:00.000Z",
-	"id": "SNYK-RUBY-ACTIVERECORD-20270"
+	"id": "SNYK-RUBY-ACTIVERECORD-20270",
+	"packageName": "activerecord"
 }

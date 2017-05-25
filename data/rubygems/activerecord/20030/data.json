@@ -1,7 +1,7 @@
 {
-	"title": "'IS NULL' Clause SQL Injection",
+	"title": "Unsafe Query Generation",
 	"credit": [
-		"Unknown"
+		"Ben Murphy"
 	],
 	"description": "file://README.md",
 	"moduleName": "activerecord",
@@ -31,8 +31,9 @@
 	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
 	"severity": "medium",
 	"creationTime": "2016-09-21T12:36:43.000Z",
-	"modificationTime": "2016-09-21T12:36:43.000Z",
+	"modificationTime": "2017-02-27T12:36:43.000Z",
 	"publicationTime": "2012-05-30T21:00:00.000Z",
 	"disclosureTime": "2012-05-30T21:00:00.000Z",
-	"id": "SNYK-RUBY-ACTIVERECORD-20030"
+	"id": "SNYK-RUBY-ACTIVERECORD-20030",
+	"packageName": "activerecord"
 }

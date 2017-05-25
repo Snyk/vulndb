@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary Code Execution",
+	"credit": [
+		"Jon Passki"
+	],
+	"moduleName": "com.opensymphony:xwork-core",
+	"packageName": "com.opensymphony:xwork-core",
+	"mavenModuleName": {
+		"groupId": "com.opensymphony",
+		"artifactId": "xwork-core"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-COMOPENSYMPHONY-30329",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.1.4,2.1.6]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [
+			"CVE-2013-2135"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+	"creationTime": "2017-02-22T07:28:17.860Z",
+	"modificationTime": "2017-02-22T07:28:17.860Z",
+	"publicationTime": "2014-06-08T00:37:06.000Z",
+	"disclosureTime": "2014-06-08T00:37:06.000Z"
+}

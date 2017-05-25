@@ -1,0 +1,32 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"moduleName": "i18next",
+	"packageName": "i18next",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-I18NEXT-10392"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=3.4.4",
+		"vulnerable": "<3.4.4 >=2.0.0"
+	},
+	"credit": [
+		"alexmchardy"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+	"disclosureTime": "2016-10-12T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-02-13T08:40:29.649Z",
+	"modificationTime": "2017-02-13T08:40:29.649Z",
+	"creationTime": "2017-01-23T08:40:29.649Z",
+	"id": "npm:i18next:20161013"
+}

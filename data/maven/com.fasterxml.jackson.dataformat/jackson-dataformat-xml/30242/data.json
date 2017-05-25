@@ -1,0 +1,34 @@
+{
+	"title": "XML External Entity (XXE) Injection",
+	"credit": [
+		"Adith Sudhakar"
+	],
+	"moduleName": "com.fasterxml.jackson.dataformat:jackson-dataformat-xml",
+	"packageName": "com.fasterxml.jackson.dataformat:jackson-dataformat-xml",
+	"mavenModuleName": {
+		"groupId": "com.fasterxml.jackson.dataformat",
+		"artifactId": "jackson-dataformat-xml"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-COMFASTERXMLJACKSONDATAFORMAT-30242",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.0.0,2.7.4)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-611"
+		],
+		"CVE": [
+			"CVE-2016-3720"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2017-02-22T07:28:16.732Z",
+	"modificationTime": "2017-02-22T07:28:16.732Z",
+	"publicationTime": "2017-03-28T08:29:27.941Z",
+	"disclosureTime": "2016-04-15T08:37:01.650Z"
+}

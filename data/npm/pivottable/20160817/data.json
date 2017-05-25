@@ -28,5 +28,6 @@
 	"moduleName": "pivottable",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:pivottable:20160817"
+	"id": "npm:pivottable:20160817",
+	"packageName": "pivottable"
 }

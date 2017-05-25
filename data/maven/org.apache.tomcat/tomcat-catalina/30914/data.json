@@ -1,0 +1,34 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.tomcat:tomcat-catalina",
+	"packageName": "org.apache.tomcat:tomcat-catalina",
+	"mavenModuleName": {
+		"groupId": "org.apache.tomcat",
+		"artifactId": "tomcat-catalina"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHETOMCAT-30914",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[7,7.0.68), [8,8.0.31), [9,9.0.0.M2)",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2016-0706"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2017-02-22T07:28:25.440Z",
+	"modificationTime": "2017-02-22T07:28:25.440Z",
+	"publicationTime": "2016-02-22T13:00:27.748Z",
+	"disclosureTime": "2016-02-22T13:00:27.748Z"
+}

@@ -1,0 +1,31 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "org.apache.hive:hive-common",
+	"packageName": "org.apache.hive:hive-common",
+	"mavenModuleName": {
+		"groupId": "org.apache.hive",
+		"artifactId": "hive-common"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-ORGAPACHEHIVE-30638",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[1.2.0,2.1.0]",
+		"unaffected": "[2.2.0]"
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": []
+	},
+	"severity": "low",
+	"creationTime": "2017-02-22T07:28:21.682Z",
+	"modificationTime": "2017-02-22T07:28:21.682Z",
+	"publicationTime": "2016-10-31T01:01:16.653Z",
+	"disclosureTime": "2016-10-31T01:01:16.653Z"
+}

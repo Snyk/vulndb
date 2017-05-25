@@ -28,5 +28,6 @@
 	"moduleName": "express-restify-mongoose",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:express-restify-mongoose:20160419"
+	"id": "npm:express-restify-mongoose:20160419",
+	"packageName": "express-restify-mongoose"
 }

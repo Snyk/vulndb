@@ -1,0 +1,34 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Unknown"
+	],
+	"moduleName": "com.google.gwt:gwt-user",
+	"packageName": "com.google.gwt:gwt-user",
+	"mavenModuleName": {
+		"groupId": "com.google.gwt",
+		"artifactId": "gwt-user"
+	},
+	"packageManager": "maven",
+	"language": "java",
+	"id": "SNYK-JAVA-COMGOOGLEGWT-30289",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "[2.1.0,2.5.0]",
+		"unaffected": ""
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2013-4204"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"creationTime": "2017-02-22T07:28:17.342Z",
+	"modificationTime": "2017-02-22T07:28:17.342Z",
+	"publicationTime": "2017-03-28T08:29:28.095Z",
+	"disclosureTime": "2013-08-04T00:30:22.000Z"
+}

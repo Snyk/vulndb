@@ -1,5 +1,5 @@
 {
-	"title": "Downloads Resources over Insecure protocol",
+	"title": "Resources Downloaded over Insecure Protocol",
 	"credit": [
 		"Adam Baldwin"
 	],
@@ -26,5 +26,6 @@
 	"moduleName": "fuseki",
 	"language": "js",
 	"packageManager": "npm",
-	"id": "npm:fuseki:20161113"
+	"id": "npm:fuseki:20161113",
+	"packageName": "fuseki"
 }

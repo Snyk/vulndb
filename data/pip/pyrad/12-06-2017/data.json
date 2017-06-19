@@ -1,0 +1,44 @@
+{
+  "semver": {
+    "unaffected": [
+      ">=1.0.1.14"
+    ], 
+    "vulnerable": [
+      "<=1.0.1.13"
+    ]
+  }, 
+  "references": [
+    "https://code.google.com/p/python-markdown2/issues/detail?id=29", 
+    "https://code.google.com/p/python-markdown2/issues/detail?id=30", 
+    "http://secunia.com/advisories/37142/"
+  ], 
+  "packageManager": "pip", 
+  "id": "Unknown", 
+  "description": "file://README.md", 
+  "severity": "Unknown", 
+  "title": "markdown2: Multiple XSS flaws", 
+  "publicationTime": "12-06-2017", 
+  "provider": "VictimsDB", 
+  "extra_data": {
+    "path": "victims-cve-db\\database\\python\\2009\\3724.yaml"
+  }, 
+  "uniqueId": "c283d3582a595d4381d7a472e0858b9852751e18cc08f88f10bdaae81aa02117", 
+  "disclosureTime": "12-06-2017", 
+  "rejected": false, 
+  "modificationTime": "12-06-2017", 
+  "patches": [], 
+  "CVSSv3": 2.1, 
+  "language": "python", 
+  "packageName": "pyrad", 
+  "identifiers": {
+    "CVE": [
+      "2009-3724"
+    ], 
+    "CWE": []
+  }, 
+  "creationTime": "12-06-2017", 
+  "credit": [
+    "Unknown"
+  ], 
+  "published": true
+}

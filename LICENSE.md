@@ -4,6 +4,6 @@ This DB (feed and repository) is licensed under the AGPL-v3 license, which often
 
 # Alternate license		
 		
-Much of the content in this repository is also available via [Snyk](https://snyk.io/)'s [tools and API](https://snyk.io/docs/), under the terms and conditions specified in the [policies page](https://snyk.io/policies/).		
+Much of the content in this repository is also available via [Snyk](https://snyk.io/)'s [tools and API](https://snyk.io/docs/), under the terms and conditions specified in the [policies page](https://snyk.io/policies).		
 
 If neither of these licenses work for you, contact us at [contact@snyk.io](mailto:contact@snyk.io) to look at other options.

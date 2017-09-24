@@ -14,3 +14,4 @@ Upgrade `list-n-stream` to version 0.0.11 or higher.
 
 ## References
 - [GitHub Commit](https://github.com/KoryNunn/list-n-stream/commit/99b0b40b34aaedfcdf25da46bef0a06b9c47fb59)
+- [PoC by Liang Gong](https://github.com/JacksonGL/NPM-Vuln-PoC/tree/master/directory-traversal/list-n-stream)

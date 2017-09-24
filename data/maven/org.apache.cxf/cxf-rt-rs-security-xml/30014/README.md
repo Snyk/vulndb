@@ -1,5 +1,6 @@
 ## Overview
-[`org.apache.cxf:cxf-rt-rs-security-xml`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22cxf-rt-rs-security-xml%22)
+[`org.apache.cxf:cxf-rt-rs-security-xml`](https://http://cxf.apache.org/) is an open source services framework.
+
 The SamlHeaderInHandler in Apache CXF before 2.6.11, 2.7.x before 2.7.8, and 3.0.x before 3.0.1 allows remote attackers to cause a denial of service (infinite loop) via a crafted SAML token in the authorization header of a request to a JAX-RS service.
 
 ## References

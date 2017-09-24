@@ -1,15 +1,15 @@
 ## Overview
+[`uglify-js`](http://npmjs.com/package/uglify-js) is a JavaScript parser, minifier, compressor and beautifier toolkit.
+
 [Tom MacWright](https://github.com/mishoo/UglifyJS2/issues/751) discovered that UglifyJS versions 2.4.23 and earlier are affected by a vulnerability which allows a specially crafted Javascript file to have altered functionality after minification. This bug was [demonstrated](https://zyan.scripts.mit.edu/blog/backdooring-js/) by [Yan](https://twitter.com/bcrypt) to allow potentially malicious code to be hidden within secure code, activated by minification.
 
-_Source: [Node Security Project](https://nodesecurity.io/advisories/39)_
-
-
 ### Details
-
-In Boolean algebra, DeMorgan's laws describe the relationships between conjunctions ( && ), disjunctions ( || ) and negations ( ! ).
+In Boolean algebra, DeMorgan's laws describe the relationships between conjunctions (`&&`), disjunctions (`||`) and negations (`!`).
 In Javascript form, they state that:
+```savascript
  !(a && b) === (!a) || (!b)
  !(a || b) === (!a) && (!b)
+```
 
 The law does not hold true when one of the values is not a boolean however.
 
@@ -17,7 +17,7 @@ Vulnerable versions of UglifyJS do not account for this restriction, and erroneo
 
 Consider this authentication function:
 
-```
+```javascript
 function isTokenValid(user) {
     var timeLeft =
         !!config && // config object exists
@@ -39,7 +39,7 @@ When minified with a vulnerable version of UglifyJS, it will produce the followi
 
 ( Formatted for readability )
 
-```
+```javascript
 function isTokenValid(user) {
     var timeLeft = !(                       // negation
         !config                             // config object does not exist
@@ -58,11 +58,9 @@ function getTimeLeft(expiry) {
 ```
 
 ## Remediation
-
 Upgrade UglifyJS to version >= 2.4.24.
 
 ## References
-
 - https://github.com/tmcw/mdast-uglify-bug
 - https://zyan.scripts.mit.edu/blog/backdooring-js/
 - https://github.com/mishoo/UglifyJS2/issues/751

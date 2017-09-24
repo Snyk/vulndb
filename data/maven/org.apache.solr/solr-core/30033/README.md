@@ -1,5 +1,6 @@
 ## Overview
-[`org.apache.solr:solr-core`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22solr-core%22)
+[`org.apache.solr:solr-core`](https://lucene.apache.org/solr/) is an open source enterprise search platform built on Apache Lucene.
+
 Directory traversal vulnerability in SolrResourceLoader in Apache Solr before 4.6 allows remote attackers to read arbitrary files via a .. (dot dot) or full pathname in the tr parameter to solr/select/, when the response writer (wt parameter) is set to XSLT.  NOTE: this can be leveraged using a separate XXE (XML eXternal Entity) vulnerability to allow access to files across restricted network boundaries.
 
 ## References

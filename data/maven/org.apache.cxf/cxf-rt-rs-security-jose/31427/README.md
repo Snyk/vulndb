@@ -1,5 +1,6 @@
 ## Overview
-[`org.apache.cxf:cxf-rt-rs-security-jose`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22cxf-rt-rs-security-jose%22)
+[`org.apache.cxf:cxf-rt-rs-security-jose`](https://http://cxf.apache.org/) is an open source services framework.
+
 Affected versions of this package are vulnerable to Timing attacks because it does not use a constant time MAC signature comparison algorithm.
 
 ## References

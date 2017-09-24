@@ -1,6 +1,6 @@
 ## Overview
 [`serve`](https://www.npmjs.com/package/serve) is Static file serving and directory listing.
-Affected versions of the package are vulnerable to Directory Traversal related to [SNYK-JS-NEXT-10641](https://snyk.io/vulnSNYK-JS-NEXT-10641)
+Affected versions of the package are vulnerable to Directory Traversal related to [SNYK-JS-NEXT-10641](https://snyk.io/vuln/SNYK-JS-NEXT-10641)
 
 ## Remediation
 Upgrade `serve` to version 5.2.2 or higher.

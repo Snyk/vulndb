@@ -1,5 +1,6 @@
 ## Overview
-[`org.apache.cxf:cxf-rt`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22cxf-rt%22)
+[`org.apache.cxf:cxf-rt`](https://http://cxf.apache.org/) is an open source services framework.
+
 Apache CXF before 2.6.14 and 2.7.x before 2.7.11 allows remote attackers to cause a denial of service (/tmp disk consumption) via a large invalid SOAP message.
 
 ## References

@@ -1,5 +1,6 @@
 ## Overview
-[`org.apache.cxf:cxf-bundle-minimal`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22cxf-bundle-minimal%22)
+[`org.apache.cxf:cxf-bundle-jaxrs`](https://http://cxf.apache.org/) is an open source services framework.
+
 The SymmetricBinding in Apache CXF before 2.6.13 and 2.7.x before 2.7.10, when EncryptBeforeSigning is enabled and the UsernameToken policy is set to an EncryptedSupportingToken, transmits the UsernameToken in cleartext, which allows remote attackers to obtain sensitive information by sniffing the network.
 
 ## References

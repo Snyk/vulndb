@@ -1,5 +1,6 @@
 ## Overview
-[`org.apache.cxf:cxf-rt-rs-security-xml`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22cxf-rt-rs-security-xml%22)
+[`org.apache.cxf:cxf-rt-rs-security-xml`](https://http://cxf.apache.org/) is an open source services framework.
+
 JAX-RS XML Security streaming clients in Apache CXF before 3.1.11 and 3.0.13 do not validate that the service response was signed or encrypted, which allows remote attackers to spoof servers.
 
 ## References

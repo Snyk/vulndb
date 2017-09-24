@@ -1,5 +1,6 @@
 ## Overview
-[`org.apache.cxf:cxf-rt-rs-security-oauth2`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22cxf-rt-rs-security-oauth2%22)
+[`org.apache.cxf:cxf-rt-rs-security-oauth2`](https://http://cxf.apache.org/) is an open source services framework.
+
 Affected versions of this package are vulnerable to Timing attacks because it does not use a constant time MAC signature comparison algorithm.
 
 ## References

@@ -1,6 +1,8 @@
 ## Overview
-[`foundation-sites`](https://www.npmjs.com/package/foundation-sites) is The most advanced responsive front-end framework in the world.
+[`foundation-sites`](https://www.npmjs.com/package/foundation-sites) is an advanced responsive front-end framework.
+
 Affected versions of the package are vulnerable to Cross-site Scripting (XSS).
+
 You can read more about `Cross-site Scripting (XSS)` on our [blog](https://snyk.io/blog/marked-xss-vulnerability/).
 
 ## Remediation

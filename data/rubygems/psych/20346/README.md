@@ -7,6 +7,6 @@ Affected versions of the package are vulnerable to Arbitrary Command Execution.
 Upgrade `psych` to version 2.0.0 or higher.
 
 ## References
-- [GitHub PR](http://tenderlovemaking.com/2013/02/06/yaml-f7u12.html)
+- [Aaron Patterson's Blog](http://tenderlovemaking.com/2013/02/06/yaml-f7u12.html)
 - [GitHub Issue](https://github.com/ruby/psych/issues/119)
 - [GitHub Commit](https://github.com/ruby/psych/commit/2c644e184192975b261a81f486a04defa3172b3f)

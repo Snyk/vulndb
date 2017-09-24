@@ -4,3 +4,5 @@ http/conn/ssl/SSLConnectionSocketFactory.java in Apache HttpComponents HttpClien
 
 ## References
 - [NVD](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-5262)
+- [Jira Issue](https://issues.apache.org/jira/browse/HTTPCLIENT-1478)
+- [Redhat Bugzilla](https://bugzilla.redhat.com/show_bug.cgi?id=1261538)

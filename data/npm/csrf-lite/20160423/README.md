@@ -1,5 +1,6 @@
 ## Overview
-`csrf-lite` is a cross-site request forgery protection library for framework-less node sites.
+[`csrf-lite`](http://npmjs.com/package/csrf-lite) is a CSRF protection utility for framework-free node sites.
+Affected versions of the package are vulnerable to a timing attack.
 
 While the CSRF protection itself works well and increases security, the library uses the built-in string comparison mechanism, `===`, and not a time constant string comparison. As a result, the comparison will fail faster when the first characters in the token are incorrect. 
 An attacker can use this difference to perform a timing attack, essentially allowing them to guess the CSRF token one character at a time.

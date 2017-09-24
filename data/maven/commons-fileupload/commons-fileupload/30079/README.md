@@ -1,6 +1,5 @@
 ## Overview
-[`commons-fileupload:commons-fileupload`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22commons-fileupload%22)
-Affected versions of this package are vulnerable to TOCTOU attacks if the attacker has write access to the /tmp directory.
+Affected versions of [`commons-fileupload:commons-fileupload`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22commons-fileupload%22) are vulnerable to Time of Check Time of Use (TOCTOU) attacks if the attacker has write access to the /tmp directory.
 
 ## Details
 Commons FileUpload provides file upload capability for Servlets and web applications. During the upload process, FileUpload may (depending on configuration) save the uploaded file temporarily on disk. By default this will be in the system wide tmp directory. Because the temporary files have predictable file names and are stored in a publicly writeable location they are vulnerable to a TOCTOU attack.

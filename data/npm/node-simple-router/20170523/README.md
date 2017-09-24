@@ -10,7 +10,8 @@ Thanks to [Liang Gong](https://github.com/JacksonGL) for disclosing this vulnera
 - June 6th, 2017 - Issue acknowledged by package owner.
 
 ## Remediation
-There is no fix version for `node-simple-router`.
+Upgrade `node-simple-router` to version 0.10.1 or higher.
 
 ## References
+- [GitHub Commit](https://github.com/sandy98/node-simple-router/commit/dfdd52e2e80607af433097d940b3834fd96df488)
 - [PoC by Liang Gong](https://github.com/JacksonGL/NPM-Vuln-PoC/tree/master/directory-traversal/node-simple-router)

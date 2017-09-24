@@ -1,5 +1,6 @@
 ## Overview
-[`org.apache.cxf:cxf-rt-ws-security`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22cxf-rt-ws-security%22)
+[`org.apache.cxf:cxf-rt-ws-security`](https://http://cxf.apache.org/) is an open source services framework.
+
 Apache CXF before 2.5.9, 2.6.x before 2.6.6, and 2.7.x before 2.7.3, when the plaintext UsernameToken WS-SecurityPolicy is enabled, allows remote attackers to bypass authentication via a security header of a SOAP request containing a UsernameToken element that lacks a password child element.
 
 ## References

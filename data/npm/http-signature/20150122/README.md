@@ -1,7 +1,11 @@
 ## Overview
 [`http-signature`](https://www.npmjs.com/package/http-signature) is a reference implementation of Joyent's HTTP Signature scheme.
+Affected versions of the package are vulnerable to Timing Attacks due to time-variable comparison of signatures. il.
 
-Affected versions of the package are vulnerable to Timing Attacks due to time-variable comparison of signatures. A malicious user can guess a valid signature one char at a time by considering the time it takes a signature validation to fail.
+The library implemented a character to character comparison, similar to the built-in string comparison mechanism, `===`, and not a time constant string comparison. As a result, the comparison will fail faster when the first characters in the signature are incorrect.
+An attacker can use this difference to perform a timing attack, essentially allowing them to guess the signature one character at a time.
+
+You can read more about timing attacks in Node.js on the [Snyk blog](https://snyk.io/blog/node-js-timing-attack-ccc-ctf/).
 
 ## Remediation
 Upgrade `http-signature` to version 1.0.0 or higher.

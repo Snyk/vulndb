@@ -1,5 +1,6 @@
 ## Overview
-[`org.apache.cxf:cxf-rt-ws-security`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22cxf-rt-ws-security%22)
+[`org.apache.cxf:cxf-rt-ws-security`](https://http://cxf.apache.org/) is an open source services framework.
+
 Apache WSS4J before 1.6.17 and 2.x before 2.0.2, as used in Apache CXF 2.7.x before 2.7.13 and 3.0.x before 3.0.2, when using TransportBinding, does not properly enforce the SAML SubjectConfirmation method security semantics, which allows remote attackers to conduct spoofing attacks via unspecified vectors.
 
 ## References

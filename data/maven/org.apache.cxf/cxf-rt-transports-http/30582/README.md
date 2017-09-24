@@ -1,5 +1,6 @@
 ## Overview
-[`org.apache.cxf:cxf-rt-transports-http`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22cxf-rt-transports-http%22)
+[`org.apache.cxf:cxf-rt-transports-http`](https://http://cxf.apache.org/) is an open source services framework.
+
 Affected versions of the package are vulnerable to Cross-site Scripting (XSS) Attacks.
 
 ## Details

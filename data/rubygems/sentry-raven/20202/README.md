@@ -1,10 +1,10 @@
 ## Overview
-[`sentry-raven`](https://rubygems.org/gems/sentry-raven/versions/1.2.2) is a. gem that provides a client interface for the Sentry error logger.
-Affected versions of this gem are vulnerable to Denial of Service (DoS) attacks.
+[`sentry-raven`](https://rubygems.org/gems/sentry-raven/versions/1.2.2) provides a client interface for the Sentry error logger.
 
-## Details
-`sentry-raven` contains a flaw in the `lib/raven/okjson.rb` script that is triggered when large numeric values are stored as an exponent or in scientific notation. With a specially crafted request, an attacker can cause the software to consume excessive resources resulting in a denial of service.
+Affected versions of this gem are vulnerable to Denial of Service (DoS) attacks. The `lib/raven/okjson.rb` script contains the the `numtok` function. When supplying a large exponent value in a scientific number to that function, it causes a Denial of Service (DoS). With a specially crafted request, an attacker can cause the software to excessively consume resources, and deny service to any other client.
+
+This is related to [SNYK-RUBY-RACK-20400](https://snyk.io/vuln/SNYK-RUBY-RACK-20400)
 
 ## References
-- http://rubysec.com/advisories/CVE-2014-9490/
-- https://groups.google.com/d/msg/getsentry/Cz5bih0ZY1U/DXh9ow-jsFAJ
+- [Rubysec Advisory](https://rubysec.com/advisories/sentry-raven-OSVDB-115654)
+- [Google Group](https://groups.google.com/d/msg/getsentry/Cz5bih0ZY1U/DXh9ow-jsFAJ)

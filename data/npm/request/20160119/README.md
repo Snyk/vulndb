@@ -4,11 +4,11 @@ A potential remote memory exposure vulnerability exists in `request`. If a `requ
 
 Note that while the impact of this vulnerability is high (memory exposure), exploiting it is likely difficult, as the attacker needs to somehow control the body type of the request. One potential exploit scenario is when a request is composed based on JSON input, including the body type, allowing a malicious JSON to trigger the memory leak.
 
-### Details
+## Details
 Constructing a `Buffer` class with integer `N` creates a `Buffer`
 of length `N` with non zero-ed out memory.
 **Example:**
-```
+```js
 var x = new Buffer(100); // uninitialized Buffer of length 100
 // vs
 var x = new Buffer('100'); // initialized Buffer with value of '100'
@@ -17,7 +17,7 @@ var x = new Buffer('100'); // initialized Buffer with value of '100'
 Initializing a multipart body in such manner will cause uninitialized memory to be sent in the body of the request.
 
 #### Proof of concept
-```javascript
+```js
 var http = require('http')
 var request = require('request')
 

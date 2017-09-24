@@ -13,9 +13,9 @@ This attack can be achieved without authentication. To make matters worse, web a
 Upgrade `org.apache.struts:struts2-core` to version 2.3.32, 2.5.10.1 or higher.
 
 ## References
-- [GitHub PR](https://github.com/rapid7/metasploit-framework/pull/8072)
-- [GitHub Issue](https://github.com/rapid7/metasploit-framework/issues/8064)
-- [GitHub Commit](https://github.com/rapid7/metasploit-framework/pull/8072/commits/fc0f63e77471baa40057effaaa8be0f205adc6b7)
+- [Metasploit GitHub PR](https://github.com/rapid7/metasploit-framework/pull/8072)
+- [Metasploit GitHub Issue](https://github.com/rapid7/metasploit-framework/issues/8064)
+- [Metasploit GitHub Commit](https://github.com/rapid7/metasploit-framework/pull/8072/commits/fc0f63e77471baa40057effaaa8be0f205adc6b7)
 - [PoC](https://github.com/tengzhangchao/Struts2_045-Poc)
 - [CVE](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5638)
 - [Exploit DB](https://www.exploit-db.com/exploits/41570/)

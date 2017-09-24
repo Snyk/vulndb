@@ -9,7 +9,7 @@ Affected versions of this Gem are vulnerable to XML External Entity (XXE) attack
 
 ## Remediation
 Nokogiri suggests not to opt-out of `NONET` unless only trusted documents are being parsed.
-There currently is no fix in libxml2 as of January 11th, 2017.
+There currently is no fix in libxml2 as of September 17th, 2017.
 `Nokogiri` will be waiting for a fix upstream to update.
 
 ## Disclosure Timeline

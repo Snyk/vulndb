@@ -1,7 +1,7 @@
 ## Overview
 [`floody`](https://www.npmjs.com/package/floody) combines floods of small stream writes while not delaying or buffering writes when not flooded.
 
-A possible memory disclosure vulnerability exists when a value of type `number` is provided to the `write()` method and results in the concatination of uninitialized memory to the buffer collection.
+A possible memory disclosure vulnerability exists when a value of type `number` is provided to the `write()` method and results in the concatenation of uninitialized memory to the buffer collection.
 
 This is a result of unobstructed use of the `Buffer` constructor, whose [insecure default constructor increases the odds of memory leakage](https://snyk.io/blog/exploiting-buffer/).
 

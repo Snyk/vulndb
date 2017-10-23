@@ -4,6 +4,7 @@ Affected versions of this package are vulnerable to Denial of Service (DoS) atta
 
 ## References
 - [NVD](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0050)
+- [Github ChangeLog](https://github.com/apache/commons-fileupload/blob/master/src/changes/changes.xml#L90)
 - [Oren Hafif Blog](http://blog.spiderlabs.com/2014/02/cve-2014-0050-exploit-with-boundaries-loops-without-boundaries.html)
 - [Apache-SVN](http://svn.apache.org/viewvc?view=revision&revision=1565143)
 - [Apache Mailing list archives](http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/%3C52F373FC.9030907@apache.org%3E)

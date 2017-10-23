@@ -7,5 +7,6 @@ Commons FileUpload provides file upload capability for Servlets and web applicat
 A successful attack requires that the attacker has write access to the tmp directory. The attack can be prevented by setting the repository to a non-publicly writeable location. The documentation for FileUpload does not highlight the potential security implications of not setting a repository, nor do the provided examples set a repository. This may have caused users to use FileUpload in an insecure manner.
 
 ## References
+- [Github ChangeLog](https://github.com/apache/commons-fileupload/blob/master/src/changes/changes.xml#L105)
 - [Redhat Bugzilla](https://bugzilla.redhat.com/CVE-2013-0248)
 - [Commons-user Mailing List](http://mail-archives.apache.org/mod_mbox/commons-user/201303.mbox/%3C51371C31.8020805@apache.org%3E)

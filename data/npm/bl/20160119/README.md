@@ -1,7 +1,7 @@
 ## Overview
 [bl](https://www.npmjs.com/package/bl) is a storage object for collections of Node Buffers.
 
-A possible memory disclosure vulnerability exists when a value of type `number` is provided to the `append()` method and results in concatination of uninitialized memory to the buffer collection.
+A possible memory disclosure vulnerability exists when a value of type `number` is provided to the `append()` method and results in concatenation of uninitialized memory to the buffer collection.
 
 This is a result of unobstructed use of the `Buffer` constructor, whose [insecure default constructor increases the odds of memory leakage](https://snyk.io/blog/exploiting-buffer/).
 

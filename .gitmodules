@@ -1,3 +1,0 @@
-[submodule "test/fixtures/external"]
-	path = test/fixtures/external
-	url = https://github.com/Snyk/vulndb-fixtures/

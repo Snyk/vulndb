@@ -2,7 +2,7 @@
 [`concat-stream`](https://www.npmjs.com/package/concat-stream) is writable stream that concatenates strings or binary data and calls a callback with the result.
 Affected versions of the package are vulnerable to Uninitialized Memory Exposure.
 
-A possible memory disclosure vulnerability exists when a value of type `number` is provided to the `stringConcat()` method and results in concatination of uninitialized memory to the stream collection.
+A possible memory disclosure vulnerability exists when a value of type `number` is provided to the `stringConcat()` method and results in concatenation of uninitialized memory to the stream collection.
 
 This is a result of unobstructed use of the `Buffer` constructor, whose [insecure default constructor increases the odds of memory leakage](https://snyk.io/blog/exploiting-buffer/).
 

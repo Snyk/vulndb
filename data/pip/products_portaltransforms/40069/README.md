@@ -1,0 +1,7 @@
+## Overview
+[`products_portaltransforms`](https://pypi.python.org/pypi/products_portaltransforms) is a MIME based content transformations.
+
+Cross-site scripting (XSS) vulnerability in the safe_html filter in Products.PortalTransforms in Plone 2.1 through 4.1 allows remote authenticated users to inject arbitrary web script or HTML via unspecified vectors, a different vulnerability than CVE-2010-2422.
+
+## References
+- [NVD](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-1949)

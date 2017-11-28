@@ -1,5 +1,5 @@
 ## Overview
-[`redcarpet`]('https://rubygems.org/gems/redcarpet') is a fast, safe and extensible Markdown to (X)HTML parser.
+[`redcarpet`](https://rubygems.org/gems/redcarpet) is a fast, safe and extensible Markdown to (X)HTML parser.
 
 Vulnerable versions of `redcarpet` Ruby contain a flaw that allows Arbitrary code execution via stack overflow.
 

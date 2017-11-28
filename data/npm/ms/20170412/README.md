@@ -1,5 +1,6 @@
 ## Overview
-[`ms`](https://www.npmjs.com/package/ms) is a tiny milisecond conversion utility.
+[`ms`](https://www.npmjs.com/package/ms) is a tiny millisecond conversion utility.
+
 Affected versions of this package are vulnerable to Regular Expression Denial of Service (ReDoS) due to an incomplete fix for previously reported vulnerability [npm:ms:20151024](https://snyk.io/vuln/npm:ms:20151024). The fix limited the length of accepted input string to 10,000 characters, and turned to be insufficient making it possible to block the event loop for 0.3 seconds (on a typical laptop) with a specially crafted string passed to `ms()` function.
 
 *Proof of concept*

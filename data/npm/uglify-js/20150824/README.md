@@ -58,9 +58,8 @@ function getTimeLeft(expiry) {
 ```
 
 ## Remediation
-Upgrade UglifyJS to version >= 2.4.24.
+Upgrade UglifyJS to version `2.4.24` or higher.
 
 ## References
-- https://github.com/tmcw/mdast-uglify-bug
-- https://zyan.scripts.mit.edu/blog/backdooring-js/
-- https://github.com/mishoo/UglifyJS2/issues/751
+- [Blog Post](https://zyan.scripts.mit.edu/blog/backdooring-js/)
+- [GitHub Issue](https://github.com/mishoo/UglifyJS2/issues/751)

@@ -1,6 +1,5 @@
 ## Overview
-[`org.apache.geode:geode-pulse`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22geode-pulse%22)
-Apache Geode before 1.1.1, when a cluster has enabled security by setting the `security-manager` property, allows remote authenticated users with `CLUSTER:READ` but not `DATA:READ` permission to access the data browser page in Pulse and consequently execute an OQL query that exposes data stored in the cluster.
+[Apache Geode]([`org.apache.geode:geode-core`](https://geode.apache.org)) before 1.1.1, when a cluster has enabled security by setting the `security-manager` property, allows remote authenticated users with `CLUSTER:READ` but not `DATA:READ` permission to access the data browser page in Pulse and consequently execute an OQL query that exposes data stored in the cluster.
 
 ## References
 - [NVD](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2017-5649)

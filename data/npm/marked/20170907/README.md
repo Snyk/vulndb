@@ -10,5 +10,7 @@ You can read more about `Regular Expression Denial of Service (ReDoS)` on our [b
 ## Remediation
 There is no fix version yet. At time of writing, latest version is `0.3.6`.
 
+We recommend [patching](https://snyk.io/docs/faqs#fixing-vulnerabilities) the vulnerability.
+
 ## References
 - [Github Issue](https://github.com/chjj/marked/issues/937)

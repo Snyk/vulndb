@@ -1,5 +1,6 @@
 ## Overview
-[`org.apache.camel:camel-cxf`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22camel-cxf%22)
+[`org.apache.camel:camel-cxf`](https://camel.apache.org/) is a versatile open-source integration framework based on known Enterprise Integration Patterns.
+
 Affected versions of the package are vulnerable to Denial of Service (DoS) attacks.
 
 ## References

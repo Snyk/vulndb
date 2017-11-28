@@ -1,5 +1,6 @@
 ## Overview
-[`org.apache.xmlrpc:xmlrpc`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22xmlrpc%22)
+[`org.apache.xmlrpc:xmlrpc`](https://ws.apache.org/xmlrpc/) is a Java implementation of XML-RPC, a popular protocol that uses XML over HTTP to implement remote procedure calls.
+
 Affected versions of the package are vulnerable to Denial of Service (DoS). By default `ws-xmlrpc` supports `Content-Encoding` HTTP header. When sending `Content-Encoding: gzip` header, the body is not gzipped, and an error returns. An attacker may create a specially crafted compressed file and cause a Denial of Service attack, also known as `decompression bomb` attack.
 
 ## References

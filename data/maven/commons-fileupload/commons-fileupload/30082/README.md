@@ -1,6 +1,6 @@
 ## Overview
 [`commons-fileupload:commons-fileupload`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22commons-fileupload%22)
-Affected versions of this package are vulnerable to Denia of Service (DoS) attacks. An attacker can upload a file with a long boundry string in the HTTP header, causing high CPU consumption.
+Affected versions of this package are vulnerable to Denial of Service (DoS) attacks. An attacker can upload a file with a long boundry string in the HTTP header, causing high CPU consumption.
 
 ## Details
 The `MultipartStream` class contains a flaw that allows remote attackers to cause a Denial of service (CPU consumption) attacks. This happens by setting the length of the multipart boundary to be just below the size of the buffer (4096 bytes) used to read the uploaded file. Typically, the boundary is tens of bytes long, which caused this case to take much longer than usual.

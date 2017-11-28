@@ -1,5 +1,6 @@
 ## Overview
 [`org.apache.camel:camel-core`](https://camel.apache.org/) is a versatile open-source integration framework based on known Enterprise Integration Patterns.
+
 The Validation Component of Apache Camel evaluates DTD headers of XML stream sources, although a validation against XML schemas (XSD) is executed. Remote attackers can use this feature to make Server-Side Request Forgery (SSRF) attacks by sending XML documents with remote DTDs URLs or XML External Entities (XXE).  The vulnerability is not given for SAX or StAX sources.
 
 ## Remediation

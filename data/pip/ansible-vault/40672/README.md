@@ -9,5 +9,6 @@ Prior to version 1.0.5, Ansible Vault used the unsafe `yaml.load()` method to lo
 Upgrade `ansible-vault` to version 1.0.5 or higher.
 
 ## References
+- [NVD](https://nvd.nist.gov/vuln/detail/CVE-2017-2809)
 - [Github Issue](https://github.com/tomoh1r/ansible-vault/issues/4)
 - [Github Commit](https://github.com/tomoh1r/ansible-vault/commit/3f8f659ef443ab870bb19f95d43543470168ae04)

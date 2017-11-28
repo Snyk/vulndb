@@ -9,6 +9,6 @@ An attacker can provide a long value to the `duration` function, which nearly ma
 Upgrade `moment` to version `2.11.2` or greater.
 
 ## References
-- https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS
-- https://github.com/moment/moment/commit/52a807b961ead925be11ff5e632c8f7325a9ce36
-- https://github.com/moment/moment/issues/2936
+- [OWASP ReDoS](https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS)
+- [GitHub Commit](https://github.com/moment/moment/commit/52a807b961ead925be11ff5e632c8f7325a9ce36)
+- [GitHub Issue](https://github.com/moment/moment/issues/2936)

@@ -1,5 +1,6 @@
 ## Overview
-[`org.apache.camel:camel-core`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22camel-core%22)
+[`org.apache.camel:camel-core`](https://camel.apache.org/) is a versatile open-source integration framework based on known Enterprise Integration Patterns.
+
 The XSLT component in Apache Camel 2.11.x before 2.11.4, 2.12.x before 2.12.3, and possibly earlier versions allows remote attackers to execute arbitrary Java methods via a crafted message.
 
 ## References

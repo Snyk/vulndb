@@ -1,5 +1,6 @@
 ## Overview
-[`org.apache.camel:camel-core`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22camel-core%22)
+[`org.apache.camel:camel-core`](https://camel.apache.org/) is a versatile open-source integration framework based on known Enterprise Integration Patterns.
+
 Multiple XML external entity (XXE) vulnerabilities in builder/xml/XPathBuilder.java in Apache Camel before 2.13.4 and 2.14.x before 2.14.2 allow remote attackers to read arbitrary files via an external entity in an invalid XML (1) String or (2) GenericFile object in an XPath query.
 
 ## References

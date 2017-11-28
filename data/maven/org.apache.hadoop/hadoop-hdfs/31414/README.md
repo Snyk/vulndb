@@ -1,5 +1,6 @@
 ## Overview
-[`org.apache.hadoop:hadoop-hdfs`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22hadoop-hdfs%22)
+[`org.apache.hadoop:hadoop-hdfs`](https://hadoop.apache.org) is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models.
+
 The HDFS web UI in Apache Hadoop before 2.7.0 is vulnerable to a cross-site scripting (XSS) attack through an unescaped query parameter.
 
 ## References

@@ -1,6 +1,6 @@
 ## Overview
 
-[`cocaine`]('https://rubygems.org/gems/cocaine') is a library for doing command lines.
+[`cocaine`](https://rubygems.org/gems/cocaine) is a library for doing command lines.
 
 Affected versions of this gem are vulnerable to an attacker injecting hostile commands into a command line via a crafted hash object which is not properly escaped. This is due to the method of variable interpolation used by the gem, allowing an attacker to execute arbitrary commands via a crafted `has` object, related to recursive variable interpolation.
 

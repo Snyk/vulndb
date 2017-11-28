@@ -7,7 +7,7 @@ A JSON Web Token (JWT) defines a container that transports data between two part
 
 The "JWK" (JSON Web Key) is a JSON based open standard used for creating access tokens. JWK's `Header Parameter` allows it to include the public key that corresponds to the key used to sign the JWS. If the Header Parameter includes this public key, an attacker could then use it to generate a private key / public key pair, send the public key together with the signature and the signature will be valid.
 
-This vulnerability is related to [SNYK-JAVA-ORGBITBUCKETBC-30206](https://snyk.io/vuln/) and [npm:node-jose:20170313](https://snyk.io/vuln/npm:node-jose:20170313)
+This vulnerability is related to [SNYK-JAVA-ORGBITBUCKETBC-30206](https://snyk.io/vuln/SNYK-JAVA-ORGBITBUCKETBC-30206) and [npm:node-jose:20170313](https://snyk.io/vuln/npm:node-jose:20170313)
 
 ## Remediation
 Upgrade `com.nimbusds:nimbus-jose-jwt` to version 4.34.2 or higher.

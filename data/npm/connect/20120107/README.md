@@ -1,5 +1,6 @@
 ## Overview
-[`connect`](https://www.npmjs.com/package/connect) is High performance middleware framework.
+[`connect`](https://www.npmjs.com/package/connect) is a high performance middleware framework.
+
 Affected versions of the package are vulnerable to Denial of Service (DoS) attacks. It is possible to crash the node server by requesting a url with a trailing backslash in the end.
 
 ## Remediation

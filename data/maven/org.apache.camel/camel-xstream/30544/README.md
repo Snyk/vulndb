@@ -1,5 +1,6 @@
 ## Overview
-[`org.apache.camel:camel-xstream`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22camel-xstream%22)
+[`org.apache.camel:camel-xstream`](https://camel.apache.org/) is a versatile open-source integration framework based on known Enterprise Integration Patterns.
+
 The camel-xstream component in Apache Camel before 2.15.5 and 2.16.x before 2.16.1 allow remote attackers to execute arbitrary commands via a crafted serialized Java object in an HTTP request.
 
 ## References

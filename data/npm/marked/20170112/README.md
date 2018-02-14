@@ -12,7 +12,8 @@ An example of data URI used to deliver javascript code. The data holds `<script>
 ```
 
 ## Remediation
-The fix is merged to the master branch but not yet published to npm. We recommend patching it using [Snyk wizard](https://snyk.io/docs/using-snyk/#wizard).
+Upgrade `marked` to version 0.3.7 or higher.
+Also, you can patch the vulnerability using [Snyk wizard](https://snyk.io/docs/using-snyk/#wizard).
 
 ## References
 - [GitHub Commit](https://github.com/chjj/marked/commit/cd2f6f5b7091154c5526e79b5f3bfb4d15995a51)

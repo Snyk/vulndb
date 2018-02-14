@@ -1,7 +1,7 @@
 ## Overview
 [`org.apache.spark:spark-core_2.10`](https://spark.apache.org) is a fast and general cluster computing system for Big Data.
 
-Affected versions of this package are vulnerable to Cross-Site Scripting (XSS) attacks.
+Affected versions of this package are vulnerable to Cross-site Scripting (XSS) attacks.
 
 In Apache Spark before 2.2.0, it is possible for an attacker to take advantage of a user's trust in the server to trick them into visiting a link that points to a shared Spark cluster and submits data including MHTML to the Spark master, or history server. This data, which could contain a script, would then be reflected back to the user and could be evaluated and executed by MS Windows-based clients. It is not an attack on Spark itself, but on the user, who may then execute the script inadvertently when viewing elements of the Spark web UIs.
 

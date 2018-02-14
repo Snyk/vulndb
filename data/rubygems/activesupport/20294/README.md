@@ -1,4 +1,3 @@
-They may also allow for various denial of service attacks. Action Pack
 
 ## Overview
 

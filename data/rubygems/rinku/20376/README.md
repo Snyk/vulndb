@@ -1,5 +1,5 @@
 ## Overview
-[`rinku`](https://rubygems.org/api/v1/gems/rinku.json) is a fast and very smart autolinking library that
+[`rinku`](https://rubygems.org/gems/rinku) is a fast and very smart autolinking library that
 acts as a drop-in replacement for Rails `auto_link`.
 
 Affected versions of the package are vulnerable to Cross-site Scripting (XSS) due to not escaping double quotes in a valid url.

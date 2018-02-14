@@ -1,6 +1,5 @@
 ## Overview
-[`xstream:xstream`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22xstream%22)
-XStream could deserialize arbitrary user-supplied XML content, representing objects of any type. A remote attacker able to pass XML to XStream could use this flaw to perform a variety of attacks, including remote code execution in the context of the server running the XStream application
+[`xstream:xstream`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22xstream%22) could deserialize arbitrary user-supplied XML content, representing objects of any type. A remote attacker able to pass XML to XStream could use this flaw to perform a variety of attacks, including remote code execution in the context of the server running the XStream application
 
 ## References
 

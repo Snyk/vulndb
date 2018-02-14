@@ -1,5 +1,5 @@
 ## Overview
-[`io.swagger:swagger-codegen-cli`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22swagger-codegen-cli%22) is a simple yet powerful representation of your RESTful API.
+[`io.swagger:swagger-codegen`](https://swagger.io) is a simple yet powerful representation of your RESTful API.
 Affected versions of this package are vulnerable to Arbitrary Code Execution via parameter injection. By leveraging this vulnerability, an attacker can inject arbitrary execution code embedded with a client or server generated automatically to interact with the definition of service.
 
 ## References

@@ -1,5 +1,5 @@
 ## Overview
-[`org.apache.sling:org.apache.sling.servlets.post`](https://sling.apache.org) is an innovative web framework that is intended to bring back the fun to web development.
+[`org.apache.sling:org.apache.sling.servlets.post`](https://sling.apache.org/) is a framework for RESTful web-applications based on an extensible content tree.
 
 The deepGetOrCreateNode function in impl/operations/AbstractCreateOperation.java in org.apache.sling.servlets.post.bundle 2.2.0 and 2.3.0 in Apache Sling does not properly handle a NULL value that returned when the session does not have permissions to the root node, which allows remote attackers to cause a denial of service (infinite loop) via unspecified vectors.
 

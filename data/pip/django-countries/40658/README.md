@@ -1,7 +1,7 @@
 ## Overview
 [`Django-countries`](https://pypi.python.org/pypi/django-countries) provides a country field for Django models.
 
-Affected versions of this package are vulnerable to Cross-Site Scripting (XSS) attacks.
+Affected versions of this package are vulnerable to Cross-site Scripting (XSS) attacks.
 
 ## References
 - [Github ChangeLog](https://github.com/SmileyChris/django-countries/blob/master/CHANGES.rst#version-34-22-october-2015)

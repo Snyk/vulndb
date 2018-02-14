@@ -1,5 +1,5 @@
 ## Overview
-[`fluentd`](https://rubygems.org/api/v1/gems/fluentd.json) is an open source data collector designed to scale and simplify log management. It can collect, process and ship many kinds of data in near real-time.
+[`fluentd`](https://rubygems.org/gems/fluentd) is an open source data collector designed to scale and simplify log management. It can collect, process and ship many kinds of data in near real-time.
 
 Affected versions of the package are vulnerable to Insecure Randomness.
 Random number generator used by OpenSSL produce predictable values and should not be used in security-sensitive context.

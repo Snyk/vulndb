@@ -1,7 +1,7 @@
 ## Overview
 [`org.apache.ranger:ranger`](http://ranger.apache.org) is a framework to enable, monitor and manage comprehensive data security across the Hadoop platform.
 
-Apache Ranger before 0.6.is vulnerable to a Stored Cross-Site Scripting (XSS) attack when entering custom policy conditions. Admin users can store some arbitrary javascript code to be executed when normal users login and access policies.
+Apache Ranger before 0.6.is vulnerable to a Stored Cross-site Scripting (XSS) attack when entering custom policy conditions. Admin users can store some arbitrary javascript code to be executed when normal users login and access policies.
 
 You can read more about `Cross-site Scripting (XSS)` on our [blog](https://snyk.io/blog/marked-xss-vulnerability/).
 

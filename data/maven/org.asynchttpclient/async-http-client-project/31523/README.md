@@ -1,5 +1,5 @@
 ## Overview
-[`org.asynchttpclient:async-http-client-project`](https://asynchttpclient.org) is an Async Http Client (AHC) library's purpose is to allow Java applications to easily execute HTTP requests and asynchronously process the response.
+[`org.asynchttpclient:async-http-client-project`](https://github.com/AsyncHttpClient/async-http-client) is an Async Http Client (AHC) library's purpose is to allow Java applications to easily execute HTTP requests and asynchronously process the response.
 
 Affected versions of the package are vulnerable to Server Side Request Forgery (SSRF).
 

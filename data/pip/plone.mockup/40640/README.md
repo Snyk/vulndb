@@ -1,7 +1,7 @@
 ## Overview
 [`plone.mockup`](https://pypi.python.org/pypi/plone.mockup) is a plone integration package for mockup.
 
-Affected versions of this package are vulnerable to Cross-Site Scripting (XSS) attacks. The embedded template uses `<%= value %>` which is insecure.
+Affected versions of this package are vulnerable to Cross-site Scripting (XSS) attacks. The embedded template uses `<%= value %>` which is insecure.
 
 ## References
 - [Github ChangeLog](https://github.com/plone/mockup/blob/master/CHANGES.rst#213-2016-03-10)

@@ -1,7 +1,7 @@
 ## Overview
 [`ftw.mail`](https://pypi.python.org/pypi/ftw.mail) provides a mail content type and a mail-in behavior.
 
-Affected versions of this package are vulnerable to Cross-Site Scripting (XSS) attacks.
+Affected versions of this package are vulnerable to Cross-site Scripting (XSS) attacks.
 
 ## References
 - [Github ChangeLog](https://github.com/4teamwork/ftw.mail/blob/master/docs/HISTORY.txt#L128)

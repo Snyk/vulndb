@@ -1,0 +1,7 @@
+## Overview
+[`node-jose`](https://www.npmjs.com/package/node-jose) is a JavaScript implementation of the JSON Object Signing and Encryption (JOSE) for current web browsers and node.js-based servers.
+
+A vulnerability in the Cisco node-jose open source library before 0.11.0 could allow an unauthenticated, remote attacker to re-sign tokens using a key that is embedded within the token. The vulnerability is due to node-jose following the JSON Web Signature (JWS) standard for JSON Web Tokens (JWTs). This standard specifies that a JSON Web Key (JWK) representing a public key can be embedded within the header of a JWS. This public key is then trusted for verification. An attacker could exploit this by forging valid JWS objects by removing the original signature, adding a new public key to the header, and then signing the object using the (attacker-owned) private key associated with the public key embedded in that JWS header.
+## References
+- [GitHub Changelog](https://github.com/cisco/node-jose/blob/master/CHANGELOG.md)
+- [Cisco Vulnerability Alert](https://tools.cisco.com/security/center/viewAlert.x?alertId=56326)

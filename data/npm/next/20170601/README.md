@@ -1,6 +1,7 @@
 ## Overview
 [`next`](https://www.npmjs.com/package/next) is Minimalistic framework for server-rendered React applications.
-Affected versions of the package are vulnerable to Directory Traversal via the /\_next and /static request namespaces. An attacker can craft a request that may potentially access sensitive information in the server filesystem.
+
+Affected versions of the package are vulnerable to Directory Traversal via the `/\_next` and `/static` request namespaces. An attacker can craft a request that may potentially access sensitive information in the server filesystem.
 
 ## Remediation
 Upgrade `next` to version 2.4.1 or higher.

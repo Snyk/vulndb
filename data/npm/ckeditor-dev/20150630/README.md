@@ -1,6 +1,6 @@
 ## Overview
 [ckeditor-dev](https://www.npmjs.com/package/ckeditor-dev) is a browser-based WYSIWYG editor.
-Affected versions of this package were vulnerable to Cross-Site Scripting (XSS) attacks via the HTML parser.
+Affected versions of this package were vulnerable to Cross-site Scripting (XSS) attacks via the HTML parser.
 The vulnerability was found by [Dheeraj Joshi](https://twitter.com/dheerajhere) and [Prem Kumar](https://twitter.com/iAmPr3m)
 
 ## Remediation

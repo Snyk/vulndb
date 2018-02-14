@@ -1,6 +1,6 @@
 ## Overview
 [`ag-grid`](https://www.npmjs.com/package/ag-grid) is an advanced Data Grid / Data Table supporting Javascript / React / AngularJS / Web Components.
-When using user input to perform tasks on the server, characters like \< \> \" \' must escaped properly. Otherwise, an attacker can manipulate the input to introduce additional attributes, and potentially execute a Cross-Site Scripting (XSS) attack.
+When using user input to perform tasks on the server, characters like \< \> \" \' must escaped properly. Otherwise, an attacker can manipulate the input to introduce additional attributes, and potentially execute a Cross-site Scripting (XSS) attack.
 
 **Note:** The vulnerability is exploitable only when used alongside `AngularJS`.
 

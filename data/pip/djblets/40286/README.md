@@ -1,6 +1,6 @@
 ## Overview
 [`djblets`](https://pypi.python.org/pypi/djblets) is a A collection of useful classes and functions for developing large-scale Django-based web applications.
-Cross-site scripting (XSS) vulnerability in gravatars/templatetags/gravatars.py in Djblets before 0.7.30 and 0.8.x before 0.8.3 for Django allows remote attackers to inject arbitrary web script or HTML via a user display name.
+Cross-site Scripting (XSS) vulnerability in gravatars/templatetags/gravatars.py in Djblets before 0.7.30 and 0.8.x before 0.8.3 for Django allows remote attackers to inject arbitrary web script or HTML via a user display name.
 
 ## References
 - [NVD](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-3994)

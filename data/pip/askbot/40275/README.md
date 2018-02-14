@@ -1,6 +1,6 @@
 ## Overview
 [`askbot`](https://pypi.python.org/pypi/askbot) is a Question and Answer forum, like StackOverflow, written in python and Django
-Cross-site scripting (XSS) vulnerability in Askbot before 0.7.49 allows remote attackers to inject arbitrary web script or HTML via vectors related to the question search form.
+Cross-site Scripting (XSS) vulnerability in Askbot before 0.7.49 allows remote attackers to inject arbitrary web script or HTML via vectors related to the question search form.
 
 ## References
 - [NVD](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-2235)

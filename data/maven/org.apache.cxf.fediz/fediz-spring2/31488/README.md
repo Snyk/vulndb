@@ -1,5 +1,5 @@
 ## Overview
-[`org.apache.cxf.fediz:fediz-spring2`](https://fediz.cxf.apache.org) is a subproject of Apache CXF.
+[`org.apache.cxf.fediz:fediz-spring2`](https://cxf.apache.org/) is an open source services framework.
 
 Affected versions of the package are vulnerable to Cross-Site Request Forgery (CSRF).
 

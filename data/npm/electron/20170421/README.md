@@ -1,7 +1,7 @@
 ## Overview
 [`electron`](https://www.npmjs.com/package/electron) is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS. It takes care of the hard parts so you can focus on the core of your application.
 
-Affected versions of this package are vulnerable to Cross-Site Scripting (XSS) attacks. A new window opened from within a window that had javascript disabled, would have javascript enabled by default.
+Affected versions of this package are vulnerable to Cross-site Scripting (XSS) attacks. A new window opened from within a window that had javascript disabled, would have javascript enabled by default.
 
 You can read more about `Cross-site Scripting (XSS)` on our [blog](https://snyk.io/blog/xss-attacks-the-next-wave/).
 

@@ -1,5 +1,6 @@
 ## Overview
-[`org.apache.sling:org.apache.sling.jcr.jackrabbit.server`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22org.apache.sling.jcr.jackrabbit.server%22)
+[`org.apache.sling:org.apache.sling.jcr.jackrabbit.server`](https://sling.apache.org/) is a framework for RESTful web-applications based on an extensible content tree.
+
 Algorithmic complexity vulnerability in the sorting algorithms in bzip2 compressing stream (BZip2CompressorOutputStream) in Apache Commons Compress before 1.4.1 allows remote attackers to cause a denial of service (CPU consumption) via a file with many repeating inputs.
 
 ## References

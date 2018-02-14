@@ -1,6 +1,6 @@
 ## Overview
 [`org.elasticsearch:elasticsearch`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22elasticsearch%22)
-Cross-site scripting (XSS) vulnerability in the CORS functionality in Elasticsearch before 1.4.0.Beta1 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
+Cross-site Scripting (XSS) vulnerability in the CORS functionality in Elasticsearch before 1.4.0.Beta1 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
 
 ## References
 

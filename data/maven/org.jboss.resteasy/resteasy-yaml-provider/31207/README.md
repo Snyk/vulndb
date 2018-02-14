@@ -15,4 +15,4 @@ An attacker just needs to identify a piece of software that has both a vulnerabl
 - Apache Blog
 
 ## References
-- [Redhat Bugzilla](https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2016-9571)
+- [Redhat Bugzilla](https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2016-9606)

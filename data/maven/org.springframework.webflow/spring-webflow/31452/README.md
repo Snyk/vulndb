@@ -1,8 +1,9 @@
 ## Overview
-[`org.springframework.webflow:spring-webflow`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22spring-webflow%22)
+[`org.springframework.webflow:spring-webflow`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22spring-webflow%22) facilitates building web applications that require guided navigation.
+
 Affected versions of this package are vulnerable to Data Binding Expression Vulnerability due to setting the default value of the `MvcViewFactoryCreator useSpringBinding` property to `false`. If the application does not have a sub-element to declare explicit data binding property mappings, it can be vulnerable to malicious EL expressions in view states that process form submissions.
 
-For more information on Insecure Defaults, go to out [blog](https://snyk.io/vuln/npm:dompurify:20140308).
+For more information on Insecure Defaults, go to our [blog](https://snyk.io/blog/mongodb-hack-and-secure-defaults/).
 
 ## References
 - [Pivotal Security Advisory](https://pivotal.io/security/cve-2017-4971)

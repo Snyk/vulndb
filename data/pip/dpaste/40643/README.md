@@ -1,7 +1,7 @@
 ## Overview
 [`dpaste`](https://pypi.python.org/pypi/dpaste) is a Django based pastebin. It's intended to run separately but its also possible to be installed into an existing Django project like a regular app.
 
-Affected versions of this package are vulnerable to Cross-Site Scripting (XSS) attacks due to not escaping HTML tags.
+Affected versions of this package are vulnerable to Cross-site Scripting (XSS) attacks due to not escaping HTML tags.
 
 ## References
 - [Github ChangeLog](https://github.com/bartTC/dpaste/blob/master/CHANGELOG#L68)

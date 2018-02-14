@@ -1,7 +1,7 @@
 ## Overview
 [`net.bull.javamelody:javamelody-core`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22javamelody-core%22) monitors JavaEE applications.
 
-Cross-site scripting (XSS) vulnerability in HtmlSessionInformationsReport.java in JavaMelody 1.46 and earlier allows remote attackers to inject arbitrary web script or HTML via a crafted X-Forwarded-For header.
+Cross-site Scripting (XSS) vulnerability in HtmlSessionInformationsReport.java in JavaMelody 1.46 and earlier allows remote attackers to inject arbitrary web script or HTML via a crafted X-Forwarded-For header.
 
 ## References
 - [NVD](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-4378)

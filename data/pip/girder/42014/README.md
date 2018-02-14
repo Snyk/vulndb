@@ -1,7 +1,7 @@
 ## Overview
 [`girder`](https://pypi.python.org/pypi/girder) is an Web-based data management platform.
 
-Affected versions of this package are vulnerable to Cross-Site Scripting (XSS).
+Affected versions of this package are vulnerable to Cross-site Scripting (XSS).
 
 ## References
 - [Github PR](https://github.com/girder/girder/pull/1828)

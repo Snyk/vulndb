@@ -6,7 +6,7 @@ Affected versions of this package are vulnerable to an Authentication Bypass att
 Upgrade `jwt-simple` to version 0.3.0 or higher.
 
 ## References
-- https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/
-- https://github.com/hokaccha/node-jwt-simple/pull/14
-- https://github.com/hokaccha/node-jwt-simple/pull/16
-- https://github.com/hokaccha/node-jwt-simple/commit/957957cfa44474049b4603b293569588ee9ffd97
+- [Auth0 Blog](https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/)
+- [GitHub PR #1](https://github.com/hokaccha/node-jwt-simple/pull/14)
+- [GitHub PR #2](https://github.com/hokaccha/node-jwt-simple/pull/16)
+- [GitHub Commit](https://github.com/hokaccha/node-jwt-simple/commit/957957cfa44474049b4603b293569588ee9ffd97)

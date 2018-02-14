@@ -1,7 +1,7 @@
 ## Overview
 [`ag-grid`](https://www.npmjs.com/package/ag-grid) is an advanced Data Grid / Data Table supporting Javascript / React / AngularJS / Web Components.
 
-Affected versions of the package are vulnerable to HTML Injection. `ag-grid` used mozilla's `Element.innerHTML`, which is vulnerable to Cross-Site Scripting (XSS) attacks when used within a user-inputted value. In this case an attacker could insert a malicious username and initiate a XSS attack, like:
+Affected versions of the package are vulnerable to HTML Injection. `ag-grid` used mozilla's `Element.innerHTML`, which is vulnerable to Cross-site Scripting (XSS) attacks when used within a user-inputted value. In this case an attacker could insert a malicious username and initiate a XSS attack, like:
 ```html
 <span onclick="alert('hacked!')">John Smith</span>
 ```

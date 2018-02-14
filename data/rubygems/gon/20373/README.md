@@ -1,5 +1,5 @@
 ## Overview
-[`gon`](https://rubygems.org/api/v1/gems/gon.json) is if you need to send some data to your js files and you don't want to do this with long way trough views and parsing.
+[`gon`](https://rubygems.org/gems/gon) is if you need to send some data to your js files and you don't want to do this with long way trough views and parsing.
 
 Affected versions of the package are vulnerable to Cross-site Scripting (XSS) due to not sanitizing user input.
 

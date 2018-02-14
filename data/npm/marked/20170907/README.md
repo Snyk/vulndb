@@ -8,9 +8,9 @@ The Regular expression Denial of Service (ReDoS) is a type of Denial of Service 
 You can read more about `Regular Expression Denial of Service (ReDoS)` on our [blog](https://snyk.io/blog/redos-and-catastrophic-backtracking/).
 
 ## Remediation
-There is no fix version yet. At time of writing, latest version is `0.3.6`.
-
-We recommend [patching](https://snyk.io/docs/faqs#fixing-vulnerabilities) the vulnerability.
+Upgrade `marked` to version 0.3.9 or higher.
+In the meantime, you can patch the vulnerability using [Snyk wizard](https://snyk.io/docs/using-snyk/#wizard).
 
 ## References
 - [Github Issue](https://github.com/chjj/marked/issues/937)
+- [GitHub Issue - Release 0.3.9 status](https://github.com/chjj/marked/pull/958)

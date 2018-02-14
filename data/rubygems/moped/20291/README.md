@@ -2,7 +2,7 @@
 
 [`moped`](https://rubygems.org/gems/moped) is a MongoDB driver for Ruby.
 
-Affected versions of this gem contain a flaw in the `ObjectId` validation, which can enable a Denial of Service (DoS) attack and a a [BSON Injection](https://snyk.io/vuln/SNYK-RUBY-MOPED-20222) attack.
+Affected versions of this gem contain a flaw in the `ObjectId` validation, which can enable a Denial of Service (DoS) attack and a [BSON Injection](https://snyk.io/vuln/SNYK-RUBY-MOPED-20222) attack.
 
 ## References
 

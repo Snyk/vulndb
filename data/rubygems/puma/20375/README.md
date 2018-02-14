@@ -1,5 +1,5 @@
 ## Overview
-[`puma`](https://rubygems.org/api/v1/gems/puma.json) is a simple HTTP 1.1 server for Ruby/Rack applications.
+[`puma`](https://rubygems.org/gems/puma) is a simple HTTP 1.1 server for Ruby/Rack applications.
 
 Affected versions of the package are vulnerable to Man-in-the-Middle (MitM) attacks due to not explicitly enabling SSLv3. This vulnerability is also known as the POODLE attack.
 

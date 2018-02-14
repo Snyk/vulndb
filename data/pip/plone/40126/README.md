@@ -1,7 +1,7 @@
 ## Overview
 [`plone`](https://pypi.python.org/pypi/plone) is a Content Management System.
 
-Cross-site scripting (XSS) vulnerability in python_scripts.py in Plone before 4.2.3 and 4.3 before beta 1 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors, related to "{u,}translate."
+Cross-site Scripting (XSS) vulnerability in python_scripts.py in Plone before 4.2.3 and 4.3 before beta 1 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors, related to "{u,}translate."
 
 ## References
 - [CVE](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2012-5494)

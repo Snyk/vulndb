@@ -2,7 +2,7 @@
 
 [`twitter-bootstrap-rails`](https://rubygems.org/gems/twitter-bootstrap-rails) is a gem that integrates Bootstrap CSS toolkit for Rails.
 
-Affected versions of this gem contain a Cross-Site Scripting (XSS) vulnerability. This is due to a `bootstrap_flash` helper method that does not validate input before returning it to users. This may allow an attacker to inject and execute scripts in a user's browser.
+Affected versions of this gem contain a Cross-site Scripting (XSS) vulnerability. This is due to a `bootstrap_flash` helper method that does not validate input before returning it to users. This may allow an attacker to inject and execute scripts in a user's browser.
 
 ## References
 

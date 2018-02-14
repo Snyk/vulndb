@@ -1,7 +1,7 @@
 ## Overview
 [`onegov.form`](https://pypi.python.org/pypi/onegov.form) is a form library based on WTForms.
 
-Affected versions of this package are vulnerable to Cross-Site Scripting (XSS). When a label is rendered, the contents of the label element were not escaped.
+Affected versions of this package are vulnerable to Cross-site Scripting (XSS). When a label is rendered, the contents of the label element were not escaped.
 
 ## References
 - [Github Issue](https://github.com/wtforms/wtforms/issues/315)

@@ -1,10 +1,10 @@
 ## Overview
 [`geminabox`](https://rubygems.org/gems/geminabox) is a sinatra based gem hosting app, with client side gem push style functionality.
 
-Affected versions of this package are vulnerable to Cross-Site Scripting (XSS) attacks.
+Affected versions of this package are vulnerable to Cross-site Scripting (XSS) attacks.
 geminabox (aka Gem in a Box) before 0.13.6 has XSS, as demonstrated by uploading a gem file that has a crafted gem.homepage value in its .gemspec file.
 
-When using user input to perform tasks on the server, characters like \< \> \" \' must escaped properly. Otherwise, an attacker can manipulate the input to introduce additional attributes, potentially executing code. This may lead to a Cross-Site Scripting (XSS) vulnerability, assuming an attacker can influence the value entered into the template.
+When using user input to perform tasks on the server, characters like \< \> \" \' must escaped properly. Otherwise, an attacker can manipulate the input to introduce additional attributes, potentially executing code. This may lead to a Cross-site Scripting (XSS) vulnerability, assuming an attacker can influence the value entered into the template.
 
 You can read more about `Cross-site Scripting (XSS)` on our [blog](https://snyk.io/blog/marked-xss-vulnerability/).
 

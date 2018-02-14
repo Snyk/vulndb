@@ -1,5 +1,5 @@
 ## Overview
-[`org.apache.sling:org.apache.sling.servlets.post`](https://sling.apache.org) is an innovative web framework that is intended to bring back the fun to web development.
+[`org.apache.sling:org.apache.sling.servlets.post`](https://sling.apache.org/) is a framework for RESTful web-applications based on an extensible content tree.
 
 The Servlets Post component 2.3.6 in Apache Sling, as used in Adobe Experience Manager 5.6.1, 6.0.0, and 6.1.0, allows remote attackers to obtain sensitive information via unspecified vectors.
 

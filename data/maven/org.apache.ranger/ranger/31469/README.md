@@ -1,7 +1,7 @@
 ## Overview
 [`org.apache.ranger:ranger`](http://ranger.apache.org) is a framework to enable, monitor and manage comprehensive data security across the Hadoop platform.
 
-Cross-site scripting (XSS) vulnerability in the Policy Admin Tool in Apache Ranger before 0.5.0 allows remote attackers to inject arbitrary web script or HTML via the HTTP User-Agent header.
+Cross-site Scripting (XSS) vulnerability in the Policy Admin Tool in Apache Ranger before 0.5.0 allows remote attackers to inject arbitrary web script or HTML via the HTTP User-Agent header.
 
 ## Remediation
 Upgrade `org.apache.ranger:ranger` to version 0.5.0 or higher.

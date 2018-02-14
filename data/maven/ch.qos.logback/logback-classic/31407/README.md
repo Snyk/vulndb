@@ -1,6 +1,7 @@
 ## Overview
-[`ch.qos.logback:logback-classic`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22logback-classic%22)
-Affected versions of this package are vulnerable Arbitrary Code Execution. A configuration can be turned on to allow remote logging through interfaces that accept untrusted serialized data. Authenticated attackers on the adjacent network can exploit this vulnerability to run arbitrary code through the deserialization of custom gadget chains.
+Affected versions of [`ch.qos.logback:logback-classic`](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22logback-classic%22) are vulnerable Arbitrary Code Execution via the the `SocketServer` and `ServerSocketReceiver` components.
+
+A configuration can be turned on to allow remote logging through interfaces that accept untrusted serialized data. Authenticated attackers on the adjacent network can exploit this vulnerability to run arbitrary code through the deserialization of custom gadget chains.
 
 # Details
 Serialization is a process of converting an object into a sequence of bytes which can be persisted to a disk or database or can be sent through streams. The reverse process of creating object from sequence of bytes is called deserialization. Serialization is commonly used for communication (sharing objects between multiple hosts) and persistence (store the object state in a file or a database). It is an integral part of popular protocols like _Remote Method Invocation (RMI)_, _Java Management Extension (JMX)_, _Java Messaging System (JMS)_, _Action Message Format (AMF)_, _Java Server Faces (JSF) ViewState_, etc.

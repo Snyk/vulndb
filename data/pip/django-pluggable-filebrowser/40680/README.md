@@ -1,7 +1,7 @@
 ## Overview
 [`django-pluggable-filebrowser`](https://pypi.python.org/pypi/django-pluggable-filebrowser) is a pluggable Django Media-Management.
 
-Affected versions of this package are vulnerable to Cross-Site Scripting (XSS) attacks.
+Affected versions of this package are vulnerable to Cross-site Scripting (XSS) attacks.
 
 ## References
 - [Github ChangeLog](https://github.com/jinzo/django-pluggable-filebrowser/blob/master/docs/changelog.rst#342-2632012)

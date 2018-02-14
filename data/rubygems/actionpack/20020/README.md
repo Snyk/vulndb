@@ -1,6 +1,6 @@
 ## Overview
 [`actionpack`](https://rubygems.org/gems/actionpack) is a web app builder and tester on Rails.
-Affected versions of this Gem are vulnerable to Cross-site scripting (XSS) attacks via the `translate` helper method.
+Affected versions of this Gem are vulnerable to Cross-site Scripting (XSS) attacks via the `translate` helper method.
 
 ## Details
 A cross-site scripting (XSS) flaw was found in the way the `translate` helper

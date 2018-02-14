@@ -1,6 +1,6 @@
 ## Overview
 [`actionpack`](https://rubygems.org/gems/actionpack) is a web app builder and tester on Rails.
-Affected versions of this Gem are vulnerable to Cross-site scripting (XSS) attacks.
+Affected versions of this Gem are vulnerable to Cross-site Scripting (XSS) attacks.
 
 ## Details
 There is a vulnerability in the internationalization component of Ruby on Rails. When the i18n gem is unable to provide a translation for a given string, it creates a fallback HTML string. Under certain configurations, an attacker can provide a specially crafted input which will execute a reflective XSS attack.
